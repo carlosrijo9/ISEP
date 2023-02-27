@@ -1,0 +1,26 @@
+runningTestCase: running test case (name=testA, location=@HelloWorld:testA?r:392d0784-cf09-4442-b6b7-fb17319ad574(mooreFSM.model)#8084837768086075844) 
+Start of flow test
+Entering lightOFF State
+set brightnessOff
+set brightnessOff
+Entering lightONdim State
+set brightnessLow
+set brightnessLow
+Entering lightONmedium State
+set brightnessMedium
+set brightnessMedium
+Entering lightONbright State
+set brightnessHigh
+set brightnessHigh
+Entering lightOFF State
+set brightnessOff
+set brightnessLow
+Entering lightOFF State
+set brightnessOff
+set brightnessMedium
+Entering lightOFF State
+set brightnessOff
+set brightnessHigh
+Entering lightONdim State
+set brightnessLow
+end of flow test

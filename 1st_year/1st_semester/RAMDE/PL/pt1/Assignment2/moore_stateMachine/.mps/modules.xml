@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/moore_stateMachine/moore_stateMachine.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/moore_stateMachine/sandbox/moore_stateMachine.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mooreFSM.model.HelloWorld::testCol" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-26T20:50:29" hostname="MTS-LPT-19GX0">
+<properties />
+<testcase name="testA" classname="testCol" modelId="r:392d0784-cf09-4442-b6b7-fb17319ad574(mooreFSM.model)" nodeId="8084837768086075844">
+<system-out><![CDATA[
+runningTestCase: running test case (name=testA, location=@HelloWorld:testA?r:392d0784-cf09-4442-b6b7-fb17319ad574(mooreFSM.model)#8084837768086075844) 
+Start of flow test
+Entering lightOFF State
+set brightnessOff
+set brightnessOff
+Entering lightONdim State
+set brightnessLow
+set brightnessLow
+Entering lightONmedium State
+set brightnessMedium
+set brightnessMedium
+Entering lightONbright State
+set brightnessHigh
+set brightnessHigh
+Entering lightOFF State
+set brightnessOff
+set brightnessLow
+Entering lightOFF State
+set brightnessOff
+set brightnessMedium
+Entering lightOFF State
+set brightnessOff
+set brightnessHigh
+Entering lightONdim State
+set brightnessLow
+end of flow test
+]]></system-out>
+<system-err><![CDATA[
+]]></system-err>
+</testcase>
+</testsuite>

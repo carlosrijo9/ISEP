@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="5abtgllbszqskcbox2nzv79d8emce1q">
+  <files names="HelloWorld.c:HelloWorld.h:Makefile:UnitTestCLI.c:UnitTestCLI.h:UnitTestDefinitions.h:UnitTestJUnitXML.c:UnitTestJUnitXML.h:UnitTestMessages.c:UnitTestMessages.h:UnitTestRunner.c:UnitTestRunner.h:UnitTestUtil.c:UnitTestUtil.h:stateMachine.c:stateMachine.h" />
+</product>
+

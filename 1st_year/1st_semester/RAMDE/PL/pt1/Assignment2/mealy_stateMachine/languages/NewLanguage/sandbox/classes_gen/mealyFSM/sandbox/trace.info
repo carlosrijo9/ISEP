@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root nodeRef="r:2d2fb68d-8243-4015-9fb8-d8469fa76ed9(mealyFSM.sandbox)/5314642073758559300">
+    <file name="DisplayStateMachine.java">
+      <node id="5314642073758559300" at="7,25,8,48" concept="2" />
+      <node id="5314642073758559300" at="7,0,10,0" concept="4" trace="display#()V" />
+      <scope id="5314642073758559300" at="7,25,8,48" />
+      <scope id="5314642073758559300" at="7,0,10,0" />
+      <unit id="5314642073758559300" at="6,0,11,0" name="mealyFSM.sandbox.DisplayStateMachine" />
+    </file>
+    <file name="Main.java">
+      <node id="5314642073758559300" at="7,42,8,58" concept="2" />
+      <node id="5314642073758559300" at="8,58,9,40" concept="5" />
+      <node id="5314642073758559300" at="9,40,10,23" concept="2" />
+      <node id="5314642073758559300" at="10,23,11,19" concept="2" />
+      <node id="5314642073758559300" at="11,19,12,19" concept="2" />
+      <node id="5314642073758559300" at="12,19,13,19" concept="2" />
+      <node id="5314642073758559300" at="13,19,14,19" concept="2" />
+      <node id="5314642073758559300" at="14,19,15,19" concept="2" />
+      <node id="5314642073758559300" at="15,19,16,19" concept="2" />
+      <node id="5314642073758559300" at="16,19,17,23" concept="2" />
+      <node id="5314642073758559300" at="7,0,19,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <scope id="5314642073758559300" at="7,42,17,23">
+        <var name="fsm" id="5314642073758559300" />
+      </scope>
+      <scope id="5314642073758559300" at="7,0,19,0">
+        <var name="args" id="5314642073758559300" />
+      </scope>
+      <unit id="5314642073758559300" at="6,0,20,0" name="mealyFSM.sandbox.Main" />
+    </file>
+    <file name="lightSwitch.java">
+      <node id="5314642073758562380" at="9,0,10,0" concept="3" trace="LIGHTOFF" />
+      <node id="5314642073758564922" at="10,0,11,0" concept="3" trace="LIGHTONDIM" />
+      <node id="5314642073758564931" at="11,0,12,0" concept="3" trace="LIGHTONMEDIUM" />
+      <node id="5314642073758564949" at="12,0,13,0" concept="3" trace="LIGHTONBRIGHT" />
+      <node id="5314642073758559301" at="13,0,14,0" concept="3" trace="ONPRESSED" />
+      <node id="5314642073758559303" at="14,0,15,0" concept="3" trace="OFFPRESSED" />
+      <node id="5314642073758564964" at="15,0,16,0" concept="3" trace="BRIGHTNESSOFF" />
+      <node id="5314642073758564966" at="16,0,17,0" concept="3" trace="BRIGHTNESSDIM" />
+      <node id="5314642073758564969" at="17,0,18,0" concept="3" trace="BRIGHTNESSMEDIUM" />
+      <node id="5314642073758564973" at="18,0,19,0" concept="3" trace="BRIGHTNESSHIGH" />
+      <node id="5314642073758559300" at="21,0,22,0" concept="3" trace="currentState" />
+      <node id="5314642073758559300" at="26,30,27,26" concept="5" />
+      <node id="5314642073758562380" at="29,20,30,59" concept="2" />
+      <node id="5314642073758562380" at="30,59,31,14" concept="0" />
+      <node id="5314642073758564922" at="32,22,33,61" concept="2" />
+      <node id="5314642073758564922" at="33,61,34,14" concept="0" />
+      <node id="5314642073758564931" at="35,25,36,64" concept="2" />
+      <node id="5314642073758564931" at="36,64,37,14" concept="0" />
+      <node id="5314642073758564949" at="38,25,39,64" concept="2" />
+      <node id="5314642073758564949" at="39,64,40,14" concept="0" />
+      <node id="5314642073758563666" at="48,25,49,134" concept="2" />
+      <node id="5314642073758563666" at="49,134,50,43" concept="2" />
+      <node id="5314642073758563666" at="50,43,51,18" concept="0" />
+      <node id="5314642073758562380" at="52,9,53,14" concept="0" />
+      <node id="5314642073758564926" at="56,26,57,133" concept="2" />
+      <node id="5314642073758564926" at="57,133,58,41" concept="2" />
+      <node id="5314642073758564926" at="58,41,59,18" concept="0" />
+      <node id="5314642073758564928" at="60,25,61,140" concept="2" />
+      <node id="5314642073758564928" at="61,140,62,46" concept="2" />
+      <node id="5314642073758564928" at="62,46,63,18" concept="0" />
+      <node id="5314642073758564922" at="64,9,65,14" concept="0" />
+      <node id="5314642073758564938" at="68,26,69,133" concept="2" />
+      <node id="5314642073758564938" at="69,133,70,41" concept="2" />
+      <node id="5314642073758564938" at="70,41,71,18" concept="0" />
+      <node id="5314642073758564940" at="72,25,73,138" concept="2" />
+      <node id="5314642073758564940" at="73,138,74,46" concept="2" />
+      <node id="5314642073758564940" at="74,46,75,18" concept="0" />
+      <node id="5314642073758564931" at="76,9,77,14" concept="0" />
+      <node id="5314642073758564959" at="80,26,81,133" concept="2" />
+      <node id="5314642073758564959" at="81,133,82,41" concept="2" />
+      <node id="5314642073758564959" at="82,41,83,18" concept="0" />
+      <node id="5314642073758564961" at="84,25,85,134" concept="2" />
+      <node id="5314642073758564961" at="85,134,86,43" concept="2" />
+      <node id="5314642073758564961" at="86,43,87,18" concept="0" />
+      <node id="5314642073758564949" at="88,9,89,14" concept="0" />
+      <node id="5314642073758559300" at="23,0,25,0" concept="1" trace="lightSwitch#()V" />
+      <node id="5314642073758562380" at="46,20,52,9" concept="7" />
+      <node id="5314642073758564922" at="54,22,64,9" concept="7" />
+      <node id="5314642073758564931" at="66,25,76,9" concept="7" />
+      <node id="5314642073758564949" at="78,25,88,9" concept="7" />
+      <node id="5314642073758559300" at="27,26,41,5" concept="7" />
+      <node id="5314642073758559300" at="26,0,43,0" concept="4" trace="displayState#()V" />
+      <node id="5314642073758559300" at="44,34,90,5" concept="7" />
+      <node id="5314642073758559300" at="44,0,92,0" concept="4" trace="onEvent#(I)V" />
+      <scope id="5314642073758559300" at="23,24,23,24" />
+      <scope id="5314642073758559300" at="23,0,25,0" />
+      <scope id="5314642073758562380" at="29,20,31,14" />
+      <scope id="5314642073758564922" at="32,22,34,14" />
+      <scope id="5314642073758564931" at="35,25,37,14" />
+      <scope id="5314642073758564949" at="38,25,40,14" />
+      <scope id="5314642073758563666" at="48,25,51,18" />
+      <scope id="5314642073758564926" at="56,26,59,18" />
+      <scope id="5314642073758564928" at="60,25,63,18" />
+      <scope id="5314642073758564938" at="68,26,71,18" />
+      <scope id="5314642073758564940" at="72,25,75,18" />
+      <scope id="5314642073758564959" at="80,26,83,18" />
+      <scope id="5314642073758564961" at="84,25,87,18" />
+      <scope id="5314642073758562380" at="46,20,53,14" />
+      <scope id="5314642073758564922" at="54,22,65,14" />
+      <scope id="5314642073758564931" at="66,25,77,14" />
+      <scope id="5314642073758564949" at="78,25,89,14" />
+      <scope id="5314642073758559300" at="26,30,41,5">
+        <var name="stateName" id="5314642073758559300" />
+      </scope>
+      <scope id="5314642073758559300" at="26,0,43,0" />
+      <scope id="5314642073758559300" at="44,34,90,5" />
+      <scope id="5314642073758559300" at="44,0,92,0">
+        <var name="event" id="5314642073758559300" />
+      </scope>
+      <unit id="5314642073758559300" at="6,0,94,0" name="mealyFSM.sandbox.lightSwitch" />
+    </file>
+  </root>
+</debug-info>
+

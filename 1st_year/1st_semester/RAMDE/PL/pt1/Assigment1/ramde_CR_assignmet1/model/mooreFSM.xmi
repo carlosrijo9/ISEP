@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ramde_CR_assignmet1:StateMachine
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ramde_CR_assignmet1="http://www.example.org/ramde_CR_assignmet1"
+    xsi:schemaLocation="http://www.example.org/ramde_CR_assignmet1 ramde_CR_assignmet1.ecore"
+    name="lightSwitch"
+    start="//@state.0">
+  <state name="light OFF"
+      action="brightnessOff"/>
+  <state name="light ON dim"
+      action="brightnessLow"/>
+  <state name="light ON medium"
+      action="brightnessMedium"/>
+  <state name="light ON bright"
+      action="brightnessHigh"/>
+  <transition
+      name="off_to_dim"
+      sourceState="//@state.0"
+      targetState="//@state.1"/>
+  <transition
+      name="medium_to_off"
+      sourceState="//@state.2"
+      targetState="//@state.0"/>
+  <transition
+      name="dim_to_off"
+      sourceState="//@state.1"
+      targetState="//@state.0"/>
+  <transition
+      name="dim_to_medium"
+      sourceState="//@state.1"
+      targetState="//@state.2"/>
+  <transition
+      name="medium_to_bright"
+      sourceState="//@state.2"
+      targetState="//@state.3"/>
+  <transition
+      name="bright_to_off"
+      sourceState="//@state.3"
+      targetState="//@state.0"/>
+  <transition
+      name="bright_to_dim"
+      sourceState="//@state.3"
+      targetState="//@state.1"/>
+</ramde_CR_assignmet1:StateMachine>

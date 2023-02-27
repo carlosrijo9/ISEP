@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mealyFSM.model.HelloWorld::testCol" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-27T16:43:10" hostname="MTS-LPT-19GX0">
+<properties />
+<testcase name="testMain" classname="testCol" modelId="r:e5f6772f-48aa-422d-99e0-bb9f3bf86eb4(mealyFSM.model)" nodeId="8084837768086075844">
+<system-out><![CDATA[
+runningTestCase: running test case (name=testMain, location=@HelloWorld:testMain?r:e5f6772f-48aa-422d-99e0-bb9f3bf86eb4(mealyFSM.model)#8084837768086075844) 
+Start of flow testMain
+Entering lightOFF State
+set brightnessOnLow
+Entering lightONdim State
+set brightnessOnMedium
+Entering lightONmedium State
+set brightnessOnHigh
+set brightnessOff
+Entering lightOFF State
+set brightnessOFF
+Entering lightOFF State
+set brightnessOff
+Entering lightOFF State
+set brightnessOnLow
+Entering lightONdim State
+End of flow testMain
+]]></system-out>
+<system-err><![CDATA[
+]]></system-err>
+</testcase>
+</testsuite>

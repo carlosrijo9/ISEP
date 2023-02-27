@@ -1,0 +1,1725 @@
+[
+    {
+        "id": "e9f9a55e497ed526",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6f209b82356f3300",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3016424bd65f6c50",
+            "98fe3ec77f8e0d71",
+            "29e5a63d3b098f0b",
+            "08967d10a8f1fbd8",
+            "035cba524bc0a5c5",
+            "8e86e652a89a38a5",
+            "7d18c5d98d9963a9"
+        ],
+        "x": 34,
+        "y": 859,
+        "w": 632,
+        "h": 202
+    },
+    {
+        "id": "2d53f2cbaeb80d17",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "62c78a94c5f312e2",
+            "538da66b5fcd5731",
+            "40479a8e4f123e26",
+            "e80a9e690043e032",
+            "57260d5e472724de",
+            "db9cdc0fa5758bfc",
+            "4be43b5cc7dab1b3",
+            "11bb12b3c87fd121"
+        ],
+        "x": 34,
+        "y": 1099,
+        "w": 612,
+        "h": 202
+    },
+    {
+        "id": "8bc3ef60d3ba7bc6",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2d3a0b5ff0269542",
+            "f97f2f71e5822834",
+            "276c3d4897972dd6",
+            "4c9a874082538082",
+            "3689be84db641c27",
+            "aab4b826f96d3706"
+        ],
+        "x": 34,
+        "y": 1339,
+        "w": 612,
+        "h": 202
+    },
+    {
+        "id": "8f20fcc97083f62f",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9e58624.7faaba",
+            "abf7079a.653be8",
+            "83cf37cf.c76988",
+            "21eae8f8.2971b8",
+            "571597d8b1c497fe",
+            "cceddfadb3366198",
+            "38caaff4.03f6d",
+            "65910a389be87c02",
+            "9e808755584d73c6",
+            "b778b4ee4eaca325"
+        ],
+        "x": 34,
+        "y": 539,
+        "w": 932,
+        "h": 282
+    },
+    {
+        "id": "40d70a4144e4b416",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4aecba01.78ce64",
+            "eacf10cc593dfd0f",
+            "90b892b2415eba43",
+            "e348405b50970728",
+            "c791d8929e50fdfb",
+            "e80b68d756fcd268",
+            "4d2e3585a105601f",
+            "086472e9de90ba23",
+            "4a9510db66e876ba",
+            "fc0a9c6d3158e9d0",
+            "66a6f97c2be29e9e",
+            "4975641ec978798c",
+            "58886112fa48ed98",
+            "2938d240736307ef",
+            "435f2f7d8a2f86fe"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 952,
+        "h": 482
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard"
+    },
+    {
+        "id": "61285987.c20328",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "e7c46d5e.a1283",
+        "order": 1,
+        "disp": true,
+        "width": 21,
+        "collapse": false
+    },
+    {
+        "id": "2c37ec0caa0763e0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#0094ce",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#0094ce",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "0c68f4ae66d2382b",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "ef8de4049c1c6239",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 11,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a29fe7d8a3f72bd6",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "04d5204e5bf962ae",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 14,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "c6b298bcf20c3fd1",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 15,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "8969930f64350c3d",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 19,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c46240e73305edbb",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 21,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "71dc30a856110c4c",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 22,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "dbe689961b806c5b",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 25,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "09a22276ec4d25ec",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 27,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "b2c14286a16127e6",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 28,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "f5bf9ac200eb725d",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 31,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "9b56376e8bb8bcf9",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "61285987.c20328",
+        "order": 32,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "9e58624.7faaba",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "temperatureSensor/control",
+        "topic": "temperatureSensor/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "abf7079a.653be8",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "topic": "temperatureSensor/value",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 660,
+        "wires": [
+            [
+                "21eae8f8.2971b8",
+                "38caaff4.03f6d",
+                "9e808755584d73c6"
+            ]
+        ]
+    },
+    {
+        "id": "4aecba01.78ce64",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/valueIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "eacf10cc593dfd0f",
+                "086472e9de90ba23",
+                "fc0a9c6d3158e9d0"
+            ]
+        ]
+    },
+    {
+        "id": "83cf37cf.c76988",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "label": "Temperature",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 130,
+        "y": 780,
+        "wires": [
+            [
+                "9e58624.7faaba"
+            ]
+        ]
+    },
+    {
+        "id": "21eae8f8.2971b8",
+        "type": "ui_chart",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 1,
+        "width": 5,
+        "height": 6,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eacf10cc593dfd0f",
+        "type": "ui_chart",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 3,
+        "width": 6,
+        "height": 6,
+        "label": "Light",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3016424bd65f6c50",
+        "type": "ui_button",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "open",
+        "group": "61285987.c20328",
+        "order": 23,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "open",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "open",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 900,
+        "wires": [
+            [
+                "98fe3ec77f8e0d71"
+            ]
+        ]
+    },
+    {
+        "id": "98fe3ec77f8e0d71",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "",
+        "topic": "heater/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 360,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "29e5a63d3b098f0b",
+        "type": "ui_button",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "close",
+        "group": "61285987.c20328",
+        "order": 26,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "close",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "close",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 940,
+        "wires": [
+            [
+                "98fe3ec77f8e0d71"
+            ]
+        ]
+    },
+    {
+        "id": "62c78a94c5f312e2",
+        "type": "ui_button",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "on",
+        "group": "61285987.c20328",
+        "order": 16,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "on",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "100",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1140,
+        "wires": [
+            [
+                "e80a9e690043e032"
+            ]
+        ]
+    },
+    {
+        "id": "538da66b5fcd5731",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "topic": "lights/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 550,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "40479a8e4f123e26",
+        "type": "ui_button",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "off",
+        "group": "61285987.c20328",
+        "order": 20,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1180,
+        "wires": [
+            [
+                "e80a9e690043e032"
+            ]
+        ]
+    },
+    {
+        "id": "2d3a0b5ff0269542",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "topic": "blinds/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 330,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "90b892b2415eba43",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/valueOut",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "eacf10cc593dfd0f"
+            ]
+        ]
+    },
+    {
+        "id": "e348405b50970728",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/errorIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "e80b68d756fcd268"
+            ]
+        ]
+    },
+    {
+        "id": "c791d8929e50fdfb",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/errorOut",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "4d2e3585a105601f"
+            ]
+        ]
+    },
+    {
+        "id": "e80b68d756fcd268",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "order": 8,
+        "group": "61285987.c20328",
+        "width": 5,
+        "height": 1,
+        "label": "Inside Ambient Light Sensor Status",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "lightErrorIn",
+        "x": 890,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4d2e3585a105601f",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "order": 12,
+        "group": "61285987.c20328",
+        "width": 5,
+        "height": 1,
+        "label": "Outside Ambient Light Sensor Status",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "lightErrorOut",
+        "x": 890,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "571597d8b1c497fe",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "topic": "temperatureSensor/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 720,
+        "wires": [
+            [
+                "cceddfadb3366198"
+            ]
+        ]
+    },
+    {
+        "id": "cceddfadb3366198",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "order": 7,
+        "group": "61285987.c20328",
+        "width": 5,
+        "height": 1,
+        "label": "Temperature Sensor Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "tempError",
+        "x": 880,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e80a9e690043e032",
+        "type": "ui_slider",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "Intensity",
+        "label": "Intensity",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 17,
+        "width": 7,
+        "height": 2,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "25",
+        "className": "",
+        "x": 320,
+        "y": 1140,
+        "wires": [
+            [
+                "538da66b5fcd5731"
+            ]
+        ]
+    },
+    {
+        "id": "38caaff4.03f6d",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 420,
+        "y": 620,
+        "wires": [
+            [
+                "65910a389be87c02",
+                "b778b4ee4eaca325"
+            ]
+        ]
+    },
+    {
+        "id": "65910a389be87c02",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "order": 2,
+        "group": "61285987.c20328",
+        "width": 5,
+        "height": 1,
+        "label": "Temperature COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Temperature COM",
+        "x": 670,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "9e808755584d73c6",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 580,
+        "wires": [
+            [
+                "65910a389be87c02"
+            ]
+        ]
+    },
+    {
+        "id": "086472e9de90ba23",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 420,
+        "y": 100,
+        "wires": [
+            [
+                "4a9510db66e876ba",
+                "66a6f97c2be29e9e"
+            ]
+        ]
+    },
+    {
+        "id": "4a9510db66e876ba",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "order": 4,
+        "group": "61285987.c20328",
+        "width": 5,
+        "height": 1,
+        "label": "Ambient Light COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Ambient Light COM",
+        "x": 670,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fc0a9c6d3158e9d0",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 60,
+        "wires": [
+            [
+                "4a9510db66e876ba"
+            ]
+        ]
+    },
+    {
+        "id": "08967d10a8f1fbd8",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "name": "",
+        "topic": "heater/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 980,
+        "wires": [
+            [
+                "8e86e652a89a38a5",
+                "035cba524bc0a5c5"
+            ]
+        ]
+    },
+    {
+        "id": "57260d5e472724de",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "topic": "lights/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 120,
+        "y": 1220,
+        "wires": [
+            [
+                "4be43b5cc7dab1b3",
+                "db9cdc0fa5758bfc"
+            ]
+        ]
+    },
+    {
+        "id": "f97f2f71e5822834",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "topic": "blinds/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 120,
+        "y": 1460,
+        "wires": [
+            [
+                "4c9a874082538082",
+                "276c3d4897972dd6"
+            ]
+        ]
+    },
+    {
+        "id": "035cba524bc0a5c5",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 1020,
+        "wires": [
+            [
+                "7d18c5d98d9963a9"
+            ]
+        ]
+    },
+    {
+        "id": "8e86e652a89a38a5",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 980,
+        "wires": [
+            [
+                "7d18c5d98d9963a9"
+            ]
+        ]
+    },
+    {
+        "id": "7d18c5d98d9963a9",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "order": 24,
+        "group": "61285987.c20328",
+        "width": 2,
+        "height": 2,
+        "label": "Heater COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Heater COM",
+        "x": 570,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "db9cdc0fa5758bfc",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 320,
+        "y": 1260,
+        "wires": [
+            [
+                "11bb12b3c87fd121"
+            ]
+        ]
+    },
+    {
+        "id": "4be43b5cc7dab1b3",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1220,
+        "wires": [
+            [
+                "11bb12b3c87fd121"
+            ]
+        ]
+    },
+    {
+        "id": "11bb12b3c87fd121",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "order": 18,
+        "group": "61285987.c20328",
+        "width": 2,
+        "height": 2,
+        "label": "Lights COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Lights COM",
+        "x": 550,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "276c3d4897972dd6",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 320,
+        "y": 1500,
+        "wires": [
+            [
+                "3689be84db641c27"
+            ]
+        ]
+    },
+    {
+        "id": "4c9a874082538082",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1460,
+        "wires": [
+            [
+                "3689be84db641c27"
+            ]
+        ]
+    },
+    {
+        "id": "3689be84db641c27",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "order": 30,
+        "group": "61285987.c20328",
+        "width": 2,
+        "height": 2,
+        "label": "Blinds COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Blinds COM",
+        "x": 550,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "aab4b826f96d3706",
+        "type": "ui_slider",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "BlindsPosition",
+        "label": "Blinds Position",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 29,
+        "width": 7,
+        "height": 2,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "25",
+        "className": "",
+        "x": 140,
+        "y": 1380,
+        "wires": [
+            [
+                "2d3a0b5ff0269542"
+            ]
+        ]
+    },
+    {
+        "id": "b778b4ee4eaca325",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 640,
+        "wires": [
+            [
+                "cceddfadb3366198"
+            ]
+        ]
+    },
+    {
+        "id": "66a6f97c2be29e9e",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 120,
+        "wires": [
+            [
+                "e80b68d756fcd268",
+                "4d2e3585a105601f"
+            ]
+        ]
+    },
+    {
+        "id": "4975641ec978798c",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightSensor/control",
+        "topic": "ambLightSensor/controlIn",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "58886112fa48ed98",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightIn",
+        "label": "Ambient Light Inside",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 130,
+        "y": 400,
+        "wires": [
+            [
+                "4975641ec978798c"
+            ]
+        ]
+    },
+    {
+        "id": "2938d240736307ef",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightOut",
+        "label": "Ambient Light Outside",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 130,
+        "y": 460,
+        "wires": [
+            [
+                "435f2f7d8a2f86fe"
+            ]
+        ]
+    },
+    {
+        "id": "435f2f7d8a2f86fe",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightSensor/control",
+        "topic": "ambLightSensor/controlOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 460,
+        "wires": []
+    }
+]

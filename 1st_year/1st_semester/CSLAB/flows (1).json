@@ -1,0 +1,2893 @@
+[
+    {
+        "id": "e9f9a55e497ed526",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "22d7ec68136ebde8",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8bc3ef60d3ba7bc6",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2d3a0b5ff0269542",
+            "f97f2f71e5822834",
+            "276c3d4897972dd6",
+            "4c9a874082538082",
+            "3689be84db641c27",
+            "aab4b826f96d3706",
+            "4be1c19cb5305580",
+            "a5e111cc01c44c8c",
+            "625bb9e53a36d105",
+            "c9c4f9dbdef4155f",
+            "d924867aefacf4c4",
+            "c602705113e32cc7",
+            "2b182a8770a78d78"
+        ],
+        "x": 34,
+        "y": 1799,
+        "w": 1272,
+        "h": 302
+    },
+    {
+        "id": "8f20fcc97083f62f",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9e58624.7faaba",
+            "abf7079a.653be8",
+            "83cf37cf.c76988",
+            "21eae8f8.2971b8",
+            "571597d8b1c497fe",
+            "cceddfadb3366198",
+            "38caaff4.03f6d",
+            "65910a389be87c02",
+            "9e808755584d73c6",
+            "b778b4ee4eaca325",
+            "cb83d7b5792ad7c9",
+            "69bfde521bb1f022",
+            "d92c3f5e15036a0a",
+            "5442d8a05ee6c2b8",
+            "27a77e9e5d11fc21"
+        ],
+        "x": 34,
+        "y": 579,
+        "w": 1612,
+        "h": 302
+    },
+    {
+        "id": "40d70a4144e4b416",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4aecba01.78ce64",
+            "eacf10cc593dfd0f",
+            "90b892b2415eba43",
+            "e348405b50970728",
+            "c791d8929e50fdfb",
+            "e80b68d756fcd268",
+            "4d2e3585a105601f",
+            "086472e9de90ba23",
+            "4a9510db66e876ba",
+            "fc0a9c6d3158e9d0",
+            "66a6f97c2be29e9e",
+            "4975641ec978798c",
+            "58886112fa48ed98",
+            "2938d240736307ef",
+            "435f2f7d8a2f86fe",
+            "a1d71376c918870e",
+            "1d20e0fe0b638161",
+            "10241f03e2d9c51f",
+            "d968f63b78ba8bd2",
+            "d0cec37c5bb03596"
+        ],
+        "x": 34,
+        "y": 59,
+        "w": 1592,
+        "h": 502
+    },
+    {
+        "id": "6f209b82356f3300",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "98fe3ec77f8e0d71",
+            "08967d10a8f1fbd8",
+            "035cba524bc0a5c5",
+            "8e86e652a89a38a5",
+            "7d18c5d98d9963a9",
+            "5556c46882192d8e",
+            "4cdaf4443fa0e39f",
+            "de7cd99e694a65b1",
+            "81ca46427e2a35a2",
+            "e244bd307f90381e",
+            "e41b616dd269ced9",
+            "aff6749d1e3bd50e",
+            "d7693a34ea311ebe"
+        ],
+        "x": 34,
+        "y": 919,
+        "w": 932,
+        "h": 442
+    },
+    {
+        "id": "2d53f2cbaeb80d17",
+        "type": "group",
+        "z": "e9f9a55e497ed526",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "538da66b5fcd5731",
+            "e80a9e690043e032",
+            "57260d5e472724de",
+            "db9cdc0fa5758bfc",
+            "4be43b5cc7dab1b3",
+            "11bb12b3c87fd121",
+            "1a72ccc97227a10c",
+            "e77e0ae2bac1c7db",
+            "36a66e1977b6127b",
+            "ad43e91c64bfd785",
+            "a1c67896a36f2f7d",
+            "33c058b7dbd5c1d1",
+            "3f28897b49eea5e1",
+            "cbc4a2824b90bf00"
+        ],
+        "x": 34,
+        "y": 1399,
+        "w": 1572,
+        "h": 362
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard"
+    },
+    {
+        "id": "61285987.c20328",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "e7c46d5e.a1283",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "2c37ec0caa0763e0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#0094ce",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#0094ce",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 5,
+                "gy": 5,
+                "cx": 5,
+                "cy": 5,
+                "px": 5,
+                "py": 5
+            }
+        }
+    },
+    {
+        "id": "10343f9cdb171a57",
+        "type": "ui_group",
+        "name": "Heating System",
+        "tab": "e7c46d5e.a1283",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "07ac14410d321f96",
+        "type": "ui_group",
+        "name": "Lighting System",
+        "tab": "e7c46d5e.a1283",
+        "order": 3,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bec010b7fa49c5e5",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "10343f9cdb171a57",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ba3260ee129c1cff",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "10343f9cdb171a57",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4b3d8c8e2031a211",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "10343f9cdb171a57",
+        "order": 6,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "97ae434c89d81547",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "10343f9cdb171a57",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "29a88c7524c418c1",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "10343f9cdb171a57",
+        "order": 12,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "2b38341553a5b663",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "07ac14410d321f96",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "01b2923febc892cf",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "07ac14410d321f96",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfd24494f284eb35",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "07ac14410d321f96",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "21bfb2ee5a7bc261",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "07ac14410d321f96",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "806b8b7bae6908ab",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "07ac14410d321f96",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8cc30f31e9c25cab",
+        "type": "ui_spacer",
+        "z": "e9f9a55e497ed526",
+        "name": "spacer",
+        "group": "07ac14410d321f96",
+        "order": 18,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "9e58624.7faaba",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "temperatureSensor/control",
+        "topic": "temperatureSensor/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "abf7079a.653be8",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "topic": "temperatureSensor/value",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 720,
+        "wires": [
+            [
+                "21eae8f8.2971b8",
+                "38caaff4.03f6d",
+                "9e808755584d73c6",
+                "cb83d7b5792ad7c9"
+            ]
+        ]
+    },
+    {
+        "id": "4aecba01.78ce64",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/valueIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "eacf10cc593dfd0f",
+                "086472e9de90ba23",
+                "fc0a9c6d3158e9d0",
+                "a1d71376c918870e"
+            ]
+        ]
+    },
+    {
+        "id": "83cf37cf.c76988",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "10343f9cdb171a57",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "fa-power-off fa-2x",
+        "oncolor": "GREEN",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "fa-power-off fa-2x",
+        "offcolor": "RED",
+        "animate": true,
+        "className": "",
+        "x": 110,
+        "y": 840,
+        "wires": [
+            [
+                "9e58624.7faaba"
+            ]
+        ]
+    },
+    {
+        "id": "21eae8f8.2971b8",
+        "type": "ui_chart",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "group": "10343f9cdb171a57",
+        "order": 7,
+        "width": 10,
+        "height": 6,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 410,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eacf10cc593dfd0f",
+        "type": "ui_chart",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "group": "07ac14410d321f96",
+        "order": 9,
+        "width": 10,
+        "height": 6,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 410,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d3a0b5ff0269542",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "topic": "blinds/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 1210,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "90b892b2415eba43",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/valueOut",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "eacf10cc593dfd0f"
+            ]
+        ]
+    },
+    {
+        "id": "e348405b50970728",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/errorIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "e80b68d756fcd268"
+            ]
+        ]
+    },
+    {
+        "id": "c791d8929e50fdfb",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "topic": "ambLightSensor/errorOut",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 380,
+        "wires": [
+            [
+                "4d2e3585a105601f"
+            ]
+        ]
+    },
+    {
+        "id": "e80b68d756fcd268",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "order": 3,
+        "group": "07ac14410d321f96",
+        "width": 7,
+        "height": 1,
+        "label": "Inside Ambient Light Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "lightErrorIn",
+        "x": 890,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4d2e3585a105601f",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "order": 6,
+        "group": "07ac14410d321f96",
+        "width": 7,
+        "height": 1,
+        "label": "Outside Ambient Light Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "lightErrorOut",
+        "x": 890,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "571597d8b1c497fe",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "topic": "temperatureSensor/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "cceddfadb3366198"
+            ]
+        ]
+    },
+    {
+        "id": "cceddfadb3366198",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "order": 3,
+        "group": "10343f9cdb171a57",
+        "width": 7,
+        "height": 1,
+        "label": "Temperature Sensor Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "tempError",
+        "x": 880,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "38caaff4.03f6d",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 420,
+        "y": 680,
+        "wires": [
+            [
+                "65910a389be87c02",
+                "b778b4ee4eaca325",
+                "69bfde521bb1f022"
+            ]
+        ]
+    },
+    {
+        "id": "65910a389be87c02",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "order": 1,
+        "group": "10343f9cdb171a57",
+        "width": 7,
+        "height": 1,
+        "label": "Temperature Sensor Communication",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Temperature COM",
+        "x": 670,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "9e808755584d73c6",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 620,
+        "wires": [
+            [
+                "65910a389be87c02",
+                "69bfde521bb1f022"
+            ]
+        ]
+    },
+    {
+        "id": "086472e9de90ba23",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 420,
+        "y": 160,
+        "wires": [
+            [
+                "4a9510db66e876ba",
+                "66a6f97c2be29e9e",
+                "1d20e0fe0b638161"
+            ]
+        ]
+    },
+    {
+        "id": "4a9510db66e876ba",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "order": 1,
+        "group": "07ac14410d321f96",
+        "width": 7,
+        "height": 1,
+        "label": "Ambient Light Sensor Communication",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Ambient Light COM",
+        "x": 670,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "fc0a9c6d3158e9d0",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 100,
+        "wires": [
+            [
+                "4a9510db66e876ba",
+                "1d20e0fe0b638161"
+            ]
+        ]
+    },
+    {
+        "id": "f97f2f71e5822834",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "topic": "blinds/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 2020,
+        "wires": [
+            [
+                "4c9a874082538082",
+                "276c3d4897972dd6"
+            ]
+        ]
+    },
+    {
+        "id": "276c3d4897972dd6",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 2060,
+        "wires": [
+            [
+                "3689be84db641c27"
+            ]
+        ]
+    },
+    {
+        "id": "4c9a874082538082",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 2020,
+        "wires": [
+            [
+                "3689be84db641c27"
+            ]
+        ]
+    },
+    {
+        "id": "3689be84db641c27",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "8bc3ef60d3ba7bc6",
+        "order": 16,
+        "group": "07ac14410d321f96",
+        "width": 2,
+        "height": 1,
+        "label": "Blinds COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Blinds COM",
+        "x": 570,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "aab4b826f96d3706",
+        "type": "ui_slider",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "BlindsPosition",
+        "label": "Blinds Position",
+        "tooltip": "",
+        "group": "07ac14410d321f96",
+        "order": 14,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "25",
+        "className": "",
+        "x": 740,
+        "y": 1840,
+        "wires": [
+            [
+                "a5e111cc01c44c8c",
+                "2b182a8770a78d78"
+            ]
+        ]
+    },
+    {
+        "id": "b778b4ee4eaca325",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 700,
+        "wires": [
+            [
+                "cceddfadb3366198"
+            ]
+        ]
+    },
+    {
+        "id": "66a6f97c2be29e9e",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 180,
+        "wires": [
+            [
+                "e80b68d756fcd268",
+                "4d2e3585a105601f"
+            ]
+        ]
+    },
+    {
+        "id": "4975641ec978798c",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightSensor/control",
+        "topic": "ambLightSensor/controlIn",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "58886112fa48ed98",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightIn",
+        "label": "",
+        "tooltip": "",
+        "group": "07ac14410d321f96",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "fa-power-off fa-2x",
+        "oncolor": "GREEN",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "fa-power-off fa-2x",
+        "offcolor": "RED",
+        "animate": true,
+        "className": "",
+        "x": 130,
+        "y": 460,
+        "wires": [
+            [
+                "4975641ec978798c"
+            ]
+        ]
+    },
+    {
+        "id": "2938d240736307ef",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightOut",
+        "label": "",
+        "tooltip": "",
+        "group": "07ac14410d321f96",
+        "order": 8,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "fa-power-off fa-2x",
+        "oncolor": "GREEN",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "fa-power-off fa-2x",
+        "offcolor": "RED",
+        "animate": true,
+        "className": "",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "435f2f7d8a2f86fe"
+            ]
+        ]
+    },
+    {
+        "id": "435f2f7d8a2f86fe",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "ambLightSensor/control",
+        "topic": "ambLightSensor/controlOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "98fe3ec77f8e0d71",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "",
+        "topic": "heater/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 840,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "08967d10a8f1fbd8",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "name": "",
+        "topic": "heater/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 1280,
+        "wires": [
+            [
+                "8e86e652a89a38a5",
+                "035cba524bc0a5c5"
+            ]
+        ]
+    },
+    {
+        "id": "035cba524bc0a5c5",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 1320,
+        "wires": [
+            [
+                "7d18c5d98d9963a9"
+            ]
+        ]
+    },
+    {
+        "id": "8e86e652a89a38a5",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 1280,
+        "wires": [
+            [
+                "7d18c5d98d9963a9"
+            ]
+        ]
+    },
+    {
+        "id": "7d18c5d98d9963a9",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "6f209b82356f3300",
+        "order": 11,
+        "group": "10343f9cdb171a57",
+        "width": 2,
+        "height": 1,
+        "label": "Heater COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Heater COM",
+        "x": 570,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "5556c46882192d8e",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "heaterSwitch",
+        "label": "Heater Control",
+        "tooltip": "",
+        "group": "10343f9cdb171a57",
+        "order": 10,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "open",
+        "onvalueType": "str",
+        "onicon": "fa-power-off fa-2x",
+        "oncolor": "GREEN",
+        "offvalue": "close",
+        "offvalueType": "str",
+        "officon": "fa-power-off fa-2x",
+        "offcolor": "RED",
+        "animate": true,
+        "className": "",
+        "x": 410,
+        "y": 960,
+        "wires": [
+            [
+                "98fe3ec77f8e0d71",
+                "81ca46427e2a35a2"
+            ]
+        ]
+    },
+    {
+        "id": "4cdaf4443fa0e39f",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "RPI/heaterControla",
+        "topic": "RPI/heaterControla",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 850,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "de7cd99e694a65b1",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "",
+        "topic": "RPI/heaterControl",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 170,
+        "y": 960,
+        "wires": [
+            [
+                "5556c46882192d8e"
+            ]
+        ]
+    },
+    {
+        "id": "81ca46427e2a35a2",
+        "type": "switch",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "if",
+        "property": "qos",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 1000,
+        "wires": [
+            [
+                "4cdaf4443fa0e39f"
+            ]
+        ]
+    },
+    {
+        "id": "e244bd307f90381e",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "",
+        "topic": "RPI/heaterBlock",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 1180,
+        "wires": [
+            [
+                "e41b616dd269ced9"
+            ]
+        ]
+    },
+    {
+        "id": "e41b616dd269ced9",
+        "type": "switch",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 390,
+        "y": 1180,
+        "wires": [
+            [
+                "aff6749d1e3bd50e"
+            ],
+            [
+                "d7693a34ea311ebe"
+            ]
+        ]
+    },
+    {
+        "id": "aff6749d1e3bd50e",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 1160,
+        "wires": [
+            [
+                "5556c46882192d8e"
+            ]
+        ]
+    },
+    {
+        "id": "d7693a34ea311ebe",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "6f209b82356f3300",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 1200,
+        "wires": [
+            [
+                "5556c46882192d8e"
+            ]
+        ]
+    },
+    {
+        "id": "1a72ccc97227a10c",
+        "type": "ui_switch",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "lightSwitch",
+        "label": "",
+        "tooltip": "",
+        "group": "07ac14410d321f96",
+        "order": 13,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "100",
+        "onvalueType": "num",
+        "onicon": "fa-power-off fa-2x",
+        "oncolor": "GREEN",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "fa-power-off fa-2x",
+        "offcolor": "RED",
+        "animate": true,
+        "className": "",
+        "x": 350,
+        "y": 1440,
+        "wires": [
+            [
+                "3f28897b49eea5e1"
+            ]
+        ]
+    },
+    {
+        "id": "538da66b5fcd5731",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "topic": "lights/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 930,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "e80a9e690043e032",
+        "type": "ui_slider",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "Intensity",
+        "label": "Intensity",
+        "tooltip": "",
+        "group": "07ac14410d321f96",
+        "order": 12,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "25",
+        "className": "",
+        "x": 740,
+        "y": 1440,
+        "wires": [
+            [
+                "538da66b5fcd5731",
+                "ad43e91c64bfd785"
+            ]
+        ]
+    },
+    {
+        "id": "57260d5e472724de",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "topic": "lights/error",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 1680,
+        "wires": [
+            [
+                "4be43b5cc7dab1b3",
+                "db9cdc0fa5758bfc"
+            ]
+        ]
+    },
+    {
+        "id": "db9cdc0fa5758bfc",
+        "type": "trigger",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "name": "Watchdog",
+        "op1": "",
+        "op2": "false",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 1720,
+        "wires": [
+            [
+                "11bb12b3c87fd121"
+            ]
+        ]
+    },
+    {
+        "id": "4be43b5cc7dab1b3",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 1680,
+        "wires": [
+            [
+                "11bb12b3c87fd121"
+            ]
+        ]
+    },
+    {
+        "id": "11bb12b3c87fd121",
+        "type": "ui_led",
+        "z": "e9f9a55e497ed526",
+        "d": true,
+        "g": "2d53f2cbaeb80d17",
+        "order": 17,
+        "group": "07ac14410d321f96",
+        "width": 2,
+        "height": 1,
+        "label": "Lights COM",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Lights COM",
+        "x": 570,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "e77e0ae2bac1c7db",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "topic": "RPI/lightControl",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 1440,
+        "wires": [
+            [
+                "1a72ccc97227a10c"
+            ]
+        ]
+    },
+    {
+        "id": "36a66e1977b6127b",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "RPI/lightControla",
+        "topic": "RPI/lightControla",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 1490,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "ad43e91c64bfd785",
+        "type": "switch",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 910,
+        "y": 1520,
+        "wires": [
+            [
+                "33c058b7dbd5c1d1"
+            ],
+            [
+                "a1c67896a36f2f7d"
+            ]
+        ]
+    },
+    {
+        "id": "33c058b7dbd5c1d1",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "100",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 1520,
+        "wires": [
+            [
+                "36a66e1977b6127b"
+            ]
+        ]
+    },
+    {
+        "id": "a1c67896a36f2f7d",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 1560,
+        "wires": [
+            [
+                "36a66e1977b6127b"
+            ]
+        ]
+    },
+    {
+        "id": "3f28897b49eea5e1",
+        "type": "switch",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "if",
+        "property": "qos",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 1440,
+        "wires": [
+            [
+                "e80a9e690043e032"
+            ]
+        ]
+    },
+    {
+        "id": "af7c4c1af5af5f23",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "name": "RPI/lightBlock",
+        "topic": "RPI/lightBlock",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 1520,
+        "wires": [
+            [
+                "cbc4a2824b90bf00"
+            ]
+        ]
+    },
+    {
+        "id": "cbc4a2824b90bf00",
+        "type": "switch",
+        "z": "e9f9a55e497ed526",
+        "g": "2d53f2cbaeb80d17",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 1580,
+        "wires": [
+            [
+                "9700297a9769314d"
+            ],
+            [
+                "b5c127c4d85a4fdf"
+            ]
+        ]
+    },
+    {
+        "id": "9700297a9769314d",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "name": "false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1500,
+        "wires": [
+            [
+                "1a72ccc97227a10c",
+                "e80a9e690043e032"
+            ]
+        ]
+    },
+    {
+        "id": "b5c127c4d85a4fdf",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1540,
+        "wires": [
+            [
+                "1a72ccc97227a10c",
+                "e80a9e690043e032"
+            ]
+        ]
+    },
+    {
+        "id": "4be1c19cb5305580",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "RPI/blindsControl",
+        "topic": "RPI/blindsControl",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 1840,
+        "wires": [
+            [
+                "aab4b826f96d3706"
+            ]
+        ]
+    },
+    {
+        "id": "a5e111cc01c44c8c",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "RPI/blindsControla",
+        "topic": "RPI/blindsControla",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 970,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "625bb9e53a36d105",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "RPI/blindsBlock",
+        "topic": "RPI/blindsBlock",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 1920,
+        "wires": [
+            [
+                "c9c4f9dbdef4155f"
+            ]
+        ]
+    },
+    {
+        "id": "c9c4f9dbdef4155f",
+        "type": "switch",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 1920,
+        "wires": [
+            [
+                "d924867aefacf4c4"
+            ],
+            [
+                "c602705113e32cc7"
+            ]
+        ]
+    },
+    {
+        "id": "d924867aefacf4c4",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "blindPosition",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1900,
+        "wires": [
+            [
+                "aab4b826f96d3706"
+            ]
+        ]
+    },
+    {
+        "id": "c602705113e32cc7",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "blindPosition",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1940,
+        "wires": [
+            [
+                "aab4b826f96d3706"
+            ]
+        ]
+    },
+    {
+        "id": "2b182a8770a78d78",
+        "type": "change",
+        "z": "e9f9a55e497ed526",
+        "g": "8bc3ef60d3ba7bc6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "blindPosition",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 1840,
+        "wires": [
+            [
+                "2d3a0b5ff0269542"
+            ]
+        ]
+    },
+    {
+        "id": "a1d71376c918870e",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "RPI/ambLightValue",
+        "topic": "RPI/ambLightValue",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 830,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "cb83d7b5792ad7c9",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "RPI/temperatureValue",
+        "topic": "RPI/temperatureValue",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 800,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "1d20e0fe0b638161",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "RPI/ambLightCOM",
+        "topic": "RPI/ambLightCOM",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 670,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "69bfde521bb1f022",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "RPI/temperatureCOM",
+        "topic": "RPI/temperatureCOM",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 680,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "d92c3f5e15036a0a",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "RPI/setTemperature",
+        "topic": "RPI/setTemperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1030,
+        "y": 640,
+        "wires": [
+            [
+                "5442d8a05ee6c2b8"
+            ]
+        ]
+    },
+    {
+        "id": "27a77e9e5d11fc21",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "RPI/setTemperature",
+        "topic": "RPI/setTemperature",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 1520,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "5442d8a05ee6c2b8",
+        "type": "ui_text_input",
+        "z": "e9f9a55e497ed526",
+        "g": "8f20fcc97083f62f",
+        "name": "setTemperature",
+        "label": "Temperature Set Point",
+        "tooltip": "",
+        "group": "10343f9cdb171a57",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1260,
+        "y": 640,
+        "wires": [
+            [
+                "27a77e9e5d11fc21"
+            ]
+        ]
+    },
+    {
+        "id": "10241f03e2d9c51f",
+        "type": "mqtt in",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "RPI/setAmbLight",
+        "topic": "RPI/setAmbLight",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1040,
+        "y": 520,
+        "wires": [
+            [
+                "d968f63b78ba8bd2"
+            ]
+        ]
+    },
+    {
+        "id": "d0cec37c5bb03596",
+        "type": "mqtt out",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "RPI/setAmbLight",
+        "topic": "RPI/setAmbLight",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 1510,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d968f63b78ba8bd2",
+        "type": "ui_text_input",
+        "z": "e9f9a55e497ed526",
+        "g": "40d70a4144e4b416",
+        "name": "setAmbLight",
+        "label": "Ambient Light Set Point",
+        "tooltip": "",
+        "group": "07ac14410d321f96",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1250,
+        "y": 520,
+        "wires": [
+            [
+                "d0cec37c5bb03596"
+            ]
+        ]
+    },
+    {
+        "id": "346105cd14479b30",
+        "type": "mqtt out",
+        "z": "22d7ec68136ebde8",
+        "name": "RPI/onTimeOffice1",
+        "topic": "RPI/onTimeOffice1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 650,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3286f2bcf2b647eb",
+        "type": "mqtt in",
+        "z": "22d7ec68136ebde8",
+        "name": "",
+        "topic": "RPI/onTimeOffice1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "11efb295bca76326"
+            ]
+        ]
+    },
+    {
+        "id": "970a1477300801ca",
+        "type": "mqtt in",
+        "z": "22d7ec68136ebde8",
+        "name": "",
+        "topic": "RPI/offTimeOffice1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "46380244461349b3"
+            ]
+        ]
+    },
+    {
+        "id": "468eb3c356e3504e",
+        "type": "mqtt out",
+        "z": "22d7ec68136ebde8",
+        "name": "RPI/offTimeOffice1",
+        "topic": "RPI/offTimeOffice1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 650,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "11efb295bca76326",
+        "type": "ui_text_input",
+        "z": "22d7ec68136ebde8",
+        "name": "onTimeOffice1",
+        "label": "onTimeOffice1",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "time",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "346105cd14479b30"
+            ]
+        ]
+    },
+    {
+        "id": "46380244461349b3",
+        "type": "ui_text_input",
+        "z": "22d7ec68136ebde8",
+        "name": "offTimeOffice1",
+        "label": "offTimeOffice1",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "time",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "468eb3c356e3504e"
+            ]
+        ]
+    },
+    {
+        "id": "0e6affa2388ff538",
+        "type": "rpi-gpio in",
+        "z": "22d7ec68136ebde8",
+        "name": "user",
+        "pin": "21",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 170,
+        "y": 600,
+        "wires": [
+            [
+                "206c963779dd9d97",
+                "6e186931c562d8ef"
+            ]
+        ]
+    },
+    {
+        "id": "b1583d2b2fb089d1",
+        "type": "rpi-gpio in",
+        "z": "22d7ec68136ebde8",
+        "name": "emergency",
+        "pin": "20",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 180,
+        "y": 700,
+        "wires": [
+            [
+                "fc468a9cc29aba21",
+                "6d15cf9a78de44c2"
+            ]
+        ]
+    },
+    {
+        "id": "206c963779dd9d97",
+        "type": "mqtt out",
+        "z": "22d7ec68136ebde8",
+        "name": "RPI/user",
+        "topic": "RPI/user",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 400,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "fc468a9cc29aba21",
+        "type": "mqtt out",
+        "z": "22d7ec68136ebde8",
+        "name": "RPI/emergency",
+        "topic": "RPI/emergency",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 420,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "78511460783a56d7",
+        "type": "rpi-gpio in",
+        "z": "22d7ec68136ebde8",
+        "name": "windows",
+        "pin": "16",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 180,
+        "y": 800,
+        "wires": [
+            [
+                "df79b4db088d93ce",
+                "c942ae584c74213f"
+            ]
+        ]
+    },
+    {
+        "id": "df79b4db088d93ce",
+        "type": "mqtt out",
+        "z": "22d7ec68136ebde8",
+        "name": "RPI/windows",
+        "topic": "RPI/windows",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 410,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "6e186931c562d8ef",
+        "type": "ui_led",
+        "z": "22d7ec68136ebde8",
+        "order": 1,
+        "group": "61285987.c20328",
+        "width": 0,
+        "height": 0,
+        "label": "user",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "user",
+        "x": 390,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "6d15cf9a78de44c2",
+        "type": "ui_led",
+        "z": "22d7ec68136ebde8",
+        "order": 2,
+        "group": "61285987.c20328",
+        "width": 0,
+        "height": 0,
+        "label": "emergency",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "0",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "emergency",
+        "x": 410,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "c942ae584c74213f",
+        "type": "ui_led",
+        "z": "22d7ec68136ebde8",
+        "order": 3,
+        "group": "61285987.c20328",
+        "width": 0,
+        "height": 0,
+        "label": "windows",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "windows",
+        "x": 400,
+        "y": 840,
+        "wires": []
+    }
+]

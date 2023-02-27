@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root nodeRef="r:44f3ff22-045d-47b9-b79b-b82eeab39608(moore_stateMachine.sandbox)/2729072192175758238">
+    <file name="DisplayStateMachine.java">
+      <node id="2729072192175758238" at="7,25,8,48" concept="2" />
+      <node id="2729072192175758238" at="7,0,10,0" concept="4" trace="display#()V" />
+      <scope id="2729072192175758238" at="7,25,8,48" />
+      <scope id="2729072192175758238" at="7,0,10,0" />
+      <unit id="2729072192175758238" at="6,0,11,0" name="moore_stateMachine.sandbox.DisplayStateMachine" />
+    </file>
+    <file name="LighSwitch.java">
+      <node id="2729072192175760361" at="9,0,10,0" concept="3" trace="LIGHTOFF" />
+      <node id="2729072192175760363" at="10,0,11,0" concept="3" trace="LIGHTONDIM" />
+      <node id="2729072192175760366" at="11,0,12,0" concept="3" trace="LIGHTONMEDIUM" />
+      <node id="2729072192175760370" at="12,0,13,0" concept="3" trace="LIGHTONBRIGHT" />
+      <node id="2729072192175760356" at="13,0,14,0" concept="3" trace="ONPRESSED" />
+      <node id="2729072192175760358" at="14,0,15,0" concept="3" trace="OFFPRESSED" />
+      <node id="6350130079424487771" at="15,0,16,0" concept="3" trace="BRIGHTNESSOFF" />
+      <node id="6350130079424487773" at="16,0,17,0" concept="3" trace="BRIGHTNESSDIM" />
+      <node id="6350130079424487776" at="17,0,18,0" concept="3" trace="BRIGHTNESSMEDIUM" />
+      <node id="6350130079424487780" at="18,0,19,0" concept="3" trace="BRIGHTNESSHIGH" />
+      <node id="2729072192175758238" at="21,0,22,0" concept="3" trace="currentState" />
+      <node id="2729072192175758238" at="26,30,27,26" concept="5" />
+      <node id="2729072192175760361" at="29,20,30,59" concept="2" />
+      <node id="2729072192175760361" at="30,59,31,14" concept="0" />
+      <node id="2729072192175760363" at="32,22,33,61" concept="2" />
+      <node id="2729072192175760363" at="33,61,34,14" concept="0" />
+      <node id="2729072192175760366" at="35,25,36,64" concept="2" />
+      <node id="2729072192175760366" at="36,64,37,14" concept="0" />
+      <node id="2729072192175760370" at="38,25,39,64" concept="2" />
+      <node id="2729072192175760370" at="39,64,40,14" concept="0" />
+      <node id="2729072192175763769" at="48,25,49,98" concept="2" />
+      <node id="2729072192175763769" at="49,98,50,43" concept="2" />
+      <node id="2729072192175763769" at="50,43,51,18" concept="0" />
+      <node id="2729072192175760361" at="52,9,53,64" concept="2" />
+      <node id="2729072192175760361" at="53,64,54,14" concept="0" />
+      <node id="2729072192175763771" at="57,25,58,101" concept="2" />
+      <node id="2729072192175763771" at="58,101,59,46" concept="2" />
+      <node id="2729072192175763771" at="59,46,60,18" concept="0" />
+      <node id="2729072192175763773" at="61,26,62,97" concept="2" />
+      <node id="2729072192175763773" at="62,97,63,41" concept="2" />
+      <node id="2729072192175763773" at="63,41,64,18" concept="0" />
+      <node id="2729072192175760363" at="65,9,66,64" concept="2" />
+      <node id="2729072192175760363" at="66,64,67,14" concept="0" />
+      <node id="2729072192175763776" at="70,25,71,101" concept="2" />
+      <node id="2729072192175763776" at="71,101,72,46" concept="2" />
+      <node id="2729072192175763776" at="72,46,73,18" concept="0" />
+      <node id="2729072192175763778" at="74,26,75,97" concept="2" />
+      <node id="2729072192175763778" at="75,97,76,41" concept="2" />
+      <node id="2729072192175763778" at="76,41,77,18" concept="0" />
+      <node id="2729072192175760366" at="78,9,79,67" concept="2" />
+      <node id="2729072192175760366" at="79,67,80,14" concept="0" />
+      <node id="2729072192175763781" at="83,25,84,98" concept="2" />
+      <node id="2729072192175763781" at="84,98,85,43" concept="2" />
+      <node id="2729072192175763781" at="85,43,86,18" concept="0" />
+      <node id="2729072192175763783" at="87,26,88,97" concept="2" />
+      <node id="2729072192175763783" at="88,97,89,41" concept="2" />
+      <node id="2729072192175763783" at="89,41,90,18" concept="0" />
+      <node id="2729072192175760370" at="91,9,92,65" concept="2" />
+      <node id="2729072192175760370" at="92,65,93,14" concept="0" />
+      <node id="2729072192175758238" at="23,0,25,0" concept="1" trace="LighSwitch#()V" />
+      <node id="2729072192175760361" at="46,20,52,9" concept="7" />
+      <node id="2729072192175760363" at="55,22,65,9" concept="7" />
+      <node id="2729072192175760366" at="68,25,78,9" concept="7" />
+      <node id="2729072192175760370" at="81,25,91,9" concept="7" />
+      <node id="2729072192175758238" at="27,26,41,5" concept="7" />
+      <node id="2729072192175758238" at="26,0,43,0" concept="4" trace="displayState#()V" />
+      <node id="2729072192175758238" at="44,34,94,5" concept="7" />
+      <node id="2729072192175758238" at="44,0,96,0" concept="4" trace="onEvent#(I)V" />
+      <scope id="2729072192175758238" at="23,23,23,23" />
+      <scope id="2729072192175758238" at="23,0,25,0" />
+      <scope id="2729072192175760361" at="29,20,31,14" />
+      <scope id="2729072192175760363" at="32,22,34,14" />
+      <scope id="2729072192175760366" at="35,25,37,14" />
+      <scope id="2729072192175760370" at="38,25,40,14" />
+      <scope id="2729072192175763769" at="48,25,51,18" />
+      <scope id="2729072192175763771" at="57,25,60,18" />
+      <scope id="2729072192175763773" at="61,26,64,18" />
+      <scope id="2729072192175763776" at="70,25,73,18" />
+      <scope id="2729072192175763778" at="74,26,77,18" />
+      <scope id="2729072192175763781" at="83,25,86,18" />
+      <scope id="2729072192175763783" at="87,26,90,18" />
+      <scope id="2729072192175760361" at="46,20,54,14" />
+      <scope id="2729072192175760363" at="55,22,67,14" />
+      <scope id="2729072192175760366" at="68,25,80,14" />
+      <scope id="2729072192175760370" at="81,25,93,14" />
+      <scope id="2729072192175758238" at="26,30,41,5">
+        <var name="stateName" id="2729072192175758238" />
+      </scope>
+      <scope id="2729072192175758238" at="26,0,43,0" />
+      <scope id="2729072192175758238" at="44,34,94,5" />
+      <scope id="2729072192175758238" at="44,0,96,0">
+        <var name="event" id="2729072192175758238" />
+      </scope>
+      <unit id="2729072192175758238" at="6,0,98,0" name="moore_stateMachine.sandbox.LighSwitch" />
+    </file>
+    <file name="Main.java">
+      <node id="2729072192175758238" at="7,42,8,58" concept="2" />
+      <node id="2729072192175758238" at="8,58,9,38" concept="5" />
+      <node id="2729072192175758238" at="9,38,10,23" concept="2" />
+      <node id="2729072192175758238" at="10,23,11,19" concept="2" />
+      <node id="2729072192175758238" at="11,19,12,19" concept="2" />
+      <node id="2729072192175758238" at="12,19,13,19" concept="2" />
+      <node id="2729072192175758238" at="13,19,14,19" concept="2" />
+      <node id="2729072192175758238" at="14,19,15,19" concept="2" />
+      <node id="2729072192175758238" at="15,19,16,19" concept="2" />
+      <node id="2729072192175758238" at="16,19,17,23" concept="2" />
+      <node id="2729072192175758238" at="7,0,19,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <scope id="2729072192175758238" at="7,42,17,23">
+        <var name="fsm" id="2729072192175758238" />
+      </scope>
+      <scope id="2729072192175758238" at="7,0,19,0">
+        <var name="args" id="2729072192175758238" />
+      </scope>
+      <unit id="2729072192175758238" at="6,0,20,0" name="moore_stateMachine.sandbox.Main" />
+    </file>
+  </root>
+</debug-info>
+

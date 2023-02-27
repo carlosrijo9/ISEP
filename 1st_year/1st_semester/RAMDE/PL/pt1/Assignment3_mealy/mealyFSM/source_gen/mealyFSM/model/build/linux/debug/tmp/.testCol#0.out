@@ -1,0 +1,17 @@
+runningTestCase: running test case (name=testMain, location=@HelloWorld:testMain?r:e5f6772f-48aa-422d-99e0-bb9f3bf86eb4(mealyFSM.model)#8084837768086075844) 
+Start of flow testMain
+Entering lightOFF State
+set brightnessOnLow
+Entering lightONdim State
+set brightnessOnMedium
+Entering lightONmedium State
+set brightnessOnHigh
+set brightnessOff
+Entering lightOFF State
+set brightnessOFF
+Entering lightOFF State
+set brightnessOff
+Entering lightOFF State
+set brightnessOnLow
+Entering lightONdim State
+End of flow testMain

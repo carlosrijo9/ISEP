@@ -1,0 +1,26 @@
+[2023/01/20 09:42:51] [Warning] - Emergency in Office 1
+[2023/01/20 09:51:02] [Warning] - Emergency in Office 1
+[2023/01/20 10:56:20] [Warning] - Emergency in Office 1
+[2023/01/20 11:06:02] [Warning] - Emergency in Office 1
+[2023/01/20 11:06:05] [Warning] - Windows are opened in Office 1
+[2023/01/20 11:06:11] [Info] - User is not inside Office 1
+[2023/01/20 11:06:14] [Info] - User is inside Office 1
+[2023/01/20 11:06:18] [Info] - User is not inside Office 1
+[2023/01/20 11:06:24] [Info] - User is inside Office 1
+[2023/01/20 11:06:41] [Info] - User is inside Office 1
+[2023/01/20 11:06:43] [Info] - User is not inside Office 1
+[2023/01/20 12:44:21] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:44:24] [Info] - User is inside Office 1
+[2023/01/20 12:44:25] [Info] - User is not inside Office 1
+[2023/01/20 12:44:26] [Info] - User is inside Office 1
+[2023/01/20 12:44:27] [Warning] - Emergency in Office 1
+[2023/01/20 12:47:33] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:48:25] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:48:27] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:48:28] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:48:28] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:49:24] [Warning] - Windows are opened in Office 1
+[2023/01/20 12:50:02] [Warning] - Windows are opened in Office 1
+[2023/01/20 13:24:13] [Warning] - Windows are opened in Office 1
+[2023/01/20 13:24:16] [Warning] - Emergency in Office 1
+[2023/01/20 13:26:33] [Warning] - Emergency in Office 1

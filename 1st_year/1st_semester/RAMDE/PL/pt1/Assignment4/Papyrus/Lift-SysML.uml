@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_M_nLwG_2Ee2EEbAD_Q4Uyg" name="Lift-SysML" visibility="package">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_NBolAG_2Ee2EEbAD_Q4Uyg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_NBvSsG_2Ee2EEbAD_Q4Uyg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5jF7sHL1Ee2kXpduk1yhfQ" name="usecases">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_QGbTAHMoEe20Yr9SuTVKTA" name="User"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_N0NsUHLGEe2wuryLKl30xw" name="Safety Team"/>
+      <packagedElement xmi:type="uml:Node" xmi:id="_IVFjcHLBEe2wuryLKl30xw" name="Lift" useCase="_dJniUHLBEe2wuryLKl30xw _LPBvkHLCEe2wuryLKl30xw _a0BugHLCEe2wuryLKl30xw _djlFAHLCEe2wuryLKl30xw _pCkk8HLPEe2p5oQ3bFA10Q _xLaUUHLPEe2p5oQ3bFA10Q _0k4VEHLQEe2p5oQ3bFA10Q _1DQ6MHLQEe2p5oQ3bFA10Q _1C4DMHLREe2p5oQ3bFA10Q _BBswMHLTEe2p5oQ3bFA10Q _-bK9YHLTEe2p5oQ3bFA10Q _WK2ewHLUEe2p5oQ3bFA10Q _sf-GoHLUEe2p5oQ3bFA10Q _WPNWIHLbEe2p5oQ3bFA10Q _QGpKgHLdEe2p5oQ3bFA10Q _Iw6doHLeEe2p5oQ3bFA10Q _5xM1sHLgEe2p5oQ3bFA10Q _AMrrYHLhEe2p5oQ3bFA10Q">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6GB5MHK_Ee2wuryLKl30xw" name="UC1: Call Lift"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dJniUHLBEe2wuryLKl30xw" name="UC2: Select Floor" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_LPBvkHLCEe2wuryLKl30xw" name="UC3: Emergency Set" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_a0BugHLCEe2wuryLKl30xw" name="UC4: User weight > Capacity" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_djlFAHLCEe2wuryLKl30xw" name="UC5: Trigger Detection" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pCkk8HLPEe2p5oQ3bFA10Q" name="UC6: Move Up" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xLaUUHLPEe2p5oQ3bFA10Q" name="UC7: Move Down" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0k4VEHLQEe2p5oQ3bFA10Q" name="UC9: Open Doors" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1DQ6MHLQEe2p5oQ3bFA10Q" name="UC9: Close Doors" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1C4DMHLREe2p5oQ3bFA10Q" name="UC8: In the Floor" subject="_IVFjcHLBEe2wuryLKl30xw">
+          <include xmi:type="uml:Include" xmi:id="_6lyjEHLaEe2p5oQ3bFA10Q" addition="_WK2ewHLUEe2p5oQ3bFA10Q"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_BBswMHLTEe2p5oQ3bFA10Q" name="UC12: Call Safety Team" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-bK9YHLTEe2p5oQ3bFA10Q" name="UC13: Sound Emergency Alarm" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_sf-GoHLUEe2p5oQ3bFA10Q" name="UC15: Reset Alarm" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WK2ewHLUEe2p5oQ3bFA10Q" name="UC14: Stop Motors" subject="_IVFjcHLBEe2wuryLKl30xw">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jnIEYXLZEe2p5oQ3bFA10Q" name="ExtensionPoint1"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WPNWIHLbEe2p5oQ3bFA10Q" name="UC16: Weight Control" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_QGpKgHLdEe2p5oQ3bFA10Q" name="UC17: Sound Weight Alarm" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Iw6doHLeEe2p5oQ3bFA10Q" name="UC18: Detection Barrier Triggered" subject="_IVFjcHLBEe2wuryLKl30xw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5xM1sHLgEe2p5oQ3bFA10Q" name="UC10: Move Up to Target" subject="_IVFjcHLBEe2wuryLKl30xw">
+          <include xmi:type="uml:Include" xmi:id="_ET6mgHLhEe2p5oQ3bFA10Q" addition="_pCkk8HLPEe2p5oQ3bFA10Q"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AMrrYHLhEe2p5oQ3bFA10Q" name="UC11: Move Down to Target" subject="_IVFjcHLBEe2wuryLKl30xw">
+          <include xmi:type="uml:Include" xmi:id="_E4FDgHLhEe2p5oQ3bFA10Q" addition="_xLaUUHLPEe2p5oQ3bFA10Q"/>
+        </ownedUseCase>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_xFH5YHK_Ee2wuryLKl30xw" name="liftControl"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_SdYP0HLGEe2wuryLKl30xw" name="emergencyAlarm"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_Lt4R8HLGEe2wuryLKl30xw" name="motorOpenDoors"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_VpveIHLGEe2wuryLKl30xw" name="motorUp"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_XOkG4HLGEe2wuryLKl30xw" name="motorDown"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_GjxkkHLGEe2wuryLKl30xw" name="weightAlarm"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_AIFTgHLGEe2wuryLKl30xw" name="weightCell"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_5lV_QHLFEe2wuryLKl30xw" name="detectionBarrier"/>
+        <nestedClassifier xmi:type="uml:Actor" xmi:id="_sR-yIHLNEe2p5oQ3bFA10Q" name="motorCloseDoors"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_mSrGoHLDEe2wuryLKl30xw" client="_djlFAHLCEe2wuryLKl30xw" supplier="_8e4R0HK9Ee2wuryLKl30xw"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_D5FK0HLEEe2wuryLKl30xw" client="_a0BugHLCEe2wuryLKl30xw" supplier="_ky5ksHK9Ee2wuryLKl30xw"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_RSmJoHLEEe2wuryLKl30xw" client="_IVFjcHLBEe2wuryLKl30xw" supplier="_DnlhAHDpEe29K6L-WR_HEA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_p5XrEHLEEe2wuryLKl30xw" client="_dJniUHLBEe2wuryLKl30xw" supplier="_WCTe8HDgEe29K6L-WR_HEA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_HoNSgHLFEe2wuryLKl30xw" client="_6GB5MHK_Ee2wuryLKl30xw" supplier="_99gCIHDfEe29K6L-WR_HEA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_X5hZUHLPEe2p5oQ3bFA10Q" memberEnd="_X5iAYnLPEe2p5oQ3bFA10Q _X5iAY3LPEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X5iAYHLPEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X5iAYXLPEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_X5iAYnLPEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_X5hZUHLPEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_X5iAY3LPEe2p5oQ3bFA10Q" name="uc1: call lift" type="_6GB5MHK_Ee2wuryLKl30xw" association="_X5hZUHLPEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5f1ooHLPEe2p5oQ3bFA10Q" memberEnd="_5f1oo3LPEe2p5oQ3bFA10Q _5f2PsHLPEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5f1ooXLPEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5f1oonLPEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5f1oo3LPEe2p5oQ3bFA10Q" name="motorup" type="_VpveIHLGEe2wuryLKl30xw" association="_5f1ooHLPEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5f2PsHLPEe2p5oQ3bFA10Q" name="uc1.2: move up" type="_pCkk8HLPEe2p5oQ3bFA10Q" association="_5f1ooHLPEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6RBN8HLPEe2p5oQ3bFA10Q" memberEnd="_6RB1AHLPEe2p5oQ3bFA10Q _6RB1AXLPEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6RBN8XLPEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6RBN8nLPEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_6RB1AHLPEe2p5oQ3bFA10Q" name="motordown" type="_XOkG4HLGEe2wuryLKl30xw" association="_6RBN8HLPEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_6RB1AXLPEe2p5oQ3bFA10Q" name="uc1.3: move dow" type="_xLaUUHLPEe2p5oQ3bFA10Q" association="_6RBN8HLPEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_dxLTwHLQEe2p5oQ3bFA10Q" memberEnd="_dxLTw3LQEe2p5oQ3bFA10Q _dxL60HLQEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dxLTwXLQEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dxLTwnLQEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_dxLTw3LQEe2p5oQ3bFA10Q" name="uc1.2: move up" type="_pCkk8HLPEe2p5oQ3bFA10Q" association="_dxLTwHLQEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_dxL60HLQEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_dxLTwHLQEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uFOxEHLQEe2p5oQ3bFA10Q" memberEnd="_uFPYInLQEe2p5oQ3bFA10Q _uFPYI3LQEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uFPYIHLQEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uFPYIXLQEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_uFPYInLQEe2p5oQ3bFA10Q" name="uc1.3: move dow" type="_xLaUUHLPEe2p5oQ3bFA10Q" association="_uFOxEHLQEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_uFPYI3LQEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_uFOxEHLQEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_84Ao4HLQEe2p5oQ3bFA10Q" memberEnd="_84BP8HLQEe2p5oQ3bFA10Q _84BP8XLQEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_84Ao4XLQEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_84Ao4nLQEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_84BP8HLQEe2p5oQ3bFA10Q" name="uc8: " type="_0k4VEHLQEe2p5oQ3bFA10Q" association="_84Ao4HLQEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_84BP8XLQEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_84Ao4HLQEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9uEuMHLQEe2p5oQ3bFA10Q" memberEnd="_9uFVQnLQEe2p5oQ3bFA10Q _9uFVQ3LQEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9uFVQHLQEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9uFVQXLQEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_9uFVQnLQEe2p5oQ3bFA10Q" name="uc9: " type="_1DQ6MHLQEe2p5oQ3bFA10Q" association="_9uEuMHLQEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_9uFVQ3LQEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_9uEuMHLQEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TUeO4HLREe2p5oQ3bFA10Q" memberEnd="_TUeO43LREe2p5oQ3bFA10Q _TUe18HLREe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TUeO4XLREe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TUeO4nLREe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TUeO43LREe2p5oQ3bFA10Q" name="uc9: open doors" type="_0k4VEHLQEe2p5oQ3bFA10Q" association="_TUeO4HLREe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TUe18HLREe2p5oQ3bFA10Q" name="motoropendoors" type="_Lt4R8HLGEe2wuryLKl30xw" association="_TUeO4HLREe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Va8MIHLREe2p5oQ3bFA10Q" memberEnd="_Va8MI3LREe2p5oQ3bFA10Q _Va8MJHLREe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Va8MIXLREe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Va8MInLREe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Va8MI3LREe2p5oQ3bFA10Q" name="motorclosedoors" type="_sR-yIHLNEe2p5oQ3bFA10Q" association="_Va8MIHLREe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Va8MJHLREe2p5oQ3bFA10Q" name="uc10: close doors" type="_1DQ6MHLQEe2p5oQ3bFA10Q" association="_Va8MIHLREe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_POA6YHLSEe2p5oQ3bFA10Q" memberEnd="_POBhcnLSEe2p5oQ3bFA10Q _POBhc3LSEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_POBhcHLSEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_POBhcXLSEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_POBhcnLSEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_POA6YHLSEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_POBhc3LSEe2p5oQ3bFA10Q" name="uc2: select floor" type="_dJniUHLBEe2wuryLKl30xw" association="_POA6YHLSEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9k7HUHLSEe2p5oQ3bFA10Q" memberEnd="_9k7HU3LSEe2p5oQ3bFA10Q _9k7HVHLSEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9k7HUXLSEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9k7HUnLSEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_9k7HU3LSEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_9k7HUHLSEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_9k7HVHLSEe2p5oQ3bFA10Q" name="uc3: emergency set" type="_LPBvkHLCEe2wuryLKl30xw" association="_9k7HUHLSEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mg3gYHLTEe2p5oQ3bFA10Q" memberEnd="_mg3gY3LTEe2p5oQ3bFA10Q _mg3gZHLTEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mg3gYXLTEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mg3gYnLTEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mg3gY3LTEe2p5oQ3bFA10Q" name="uc11: call safety team" type="_BBswMHLTEe2p5oQ3bFA10Q" association="_mg3gYHLTEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mg3gZHLTEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_mg3gYHLTEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8XGz4HLTEe2p5oQ3bFA10Q" memberEnd="_8XGz43LTEe2p5oQ3bFA10Q _8XGz5HLTEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8XGz4XLTEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8XGz4nLTEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8XGz43LTEe2p5oQ3bFA10Q" name="safety team" type="_N0NsUHLGEe2wuryLKl30xw" association="_8XGz4HLTEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8XGz5HLTEe2p5oQ3bFA10Q" name="uc11: call safety team" type="_BBswMHLTEe2p5oQ3bFA10Q" association="_8XGz4HLTEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OwMrEHLUEe2p5oQ3bFA10Q" memberEnd="_OwNSInLUEe2p5oQ3bFA10Q _OwNSI3LUEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OwNSIHLUEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OwNSIXLUEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OwNSInLUEe2p5oQ3bFA10Q" name="emergencyalarm" type="_SdYP0HLGEe2wuryLKl30xw" association="_OwMrEHLUEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OwNSI3LUEe2p5oQ3bFA10Q" name="uc12: sound alarm" type="_-bK9YHLTEe2p5oQ3bFA10Q" association="_OwMrEHLUEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Qzf_kHLUEe2p5oQ3bFA10Q" memberEnd="_Qzf_k3LUEe2p5oQ3bFA10Q _Qzf_lHLUEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qzf_kXLUEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qzf_knLUEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Qzf_k3LUEe2p5oQ3bFA10Q" name="uc12: sound alarm" type="_-bK9YHLTEe2p5oQ3bFA10Q" association="_Qzf_kHLUEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Qzf_lHLUEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_Qzf_kHLUEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_w18BUHLUEe2p5oQ3bFA10Q" memberEnd="_w18BU3LUEe2p5oQ3bFA10Q _w18BVHLUEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w18BUXLUEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w18BUnLUEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_w18BU3LUEe2p5oQ3bFA10Q" name="emergencyalarm" type="_SdYP0HLGEe2wuryLKl30xw" association="_w18BUHLUEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_w18BVHLUEe2p5oQ3bFA10Q" name="uc14: reset alarm" type="_sf-GoHLUEe2p5oQ3bFA10Q" association="_w18BUHLUEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xyzSMHLUEe2p5oQ3bFA10Q" memberEnd="_xyz5QnLUEe2p5oQ3bFA10Q _xyz5Q3LUEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xyz5QHLUEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xyz5QXLUEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xyz5QnLUEe2p5oQ3bFA10Q" name="uc14: reset alarm" type="_sf-GoHLUEe2p5oQ3bFA10Q" association="_xyzSMHLUEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xyz5Q3LUEe2p5oQ3bFA10Q" type="_N0NsUHLGEe2wuryLKl30xw" association="_xyzSMHLUEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_m-v88HLYEe2p5oQ3bFA10Q" memberEnd="_m-v883LYEe2p5oQ3bFA10Q _m-v89HLYEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m-v88XLYEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m-v88nLYEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_m-v883LYEe2p5oQ3bFA10Q" name="motoropendoors" type="_Lt4R8HLGEe2wuryLKl30xw" association="_m-v88HLYEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_m-v89HLYEe2p5oQ3bFA10Q" name="uc8: in the floor" type="_1C4DMHLREe2p5oQ3bFA10Q" association="_m-v88HLYEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3Q-1UHLYEe2p5oQ3bFA10Q" memberEnd="_3Q_cYnLYEe2p5oQ3bFA10Q _3Q_cY3LYEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3Q_cYHLYEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3Q_cYXLYEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3Q_cYnLYEe2p5oQ3bFA10Q" name="motorup" type="_VpveIHLGEe2wuryLKl30xw" association="_3Q-1UHLYEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3Q_cY3LYEe2p5oQ3bFA10Q" name="uc13: stop motors" type="_WK2ewHLUEe2p5oQ3bFA10Q" association="_3Q-1UHLYEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6rd_MHLYEe2p5oQ3bFA10Q" memberEnd="_6remQnLYEe2p5oQ3bFA10Q _6remQ3LYEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6remQHLYEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6remQXLYEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_6remQnLYEe2p5oQ3bFA10Q" name="motordown" type="_XOkG4HLGEe2wuryLKl30xw" association="_6rd_MHLYEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_6remQ3LYEe2p5oQ3bFA10Q" name="uc13: stop motors" type="_WK2ewHLUEe2p5oQ3bFA10Q" association="_6rd_MHLYEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NSbL4HLcEe2p5oQ3bFA10Q" memberEnd="_NSbL43LcEe2p5oQ3bFA10Q _NSby8HLcEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NSbL4XLcEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NSbL4nLcEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NSbL43LcEe2p5oQ3bFA10Q" name="weightcell" type="_AIFTgHLGEe2wuryLKl30xw" association="_NSbL4HLcEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NSby8HLcEe2p5oQ3bFA10Q" name="uc4: user weight > capacity" type="_a0BugHLCEe2wuryLKl30xw" association="_NSbL4HLcEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UEBbgHLcEe2p5oQ3bFA10Q" memberEnd="_UEBbg3LcEe2p5oQ3bFA10Q _UEBbhHLcEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UEBbgXLcEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UEBbgnLcEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UEBbg3LcEe2p5oQ3bFA10Q" name="uc15: weight control" type="_WPNWIHLbEe2p5oQ3bFA10Q" association="_UEBbgHLcEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UEBbhHLcEe2p5oQ3bFA10Q" name="weightcell" type="_AIFTgHLGEe2wuryLKl30xw" association="_UEBbgHLcEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ux-GoHLcEe2p5oQ3bFA10Q" memberEnd="_Ux-tsnLcEe2p5oQ3bFA10Q _Ux-ts3LcEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ux-tsHLcEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ux-tsXLcEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Ux-tsnLcEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_Ux-GoHLcEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Ux-ts3LcEe2p5oQ3bFA10Q" name="uc15: weight control" type="_WPNWIHLbEe2p5oQ3bFA10Q" association="_Ux-GoHLcEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ZB6cYHLdEe2p5oQ3bFA10Q" memberEnd="_ZB7DcXLdEe2p5oQ3bFA10Q _ZB7DcnLdEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZB6cYXLdEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZB7DcHLdEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ZB7DcXLdEe2p5oQ3bFA10Q" name="uc16: sound weight alarm" type="_QGpKgHLdEe2p5oQ3bFA10Q" association="_ZB6cYHLdEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ZB7DcnLdEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_ZB6cYHLdEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_cEGbAHLdEe2p5oQ3bFA10Q" memberEnd="_cEHCEnLdEe2p5oQ3bFA10Q _cEHCE3LdEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cEHCEHLdEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cEHCEXLdEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_cEHCEnLdEe2p5oQ3bFA10Q" name="weightalarm" type="_GjxkkHLGEe2wuryLKl30xw" association="_cEGbAHLdEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_cEHCE3LdEe2p5oQ3bFA10Q" name="uc16: sound weight alarm" type="_QGpKgHLdEe2p5oQ3bFA10Q" association="_cEGbAHLdEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Sh5PgHLeEe2p5oQ3bFA10Q" memberEnd="_Sh5Pg3LeEe2p5oQ3bFA10Q _Sh5PhHLeEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sh5PgXLeEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Sh5PgnLeEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Sh5Pg3LeEe2p5oQ3bFA10Q" name="detectionbarrier" type="_5lV_QHLFEe2wuryLKl30xw" association="_Sh5PgHLeEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Sh5PhHLeEe2p5oQ3bFA10Q" name="uc5: trigger detection" type="_djlFAHLCEe2wuryLKl30xw" association="_Sh5PgHLeEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FD2gkHLfEe2p5oQ3bFA10Q" memberEnd="_FD2gk3LfEe2p5oQ3bFA10Q _FD3HoHLfEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FD2gkXLfEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FD2gknLfEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_FD2gk3LfEe2p5oQ3bFA10Q" name="uc17: detection barrier triggered" type="_Iw6doHLeEe2p5oQ3bFA10Q" association="_FD2gkHLfEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_FD3HoHLfEe2p5oQ3bFA10Q" name="detectionbarrier" type="_5lV_QHLFEe2wuryLKl30xw" association="_FD2gkHLfEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_H_2XoHLfEe2p5oQ3bFA10Q" memberEnd="_H_2Xo3LfEe2p5oQ3bFA10Q _H_2-sHLfEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H_2XoXLfEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H_2XonLfEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_H_2Xo3LfEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_H_2XoHLfEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_H_2-sHLfEe2p5oQ3bFA10Q" name="uc17: detection barrier triggered" type="_Iw6doHLeEe2p5oQ3bFA10Q" association="_H_2XoHLfEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_nWmtMHLhEe2p5oQ3bFA10Q" memberEnd="_nWmtM3LhEe2p5oQ3bFA10Q _nWmtNHLhEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nWmtMXLhEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nWmtMnLhEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_nWmtM3LhEe2p5oQ3bFA10Q" name="motorclosedoors" type="_sR-yIHLNEe2p5oQ3bFA10Q" association="_nWmtMHLhEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_nWmtNHLhEe2p5oQ3bFA10Q" name="ucxx: move down to target" type="_AMrrYHLhEe2p5oQ3bFA10Q" association="_nWmtMHLhEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_obnNcHLhEe2p5oQ3bFA10Q" memberEnd="_obnNc3LhEe2p5oQ3bFA10Q _obn0gHLhEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_obnNcXLhEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_obnNcnLhEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_obnNc3LhEe2p5oQ3bFA10Q" name="motorclosedoors" type="_sR-yIHLNEe2p5oQ3bFA10Q" association="_obnNcHLhEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_obn0gHLhEe2p5oQ3bFA10Q" name="ucxx: move up to target" type="_5xM1sHLgEe2p5oQ3bFA10Q" association="_obnNcHLhEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_08eF8HLhEe2p5oQ3bFA10Q" memberEnd="_08etAnLhEe2p5oQ3bFA10Q _08etA3LhEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_08etAHLhEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_08etAXLhEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_08etAnLhEe2p5oQ3bFA10Q" name="motoropendoors" type="_Lt4R8HLGEe2wuryLKl30xw" association="_08eF8HLhEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_08etA3LhEe2p5oQ3bFA10Q" name="uc16: sound weight alarm" type="_QGpKgHLdEe2p5oQ3bFA10Q" association="_08eF8HLhEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XqB_QHLkEe2p5oQ3bFA10Q" memberEnd="_XqCmUnLkEe2p5oQ3bFA10Q _XqCmU3LkEe2p5oQ3bFA10Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XqCmUHLkEe2p5oQ3bFA10Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XqCmUXLkEe2p5oQ3bFA10Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_XqCmUnLkEe2p5oQ3bFA10Q" name="liftcontrol" type="_xFH5YHK_Ee2wuryLKl30xw" association="_XqB_QHLkEe2p5oQ3bFA10Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_XqCmU3LkEe2p5oQ3bFA10Q" name="uc14: stop motors" type="_WK2ewHLUEe2p5oQ3bFA10Q" association="_XqB_QHLkEe2p5oQ3bFA10Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_R9T8IHMoEe20Yr9SuTVKTA" memberEnd="_R9VKQXMoEe20Yr9SuTVKTA _R9VKQnMoEe20Yr9SuTVKTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R9UjMHMoEe20Yr9SuTVKTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R9VKQHMoEe20Yr9SuTVKTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_R9VKQXMoEe20Yr9SuTVKTA" name="uc1: call lift" type="_6GB5MHK_Ee2wuryLKl30xw" association="_R9T8IHMoEe20Yr9SuTVKTA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_R9VKQnMoEe20Yr9SuTVKTA" name="user" type="_QGbTAHMoEe20Yr9SuTVKTA" association="_R9T8IHMoEe20Yr9SuTVKTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TNOr4HMoEe20Yr9SuTVKTA" memberEnd="_TNOr43MoEe20Yr9SuTVKTA _TNOr5HMoEe20Yr9SuTVKTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TNOr4XMoEe20Yr9SuTVKTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TNOr4nMoEe20Yr9SuTVKTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TNOr43MoEe20Yr9SuTVKTA" name="uc2: select floor" type="_dJniUHLBEe2wuryLKl30xw" association="_TNOr4HMoEe20Yr9SuTVKTA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TNOr5HMoEe20Yr9SuTVKTA" name="user" type="_QGbTAHMoEe20Yr9SuTVKTA" association="_TNOr4HMoEe20Yr9SuTVKTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TxAHUHMoEe20Yr9SuTVKTA" memberEnd="_TxAHU3MoEe20Yr9SuTVKTA _TxAuYHMoEe20Yr9SuTVKTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TxAHUXMoEe20Yr9SuTVKTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TxAHUnMoEe20Yr9SuTVKTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TxAHU3MoEe20Yr9SuTVKTA" name="uc3: emergency set" type="_LPBvkHLCEe2wuryLKl30xw" association="_TxAHUHMoEe20Yr9SuTVKTA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TxAuYHMoEe20Yr9SuTVKTA" name="user" type="_QGbTAHMoEe20Yr9SuTVKTA" association="_TxAHUHMoEe20Yr9SuTVKTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UaBPIHMoEe20Yr9SuTVKTA" memberEnd="_UaBPI3MoEe20Yr9SuTVKTA _UaB2MHMoEe20Yr9SuTVKTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UaBPIXMoEe20Yr9SuTVKTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UaBPInMoEe20Yr9SuTVKTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UaBPI3MoEe20Yr9SuTVKTA" name="uc4: user weight > capacity" type="_a0BugHLCEe2wuryLKl30xw" association="_UaBPIHMoEe20Yr9SuTVKTA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UaB2MHMoEe20Yr9SuTVKTA" name="user" type="_QGbTAHMoEe20Yr9SuTVKTA" association="_UaBPIHMoEe20Yr9SuTVKTA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VJ0UYHMoEe20Yr9SuTVKTA" memberEnd="_VJ0UY3MoEe20Yr9SuTVKTA _VJ0UZHMoEe20Yr9SuTVKTA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VJ0UYXMoEe20Yr9SuTVKTA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VJ0UYnMoEe20Yr9SuTVKTA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_VJ0UY3MoEe20Yr9SuTVKTA" name="uc5: trigger detection" type="_djlFAHLCEe2wuryLKl30xw" association="_VJ0UYHMoEe20Yr9SuTVKTA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_VJ0UZHMoEe20Yr9SuTVKTA" name="user" type="_QGbTAHMoEe20Yr9SuTVKTA" association="_VJ0UYHMoEe20Yr9SuTVKTA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_meg3gHL1Ee2kXpduk1yhfQ" name="requirements" URI="">
+      <packagedElement xmi:type="uml:Class" xmi:id="_do6BYHL4Ee2kXpduk1yhfQ" name="R0 - Lift Requirements">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_9Tcz4HAAEe2EEbAD_Q4Uyg" name="R1 - Lift Functional Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_FPFnIHDlEe29K6L-WR_HEA" name="R1.1 - Cabin Requirements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Du-s4HABEe2EEbAD_Q4Uyg" name="R1.2 - Floor Requirements"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_JqS14HDfEe29K6L-WR_HEA" name="R2 - Lift Behavior Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_RH0XYHDfEe29K6L-WR_HEA" name="R2.1 - Standby Requirements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_99gCIHDfEe29K6L-WR_HEA" name="R2.2 - Call Lift Requirements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_WCTe8HDgEe29K6L-WR_HEA" name="R2.2.1 - Call Lift Requirements">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_XLoTMHK8Ee2wuryLKl30xw" name="R2.2.1.1 - Call Lift Requirements"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_qa4hoHDgEe29K6L-WR_HEA" name="R2.2.1.2 - Call Lift Requirements"/>
+            </nestedClassifier>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_e6sxEHDiEe29K6L-WR_HEA" name="R2.3 - Moving to Targe Floor Requirements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_NaEBUHDhEe29K6L-WR_HEA" name="R2.3.1 - Moving to Targe Floor Requirements"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Hbj-YHDoEe29K6L-WR_HEA" name="R2.4 - Open/Close Doors Requirements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="__FDxAHDoEe29K6L-WR_HEA" name="R2.4.1 - Open/Close Doors Requirements"/>
+          </nestedClassifier>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_6BDPIHDpEe29K6L-WR_HEA" name="R3 - Emergency Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DnlhAHDpEe29K6L-WR_HEA" name="R3.1 - Lift Safety Requirements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ky5ksHK9Ee2wuryLKl30xw" name="R3.2 - Capacity Requirements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_8e4R0HK9Ee2wuryLKl30xw" name="R3.3 - Closing Doors Requirements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_9HAo0HK9Ee2wuryLKl30xw" name="R3.4 - Cabin Safety Requirements"/>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Irmy8HL2Ee2kXpduk1yhfQ" name="context">
+      <packagedElement xmi:type="uml:Class" xmi:id="_UlKr0HL_Ee2kXpduk1yhfQ" name="motorUp"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2HtY8HMAEe2kXpduk1yhfQ" name="motorDown"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6TmxoHMAEe2kXpduk1yhfQ" name="motorOpen"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8jkCEHMAEe2kXpduk1yhfQ" name="motorClose"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-lL7kHMAEe2kXpduk1yhfQ" name="ambientLight"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CKE-oHMBEe2kXpduk1yhfQ" name="weightAlarm"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Fk1OQHMBEe2kXpduk1yhfQ" name="emergencyAlarm"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MV9j0HMBEe2kXpduk1yhfQ" name="movementDisplay"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RMMS8HMBEe2kXpduk1yhfQ" name="doorEOL"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TQZmYHMBEe2kXpduk1yhfQ" name="detectionBarrier"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_V0abQHMBEe2kXpduk1yhfQ" name="weightCell"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Z0EuwHMBEe2kXpduk1yhfQ" name="floorSensor"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IYlvUHMBEe2kXpduk1yhfQ" name="floorDisplay"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_bDuqsHL_Ee2kXpduk1yhfQ" name="context">
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_qCQucHMeEe2ovKmxzlRy0g" memberEnd="_qCSjoXMeEe2ovKmxzlRy0g _qCTKsnMeEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qCR8kHMeEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qCSjoHMeEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_qCTKsnMeEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_qCQucHMeEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_qCSjoXMeEe2ovKmxzlRy0g" type="_UlKr0HL_Ee2kXpduk1yhfQ" aggregation="shared" association="_qCQucHMeEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_hg1qgHMfEe2ovKmxzlRy0g" memberEnd="_hg2RknMfEe2ovKmxzlRy0g _hg24oHMfEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hg2RkHMfEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hg2RkXMfEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_hg24oHMfEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_hg1qgHMfEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_hg2RknMfEe2ovKmxzlRy0g" type="_2HtY8HMAEe2kXpduk1yhfQ" aggregation="shared" association="_hg1qgHMfEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_l-m2UHMfEe2ovKmxzlRy0g" memberEnd="_l-pSkXMfEe2ovKmxzlRy0g _l-pSlHMfEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l-orgHMfEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l-pSkHMfEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_l-pSlHMfEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_l-m2UHMfEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_l-pSkXMfEe2ovKmxzlRy0g" type="_CKE-oHMBEe2kXpduk1yhfQ" aggregation="shared" association="_l-m2UHMfEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_oV8hIHMfEe2ovKmxzlRy0g" memberEnd="_oV9IMnMfEe2ovKmxzlRy0g _oV-9YHMfEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oV9IMHMfEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oV9IMXMfEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_oV-9YHMfEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_oV8hIHMfEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_oV9IMnMfEe2ovKmxzlRy0g" type="_Fk1OQHMBEe2kXpduk1yhfQ" aggregation="shared" association="_oV8hIHMfEe2ovKmxzlRy0g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oV-WUHMfEe2ovKmxzlRy0g"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oV-WUXMfEe2ovKmxzlRy0g" value="1"/>
+          </ownedEnd>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_s7MN8HMfEe2ovKmxzlRy0g" memberEnd="_s7NcEHMfEe2ovKmxzlRy0g _s7ODIHMfEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s7M1AHMfEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s7M1AXMfEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_s7ODIHMfEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_s7MN8HMfEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_s7NcEHMfEe2ovKmxzlRy0g" type="_6TmxoHMAEe2kXpduk1yhfQ" aggregation="shared" association="_s7MN8HMfEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_v4248HMfEe2ovKmxzlRy0g" memberEnd="_v45VMHMfEe2ovKmxzlRy0g _v458QnMfEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v44uIHMfEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v44uIXMfEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_v458QnMfEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_v4248HMfEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_v45VMHMfEe2ovKmxzlRy0g" type="_8jkCEHMAEe2kXpduk1yhfQ" aggregation="shared" association="_v4248HMfEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_3RvyEHMfEe2ovKmxzlRy0g" memberEnd="_3RwZInMfEe2ovKmxzlRy0g _3RwZJXMfEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3RwZIHMfEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3RwZIXMfEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_3RwZJXMfEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_3RvyEHMfEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_3RwZInMfEe2ovKmxzlRy0g" type="_V0abQHMBEe2kXpduk1yhfQ" aggregation="shared" association="_3RvyEHMfEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_DPt_8HMgEe2ovKmxzlRy0g" memberEnd="_DPvOEnMgEe2ovKmxzlRy0g _DPwcMnMgEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DPvOEHMgEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DPvOEXMgEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DPwcMnMgEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_DPt_8HMgEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DPvOEnMgEe2ovKmxzlRy0g" type="_TQZmYHMBEe2kXpduk1yhfQ" aggregation="shared" association="_DPt_8HMgEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_G2zbYHMgEe2ovKmxzlRy0g" memberEnd="_G20CcnMgEe2ovKmxzlRy0g _G20CdXMgEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G20CcHMgEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G20CcXMgEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_G20CdXMgEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_G2zbYHMgEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_G20CcnMgEe2ovKmxzlRy0g" type="_-lL7kHMAEe2kXpduk1yhfQ" aggregation="shared" association="_G2zbYHMgEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_LEmRgHMgEe2ovKmxzlRy0g" memberEnd="_LEm4kHMgEe2ovKmxzlRy0g _LEm4k3MgEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LEmRgXMgEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LEmRgnMgEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_LEm4k3MgEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_LEmRgHMgEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_LEm4kHMgEe2ovKmxzlRy0g" type="_RMMS8HMBEe2kXpduk1yhfQ" aggregation="shared" association="_LEmRgHMgEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_Ri1gQHMgEe2ovKmxzlRy0g" memberEnd="_Ri2HUnMgEe2ovKmxzlRy0g _Ri2uYXMgEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri2HUHMgEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ri2HUXMgEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Ri2uYXMgEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_Ri1gQHMgEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Ri2HUnMgEe2ovKmxzlRy0g" type="_Z0EuwHMBEe2kXpduk1yhfQ" aggregation="shared" association="_Ri1gQHMgEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_VzYIYHMgEe2ovKmxzlRy0g" memberEnd="_VzZWgHMgEe2ovKmxzlRy0g _VzZWg3MgEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VzYvcHMgEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VzYvcXMgEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VzZWg3MgEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_VzYIYHMgEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VzZWgHMgEe2ovKmxzlRy0g" type="_IYlvUHMBEe2kXpduk1yhfQ" aggregation="shared" association="_VzYIYHMgEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_g1hnMHMgEe2ovKmxzlRy0g" visibility="private" memberEnd="_g1iOQXMgEe2ovKmxzlRy0g _g1iORHMgEe2ovKmxzlRy0g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g1hnMXMgEe2ovKmxzlRy0g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g1iOQHMgEe2ovKmxzlRy0g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_g1iORHMgEe2ovKmxzlRy0g" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_g1hnMHMgEe2ovKmxzlRy0g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_g1iOQXMgEe2ovKmxzlRy0g" type="_MV9j0HMBEe2kXpduk1yhfQ" association="_g1hnMHMgEe2ovKmxzlRy0g"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Association" xmi:id="_l4Q68HNlEe2IzJqmFOmi2A" memberEnd="_l4SJEnNlEe2IzJqmFOmi2A _l4SwInNlEe2IzJqmFOmi2A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l4SJEHNlEe2IzJqmFOmi2A" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l4SJEXNlEe2IzJqmFOmi2A" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_l4SwInNlEe2IzJqmFOmi2A" type="_bDuqsHL_Ee2kXpduk1yhfQ" association="_l4Q68HNlEe2IzJqmFOmi2A"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_l4SJEnNlEe2IzJqmFOmi2A" type="_aL-S8HNlEe2IzJqmFOmi2A" association="_l4Q68HNlEe2IzJqmFOmi2A"/>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DXhqMHL2Ee2kXpduk1yhfQ" name="statemachine">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_6iSD0HMhEe2ovKmxzlRy0g" name="Lift">
+        <region xmi:type="uml:Region" xmi:id="_88_LsHMhEe2ovKmxzlRy0g" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="__qv9AHMiEe2ovKmxzlRy0g" name="initialState" source="_BO7iAHMiEe2ovKmxzlRy0g" target="_B0H5wHMiEe2ovKmxzlRy0g"/>
+          <transition xmi:type="uml:Transition" xmi:id="_-KoYoHMjEe2ovKmxzlRy0g" name="callLiftButtonPressed" source="_B0H5wHMiEe2ovKmxzlRy0g" target="_g_tMAHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_p5J6IHM8Ee20Yr9SuTVKTA" event="_O_SOUHM0Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_PP9FYHMlEe2ovKmxzlRy0g" name="targetFloorAbove" source="_g_tMAHMiEe2ovKmxzlRy0g" target="_hLrLcHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_JziMEHM9Ee20Yr9SuTVKTA" event="_JHLOoHM4Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_QSdrQHMlEe2ovKmxzlRy0g" name="targetFloorBelow" source="_g_tMAHMiEe2ovKmxzlRy0g" target="_hWrhkHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_5I0XsHM7Ee20Yr9SuTVKTA" event="_Sw720HM7Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_1pK0QHMrEe20Yr9SuTVKTA" name="targetFloorOk" source="_g_tMAHMiEe2ovKmxzlRy0g" target="_hr0EEHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_PenO0HNZEe20Yr9SuTVKTA" event="_rV-S4HM7Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_W1LKUHMlEe2ovKmxzlRy0g" name="inTargetFloor" source="_hLrLcHMiEe2ovKmxzlRy0g" target="_hg7CsHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_FFmSwHM8Ee20Yr9SuTVKTA" event="_rV-S4HM7Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_Y7ldMHMlEe2ovKmxzlRy0g" name="inTargetFloor" source="_hWrhkHMiEe2ovKmxzlRy0g" target="_hg7CsHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_D9olIHM8Ee20Yr9SuTVKTA" event="_rV-S4HM7Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_gx1AsHMlEe2ovKmxzlRy0g" name="timeoutRealese" source="_hg7CsHMiEe2ovKmxzlRy0g" target="_hr0EEHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_3fWYIHM-Ee20Yr9SuTVKTA" event="_vUlWIHM-Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_hX3tAHMlEe2ovKmxzlRy0g" name="closeDoorButtonPressed" source="_hr0EEHMiEe2ovKmxzlRy0g" target="_h3JxYHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_STV0gHM-Ee20Yr9SuTVKTA" event="_34SSAHM9Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_hM9rQHMqEe20Yr9SuTVKTA" name="emergencyButtonPressed1" source="_g_tMAHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_FnDzUHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_mxuUUHMqEe20Yr9SuTVKTA" name="emergencyButtonPressed2" source="_hWrhkHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_HRIIcHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_oJEhwHMqEe20Yr9SuTVKTA" name="emergencyButtonPressed3" source="_hg7CsHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_JYLUgHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_o7So4HMqEe20Yr9SuTVKTA" name="emergencyButtonPressed4" source="_hr0EEHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_LCYMgHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_qUOKsHMqEe20Yr9SuTVKTA" name="emergencyButtonPressed5" source="_h3JxYHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_OCz3oHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_tAarMHMqEe20Yr9SuTVKTA" name="emergencyButtonPressed6" source="_hLrLcHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_QwT_sHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_yqi8cHMqEe20Yr9SuTVKTA" name="emergencyButtonReleased" source="_iGZuUHMiEe2ovKmxzlRy0g" target="_B0H5wHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_1128sHM8Ee20Yr9SuTVKTA" event="_ZqJuMHM3Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_YyJloHMrEe20Yr9SuTVKTA" name="emergencyButtonPressed0" source="_B0H5wHMiEe2ovKmxzlRy0g" target="_iGZuUHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_AOUNAHM3Ee20Yr9SuTVKTA" event="_1jiFUHM2Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_rJeiQHMrEe20Yr9SuTVKTA" name="timeoutPrepare" source="_g_tMAHMiEe2ovKmxzlRy0g" target="_B0H5wHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="__TCNgHNXEe20Yr9SuTVKTA" event="_vKDXwHNXEe20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="__RXdkHMrEe20Yr9SuTVKTA" name="doorEOLTrigger" source="_h3JxYHMiEe2ovKmxzlRy0g" target="_g_tMAHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_Tnl8kHM8Ee20Yr9SuTVKTA" event="_-UX2kHM7Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_Z5FjEHMsEe20Yr9SuTVKTA" name="weightMaxNOKTrigger" source="_hr0EEHMiEe2ovKmxzlRy0g" target="_hr0EEHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_dyWD4HM9Ee20Yr9SuTVKTA" event="_UxRE8HM9Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_h9gFcHMsEe20Yr9SuTVKTA" name="detectionBarrierTrigger" source="_h3JxYHMiEe2ovKmxzlRy0g" target="_hr0EEHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_petu8HM-Ee20Yr9SuTVKTA" event="_cOeA4HM-Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_o06pMHMsEe20Yr9SuTVKTA" name="openDoorButtonPressed" source="_h3JxYHMiEe2ovKmxzlRy0g" target="_hr0EEHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_ZZuoYHM-Ee20Yr9SuTVKTA" event="_Ue8wcHM-Ee20Yr9SuTVKTA"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_eWURcHMuEe20Yr9SuTVKTA" name="timeoutOpenDoors" source="_hr0EEHMiEe2ovKmxzlRy0g" target="_h3JxYHMiEe2ovKmxzlRy0g">
+            <trigger xmi:type="uml:Trigger" xmi:id="_QPpfoHNYEe20Yr9SuTVKTA" event="_zX4QoHM3Ee20Yr9SuTVKTA"/>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_BO7iAHMiEe2ovKmxzlRy0g" name="initialState"/>
+          <subvertex xmi:type="uml:State" xmi:id="_B0H5wHMiEe2ovKmxzlRy0g" name="Standby"/>
+          <subvertex xmi:type="uml:State" xmi:id="_g_tMAHMiEe2ovKmxzlRy0g" name="Prepare"/>
+          <subvertex xmi:type="uml:State" xmi:id="_hLrLcHMiEe2ovKmxzlRy0g" name="Move Up">
+            <entry xmi:type="uml:OpaqueBehavior" xmi:id="__qjjYHNcEe20Yr9SuTVKTA" name="doNotOpenDoors" body="">
+              <language>C</language>
+            </entry>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_hWrhkHMiEe2ovKmxzlRy0g" name="Move Down">
+            <entry xmi:type="uml:OpaqueBehavior" xmi:id="_8Ou8wHNcEe20Yr9SuTVKTA" name="doNotOpenDoors" body="">
+              <language>C</language>
+            </entry>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_hg7CsHMiEe2ovKmxzlRy0g" name="Release"/>
+          <subvertex xmi:type="uml:State" xmi:id="_hr0EEHMiEe2ovKmxzlRy0g" name="Open Door">
+            <entry xmi:type="uml:OpaqueBehavior" xmi:id="_HprdcHNaEe20Yr9SuTVKTA" name="turnOffMotors">
+              <language>C</language>
+              <body></body>
+            </entry>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_h3JxYHMiEe2ovKmxzlRy0g" name="Close door"/>
+          <subvertex xmi:type="uml:State" xmi:id="_iGZuUHMiEe2ovKmxzlRy0g" name="Emergency">
+            <entry xmi:type="uml:OpaqueBehavior" xmi:id="_9wxA8HNAEe20Yr9SuTVKTA" name="turnOffMotors">
+              <language>C</language>
+              <body>turnOffMotors</body>
+            </entry>
+          </subvertex>
+        </region>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3dRTIHL_Ee2kXpduk1yhfQ" name="lift">
+      <packagedElement xmi:type="uml:Package" xmi:id="_zq-6MHM0Ee20Yr9SuTVKTA" name="events" visibility="public">
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_O_SOUHM0Ee20Yr9SuTVKTA" name="callLiftPressed">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_clV6sHM8Ee20Yr9SuTVKTA" value="call_lift_button == 1 "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_1jiFUHM2Ee20Yr9SuTVKTA" name="emergencyButtonPressed">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_yHw6UHM8Ee20Yr9SuTVKTA" value="emergency_button_pressed == 1 "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_ZqJuMHM3Ee20Yr9SuTVKTA" name="emergencyButtonReleased">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_znZhEHM8Ee20Yr9SuTVKTA" value="emergency_button_pressed == 0 "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_JHLOoHM4Ee20Yr9SuTVKTA" name="targetAbove">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_ArC9kHM9Ee20Yr9SuTVKTA" value="current_floor &lt; target_floor &amp;&amp; target_floor_pressed"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_Sw720HM7Ee20Yr9SuTVKTA" name="targetBelow">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_Fq_pYHM9Ee20Yr9SuTVKTA" value="current_floor > target_floor &amp;&amp; target_floor_pressed"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_rV-S4HM7Ee20Yr9SuTVKTA" name="targetHere">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_H7cpEHM9Ee20Yr9SuTVKTA" value="current_floor == target_floor  &amp;&amp; target_floor_pressed"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_-UX2kHM7Ee20Yr9SuTVKTA" name="doorClosed">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_Rp45wHM8Ee20Yr9SuTVKTA" value="door_closed == true "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_UxRE8HM9Ee20Yr9SuTVKTA" name="maxWeight">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_cFOawHM9Ee20Yr9SuTVKTA" value="current_weight > max_weight "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_zX4QoHM3Ee20Yr9SuTVKTA" name="timeoutOpenDoor">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_zPeT0HM9Ee20Yr9SuTVKTA" value="time > open_door_timeout "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_34SSAHM9Ee20Yr9SuTVKTA" name="openDoorButton">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_MJ2twHM-Ee20Yr9SuTVKTA" value="door_button == 1 "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_Ue8wcHM-Ee20Yr9SuTVKTA" name="closeDoorButton">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_XHNMIHM-Ee20Yr9SuTVKTA" value="door_button == 0 "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_cOeA4HM-Ee20Yr9SuTVKTA" name="detectionBarrierTriggered">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_lfNzgHM-Ee20Yr9SuTVKTA" value="detection_barrier == 1 "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_vUlWIHM-Ee20Yr9SuTVKTA" name="timeoutRelease">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_1gGdMHM-Ee20Yr9SuTVKTA" value="time > release_timeout "/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_vKDXwHNXEe20Yr9SuTVKTA" name="timeoutPrepare">
+          <changeExpression xmi:type="uml:LiteralString" xmi:id="_7WwlMHNXEe20Yr9SuTVKTA" value="time > prepare_timeout"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aL-S8HNlEe2IzJqmFOmi2A" name="liftController"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_OYaVYHNREe20Yr9SuTVKTA" name="Satisfy-StartState-R2" client="__qv9AHMiEe2ovKmxzlRy0g" supplier="_JqS14HDfEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_K92oIHNTEe20Yr9SuTVKTA" name="Satisfy-CallLiftButton-R2.1" client="_-KoYoHMjEe2ovKmxzlRy0g" supplier="_RH0XYHDfEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4s7ZAHNTEe20Yr9SuTVKTA" name="Satisfy-OpenDoorButton-R2.1" client="_o06pMHMsEe20Yr9SuTVKTA" supplier="_RH0XYHDfEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_FmE1sHNUEe20Yr9SuTVKTA" name="Satisfy-TargetAbove-R2.2" client="_PP9FYHMlEe2ovKmxzlRy0g" supplier="_99gCIHDfEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_lg-sEHNUEe20Yr9SuTVKTA" name="Satisfy-TargetBelow-R2.2" client="_QSdrQHMlEe2ovKmxzlRy0g" supplier="_99gCIHDfEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_f3zLIHNWEe20Yr9SuTVKTA" name="Satisfy-TargetOK-R2.2" client="_1pK0QHMrEe20Yr9SuTVKTA" supplier="_RH0XYHDfEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_q0kasHNWEe20Yr9SuTVKTA" name="Satisfy-TargetAbove-R2.2.1" client="_PP9FYHMlEe2ovKmxzlRy0g" supplier="_WCTe8HDgEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_6R0L0HNWEe20Yr9SuTVKTA" name="Satisfy-TargetBelow-R2.2.1" client="_QSdrQHMlEe2ovKmxzlRy0g" supplier="_WCTe8HDgEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_-KwzUHNWEe20Yr9SuTVKTA" name="Satisfy-TargetOK-R2.2.1" client="_1pK0QHMrEe20Yr9SuTVKTA" supplier="_WCTe8HDgEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_oJXGwHNYEe20Yr9SuTVKTA" name="Satisfy-TimeoutPrepare-R2.2.1.1" client="_rJeiQHMrEe20Yr9SuTVKTA" supplier="_XLoTMHK8Ee2wuryLKl30xw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_rxU2gHNZEe20Yr9SuTVKTA" name="Satisfy-TargetAbove-R2.2.1.2" client="_PP9FYHMlEe2ovKmxzlRy0g" supplier="_qa4hoHDgEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_xx7uEHNZEe20Yr9SuTVKTA" name="Satisfy-TargetBelow-R2.2.1.2" client="_PP9FYHMlEe2ovKmxzlRy0g" supplier="_qa4hoHDgEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4MBcoHNZEe20Yr9SuTVKTA" name="Satisfy-TargetOK-R2.2.1.2" client="_1pK0QHMrEe20Yr9SuTVKTA" supplier="_qa4hoHDgEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_q6OZ8HNaEe20Yr9SuTVKTA" name="Satisfy-TargetOK-R2.3" client="_1pK0QHMrEe20Yr9SuTVKTA" supplier="_e6sxEHDiEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_594mYHNaEe20Yr9SuTVKTA" name="Satisfy-TimeoutOpenDoors-R2.3.1" client="_eWURcHMuEe20Yr9SuTVKTA" supplier="_NaEBUHDhEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="__gmoEHNaEe20Yr9SuTVKTA" name="Satisfy-TimeoutPrepare-R2.3.1" client="_rJeiQHMrEe20Yr9SuTVKTA" supplier="_NaEBUHDhEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_N7JmEHNbEe20Yr9SuTVKTA" name="Satisfy-CloseDoorsButtonP-R2.4" client="_hX3tAHMlEe2ovKmxzlRy0g" supplier="_Hbj-YHDoEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_TQ0qQHNbEe20Yr9SuTVKTA" name="Satisfy-OpenDoorsButtonP-R2.4" client="_o06pMHMsEe20Yr9SuTVKTA" supplier="_Hbj-YHDoEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZFTKUHNbEe20Yr9SuTVKTA" name="Satisfy-TimeoutOpenDoors-R2.4.1" client="_eWURcHMuEe20Yr9SuTVKTA" supplier="__FDxAHDoEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_iskmkHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP1-R3" client="_hM9rQHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_qprnEHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP2-R3" client="_mxuUUHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ukAuoHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP3-R3" client="_oJEhwHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_xBT3gHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP4-R3" client="_o7So4HMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_0FezIHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP5-R3" client="_qUOKsHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_26_nsHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP6-R3" client="_tAarMHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_9BDnAHNbEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP0-R3" client="_YyJloHMrEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_e0eowHNdEe20Yr9SuTVKTA" name="Satisfy-EmergencyState-R3" client="_iGZuUHMiEe2ovKmxzlRy0g" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1ZBkHNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP1-R3.1" client="_hM9rQHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1ZooHNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP2-R3.1" client="_mxuUUHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1aPsHNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP3-R3.1" client="_oJEhwHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1aPsXNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP4-R3.1" client="_o7So4HMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1aPsnNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP5-R3.1" client="_qUOKsHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1a2wHNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP6-R3.1" client="_tAarMHMqEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_D1a2wXNcEe20Yr9SuTVKTA" name="Satisfy-EmergencyButtonP0-R3.1" client="_YyJloHMrEe20Yr9SuTVKTA" supplier="_6BDPIHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_iwl5AHNdEe20Yr9SuTVKTA" name="Satisfy-EmergencyState-R3.1" client="_iGZuUHMiEe2ovKmxzlRy0g" supplier="_DnlhAHDpEe29K6L-WR_HEA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_fPJA8HNcEe20Yr9SuTVKTA" name="Satisfy-MaxWeight-R3.2" client="_Z5FjEHMsEe20Yr9SuTVKTA" supplier="_ky5ksHK9Ee2wuryLKl30xw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_m3pDYHNcEe20Yr9SuTVKTA" name="Satisfy-DetectionBarrier-R3.3" client="_h9gFcHMsEe20Yr9SuTVKTA" supplier="_8e4R0HK9Ee2wuryLKl30xw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_OdOtgHNdEe20Yr9SuTVKTA" name="Satisfy-DoorsClosedMoveU-R3.4" client="_hLrLcHMiEe2ovKmxzlRy0g" supplier="_9HAo0HK9Ee2wuryLKl30xw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_YR66sHNdEe20Yr9SuTVKTA" name="Satisfy-DoorsClosedMoveD-R3.4" client="_hWrhkHMiEe2ovKmxzlRy0g" supplier="_9HAo0HK9Ee2wuryLKl30xw"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NAHiEG_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NAHiEW_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBmIwG_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBmv0G_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBmv0W_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBmv0m_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBmv02_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBmv1G_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBnW4G_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBnW4W_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBnW4m_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBnW42_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBnW5G_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBnW5W_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBnW5m_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBn98G_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBn98W_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBn98m_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NBn982_2Ee2EEbAD_Q4Uyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBn99G_2Ee2EEbAD_Q4Uyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_9UlcUHAAEe2EEbAD_Q4Uyg" base_NamedElement="_9Tcz4HAAEe2EEbAD_Q4Uyg" id="R1" text="Inside the lift, there must be a &quot;target floor&quot; button for selecting the destination floor and an &quot;emergency&quot; button to activate the emergency alarm inside, as well as a &quot;close door&quot; button and a &quot;open door&quot; button to close and open the door respectively.&#xA;" base_Class="_9Tcz4HAAEe2EEbAD_Q4Uyg"/>
+  <Requirements:Requirement xmi:id="_DvBwMHABEe2EEbAD_Q4Uyg" base_NamedElement="_Du-s4HABEe2EEbAD_Q4Uyg" id="R1.2" text="Every floor must have a &quot;call lift&quot; button,  a floor display and a movement display&#xA;" base_Class="_Du-s4HABEe2EEbAD_Q4Uyg"/>
+  <Requirements:Requirement xmi:id="_Jqcm4HDfEe29K6L-WR_HEA" base_NamedElement="_JqS14HDfEe29K6L-WR_HEA" id="R2" text=" The lift must be in a &quot;standby&quot; state after it is turned on." base_Class="_JqS14HDfEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_RH3asHDfEe29K6L-WR_HEA" base_NamedElement="_RH0XYHDfEe29K6L-WR_HEA" id="R2.1" text="While in the &quot;standby&quot; state, the lift is stopped and waiting for a press of a &quot;call lift&quot; button by an user that is outside the lift or for a press of the &quot;open door&quot; button by an user that is inside the lift." base_Class="_RH0XYHDfEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_99ieYHDfEe29K6L-WR_HEA" base_NamedElement="_99gCIHDfEe29K6L-WR_HEA" id="R2.2" text="When the &quot;call lift&quot; button is pressed, the lift moves up or down in the direction of the floor where the button was pressed." base_Class="_99gCIHDfEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_WCWiQHDgEe29K6L-WR_HEA" base_NamedElement="_WCTe8HDgEe29K6L-WR_HEA" id="R2.2.1" text="When the lift arrives at the floor where the button was pressed, its doors must open so that the user can enter the lift, the doors will close and then the lift waits for the user to press the &quot;target floor&quot; button" base_Class="_WCTe8HDgEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_qa694HDgEe29K6L-WR_HEA" base_NamedElement="_qa4hoHDgEe29K6L-WR_HEA" id="R2.2.1.2" text="If the &quot;target floor&quot; button is pressed, the lift must close the door and move up or down in the direction of the floor indicated by the &quot;target floor&quot; button." base_Class="_qa4hoHDgEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_NaGdkHDhEe29K6L-WR_HEA" base_NamedElement="_NaEBUHDhEe29K6L-WR_HEA" id="R2.3.1" text="The lift must have a timeout in this stage: after the timeout ends, the door must close and the lift must return to the &quot;standby&quot; state if there isn’t another target floor selected." base_Class="_NaEBUHDhEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_e6umQHDiEe29K6L-WR_HEA" base_NamedElement="_e6sxEHDiEe29K6L-WR_HEA" id="R2.3" text="When the lift arrives to the floor where the button was pressed, it must stop and open the door, so that the user/users can exit the lift." base_Class="_e6sxEHDiEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_FPG1QHDlEe29K6L-WR_HEA" base_NamedElement="_FPFnIHDlEe29K6L-WR_HEA" id="R1.1" text="The lift must also have a movement detection barrier to detect a passage of an user when the doors are clossing, an weight cell sensor to check the total weight of the passengers, a sensor to detect if the doors are closed and a floor number display." base_Class="_FPFnIHDlEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_HblzkHDoEe29K6L-WR_HEA" base_NamedElement="_Hbj-YHDoEe29K6L-WR_HEA" id="R2.4" text="When a user is inside the lift, he may press the &quot;close door&quot; or the &quot;open door&quot; button and the lift must do the corresponding action for these button, only if it is stopped at a floor." base_Class="_Hbj-YHDoEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="__FFmMHDoEe29K6L-WR_HEA" base_NamedElement="__FDxAHDoEe29K6L-WR_HEA" id="R2.4.1" text="The &quot;open door&quot; button always sets a timeout. When the timeout ends, the lift must close the door." base_Class="__FDxAHDoEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_DnnWMHDpEe29K6L-WR_HEA" base_NamedElement="_DnlhAHDpEe29K6L-WR_HEA" id="R3.1" text="If the emergency buttons is pressed, the lift must enter the emergency state." base_Class="_DnlhAHDpEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_6BFEUHDpEe29K6L-WR_HEA" base_NamedElement="_6BDPIHDpEe29K6L-WR_HEA" id="R3" text="Safety Measurements must ativate immediatly at any time" base_Class="_6BDPIHDpEe29K6L-WR_HEA"/>
+  <Requirements:Requirement xmi:id="_XLyEMHK8Ee2wuryLKl30xw" base_NamedElement="_XLoTMHK8Ee2wuryLKl30xw" id="R2.2.1.1" text="The lift must have a timeout in this stage: if the &quot;target floor&quot; button is not pressed within the timeout, the lift returs to the &quot;standby&quot; state" base_Class="_XLoTMHK8Ee2wuryLKl30xw"/>
+  <Requirements:Requirement xmi:id="_ky8oAHK9Ee2wuryLKl30xw" base_NamedElement="_ky5ksHK9Ee2wuryLKl30xw" id="R3.2" text="The door must open if the total weight of the passengers is higher than its max capacity" base_Class="_ky5ksHK9Ee2wuryLKl30xw"/>
+  <Requirements:Requirement xmi:id="_8e78MHK9Ee2wuryLKl30xw" base_NamedElement="_8e4R0HK9Ee2wuryLKl30xw" id="R3.3" text="The door must open if any object passes through the detection barrier" base_Class="_8e4R0HK9Ee2wuryLKl30xw"/>
+  <Requirements:Requirement xmi:id="_9HETMHK9Ee2wuryLKl30xw" base_NamedElement="_9HAo0HK9Ee2wuryLKl30xw" id="R3.4" text="The door must remain closed when the lift is moving" base_Class="_9HAo0HK9Ee2wuryLKl30xw"/>
+  <Requirements:Requirement xmi:id="_do8doHL4Ee2kXpduk1yhfQ" base_NamedElement="_do6BYHL4Ee2kXpduk1yhfQ" id="R0" base_Class="_do6BYHL4Ee2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_UlNIEHL_Ee2kXpduk1yhfQ" base_Class="_UlKr0HL_Ee2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_bDxuAHL_Ee2kXpduk1yhfQ" base_Class="_bDuqsHL_Ee2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_2Hv1MHMAEe2kXpduk1yhfQ" base_Class="_2HtY8HMAEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_6Tom0HMAEe2kXpduk1yhfQ" base_Class="_6TmxoHMAEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_8jl3QHMAEe2kXpduk1yhfQ" base_Class="_8jkCEHMAEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_-lNwwHMAEe2kXpduk1yhfQ" base_Class="_-lL7kHMAEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_CKGz0HMBEe2kXpduk1yhfQ" base_Class="_CKE-oHMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_Fk3DcHMBEe2kXpduk1yhfQ" base_Class="_Fk1OQHMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_IYnkgHMBEe2kXpduk1yhfQ" base_Class="_IYlvUHMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_MWAAEHMBEe2kXpduk1yhfQ" base_Class="_MV9j0HMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_RMOvMHMBEe2kXpduk1yhfQ" base_Class="_RMMS8HMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_TQdQwHMBEe2kXpduk1yhfQ" base_Class="_TQZmYHMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_V0cQcHMBEe2kXpduk1yhfQ" base_Class="_V0abQHMBEe2kXpduk1yhfQ"/>
+  <Blocks:Block xmi:id="_Z0Gj8HMBEe2kXpduk1yhfQ" base_Class="_Z0EuwHMBEe2kXpduk1yhfQ"/>
+  <Requirements:Satisfy xmi:id="_OYfN4HNREe20Yr9SuTVKTA" base_DirectedRelationship="_OYaVYHNREe20Yr9SuTVKTA" base_Abstraction="_OYaVYHNREe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_K94dUHNTEe20Yr9SuTVKTA" base_DirectedRelationship="_K92oIHNTEe20Yr9SuTVKTA" base_Abstraction="_K92oIHNTEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_4tARgHNTEe20Yr9SuTVKTA" base_DirectedRelationship="_4s7ZAHNTEe20Yr9SuTVKTA" base_Abstraction="_4s7ZAHNTEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_FmGq4HNUEe20Yr9SuTVKTA" base_DirectedRelationship="_FmE1sHNUEe20Yr9SuTVKTA" base_Abstraction="_FmE1sHNUEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_lhAhQHNUEe20Yr9SuTVKTA" base_DirectedRelationship="_lg-sEHNUEe20Yr9SuTVKTA" base_Abstraction="_lg-sEHNUEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_f32OcHNWEe20Yr9SuTVKTA" base_DirectedRelationship="_f3zLIHNWEe20Yr9SuTVKTA" base_Abstraction="_f3zLIHNWEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_q0pTMHNWEe20Yr9SuTVKTA" base_DirectedRelationship="_q0kasHNWEe20Yr9SuTVKTA" base_Abstraction="_q0kasHNWEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_6R4dQHNWEe20Yr9SuTVKTA" base_DirectedRelationship="_6R0L0HNWEe20Yr9SuTVKTA" base_Abstraction="_6R0L0HNWEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_-K1r0HNWEe20Yr9SuTVKTA" base_DirectedRelationship="_-KwzUHNWEe20Yr9SuTVKTA" base_Abstraction="_-KwzUHNWEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_oJZjAHNYEe20Yr9SuTVKTA" base_DirectedRelationship="_oJXGwHNYEe20Yr9SuTVKTA" base_Abstraction="_oJXGwHNYEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_rxWrsHNZEe20Yr9SuTVKTA" base_DirectedRelationship="_rxU2gHNZEe20Yr9SuTVKTA" base_Abstraction="_rxU2gHNZEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_xx9jQHNZEe20Yr9SuTVKTA" base_DirectedRelationship="_xx7uEHNZEe20Yr9SuTVKTA" base_Abstraction="_xx7uEHNZEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_4MDR0HNZEe20Yr9SuTVKTA" base_DirectedRelationship="_4MBcoHNZEe20Yr9SuTVKTA" base_Abstraction="_4MBcoHNZEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_q6RdQHNaEe20Yr9SuTVKTA" base_DirectedRelationship="_q6OZ8HNaEe20Yr9SuTVKTA" base_Abstraction="_q6OZ8HNaEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_5950gHNaEe20Yr9SuTVKTA" base_DirectedRelationship="_594mYHNaEe20Yr9SuTVKTA" base_Abstraction="_594mYHNaEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="__gqScHNaEe20Yr9SuTVKTA" base_DirectedRelationship="__gmoEHNaEe20Yr9SuTVKTA" base_Abstraction="__gmoEHNaEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_N7MpYHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_N7JmEHNbEe20Yr9SuTVKTA" base_Abstraction="_N7JmEHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_TQ2fcHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_TQ0qQHNbEe20Yr9SuTVKTA" base_Abstraction="_TQ0qQHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_ZFU_gHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_ZFTKUHNbEe20Yr9SuTVKTA" base_Abstraction="_ZFTKUHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_ispfEHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_iskmkHNbEe20Yr9SuTVKTA" base_Abstraction="_iskmkHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_qptcQHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_qprnEHNbEe20Yr9SuTVKTA" base_Abstraction="_qprnEHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_ukCj0HNbEe20Yr9SuTVKTA" base_DirectedRelationship="_ukAuoHNbEe20Yr9SuTVKTA" base_Abstraction="_ukAuoHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_xBVFoHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_xBT3gHNbEe20Yr9SuTVKTA" base_Abstraction="_xBT3gHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_0FgoUHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_0FezIHNbEe20Yr9SuTVKTA" base_Abstraction="_0FezIHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_27Bc4HNbEe20Yr9SuTVKTA" base_DirectedRelationship="_26_nsHNbEe20Yr9SuTVKTA" base_Abstraction="_26_nsHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_9BGqUHNbEe20Yr9SuTVKTA" base_DirectedRelationship="_9BDnAHNbEe20Yr9SuTVKTA" base_Abstraction="_9BDnAHNbEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1bd0HNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1ZBkHNcEe20Yr9SuTVKTA" base_Abstraction="_D1ZBkHNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1cE4HNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1ZooHNcEe20Yr9SuTVKTA" base_Abstraction="_D1ZooHNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1cr8HNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1aPsHNcEe20Yr9SuTVKTA" base_Abstraction="_D1aPsHNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1dTAHNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1aPsXNcEe20Yr9SuTVKTA" base_Abstraction="_D1aPsXNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1dTAXNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1aPsnNcEe20Yr9SuTVKTA" base_Abstraction="_D1aPsnNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1d6EHNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1a2wHNcEe20Yr9SuTVKTA" base_Abstraction="_D1a2wHNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_D1d6EXNcEe20Yr9SuTVKTA" base_DirectedRelationship="_D1a2wXNcEe20Yr9SuTVKTA" base_Abstraction="_D1a2wXNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_fPKPEHNcEe20Yr9SuTVKTA" base_DirectedRelationship="_fPJA8HNcEe20Yr9SuTVKTA" base_Abstraction="_fPJA8HNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_m3rfoHNcEe20Yr9SuTVKTA" base_DirectedRelationship="_m3pDYHNcEe20Yr9SuTVKTA" base_Abstraction="_m3pDYHNcEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_OdP7oHNdEe20Yr9SuTVKTA" base_DirectedRelationship="_OdOtgHNdEe20Yr9SuTVKTA" base_Abstraction="_OdOtgHNdEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_YR8I0HNdEe20Yr9SuTVKTA" base_DirectedRelationship="_YR66sHNdEe20Yr9SuTVKTA" base_Abstraction="_YR66sHNdEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_e0hFAHNdEe20Yr9SuTVKTA" base_DirectedRelationship="_e0eowHNdEe20Yr9SuTVKTA" base_Abstraction="_e0eowHNdEe20Yr9SuTVKTA"/>
+  <Requirements:Satisfy xmi:id="_iwnuMHNdEe20Yr9SuTVKTA" base_DirectedRelationship="_iwl5AHNdEe20Yr9SuTVKTA" base_Abstraction="_iwl5AHNdEe20Yr9SuTVKTA"/>
+  <Blocks:Block xmi:id="_aMLHQHNlEe2IzJqmFOmi2A" base_Class="_aL-S8HNlEe2IzJqmFOmi2A"/>
+</xmi:XMI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a11:stateMachine
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:a11="http://www.example.org/a11"
+    xsi:schemaLocation="http://www.example.org/a11 a11.ecore"
+    name="LightSwitch"
+    start="//@state.0">
+  <transition
+      name="OnPressed"
+      action="BrightnessOnDimmed"
+      sourceState="//@state.0"
+      targetState="//@state.1"/>
+  <transition
+      name="OnPressed"
+      action="BrightnessOnMedium"
+      sourceState="//@state.1"
+      targetState="//@state.2"/>
+  <transition
+      name="OnPressed"
+      action="BrightnessOnHigh"
+      sourceState="//@state.2"
+      targetState="//@state.3"/>
+  <transition
+      name="OnPressed"
+      action="BrightnessOnDimmed"
+      sourceState="//@state.3"
+      targetState="//@state.1"/>
+  <transition
+      name="OffPressed"
+      action="BrightnessOFF"
+      sourceState="//@state.1"
+      targetState="//@state.0"/>
+  <transition
+      name="OffPressed"
+      action="BrightnessOFF"
+      sourceState="//@state.2"
+      targetState="//@state.0"/>
+  <transition
+      name="OffPressed"
+      action="BrightnessOFF"
+      sourceState="//@state.3"
+      targetState="//@state.0"/>
+  <state name="LightOff"/>
+  <state name="LightOnDimmed"/>
+  <state name="LightOnMedium"/>
+  <state name="LightOnHigh"/>
+</a11:stateMachine>
