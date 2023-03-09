@@ -1,42 +1,61 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{MQTT Security}
+\section{\acs{MQTT} Security}
 \label{sec:report}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-MQTT stands for Message Queuing Telemetry Transport. It is a lightweight messaging protocol designed for low-bandwidth, high-latency, and unreliable networks. It is commonly used in the Internet of Things (IoT) to enable communication between devices and applications.
+In today's digital age, security is a paramount concern that affects us in almost every aspect of our lives. 
+From conducting financial transactions online to accessing personal documents and purchasing goods, security is an indispensable part of our daily routine. 
+While the Internet of Things (IoT) has the potential to make our lives easier, more efficient, and comfortable, it also comes with its own set of risks since when we connect any device, we expose a vast amount of sensitive data that can be easily accessed with malicious intention.
 
-MQTT uses a publish/subscribe messaging model, where devices publish messages to topics, and other devices subscribe to topics to receive those messages. Topics are hierarchical, and clients can subscribe to entire hierarchies of topics using wildcards.
+Some types of data are meant to be private, and protecting them is essential to maintain confidentiality, integrity, availability and even security. 
 
-MQTT messages consist of a header and a payload. The header contains information such as the topic, message quality of service (QoS), and other metadata. The payload contains the actual message data.
+As the number of connected devices in our lives increases and the amount of data collected skyrockets, security is an ever more pressing issue that cannot be ignored. 
+It is crucial that we remain vigilant and take proactive measures to protect ourselves and our data from potential threats.
 
-MQTT supports three levels of QoS:
+\ac{MQTT} is a messaging protocol which uses a publish-subscribe messaging model based on a client-server architecture, with a central broker that acts as an intermediary between publishers and subscribers.
+The broker is responsible for receiving messages from publishers, storing them until they can be delivered to subscribers, and delivering them to interested parties (minimizing the network bandwidth and the amount of processing required by devices).
 
-QoS 0: At most once delivery. The message is sent once and is not guaranteed to be delivered. This level of QoS is suitable for non-critical data such as sensor readings.
-QoS 1: At least once delivery. The message is sent at least once and is guaranteed to be delivered, but may be delivered multiple times. This level of QoS is suitable for critical data such as alarms or alerts.
-QoS 2: Exactly once delivery. The message is sent exactly once and is guaranteed to be delivered only once. This level of QoS is suitable for mission-critical data such as financial transactions.
+One of the key benefits of \acs{MQTT} is its ability to support \ac{QoS} levels. QoS determines the level of guarantee that is provided for the delivery of messages. 
+There are three levels of QoS that can be used:
 
-security is indeed a critical aspect of any communication protocol, and MQTT provides several security mechanisms to ensure secure communication between devices and applications. Here are some of the security features of MQTT:
+\begin{itemize}
+    \item \acs{QoS} 0: At most once delivery
+    \item \acs{QoS} 1: At least once delivery
+    \item \acs{QoS} 2: Exactly once delivery
+\end{itemize}
 
-Transport Layer Security (TLS): MQTT supports TLS encryption for secure transport of messages over the network. TLS provides encryption, integrity, and authentication, protecting against eavesdropping, tampering, and unauthorized access.
+But this feature can be a security risk if the retained message contains sensitive information.
 
-User authentication: MQTT allows devices and applications to authenticate each other using username and password authentication. This helps to prevent unauthorized access to the MQTT broker or topics.
+Security considerations are critical when designing and implementing any communication protocol, especially when it comes to IoT or industrial control systems, where security breaches can have severe consequences.
 
-Access control: MQTT brokers can restrict access to topics and messages based on user roles and permissions. This allows fine-grained control over who can publish or subscribe to specific topics.
+The \acs{MQTT} protocol has been designed with security in mind, and several security features have been implemented. 
+\acs{MQTT} provides several security mechanisms to ensure secure communication between devices and applications.
+It supports \ac{TLS} that can provide encryption for secure transport of messages (between the client and the broker), protecting against eavesdropping, and unauthorized access.
 
-Message encryption: MQTT messages can be encrypted end-to-end using application-level encryption mechanisms. This provides an additional layer of security, ensuring that the message content is protected even if it is intercepted by an attacker.
+\acs{MQTT} also allows authentication, in which devices need to authenticate with each other using username and password authentication, and authorization, brokers can restrict access to topics and messages based on user roles and permissions.
+This helps to prevent unauthorized access to the \acs{MQTT} broker or topics and a more detailed control over who can publish or subscribe to specific topics.
+The messages, in \acs{MQTT}, can be encrypted end-to-end using application-level encryption mechanisms to provide an additional layer of security.
 
-Retained messages: MQTT supports retained messages, which are messages that are stored by the broker and are delivered to any new subscribers to the topic. This can be a security risk if the retained message contains sensitive information. MQTT brokers should be configured to limit the use of retained messages.
+However, like any communication protocol, it is not immune to security vulnerabilities and it can be exploited by attackers. 
+Some example of \acs{MQTT} exploits are:
+\begin{itemize}
+    \item Unauthorized Access: This can occur when an attacker gains access to the broker and can read, modify, or inject messages into the network
+    \item \ac{DoS}: This can occur when an attacker floods the broker with a large number of requests or messages, overwhelming the server and causing it to crash or become unresponsive.
+    \item \ac{MitM} Attacks: When an attacker intercepts communications between two devices, allowing them to eavesdrop on messages, modify them, or inject their own messages.
+    \item Information Leakage: If these messages are intercepted or accessed by unauthorized parties, it can result in data leakage, theft, or other security risks.
+    \item Malware Injection: Malware injection attacks allowing to take control of the network and potentially gain access to sensitive data or other resources.
+\end{itemize}
 
-Security considerations are critical when designing and implementing any communication protocol, especially when it comes to IoT and industrial control systems, where security breaches can have severe consequences.
+\ac{CVE} is a public unique identifier assigned to a software vulnerability that allows for easier tracking and sharing of information about the exploits and vulnerabilities.
+\ac{CVE} database can be use to find known exploits IDs related to \acs{MQTT}. Using the exploits refered before, examples of CVE are:
+\begin{itemize}
+    \item CVE-2017-7655 - Unauthorized Access exploit. To mitigate it is important to implement proper authentication mechanisms
+    \item CVE-2017-7652 - \ac{DoS} exploit. It can be mitigated by implementing TLS encryption and authentication
+    \item CVE-2018-12537 - \ac{MitM} exploit. Implementing TLS encr can mitigate this exploit
+    \item CVE-2021-28167 - Information Leakage exploit
+    \item CVE-2020-12206 - Malware Injection exploit. If the broker is isolated from the rest of the network, and that access to it is restricted to only authorized users this exploit can be mitigated.
+\end{itemize}
 
-The MQTT protocol has been designed with security in mind, and several security features have been implemented, as I discussed in my previous answer. However, like any software, there may be vulnerabilities that could be exploited by attackers. Therefore, it is important to keep an eye on the Common Vulnerabilities and Exposures (CVE) database to understand any known security issues.
-
-After checking the CVE database, I found several CVEs related to MQTT, some of which could be used to exploit the protocol's security. One example is CVE-2017-7652, which is a vulnerability in the Mosquitto MQTT broker that allows an attacker to cause a denial of service (DoS) by sending a specially crafted message to the broker. This vulnerability can be exploited remotely, allowing an attacker to disrupt the MQTT broker's operation, leading to communication disruptions between IoT devices.
-
-Another example is CVE-2017-7653, which is another vulnerability in the Mosquitto MQTT broker that allows an attacker to cause a DoS by sending a specially crafted message that triggers an infinite loop in the broker. This vulnerability can also be exploited remotely, allowing an attacker to disrupt the MQTT broker's operation.
-
-These CVEs show that even though MQTT has been designed with security in mind, there are still vulnerabilities that can be exploited by attackers. It is important to keep MQTT implementations up to date with the latest security patches and to properly configure and use the security features to minimize the risk of attacks.
-
+It is important to keep track of identified vulnerabilities (with the help of CVE database) and mitigate according to the system needs.
 
 \clearpage
-

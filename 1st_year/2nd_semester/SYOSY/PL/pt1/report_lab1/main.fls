@@ -1340,10 +1340,17 @@ INPUT ./chapters/report.tex
 INPUT ./chapters/report.tex
 INPUT ./chapters/report.tex
 INPUT ./chapters/report.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Light-osf-ts1.tfm
 INPUT ./images//logo.jpg
 INPUT ./images//logo.jpg
 INPUT images//logo.jpg
 INPUT ./images//logo.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Light-osf-ts1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Light-osf-ts1--base.tfm
 INPUT ./images//logo.jpg
 INPUT ./images//logo.jpg
 INPUT images//logo.jpg
@@ -1355,6 +1362,7 @@ INPUT ./other/acronyms.aux
 INPUT ./chapters/report.aux
 INPUT ./chapters/report.aux
 INPUT ./chapters/report.aux
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb
