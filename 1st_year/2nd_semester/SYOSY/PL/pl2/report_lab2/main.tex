@@ -1,0 +1,171 @@
+% ////////////////////////////////////////////////////////////////////////
+% ///
+% /// @author Carlos Rijo <1101626@isep.ipp.pt>
+% ///
+% /// @date 05-03-2023
+% ///
+% ////////////////////////////////////////////////////////////////////////
+
+\documentclass[a4paper,11pt,twoside]{article}
+
+\usepackage[sfdefault,light]{FiraSans}              % option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
+\usepackage[numbers]{natbib}	                    % use natbib for the references
+
+\usepackage{makeidx}	                            % Creating indexes
+\usepackage{graphicx,wrapfig}	                    % Importing graphics
+\graphicspath{{images/}}                            %Setting the graphics path
+
+\usepackage[a4paper,margin=1in]{geometry}	        % Page layout
+\usepackage{listings}	                            % Source code snippets
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{30pt}
+\def\code#1{\texttt{#1}}
+\usepackage{lastpage}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{floatrow}
+\usepackage[printonlyused]{acronym}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{sfmath}
+\usepackage{siunitx}
+\usepackage[hidelinks]{hyperref}	               % Hypertext marks
+\usepackage{bookmark}
+\usepackage[toc,page]{appendix}
+\usepackage[nottoc]{tocbibind}
+\usepackage{parskip}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{array}                                 % For tabular alignment
+% \usepackage[backend=biber, style=ieee, sorting=none]{biblatex}
+% \addbibresource{bibliography.bib}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage[siunitx]{circuitikz}
+\usepackage{verbatim}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\newcommand{\todo}[1]{\textcolor{red}{#1}}
+
+\definecolor{ceiiablue}{RGB}{0, 185, 225}
+\definecolor{cultured}{RGB}{245, 245, 245}
+\definecolor{olivegreen}{RGB}{166, 168, 103}
+
+% Table float box with bottom caption, box width adjusted to content
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+% Define a new column type with horizontal centering
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\DeclareCaptionFont{captiontext}{\color{black}}
+\DeclareCaptionFont{captionlabel}{\bfseries\color{ceiiablue}}
+\DeclareCaptionFormat{listing}{\colorbox{white}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{#1#2#3}}}
+
+\captionsetup[figure]{labelfont=captionlabel,textfont=captiontext}
+\captionsetup[table]{labelfont=captionlabel,textfont=captiontext}
+\captionsetup[lstlisting]{labelfont=captionlabel,textfont=captiontext}
+
+\lstset{ 
+  backgroundcolor=\color{cultured},  % choose the background color
+  basicstyle=\footnotesize\ttfamily, % the size of the fonts that are used for the code
+  breakatwhitespace=false,           % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                   % sets automatic line breaking
+  commentstyle=\color{olivegreen},   % comment style
+  extendedchars=true,                % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  keepspaces=true,                   % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{ceiiablue},    % keyword style
+  showspaces=false,                  % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,            % underline spaces within strings only
+  showtabs=false,                    % show tabs within strings adding particular underscores
+  tabsize=2 	                     % sets default tabsize to 2 spaces
+}
+
+\makeindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% User defined functions and variables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\HRule}{\rule{\linewidth}{0.3mm}}                       % Defines a new command for the horizontal lines, change thickness here
+\newcommand{\Version}{1.0}
+\newcommand{\Logo}{logo.jpg}
+\newcommand{\Product}{cover.jpg}
+\newcommand{\Title}{Assignment 2}
+\newcommand{\Subtitle}{Report}
+\newcommand{\DocumentDate}{Mar 15, 2023}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header / Footer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhead{}                                                        % Clear all header fields
+\fancyhead[L]{\includegraphics[height=25pt]{\Logo}}
+\fancyhead[C]{\Title - \Subtitle}
+%\fancyhead[R]{v\Version}
+\fancyfoot{}                                                        % Clear all footer fields
+\fancyfoot[C]{\thepage/\pageref{LastPage}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{titlepage}
+    %\hspace*{-0.7cm}\includegraphics[width=0.25\linewidth]{\Logo}\\ %  logo
+    %[1cm]
+    \textcolor{ceiiablue}{\textbf{\Huge \Title}}\\                  % Title
+    \HRule \\[0.2cm]
+    \textsc{\Large \Subtitle}                                       % Subtitle
+    \vfill
+    \begin{center}
+        \includegraphics[width=0.8\linewidth]{\Product}
+    \end{center}
+
+    {\raggedleft\vfill\itshape{
+        Carlos Rijo - 1101626
+        \newline
+        \DocumentDate}
+    }
+\end{titlepage}
+
+% \section*{Version History}
+% \begin{center}
+%     \begin{tabular}{c|c|P{3cm}|p{7cm}}
+%         \textbf{Version} & \textbf{Date} & \textbf{Author} & \textbf{Description}                     \\\hline
+%         1.0              & 2023-02-20    & CAR             & Created the first issue of the document. \\
+%     \end{tabular}
+% \end{center}
+\clearpage
+
+\tableofcontents
+\newpage
+% \listoffigures
+% \newpage
+% \listoftables
+% \newpage
+\include{./other/acronyms}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Having sections/chapters in their own files keeps things organized.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \input does not use a \clearpage before and after content, \include will.
+% IMPORTANT! do not write the .tex file extension when using \include!
+
+%\include{./chapters/overview}
+\include{./chapters/report}
+\clearpage
+% \renewcommand*{\bibname}{References}
+% \bibliographystyle{./other/IEEEtranN}
+% \bibliography{./other/bibliography}
+
+\end{document}

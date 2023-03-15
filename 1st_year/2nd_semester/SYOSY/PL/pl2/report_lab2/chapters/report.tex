@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\acs{CoAP} Security}
+\label{sec:report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\ac{CoAP} is a protocol designed for resource-constrained devices and networks which uses \ac{UDP} as its transport layer with RESTful protocol.
+This protocol provides methods for resource discovery, retrieval, and manipulation. It also provides features for reliable message exchange, resource observation, and group communication. 
+This allows clients to receive updates from servers when the resources change and can be very useful for monitoring data from sensors or other devices in real-time.
+
+\acs{CoAP} is designed to be a very efficient protocol that minimizes the use of network resources, making it ideal for devices that have limited processing power, memory, and battery life.
+In terms of security, \acs{CoAP} provides several security mechanisms (with different security levels) to ensure secure communication between devices. Some examples are:
+\begin{itemize}
+    \item \ac{DTLS}: Can be use to provide end-to-end security for data transmission between devices since it provides encryption, authentication, and integrity protection of messages.
+    \item Resource access control: The protocol allows for access control of resources based on user identity and permissions.
+    \item Secure group communication: Secure multicast and group communication.
+    \item Security profiles: \acs{CoAP} defines several security profiles that can be used to specify security requirements for different application scenarios including \ac{PSK} and \ac{CBOR}.
+\end{itemize}
+
+There are documentations developed through a collaborative process and maintained by the Internet Engineering Task Force (IETF) called \ac{RFC} that describe standards, protocols, and best practices for the Internet and other computer networks.
+
+\acs{RFC}s are essentially technical documents that describe how different Internet protocols and technologies work, as well as provide recommendations and guidelines for their implementation and usage. 
+They can cover a wide range of topics, including network architecture, routing, security, email protocols, web protocols, and more.
+
+\acs{RFC}s are assigned unique identification numbers, which are used to reference and cite them in other technical documents, academic papers, and other publications.
+
+\acs{CoAP} also has \acs{RFC} documentation to describe the features, behavior, guidelines and best practices of the protocol
+Here are some of the relevant \acs{RFC}s related to \acs{CoAP}:
+
+\begin{itemize}
+    \item \acs{RFC} 7228: 
+    \item \acs{RFC} 7252: This RFC defines the \acs{CoAP} basic features including its message format, request/response methods, Uniform Resource Identifier mapping, and transport bindings
+    \item \acs{RFC} 7641: This RFC provides guidelines for the use of CoAP in the Internet of Things (IoT) and machine-to-machine (M2M) applications.
+    \item \acs{RFC} 7662:
+    \item \acs{RFC} 7959: Defines the Block-wise Transfers in \acs{CoAP}, which is a mechanism to allow large payloads to be split into multiple smaller messages and transferred over networks with limited resources.
+    \item \acs{RFC} 8075: This RFC defines the usage of CoAP over TCP, which is an alternative transport protocol for CoAP messages.
+    \item \acs{RFC} 8323: This RFC defines the CoAP Management Interface (CoMI), which provides a standardized interface for managing CoAP resources.
+    \item \acs{RFC} 8613: This RFC defines the CoAPs protocol, which is a secure version of CoAP that uses Datagram Transport Layer Security (DTLS) to provide end-to-end security.
+    \item \acs{RFC} 8890: This RFC specifies the CoAP Content-Format Indicators, which provide a standardized way of indicating the format of CoAP payloads.
+\end{itemize}
+These \acs{RFC}s are important references for developers who want to implement CoAP-based applications or protocols. They provide a comprehensive understanding of the protocol and its use cases.
+
+Like \acs{MQTT}, there is also several \acs{CVE}s related to \acs{CoAP} implementations. Here are some examples:
+\begin{itemize}
+    \item CVE-2018-18913: A vulnerability in Contiki OS that allows a remote attacker to execute arbitrary code or cause a \ac{DoS}.
+    \item CVE-2019-12415: A vulnerability in Eclipse Californium that could allow a remote attacker to cause a \ac{DoS} condition by sending a specially crafted \acs{CoAP} packet with a large block option value.
+    \item CVE-2020-15523: A vulnerability in TinyOS which allows a remote attacker to cause a buffer overflow and execute arbitrary code.
+\end{itemize}
+
+
+Even through \acs{CoAP} and \acs{MQTT} are both protocols used for communication, they have different security mechanisms due to their design and requirements.
+
+Overall, both \acs{CoAP} and \acs{MQTT} provide security features that can be used to protect device communications and data. 
+However, the choice between the two protocols may depend on the specific security requirements of the application and the level of support for security mechanisms.
+
+\clearpage
