@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include <stdio.h>
 #include <pthread.h>
 #include <string.h>
 #include <time.h>
