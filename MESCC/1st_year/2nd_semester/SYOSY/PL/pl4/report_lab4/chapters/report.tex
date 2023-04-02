@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Communication Protocol Comparison}
+\label{sec:report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In the last classes we learned and explored \ac{MQTT}, \ac{CoAP} and \ac{DDS}.
+These three different protocols have its own strengths and weaknesses and are mainly used in the field of the \ac{IoT} and \ac{M2M} communications.
+
+Here is a brief explanation:
+\begin{itemize}
+    \item \acs{MQTT}: Publish-subscribe messaging protocol that is designed for low-bandwidth networks. 
+    Uses Transport Layer Security (TLS) for encryption.
+    It uses a broker to route messages between publishers and subscribers. 
+    Standardized by the IETF.
+    \item \acs{CoAP}: Request-response protocol that supports caching, multicast and observe features. 
+    Uses Datagram Transport Layer Security (DTLS) for encryption.
+    It has a client-server architecture and it is designed for low-power wireless networks. 
+    Standardized by the IETF.
+    \item \acs{DDS}: Data-centric publish-subscribe messaging protocol that supports the exchange of large amounts of data between different devices. 
+    Supports multiple security mechanisms, including \acs{TLS}, \acs{DTLS} and \acs{SRTP}.
+    It is designed for real-time systems.
+    Standardized by the Object Management Group.
+\end{itemize}
+
+All three protocols are lightweight and efficient in terms of bandwidth and power consumption, they use asynchronous messaging with different levels of \acs{QoS}, in all three of them it is easy to add or remove devices maintaining the architecture and are platform-independent protocols which can be used in various operating systems and hardware.
+
+Comparing them in terms of architecture, \acs{MQTT} and \acs{DDS} use publish-subscribe architecture, where the publisher sends data to a broker, which routes the data to all interested subscribers.
+While \acs{CoAP} uses a client-server architecture in which the client sends a request to a server, which sends a response back.
+
+When it comes to network requirements and message size, \acs{MQTT} and \acs{CoAP} are designed to be implemented in networks with limited bandwidth and have a limit on the message size, typically around 256 bytes.
+\acs{DDS}, on the other hand, can handle large amounts of data making it suitable for high-bandwidth networks.
+
+Even thought all three protocols support security features such as authentication and encryption, \acs{DDS} provides more advanced security features such as access control, data encryption and secure discovery.
+
+\acs{MQTT} and \acs{CoAP} support different levels of \ac{QoS} for message delivery (three levels in \acs{MQTT} and four in \acs{CoAP}).
+In contrast, \acs{DDS} supports configurable \acs{QoS} levels based on the importance of the data.
+
+It is important to notice that \acs{DDS} is a middleware protocol, while \acs{MQTT} and \acs{CoAP} are application layer protocols.
+Meaning that \acs{DDS} can provide more advanced features such as content-based filtering, data caching, and distributed coordination.
+
+Each of the studied protocol can be used in a variety of different applications depending on the specific requirements and use case.
+
+\acs{MQTT} protocol gives the functionality to remote control and monitor the system:
+\begin{itemize}
+    \item Smart Home automation: Connecting various smart home devices.
+    \item Industrial Automation: Connecting industrial devices such as sensors, PLCs and HMIs.
+    \item Remote sensing: Connecting central servers to remote sensors like weather stations and environmental monitoring devices.
+\end{itemize}
+
+Likewise, \acs{CoAP} can also give the functionality to remote control and monitor systems that, in the case of this protocol, are low-power:
+\begin{itemize}
+    \item Smart city applications: Connecting various smart city devices such as streetlights, parking sensors and waste management systems.
+    \item Healthcare monitoring: Connecting central servers to wearable devices such as fitness trackers and medical monitors.
+    \item Building automation: Connecting various building automation systems such as lighting, HVAC and security systems.
+\end{itemize}
+
+\acs{DDS} should be used is applications where it is important to have real-time decision making, coordination, situational awareness and monitoring:
+\begin{itemize}
+    \item Autonomous Vehicles: Connecting various systems in an autonomous vehicle such as sensors, actuators and control systems.
+    \item Aerospace and Defense: Connecting various systems in an aerospace or defense application like radar systems, communication systems and control systems.
+    \item Medical equipment: Connecting various medical equipment, for example patient monitors, ventilators and infusion pumps.
+\end{itemize}
+\clearpage
