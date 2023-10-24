@@ -59,10 +59,12 @@ int numoutside = 0;
 
 void testpoint(struct d_complex);
 void testpoint_par(struct d_complex);
+void testpoint_task(struct d_complex);
 
 result_t seq_mandel();
 result_t par_mandel(int num_threads);
 result_t par_for(int num_threads);
+result_t par_task(int num_threads);
 
 int main(int argc, char *argv[])
 {
@@ -112,10 +114,20 @@ int main(int argc, char *argv[])
     int par_for_num_outside = numoutside;
     printf("[PAR FOR]Area of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", par_for_res.area, par_for_res.error, par_for_num_outside);
 
+    printf("\nParallel Mandelbrot Task... ");
+    begin = omp_get_wtime();
+    result_t par_task_res = par_task(num_threads);
+    end = omp_get_wtime();
+    double par_task_time = (double)(end - begin);
+    printf("done.\n");
+    int par_task_num_outside = numoutside;
+    printf("[PAR TASK]Area of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", par_task_res.area, par_task_res.error, par_task_num_outside);
+
     printf("\n- ==== Performance ==== -\n");
     printf("Sequential time: %fs\n", seq_time);
     printf("Parallel   time: %fs\n", par_time);
     printf("Parallel FOR time: %fs\n", par_for_time);
+    printf("Parallel Task time: %fs\n", par_task_time);
 
     // if (expected.area != par_res.area || expected.error != par_res.error || expected_num_outside != par_num_outside)
     if (expected.area != par_res.area || expected.error != par_res.error || expected_num_outside != par_num_outside || expected.area != par_for_res.area || expected.error != par_for_res.error || expected_num_outside != par_for_num_outside)
@@ -320,4 +332,34 @@ void testpoint2(struct d_complex c)
             break;
         }
     }
+}
+
+result_t par_task(int num_threads)
+{
+    double area = 0, error = 0, eps = 1.0e-5;
+    numoutside = 0;
+    omp_set_num_threads(num_threads);
+
+//#pragma omp task shared(c)
+    for (int i = 0; i < NPOINTS; i++)
+    {
+        for (int j = 0; j < NPOINTS; j++)
+        {
+            #pragma omp task shared(c)
+            c.r = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + eps;
+            
+            #pragma omp task shared(c)
+            c.i = 1.125 * (double)(j) / (double)(NPOINTS) + eps;
+            
+            #pragma omp taskwait
+            testpoint_par(c);
+        }
+    }
+
+    // Calculate area of set and error estimate and output the results
+    area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
+    error = area / (double)NPOINTS;
+
+    result_t result = {area, error};
+    return result;
 }
