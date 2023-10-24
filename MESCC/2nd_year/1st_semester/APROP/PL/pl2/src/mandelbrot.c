@@ -39,7 +39,7 @@
 
 #define DEFAULT_NUM_THREADS 4
 
-#define NPOINTS 1000
+#define NPOINTS 2000
 #define MAXITER 1000
 
 typedef struct result_t
@@ -58,8 +58,11 @@ struct d_complex c;
 int numoutside = 0;
 
 void testpoint(struct d_complex);
+void testpoint_par(struct d_complex);
+
 result_t seq_mandel();
 result_t par_mandel(int num_threads);
+result_t par_for(int num_threads);
 
 int main(int argc, char *argv[])
 {
@@ -77,10 +80,10 @@ int main(int argc, char *argv[])
     result_t expected;
 
     printf("Sequential Mandelbrot... ");
-    clock_t begin = clock();
+    double begin = omp_get_wtime();
     expected = seq_mandel();
-    clock_t end = clock();
-    double seq_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    double end = omp_get_wtime();
+    double seq_time = (double)(end - begin);
     printf("done.\n");
     printf("[SEQ]Area of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", expected.area, expected.error, numoutside);
 
@@ -89,57 +92,137 @@ int main(int argc, char *argv[])
     numoutside = 0;
 
     printf("\nParallel Mandelbrot... ");
-    begin = clock();
+    begin = omp_get_wtime();
     result_t par_res = par_mandel(num_threads);
-    end = clock();
-    double par_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    end = omp_get_wtime();
+    double par_time = (double)(end - begin);
     printf("done.\n");
     int par_num_outside = numoutside;
     printf("[PAR]Area of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", par_res.area, par_res.error, par_num_outside);
 
+    // // resetting values
+    // expected_num_outside = numoutside;
+    // numoutside = 0;
+    printf("\nParallel Mandelbrot FOR... ");
+    begin = omp_get_wtime();
+    result_t par_for_res = par_for(num_threads);
+    end = omp_get_wtime();
+    double par_for_time = (double)(end - begin);
+    printf("done.\n");
+    int par_for_num_outside = numoutside;
+    printf("[PAR FOR]Area of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", par_for_res.area, par_for_res.error, par_for_num_outside);
+
     printf("\n- ==== Performance ==== -\n");
     printf("Sequential time: %fs\n", seq_time);
     printf("Parallel   time: %fs\n", par_time);
+    printf("Parallel FOR time: %fs\n", par_for_time);
 
-    if (expected.area != par_res.area || expected.error != par_res.error || expected_num_outside != par_num_outside)
+    // if (expected.area != par_res.area || expected.error != par_res.error || expected_num_outside != par_num_outside)
+    if (expected.area != par_res.area || expected.error != par_res.error || expected_num_outside != par_num_outside || expected.area != par_for_res.area || expected.error != par_for_res.error || expected_num_outside != par_for_num_outside)
     {
         printf("\n!Assert failed!\n");
         printf("Sequential:\n");
         printf("\tArea of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", expected.area, expected.error, expected_num_outside);
         printf("Parallel:\n");
         printf("\tArea of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", par_res.area, par_res.error, par_num_outside);
+        printf("PAR FOR:\n");
+        printf("\tArea of Mandlebrot set = %12.8f +/- %12.8f (outside: %d)\n", par_for_res.area, par_for_res.error, par_for_num_outside);
     }
 }
 
-/* YOUR IMPLEMENTATIONS HERE! */
 result_t par_mandel(int num_threads)
 {
-    int endValue = NPOINTS * NPOINTS;
+    int i, j;
     double area, error, eps = 1.0e-5;
 
+    //   Loop over grid of points in the complex plane which contains the Mandelbrot set,
+    //   testing each point to see whether it is inside or outside the set.
     omp_set_num_threads(num_threads);
-
-#pragma omp parallel
+#pragma omp parallel default(shared) firstprivate(eps) private(i, c, j)
+    // reduction(+:numoutside)
     {
-        int threadID = omp_get_thread_num();
-        int blockSize = endValue / num_threads;
-        int initValue = threadID * blockSize;
-
-        for (int k = initValue; k < endValue; k++)
+        int tid = omp_get_thread_num();
+        int BS = NPOINTS * NPOINTS / num_threads;
+        int REST = (NPOINTS * NPOINTS) % num_threads;
+        int init = BS * tid;
+        int fini = BS * (tid + 1);
+        if (tid + 1 == num_threads)
         {
-            c.r = -2.0 + 2.5 * (double)(k) / (double)(NPOINTS) + eps;
-            c.i = 1.125 * (double)(k) / (double)(NPOINTS) + eps;
+            fini += REST;
+        }
 
-#pragma omp critical
-            testpoint(c);
+        for (int p = init; p < fini; p++)
+        {
+            i = p / NPOINTS;
+            j = p % NPOINTS;
+            // printf("i:%d,j%d\n",i,j);
+            c.r = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + eps;
+            c.i = 1.125 * (double)(j) / (double)(NPOINTS) + eps;
+            testpoint_par(c);
         }
     }
+
     // Calculate area of set and error estimate and output the results
+
     area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
     error = area / (double)NPOINTS;
 
     result_t result = {area, error};
     return result;
+}
+
+result_t par_mandel_2(int num_threads)
+{
+    int i, j;
+    double area, error, eps = 1.0e-5;
+
+    //   Loop over grid of points in the complex plane which contains the Mandelbrot set,
+    //   testing each point to see whether it is inside or outside the set.
+    omp_set_num_threads(num_threads);
+#pragma omp parallel for default(shared) firstprivate(eps) private(c, j)
+    // reduction(+:numoutside)
+    for (i = 0; i < NPOINTS; i++)
+    {
+        for (j = 0; j < NPOINTS; j++)
+        {
+            c.r = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + eps;
+            c.i = 1.125 * (double)(j) / (double)(NPOINTS) + eps;
+            testpoint_par(c);
+        }
+    }
+
+    // Calculate area of set and error estimate and output the results
+
+    area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
+    error = area / (double)NPOINTS;
+
+    result_t result = {area, error};
+    return result;
+}
+
+void testpoint_par(struct d_complex c)
+{
+
+    // Does the iteration z=z*z+c, until |z| > 2 when point is known to be outside set
+    // If loop count reaches MAXITER, point is considered to be inside the set
+
+    struct d_complex z;
+    int iter;
+    double temp;
+
+    z = c;
+    for (iter = 0; iter < MAXITER; iter++)
+    {
+        temp = (z.r * z.r) - (z.i * z.i) + c.r;
+        z.i = z.r * z.i * 2 + c.i;
+        z.r = temp;
+        if ((z.r * z.r + z.i * z.i) > 4.0)
+        {
+#pragma omp atomic
+            numoutside++;
+            break;
+        }
+    }
 }
 
 result_t seq_mandel()
@@ -154,6 +237,32 @@ result_t seq_mandel()
             c.r = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + eps;
             c.i = 1.125 * (double)(j) / (double)(NPOINTS) + eps;
             testpoint(c);
+        }
+    }
+
+    // Calculate area of set and error estimate and output the results
+    area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
+    error = area / (double)NPOINTS;
+
+    result_t result = {area, error};
+    return result;
+}
+
+result_t par_for(int num_threads)
+{
+    double area = 0, error = 0, eps = 1.0e-5;
+    numoutside = 0;
+    omp_set_num_threads(num_threads);
+
+#pragma omp parallel for default(shared) firstprivate(eps) private(c) collapse(2)
+    for (int i = 0; i < NPOINTS; i++)
+    {
+        for (int j = 0; j < NPOINTS; j++)
+        {
+            c.r = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + eps;
+            c.i = 1.125 * (double)(j) / (double)(NPOINTS) + eps;
+            // #pragma omp critical
+            testpoint_par(c);
         }
     }
 
@@ -183,6 +292,31 @@ void testpoint(struct d_complex c)
         if ((z.r * z.r + z.i * z.i) > 4.0)
         {
             numoutside++;
+            break;
+        }
+    }
+}
+
+void testpoint2(struct d_complex c)
+{
+    // Does the iteration z=z*z+c, until |z| > 2 when point is known to be outside set
+    // If loop count reaches MAXITER, point is considered to be inside the set
+
+    struct d_complex z;
+    int iter;
+    double temp;
+
+    z = c;
+    for (iter = 0; iter < MAXITER; iter++)
+    {
+        temp = (z.r * z.r) - (z.i * z.i) + c.r;
+        z.i = z.r * z.i * 2 + c.i;
+        z.r = temp;
+        if ((z.r * z.r + z.i * z.i) > 4.0)
+        {
+#pragma omp critical
+            numoutside++;
+
             break;
         }
     }

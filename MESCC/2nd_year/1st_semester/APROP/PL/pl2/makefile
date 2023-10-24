@@ -24,3 +24,8 @@ quicksort: src/quick_sort.c
 quicksort_run: quicksort
 	bin/quicksort $(NUM_THREADS)
 
+bubblesort: src/bubble_sort.c
+	gcc -Wall src/bubble_sort.c -o bin/bubblesort -fopenmp 
+
+bubblesort_run: bubblesort
+	bin/bubblesort $(NUM_THREADS)

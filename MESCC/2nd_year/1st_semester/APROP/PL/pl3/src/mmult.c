@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
     printf("done.\n");
     assert(C, expected);
 
-    printf("Thread working with parallel nested task... ");
+    printf("Thread working with parallel task p/ line... ");
     begin = omp_get_wtime();
     pTask_line(num_threads);
     end = omp_get_wtime();
@@ -122,8 +122,8 @@ int main(int argc, char *argv[])
     printf("Parallel lines time: %fs\n", per_row_time);
     printf("Parallel block time: %fs\n", per_block_time);
     printf("For loop time: %fs\n", par_seq_time);
-    printf("parallel single task time: %fs\n", pTask_cell_time);
-    printf("parallel nested task time: %fs\n", pTask_line_time);
+    printf("parallel task p/ cell time: %fs\n", pTask_cell_time);
+    printf("parallel task p/ line time: %fs\n", pTask_line_time);
 }
 
 /**

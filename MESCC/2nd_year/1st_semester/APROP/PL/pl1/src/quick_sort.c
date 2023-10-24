@@ -23,31 +23,29 @@
 
 #define ARR_LEN 2000 // The length of the array, increase to have more execution time
 #define MAX_PRINT 30
-#define FIRST_VALUES " (FIRST " STR(MAX_PRINT)")"
-#define MIN_VAL -ARR_LEN*10 // Minimum value of the array elements
-#define MAX_VAL ARR_LEN*10 // Maximum value of the array elements
+#define FIRST_VALUES " (FIRST " STR(MAX_PRINT) ")"
+#define MIN_VAL -ARR_LEN * 10 // Minimum value of the array elements
+#define MAX_VAL ARR_LEN * 10  // Maximum value of the array elements
 
-
-
-//Quick sort versions
+// Quick sort versions
 void quick_sort_seq(int array[], int low, int high);
 int split(int array[], int low, int high);
-void swap_element(int* x, int* y);
+void swap_element(int *x, int *y);
 
 void a_quick_sort_par(int array[], int low, int high);
 void b_quick_sort_par(int array[], int low, int high);
-
+void *quick_sort_thread(void *data);
 
 /**
  * Utility Functions
-*/
+ */
 int generate_random(int min, int max);
 void copy(int from[], int to[], int size);
 void assert(int expected[], int result[], int size);
-void print_array(int array[], int size, const char* version);
+void print_array(int array[], int size, const char *version);
 
 /**
- *  The main function. 
+ *  The main function.
  *  Algorithm:
  * 	1. Generate array with random values: 'original' array
  *  2. Copy 'original' array to another one named 'array'
@@ -57,93 +55,123 @@ void print_array(int array[], int size, const char* version);
  *  6. Run parallel version of quicksort with 'array'
  *  7. Compare results via the assert function: 'expected' vs 'array'
  * */
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[])
+{
 	int i, array[ARR_LEN], original[ARR_LEN], expected[ARR_LEN];
 
 	/* Use current time as the seed for random generator */
 	srand(time(0));
 
 	/* Generate the elements of the array randomly */
-	for (i = 0; i < ARR_LEN; i++){
+	for (i = 0; i < ARR_LEN; i++)
+	{
 		original[i] = generate_random(MIN_VAL, MAX_VAL);
 	}
 	printf("\n");
-	copy(original,array,ARR_LEN);
+	copy(original, array, ARR_LEN);
 
 	printf("Sequential Sorting...");
 	/* Call the quick_sort function to sort the array */
 	clock_t begin = clock();
 	quick_sort_seq(array, 0, ARR_LEN - 1);
 	clock_t end = clock();
-    double seq_time = (double)(end - begin) / CLOCKS_PER_SEC;
+	double seq_time = (double)(end - begin) / CLOCKS_PER_SEC;
 	printf(" done!\n");
-	copy(array,expected,ARR_LEN);
+	copy(array, expected, ARR_LEN);
 
-	//copy original to array again
-	copy(original,array,ARR_LEN);
+	// copy original to array again
+	copy(original, array, ARR_LEN);
 
-	//you can print an array using the "print" function, as below
-	//print_array(array,ARR_LEN,"Version X");
-	//note that it will only print the first 'MAX_PRINT' elements if the array is too large
+	// you can print an array using the "print" function, as below
+	// print_array(array,ARR_LEN,"Version X");
+	// note that it will only print the first 'MAX_PRINT' elements if the array is too large
 	printf("Parallel A Sorting...");
 	begin = clock();
 	a_quick_sort_par(array, 0, ARR_LEN - 1);
-    end = clock();
-    double par_a_time =  (double)(end - begin) / CLOCKS_PER_SEC;
+	end = clock();
+	double par_a_time = (double)(end - begin) / CLOCKS_PER_SEC;
 	printf(" done!\n");
-	//then invoke the following code to validate your version
-	assert(expected,array,ARR_LEN);
+	// then invoke the following code to validate your version
+	assert(expected, array, ARR_LEN);
 
-	//copy original to array again
-	copy(original,array,ARR_LEN);
-	
+	// copy original to array again
+	copy(original, array, ARR_LEN);
+
 	printf("Parallel B Sorting...");
 	begin = clock();
 	b_quick_sort_par(array, 0, ARR_LEN - 1);
-    end = clock();
-    double par_b_time =  (double)(end - begin) / CLOCKS_PER_SEC;
+	end = clock();
+	double par_b_time = (double)(end - begin) / CLOCKS_PER_SEC;
 	printf(" done!\n");
-	//then invoke the following code to validate your version
-	assert(expected,array,ARR_LEN);
-
+	// then invoke the following code to validate your version
+	assert(expected, array, ARR_LEN);
 
 	printf("\n- ==== Performance ==== -\n");
-    printf("Sequential time: %fs\n",seq_time);
-    printf("Parallel A time: %fs\n",par_a_time);
-    printf("Parallel B time: %fs\n",par_b_time); 
+	printf("Sequential time: %fs\n", seq_time);
+	printf("Parallel A time: %fs\n", par_a_time);
+	printf("Parallel B time: %fs\n", par_b_time);
 	return 0;
 }
-
 
 /************ Parallel versions of Quicksort algorithm *****************/
 /**
  * Version where each recursive call is performed by a new thread
  **/
-void a_quick_sort_par(int array[], int low, int high) {
+void *quick_sort_thread(void *data)
+{
+	int *params = (int *)data;
+	int low = params[0];
+	int high = params[1];
+	int *array = (int *)params[2]; // Get the array pointer
 
-	quick_sort_seq(array,low,high); //replace with your code!
+	a_quick_sort_par(array, low, high);
+
+	pthread_exit(NULL);
+}
+
+void a_quick_sort_par(int array[], int low, int high)
+{
+
+	if (low < high)
+	{
+		int m = split(array, low, high);
+
+		// Create a new thread to sort the left sublist
+		pthread_t left_thread;
+		int left_data[2] = {low, m - 1};
+		pthread_create(&left_thread, NULL, quick_sort_thread, left_data);
+
+		// Sort the right sublist in the current thread
+		quick_sort_seq(array, m + 1, high);
+
+		// Wait for the left thread to finish
+		pthread_join(left_thread, NULL);
+	}
 }
 
 /**
- * Version where recursive calls are done by the same thread 
+ * Version where recursive calls are done by the same thread
  * if the size of the sublist is smaller than a predefined threshold
  **/
-void b_quick_sort_par(int array[], int low, int high) {
+void b_quick_sort_par(int array[], int low, int high)
+{
 
-	quick_sort_seq(array,low,high); //replace with your code!
+	quick_sort_seq(array, low, high); // replace with your code!
 }
 
 /************ Seq. Quicksort algorithm *****************/
 /* The main function to perform the sort operation */
-void quick_sort_seq(int array[], int low, int high) {
+void quick_sort_seq(int array[], int low, int high)
+{
 
 	/* The main process of the function */
-	if (low < high) {
+	if (low < high)
+	{
 		int m;
-		
+
 		/* Specify the middle of the array by calling the split function */
 		m = split(array, low, high);
-		
+
 		/* Call the quick_sort function to sort the antecedent array */
 		quick_sort_seq(array, low, m - 1);
 		/* Call the quick_sort function to sort the subsequent array */
@@ -155,14 +183,16 @@ void quick_sort_seq(int array[], int low, int high) {
 its correct position in sorted array, and places all smaller (smaller than
 the index) to left of the index and all greater elements to right of the
 index */
-int split(int array[], int low, int high) {
+int split(int array[], int low, int high)
+{
 	int i, index = array[high];
 	int m = low - 1;
 
 	/* The main process of the function */
 	for (i = low; i <= high - 1; i++)
-		if (array[i] < index) {
-			m++;				
+		if (array[i] < index)
+		{
+			m++;
 			/* Call the swap_element function to swap the elements */
 			swap_element(&array[m], &array[i]);
 		}
@@ -173,7 +203,8 @@ int split(int array[], int low, int high) {
 }
 
 /* Swap two elements */
-void swap_element(int* x, int* y) {
+void swap_element(int *x, int *y)
+{
 
 	/* The main process of the function */
 	int temp;
@@ -182,36 +213,43 @@ void swap_element(int* x, int* y) {
 	*y = temp;
 }
 
-
 /************ Util. Functions *****************/
 
 /* Generate a random number */
-int generate_random(int min, int max) {
+int generate_random(int min, int max)
+{
 	/* Generate a random number between min and max */
 	return (rand() % (max - min + 1)) + min;
 }
 
-void copy(int from[], int to[], int size) {
-	for(int i = 0; i < size;i++){
+void copy(int from[], int to[], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
 		to[i] = from[i];
 	}
 }
 
-void assert(int expected[], int result[], int size) {
-	for(int i = 0; i < size;i++){
-		if(expected[i] != result[i]){
-			printf("[ERROR]Bad result in position %d: expect %d, but %d was found.\n",i,expected[i], result[i]);
+void assert(int expected[], int result[], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		if (expected[i] != result[i])
+		{
+			printf("[ERROR]Bad result in position %d: expect %d, but %d was found.\n", i, expected[i], result[i]);
 			exit(1);
 		}
 	}
 }
 
-void print_array(int array[], int size, const char* version) {
-	
-	printf("%s%s:",version, size> MAX_PRINT?FIRST_VALUES:"");
-	int limit = size > MAX_PRINT? MAX_PRINT: size;
-	for (int i = 0; i < limit; i++){
-		printf(" %d",array[i]);
+void print_array(int array[], int size, const char *version)
+{
+
+	printf("%s%s:", version, size > MAX_PRINT ? FIRST_VALUES : "");
+	int limit = size > MAX_PRINT ? MAX_PRINT : size;
+	for (int i = 0; i < limit; i++)
+	{
+		printf(" %d", array[i]);
 	}
 	printf("\n");
 }

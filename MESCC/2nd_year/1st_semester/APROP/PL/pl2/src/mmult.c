@@ -21,9 +21,9 @@
 #include <omp.h>
 
 // Matrices dimensions, where A is LxM, B is MxN, and C is LxN
-#define L 503
-#define M 503
-#define N 503
+#define L 1024
+#define M 1024
+#define N 1024
 
 #define DEFAULT_NUM_THREADS 4
 
@@ -41,6 +41,7 @@ double sequential_time;
  * Matrix multiplication: A[L,M]* B[M,N] = C[L,N]
  **/
 void seq();
+void par_seq();
 void par_row(int num_threads);
 void par_block(int num_threads);
 
@@ -71,20 +72,30 @@ int main(int argc, char *argv[])
     setup();
 
     printf("Thread working on lines... ");
-    clock_t begin = clock();
+    double begin = omp_get_wtime();
     par_row(num_threads);
-    clock_t end = clock();
-    double per_row_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    double end = omp_get_wtime();
+    double per_row_time = (double)(end - begin);
     printf("done.\n");
     assert(C, expected);
 
     c_clean();
 
     printf("Thread working on region (block)... ");
-    begin = clock();
+    begin = omp_get_wtime();
     par_block(num_threads);
-    end = clock();
-    double per_block_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    end = omp_get_wtime();
+    double per_block_time = (double)(end - begin);
+    printf("done.\n");
+    assert(C, expected);
+
+    c_clean();
+
+    printf("Thread working with for loop... ");
+    begin = omp_get_wtime();
+    par_seq(num_threads);
+    end = omp_get_wtime();
+    double par_seq_time = (double)(end - begin);
     printf("done.\n");
     assert(C, expected);
 
@@ -92,6 +103,7 @@ int main(int argc, char *argv[])
     printf("Sequential time:     %fs\n", sequential_time);
     printf("Parallel lines time: %fs\n", per_row_time);
     printf("Parallel block time: %fs\n", per_block_time);
+    printf("For loop time: %fs\n", par_seq_time);
 }
 
 /***
@@ -123,7 +135,6 @@ void par_row(int num_threads)
     }
 
     int restValue = L % num_threads;
-    // printf("\nrestValue %d\n", restValue);
     int initValue = L - restValue;
 
     if (restValue > 0)
@@ -164,9 +175,8 @@ void par_block(int num_threads)
     }
 
     int restValue = (L * N) % num_threads;
-    printf("\nrestValue %d\n", restValue);
     int initValue = (L * N) - restValue;
-    
+
     if (restValue > 0)
     {
         for (int l = initValue; l < L * N; l++)
@@ -192,6 +202,26 @@ void seq()
             for (int m = 0; m < M; m++)
             {
                 sum += A[l][m] * B[m][n];
+            }
+            C[l][n] = sum;
+        }
+    }
+}
+
+void par_seq(int num_threads)
+{
+
+    omp_set_num_threads(num_threads);
+#pragma omp parallel for collapse(2)
+    for (int l = 0; l < L; l++)
+    {
+        for (int n = 0; n < N; n++)
+        {
+            int sum = 0;
+            for (int m = 0; m < M; m++)
+            {
+                sum += A[l][m] * B[m][n];
+                // printf("\n%d", omp_get_thread_num());
             }
             C[l][n] = sum;
         }
@@ -267,10 +297,10 @@ void setup()
 {
     fill((int *)A, L, M);
     fill((int *)B, M, N);
-    clock_t begin = clock();
+    double begin = omp_get_wtime();
     seq();
-    clock_t end = clock();
-    sequential_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    double end = omp_get_wtime();
+    sequential_time = (double)(end - begin);
 
     for (int l = 0; l < L; l++)
     {

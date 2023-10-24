@@ -83,10 +83,10 @@ int main(int argc, char* argv[]) {
 
 	printf("Sequential Sorting...");
 	/* Call the quick_sort function to sort the array */
-	clock_t begin = clock();
+	double begin = omp_get_wtime();
 	quick_sort_seq(array, 0, ARR_LEN - 1);
-	clock_t end = clock();
-    double seq_time = (double)(end - begin) / CLOCKS_PER_SEC;
+	double end = omp_get_wtime();
+    double seq_time = (double)(end - begin);
 	printf(" done!\n");
 	copy(array,expected,ARR_LEN);
 
@@ -97,10 +97,10 @@ int main(int argc, char* argv[]) {
 	//print_array(array,ARR_LEN,"Version X");
 	//note that it will only print the first 'MAX_PRINT' elements if the array is too large
 	printf("Parallel Sorting...");
-	begin = clock();
+	begin = omp_get_wtime();
 	quick_sort_par(array, 0, ARR_LEN - 1, num_threads);
-    end = clock();
-    double par_a_time =  (double)(end - begin) / CLOCKS_PER_SEC;
+    end = omp_get_wtime();
+    double par_a_time =  (double)(end - begin);
 	printf(" done!\n");
 	//then invoke the following code to validate your version
 	assert(expected,array,ARR_LEN);

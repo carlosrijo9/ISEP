@@ -1,10 +1,10 @@
 # Requirements
 
-GCC compiler and openmp library (should be included in gcc).
+- GCC compiler and openmp library (should be included in gcc).
 
-An IDE for programming is recommended (we suggest: VSCode) 
+- An IDE for programming is recommended (we suggest: VSCode) 
 
-# Initial setup
+# Setup
 
 Run the following command
 ```
@@ -12,7 +12,7 @@ make init
 ```
 This will simply to create a "bin" folder
 
-# Build
+## Build
 To build the exercises:
 
 ```
@@ -27,37 +27,41 @@ or
 make quicksort
 ```
 
-# Running
+## Running
 To run the exercises:
 
 ```
-bin/mmult [num_threads]
+./bin/mmult [num_threads]
 ```
 or
 ```
-bin/mandel [num_threads]
+./bin/mandel [num_threads]
 ```
 or
 ```
-bin/quicksort [num_threads]
+./bin/quicksort [num_threads]
 ```
 Note that num_threads is optional and will default to the defined DEFAULT_NUM_THREADS
 
-# Build and Run in the same command
-All of the previous targetshave an extra target that allows one to build and run in the same command, by simply adding the "_run" prefix of the make target. For instance, to build and immediatelly run the mmult example, simply use:
+# Excercises
+## 1 - Matrix multiplication
+STATUS: DONE
 
-```
-make mmult_run [NUM_THREADS=<num_threads>]
-```
-This will build mmult with "make mmult" and then run the program with "bin/mmult $NUM_THREADS"
+TODO: REPORT
+## 2 - Area of Mandelbrot Set
+STATUS: DONE
 
-Note that NUM_THREADS=<num_threads> is optional, and will default to the value in the environment variable defined in the Makefile. More specifically, if you want to use 8 threads and use this command:
-```
-make quicksort_run NUM_THREADS=8
-```
-If you don't want to specify the number of threads and use the default value (which in principle will be 4), then just use:
-```
-make quicksort_run
-```
+TODO: REPORT
+## 3 - Parallel Loops
+STATUS: IN PROGRESS
 
-
+TODO: REPORT
+## 4 - Quick Sort
+STATUS: IN PROGRESS
+TODO: REPORT
+## 5 - Bubble Sort
+STATUS: IN PROGRESS
+TODO: REPORT
+## 6 - Linked List
+STATUS: IN PROGRESS
+TODO: REPORT

@@ -23,7 +23,7 @@
 #define STR_HELPER(v) #v
 #define STR(v) STR_HELPER(v)
 
-#define ARR_LEN 50000 // The length of the array, increase to have more execution time
+#define ARR_LEN 500000 // The length of the array, increase to have more execution time
 #define MAX_PRINT 30
 #define FIRST_VALUES " (FIRST " STR(MAX_PRINT) ")"
 #define MIN_VAL -ARR_LEN * 10 // Minimum value of the array elements
@@ -156,17 +156,14 @@ void sortTaskGroup(int num_threads, int array[], int low, int high)
 			int m;
 #pragma omp taskgroup
 			{
-
-				int n = sizeof(array);
-#pragma omp task if (n < 1000)
 				/* Specify the middle of the array by calling the split function */
 				m = split(array, low, high);
 
-#pragma omp task
+#pragma omp task firstprivate(m)
 				/* Call the quick_sort function to sort the antecedent array */
 				quick_sort_seq(array, low, m - 1);
 
-#pragma omp task
+#pragma omp task firstprivate(m)
 				/* Call the quick_sort function to sort the subsequent array */
 				quick_sort_seq(array, m + 1, high);
 			}

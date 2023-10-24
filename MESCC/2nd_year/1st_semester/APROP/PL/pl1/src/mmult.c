@@ -37,9 +37,11 @@ double sequential_time;
 
 #define MIN_RAND -10
 #define MAX_RAND 10
+pthread_mutex_t sum_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 typedef struct data_t
 {
+    int col;
     int row;
 } data_t;
 
@@ -81,7 +83,7 @@ int main(int argc, char *argv[])
 
     printf("Threads by Position...");
     clock_t begin = clock();
-    // a_par_by_pos();
+    a_par_by_pos();
     clock_t end = clock();
     double pos_time = (double)(end - begin) / CLOCKS_PER_SEC;
     printf("done.\n");
@@ -120,20 +122,55 @@ int main(int argc, char *argv[])
 /**
  * Version where each thread is responsible for a single position of the result matrix
  **/
-
-void *myFunctB(void *data)
+void *myFunctA(void *data)
 {
     data_t *mydata = (data_t *)data;
     int l = mydata->row;
-    for (int j = 0; j > L; j++)
-    {
-        calc(l, j);
-    }
+    int c = mydata->col;
+    calc(l, c);
 }
 
 void a_par_by_pos()
 {
-    seq();
+
+    data_t myData[L][N];
+    pthread_t tid[L * N];
+    int k = 0;
+
+    for (int i = 0; i < L; i++)
+    {
+
+        for (int j = 0; j < N; j++)
+        {
+            myData[i][j].col = i;
+            myData[i][j].row = j;
+            // printf("create thread %d\n", k);
+            pthread_create(&tid[k++], NULL, myFunctA, &myData[i][j]);
+        }
+    }
+
+    for (int i = 0; i < L * N; i++)
+    {
+        pthread_join(tid[i], NULL);
+    }
+}
+
+void *myFunctB(void *data)
+{
+    data_t *mydata = (data_t *)data;
+    int row = mydata->row;
+
+    for (int n = 0; n < N; n++)
+    {
+        int sum = 0;
+        for (int m = 0; m < M; m++)
+        {
+            sum += A[row][m] * B[m][n];
+        }
+        C[row][n] = sum;
+    }
+
+    pthread_exit(NULL);
 }
 
 /**
@@ -141,14 +178,13 @@ void a_par_by_pos()
  **/
 void b_par_by_row()
 {
-    data_t myData[L];
     pthread_t tid[L];
-    int k = 0;
+    data_t myData[L];
 
     for (int i = 0; i < L; i++)
     {
         myData[i].row = i;
-        pthread_create(&tid[k++], NULL, myFunctB, &myData[i]);
+        pthread_create(&tid[i], NULL, myFunctB, &myData[i]);
     }
 
     for (int i = 0; i < L; i++)
@@ -160,9 +196,60 @@ void b_par_by_row()
  * Version where each thread is responsible for a number of user input lines
  * of the result matrix
  **/
+void *myFunctC(void *data)
+{
+    data_t *mydata = (data_t *)data;
+    int start_row = mydata->row;
+    int num_lines_per_thread = mydata->col;
+
+    for (int l = start_row; l < start_row + num_lines_per_thread; l++)
+    {
+        for (int n = 0; n < N; n++)
+        {
+            int sum = 0;
+            for (int m = 0; m < M; m++)
+            {
+                sum += A[l][m] * B[m][n];
+            }
+
+            // Lock the mutex before updating the shared 'C' matrix
+            pthread_mutex_lock(&sum_mutex);
+            C[l][n] = sum;
+            pthread_mutex_unlock(&sum_mutex);
+        }
+    }
+
+    pthread_exit(NULL);
+}
+
 void c_par_by_user_rows(int num_lines_per_thread)
 {
-    seq(); // replace this with your code!
+    pthread_t tid[N_THREADS];
+    data_t myData[N_THREADS];
+
+    int lines_per_thread = L / N_THREADS;
+    int remaining_lines = L % N_THREADS;
+
+    for (int i = 0; i < N_THREADS; i++)
+    {
+        myData[i].row = i * lines_per_thread;
+        myData[i].col = num_lines_per_thread;
+
+        // Distribute any remaining lines evenly among threads
+        if (remaining_lines > 0)
+        {
+            myData[i].col += 1;
+            remaining_lines--;
+        }
+
+        // printf("Thread %d: row %d, lines %d\n", i, myData[i].row, myData[i].col);
+        pthread_create(&tid[i], NULL, myFunctC, &myData[i]);
+    }
+
+    for (int i = 0; i < N_THREADS; i++)
+    {
+        pthread_join(tid[i], NULL);
+    }
 }
 
 /**
