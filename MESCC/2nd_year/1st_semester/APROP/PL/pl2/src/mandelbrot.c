@@ -139,7 +139,6 @@ result_t par_mandel(int num_threads)
     //   testing each point to see whether it is inside or outside the set.
     omp_set_num_threads(num_threads);
 #pragma omp parallel default(shared) firstprivate(eps) private(i, c, j)
-    // reduction(+:numoutside)
     {
         int tid = omp_get_thread_num();
         int BS = NPOINTS * NPOINTS / num_threads;

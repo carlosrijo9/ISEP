@@ -1,6 +1,8 @@
-BIN= init mmult mandel_seq mandel_par mandel
+BIN= init mmult mandel quicksort bubblesort linked
 
 NUM_THREADS = 4
+SEARCH = 10
+DELETE = 100
 all: $(BIN)
 
 init:
@@ -29,3 +31,9 @@ bubblesort: src/bubble_sort.c
 
 bubblesort_run: bubblesort
 	bin/bubblesort $(NUM_THREADS)
+
+linked: src/linked.c
+	gcc -Wall src/linked.c -o bin/linked -fopenmp 
+
+linked_run: linked
+	bin/linked $(NUM_THREADS)

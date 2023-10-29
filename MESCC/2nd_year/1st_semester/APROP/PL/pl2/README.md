@@ -52,16 +52,25 @@ TODO: REPORT
 STATUS: DONE
 
 TODO: REPORT
-## 3 - Parallel Loops
-STATUS: IN PROGRESS
 
-TODO: REPORT
 ## 4 - Quick Sort
-STATUS: IN PROGRESS
-TODO: REPORT
+REPORT
+
+RESULT NOT AS EXPECTED!!
+
+![Quick Sort - Short Array](/img/quick_short.png "Quick Sort - Short Array")
+
+![Quick Sort - Long Array](/img/quick_long.png "Quick Sort - Long Array")
+
 ## 5 - Bubble Sort
-STATUS: IN PROGRESS
-TODO: REPORT
+REPORT
+
+![Bubble Sort - Short Array](/img/bubble_short.png "Bubble Sort - Short Array")
+
+![Bubble Sort - Long Array](/img/bubble_long.png "Bubble Sort - Long Array")
+
 ## 6 - Linked List
-STATUS: IN PROGRESS
-TODO: REPORT
+REPORT
+
+RESULT NOT AS EXPECTED!!
+![Linked List](/img/linked.png "Linked List")
