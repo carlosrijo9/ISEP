@@ -102,14 +102,28 @@ void task(int num_threads)
 void taskBS(int num_threads)
 {
 #pragma omp parallel
-    for (int k = 0; k < BS - 1; k + BS)
+    int threadID = omp_get_thread_num();
+    int blockSize = (row * col) / num_threads;
+
+    int initValue = threadID * blockSize;
+    int endValue = (threadID + 1) * blockSize;
+    int numThreads = omp_get_num_threads(); // Get the number of threads
+
+    int rowsPerThread = row / numThreads; // Determine rows per thread
+
+    // Calculate the block indices for this thread
+    int startRow = threadID * rowsPerThread;
+    int endRow = (threadID == numThreads - 1) ? row : startRow + rowsPerThread;
+
+    
+    for (int k = startRow; k < endRow - 1; k += BS)
     {
-        for (int l = 0; l < BS - 1; l + BS)
+        for (int l = 1; l < col - 1; l += BS)
         {
 #pragma omp task depend(in : M[k][l - 1], M[k - 1][l]) depend(out : M_taskBS[k][l])
-            for (int i = 1; i < k; i++)
+            for (int i = k; i < k + BS; i++)
             {
-                for (int j = 1; j < l; j++)
+                for (int j = l; j < l + BS; j++)
                 {
                     M_taskBS[i][j] = (M[i][j - 1] + M[i - 1][j] + M[i][j + 1] + M[i + 1][j]) / 4.0;
                 }
