@@ -40,7 +40,7 @@ void sort_par(int x[], int size, int num_threads)
 	{
 		changes = 0;
 #pragma omp parallel for private(i)
-		for (i = 0; i < ARR_LEN - 1; i = i + 1)
+		for (i = 0; i < ARR_LEN - 1; i++)
 		{
 			if (x[i] > x[i + 1])
 			{

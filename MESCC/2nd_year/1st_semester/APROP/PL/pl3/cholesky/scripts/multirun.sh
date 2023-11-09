@@ -13,16 +13,16 @@ export IFS=";"
 # ITS=10
 
 THREADS="08"
-MSIZES="1024;2048"
-BSIZES="16"
-ITS=1
+MSIZES="1024;2048;4096"
+BSIZES="16;32;64"
+ITS=5
 
 for MS in $MSIZES; do
   for BS in $BSIZES; do
     for thread in $THREADS; do
       for (( it=1; it<=$ITS; it++ ))
       do
-        bin/$PROGRAM $MS $BS $thread >> "$(date +"%Y_%m_%d")_cholesky.csv"
+        bin/$PROGRAM $MS $BS $thread >> "$(date +"%Y-%m-%d_%H")h_cholesky_$MS.csv"
       done
     done
   done

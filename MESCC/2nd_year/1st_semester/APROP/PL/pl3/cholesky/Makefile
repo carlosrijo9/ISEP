@@ -2,14 +2,12 @@ PROGRAM=cholesky
 
 TARGETS=$(PROGRAM)
 
-CC = gcc
-# CC = clang
+#CC = gcc
+CC = clang
 
-CFLAGS = -fopenmp
-# -I$(MKL_INC_DIR)
-# -L$(MKL_LIB_DIR) 
+CFLAGS = -fopenmp -I$(MKL_INC_DIR) -L$(MKL_LIB_DIR) 
 
-LIBS  = -lmkl_sequential -lmkl_core -lmkl_rt -lpthread
+LIBS  = -lmkl_sequential -lmkl_core -lmkl_rt -lpthread -lm
 EXTRA = -std=c99 -O3 -Wall -Wno-unused 
 INCS  = 
 

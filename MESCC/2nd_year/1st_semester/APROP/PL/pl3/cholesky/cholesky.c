@@ -16,20 +16,26 @@ void cholesky_blocked_par_for(const int ts, const int nt, double *Ah[nt][nt])
       // Diagonal Block factorization
       potrf(Ah[k][k], ts, ts);
 
-      // Triangular systems
-      for (int i = k + 1; i < nt; i++)
+#pragma omp parallel
       {
-         trsm(Ah[k][k], Ah[k][i], ts, ts);
-      }
-
-      // Update trailing matrix
-      for (int i = k + 1; i < nt; i++)
-      {
-         for (int j = k + 1; j < i; j++)
+// Triangular systems
+#pragma omp for
+         for (int i = k + 1; i < nt; i++)
          {
-            gemm(Ah[k][i], Ah[k][j], Ah[j][i], ts, ts);
+            trsm(Ah[k][k], Ah[k][i], ts, ts);
          }
-         syrk(Ah[k][i], Ah[i][i], ts, ts);
+
+#pragma omp for //collapse(2)
+         // Update trailing matrix
+         for (int i = k + 1; i < nt; i++)
+         {
+            // #pragma omp for
+            for (int j = k + 1; j < i; j++)
+            {
+               gemm(Ah[k][i], Ah[k][j], Ah[j][i], ts, ts);
+            }
+            syrk(Ah[k][i], Ah[i][i], ts, ts);
+         }
       }
    }
 }
@@ -83,6 +89,7 @@ void cholesky_task_deps(int ts, int nt, double *Ah[nt][nt])
             // Diagonal Block factorization
             potrf(Ah[k][k], ts, ts);
 
+#pragma omp taskloop
             // Triangular systems
             for (int i = k + 1; i < nt; i++)
             {
@@ -322,14 +329,11 @@ int main(int argc, char *argv[])
    // printf("  task_dep_performance (gflops):%f\n", task_dep_gflops);
    // printf("==========================================\n");
 
-   printf("\nCHOLESKY Results for,-,-,-,-\n");
-   printf("matrix size,%dx%d\n", n, n);
-   printf("block size,%dx%d\n", ts, ts);
-   printf("number of threads,%d\n", num_threads);
-   printf(" , seq, par_for, task, task_dep\n");
-   printf("Time (s), %f,%f,%f,%f\n", seq_time, par_for_time, task_time, task_dep_time);
-   printf("Performance (gflops), %f,%f,%f,%f\n", seq_gflops, par_for_gflops, task_gflops, task_dep_gflops);
-   printf("-, -, -, -, -\n");
+   printf(" ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads\n");
+   printf("seq,%f,%f,%d,%d,%d\n", seq_time, seq_gflops, n, ts, num_threads);
+   printf("par_for,%f,%f\n", par_for_time, par_for_gflops);
+   printf("task,%f,%f\n", task_time, task_gflops);
+   printf("task_dep,%f,%f\n", task_dep_time, task_dep_gflops);
 
    free(original_matrix);
    free(expected_matrix);

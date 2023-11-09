@@ -1,0 +1,1 @@
+/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/APROP/PL/pl4/ex1/target/debug/ex1: /home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/APROP/PL/pl4/ex1/src/func.rs /home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/APROP/PL/pl4/ex1/src/main.rs

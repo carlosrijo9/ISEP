@@ -1,0 +1,55 @@
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.024421,14.655997,1024,16,8
+par_for,0.424864,0.842421
+task,0.017305,20.682695
+task_dep,0.124798,2.867948
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.018967,18.869995,1024,16,8
+par_for,0.014741,24.279717
+task,0.017624,20.307788
+task_dep,0.123522,2.897571
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.022380,15.992510,1024,16,8
+par_for,0.016657,21.487140
+task,0.029560,12.108126
+task_dep,0.097142,3.684428
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.022424,15.961040,1024,16,8
+par_for,0.026011,13.759946
+task,0.035649,10.040017
+task_dep,0.097397,3.674793
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.019649,18.215099,1024,16,8
+par_for,0.020332,17.603073
+task,0.035560,10.065171
+task_dep,0.099551,3.595296
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.012103,29.573005,1024,32,8
+par_for,0.011449,31.260904
+task,0.005259,68.057790
+task_dep,0.011081,32.299851
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.009408,38.042644,1024,32,8
+par_for,0.030079,11.899225
+task,0.010595,33.782545
+task_dep,0.037788,9.471543
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.010092,35.466707,1024,32,8
+par_for,0.009962,35.927141
+task,0.005316,67.324677
+task_dep,0.029503,12.131606
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.009693,36.926774,1024,32,8
+par_for,0.009023,39.667161
+task,0.016859,21.229319
+task_dep,0.009973,35.886997
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.009479,37.759224,1024,32,8
+par_for,0.009417,38.008853
+task,0.005325,67.211147
+task_dep,0.030326,11.802205
+Wrong value at position [0,65], expected 0.00332, but got 0.10610 instead (diff. of 0.10278)
+Wrong value at position [0,65], expected 0.00010, but got 0.10610 instead (diff. of 0.10599)
+Wrong value at position [0,65], expected 0.00010, but got 0.10610 instead (diff. of 0.10599)
+Wrong value at position [0,65], expected 0.00010, but got 0.10610 instead (diff. of 0.10599)
+Wrong value at position [0,65], expected 0.00332, but got 0.10610 instead (diff. of 0.10278)
