@@ -1,0 +1,75 @@
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.164643,17.390995,2048,32,8
+par_for,0.102548,27.921766
+task,0.040052,71.489810
+task_dep,0.097676,29.314271
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.098433,29.088855,2048,32,8
+par_for,0.057457,49.833890
+task,0.053384,53.636550
+task_dep,0.128423,22.295962
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.086490,33.105623,2048,32,8
+par_for,0.086551,33.082437
+task,0.056885,50.334969
+task_dep,0.124022,23.087037
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.102305,27.988002,2048,32,8
+par_for,0.115978,24.688411
+task,0.079342,36.088382
+task_dep,0.240114,11.924812
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.080333,35.643153,2048,32,8
+par_for,0.071154,40.240793
+task,0.042105,68.004597
+task_dep,0.099095,28.894495
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.074735,38.312857,2048,64,8
+par_for,0.228552,12.528058
+task,0.036456,78.541664
+task_dep,0.036272,78.940681
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.073031,39.207005,2048,64,8
+par_for,0.216808,13.206672
+task,0.064547,44.360304
+task_dep,0.028553,100.278895
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.073630,38.887662,2048,64,8
+par_for,0.202363,14.149399
+task,0.042590,67.229640
+task_dep,0.025538,112.121763
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.070892,40.389573,2048,64,8
+par_for,0.201536,14.207410
+task,0.030653,93.410248
+task_dep,0.029891,95.792126
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.073423,38.997273,2048,64,8
+par_for,0.238136,12.023827
+task,0.039577,72.348021
+task_dep,0.037643,76.064370
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.099217,28.859156,2048,1024,8
+par_for,0.123016,23.275913
+task,0.093434,30.645278
+task_dep,0.098280,29.134236
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.066580,43.005388,2048,1024,8
+par_for,0.112816,25.380281
+task,0.098889,28.954658
+task_dep,0.074838,38.260101
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.079418,36.053761,2048,1024,8
+par_for,0.139778,20.484663
+task,0.087493,32.726033
+task_dep,0.073179,39.127362
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.107431,26.652457,2048,1024,8
+par_for,0.112917,25.357738
+task,0.079499,36.017148
+task_dep,0.087588,32.690863
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.109460,26.158621,2048,1024,8
+par_for,0.133567,21.437249
+task,0.094958,30.153575
+task_dep,0.070985,40.336692

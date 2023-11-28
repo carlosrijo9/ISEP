@@ -1,0 +1,25 @@
+﻿ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.013159,27.199853,1024,32,8
+par_for,0.100984,3.544277,,,
+task,0.004594,77.907998,,,
+task_dep,0.008593,41.650974,,,
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.000000,0.000000,1024,64,8
+par_for,0.000000,0.000000,,,
+task,0.000000,0.000000,,,
+task_dep,0.000000,0.000000,,,
+ ,Time (s),Performance (gflops),Matrix Size,Block Size,Nr Threads
+seq,0.002650,135.072059,1024,1024,8
+par_for,0.049685,7.203639,,,
+task,0.023937,14.952531,,,
+task_dep,0.027852,12.850534,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+
