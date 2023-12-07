@@ -1,0 +1,10 @@
+/data/publisher/build/dummy_publisher/CMakeFiles/install/strip.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/install/local.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/edit_cache.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/test.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/install.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/list_install_components.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/rebuild_cache.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/dummy_publisher.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/dummy_publisher_uninstall.dir
+/data/publisher/build/dummy_publisher/CMakeFiles/uninstall.dir

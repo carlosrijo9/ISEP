@@ -1,0 +1,6 @@
+[01m[K/data/publisher/dummy_publisher/src/dummy_publisher.cpp:34:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   34 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/dummy_publisher.dir/build.make:63: CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/dummy_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,4 @@
+Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+Invoked command in '/data/publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/dummy_publisher
+Invoked command in '/data/publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/dummy_publisher

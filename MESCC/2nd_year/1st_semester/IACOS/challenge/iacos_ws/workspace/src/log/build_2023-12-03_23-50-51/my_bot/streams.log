@@ -1,0 +1,40 @@
+[0.146s] Invoking command in '/workspace/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ros2controlcli:/data/ros2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --build /workspace/src/build/my_bot -- -j8 -l8
+[0.161s] CMake Error: The current CMakeCache.txt directory /workspace/src/build/my_bot/CMakeCache.txt is different than the directory /data/workspace/src/build/my_bot where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.183s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.207s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.345s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.354s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.414s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.422s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.423s] -- Added test 'lint_cmake' to check CMake code style
+[0.424s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.429s] -- Added test 'xmllint' to check XML markup files
+[0.432s] -- Configuring done
+[0.435s] -- Generating done
+[0.437s] -- Build files have been written to: /data/workspace/src/build/my_bot
+[0.467s] Invoked command in '/workspace/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ros2controlcli:/data/ros2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --build /workspace/src/build/my_bot -- -j8 -l8
+[0.521s] Invoking command in '/workspace/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ros2controlcli:/data/ros2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --install /workspace/src/build/my_bot
+[0.536s] -- Install configuration: ""
+[0.536s] -- Execute custom install script
+[0.537s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/config/empty.yaml
+[0.538s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/description/inertia_macros.xacro
+[0.538s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.538s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.538s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.538s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/worlds/empty.world
+[0.539s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.539s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.539s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.540s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.540s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/environment/path.sh
+[0.540s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/environment/path.dsv
+[0.540s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/local_setup.bash
+[0.540s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/local_setup.sh
+[0.541s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/local_setup.zsh
+[0.541s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/local_setup.dsv
+[0.541s] -- Symlinking: /data/workspace/src/install/my_bot/share/my_bot/package.dsv
+[0.556s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.557s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.557s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.557s] -- Up-to-date symlink: /data/workspace/src/install/my_bot/share/my_bot/package.xml
+[0.559s] Invoked command in '/workspace/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ros2controlcli:/data/ros2_ws/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --install /workspace/src/build/my_bot

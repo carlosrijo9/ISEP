@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rcv_atc_orders_and_send_2_gazebo</name>
+  <version>0.0.1</version>
+  <description>This packages consumes atc orders from a python node and sends to a gazebo node</description>
+  <maintainer email="1221973@isep.ipp.pt">joao_fernandes</maintainer>
+  <maintainer email="1101626@isep.ipp.pt">carlos_rijo</maintainer>
+  <maintainer email="1170699@isep.ipp.pt">mario_carneiro</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

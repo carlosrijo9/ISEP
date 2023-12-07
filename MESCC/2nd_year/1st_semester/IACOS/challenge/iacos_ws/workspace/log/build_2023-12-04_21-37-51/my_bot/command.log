@@ -1,0 +1,6 @@
+Invoking command in '/data/workspace/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /data/workspace/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/data/workspace/install/my_bot
+Invoked command in '/data/workspace/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /data/workspace/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/data/workspace/install/my_bot
+Invoking command in '/data/workspace/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/workspace/build/my_bot -- -j8 -l8
+Invoked command in '/data/workspace/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/workspace/build/my_bot -- -j8 -l8
+Invoking command in '/data/workspace/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/workspace/build/my_bot
+Invoked command in '/data/workspace/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/workspace/build/my_bot

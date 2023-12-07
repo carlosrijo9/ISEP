@@ -1,0 +1,76 @@
+[0.036s] Invoking command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/iacos_tp/dummy_publisher -DCMAKE_INSTALL_PREFIX=/root/iacos_tp/dummy_publisher/install/dummy_publisher
+[0.325s] -- The C compiler identification is GNU 9.4.0
+[0.489s] -- The CXX compiler identification is GNU 9.4.0
+[0.496s] -- Check for working C compiler: /usr/bin/cc
+[0.605s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.608s] -- Detecting C compiler ABI info
+[0.720s] -- Detecting C compiler ABI info - done
+[0.730s] -- Detecting C compile features
+[0.730s] -- Detecting C compile features - done
+[0.734s] -- Check for working CXX compiler: /usr/bin/c++
+[0.847s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.848s] -- Detecting CXX compiler ABI info
+[0.959s] -- Detecting CXX compiler ABI info - done
+[0.969s] -- Detecting CXX compile features
+[0.969s] -- Detecting CXX compile features - done
+[0.974s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.002s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.003s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.200s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.278s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.479s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.521s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.713s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.717s] -- Looking for pthread.h
+[1.830s] -- Looking for pthread.h - found
+[1.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.935s] -- Looking for pthread_create in pthreads
+[2.023s] -- Looking for pthread_create in pthreads - not found
+[2.023s] -- Looking for pthread_create in pthread
+[2.137s] -- Looking for pthread_create in pthread - found
+[2.138s] -- Found Threads: TRUE  
+[2.308s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.399s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.409s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.409s] -- Configured cppcheck include dirs: 
+[2.409s] -- Configured cppcheck exclude dirs and/or files: 
+[2.419s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.419s] -- Configured cpplint exclude dirs and/or files: 
+[2.423s] -- Added test 'lint_cmake' to check CMake code style
+[2.435s] -- Added test 'uncrustify' to check C / C++ code style
+[2.435s] -- Configured uncrustify additional arguments: 
+[2.437s] -- Added test 'xmllint' to check XML markup files
+[2.443s] -- Configuring done
+[2.452s] -- Generating done
+[2.453s] -- Build files have been written to: /root/iacos_tp/dummy_publisher/build/dummy_publisher
+[2.463s] Invoked command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/iacos_tp/dummy_publisher -DCMAKE_INSTALL_PREFIX=/root/iacos_tp/dummy_publisher/install/dummy_publisher
+[2.467s] Invoking command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/iacos_tp/dummy_publisher/build/dummy_publisher -- -j12 -l12
+[2.529s] [35m[1mScanning dependencies of target dummy_publisher[0m
+[2.640s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o[0m
+[5.375s] [100%] [32m[1mLinking CXX executable dummy_publisher[0m
+[5.583s] [100%] Built target dummy_publisher
+[5.603s] Invoked command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/iacos_tp/dummy_publisher/build/dummy_publisher -- -j12 -l12
+[5.665s] Invoking command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/iacos_tp/dummy_publisher/build/dummy_publisher
+[5.676s] -- Install configuration: ""
+[5.676s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher
+[5.677s] -- Set runtime path of "/root/iacos_tp/dummy_publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher" to ""
+[5.677s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_publisher
+[5.678s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_publisher
+[5.678s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.sh
+[5.678s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.dsv
+[5.679s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/environment/path.sh
+[5.679s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/environment/path.dsv
+[5.679s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/local_setup.bash
+[5.679s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/local_setup.sh
+[5.679s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/local_setup.zsh
+[5.680s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/local_setup.dsv
+[5.680s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/package.dsv
+[5.680s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/ament_index/resource_index/packages/dummy_publisher
+[5.681s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig.cmake
+[5.681s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig-version.cmake
+[5.681s] -- Installing: /root/iacos_tp/dummy_publisher/install/dummy_publisher/share/dummy_publisher/package.xml
+[5.684s] Invoked command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/iacos_tp/dummy_publisher/build/dummy_publisher

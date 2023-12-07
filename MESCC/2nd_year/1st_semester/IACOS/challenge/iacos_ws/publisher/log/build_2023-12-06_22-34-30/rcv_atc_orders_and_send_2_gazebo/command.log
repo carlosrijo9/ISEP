@@ -1,0 +1,4 @@
+Invoking command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+Invoked command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+Invoking command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/rcv_atc_orders_and_send_2_gazebo
+Invoked command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/rcv_atc_orders_and_send_2_gazebo

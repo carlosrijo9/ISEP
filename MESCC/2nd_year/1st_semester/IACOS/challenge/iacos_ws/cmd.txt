@@ -1,0 +1,13 @@
+> Docker Build
+docker run -it --net=host --device=/dev/dri/ --device=/dev/video0:/dev/video0 -e DISPLAY=$DISPLAY -v $(pwd)/iacos_ws:/data --name iacos althack/ros2:foxy-gazebo-2023-06-30
+
+> Setup
+colcon build --symlink-install
+
+> Launch Gazebo and car
+ros2 launch my_bot launch launch_sim.launch.py
+ros2 launch my_bot launch_sim.launch.py world:=/data/world/road.world
+
+> Additional
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 topic echo /cmd_vel

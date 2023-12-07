@@ -1,0 +1,6 @@
+Invoking command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/iacos_tp/dummy_publisher -DCMAKE_INSTALL_PREFIX=/root/iacos_tp/dummy_publisher/install/dummy_publisher
+Invoked command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/iacos_tp/dummy_publisher -DCMAKE_INSTALL_PREFIX=/root/iacos_tp/dummy_publisher/install/dummy_publisher
+Invoking command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/iacos_tp/dummy_publisher/build/dummy_publisher -- -j12 -l12
+Invoked command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/iacos_tp/dummy_publisher/build/dummy_publisher -- -j12 -l12
+Invoking command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/iacos_tp/dummy_publisher/build/dummy_publisher
+Invoked command in '/root/iacos_tp/dummy_publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/iacos_tp/dummy_publisher/build/dummy_publisher

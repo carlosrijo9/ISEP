@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dummy_publisher[0m
+[100%] Built target dummy_publisher
+-- Install configuration: ""
+-- Installing: /data/publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher
+-- Set runtime path of "/data/publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher" to ""
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_publisher
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_publisher
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.sh
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.dsv
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.bash
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.sh
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.zsh
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.dsv
+-- Installing: /data/publisher/install/dummy_publisher/share/dummy_publisher/package.dsv
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/packages/dummy_publisher
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig.cmake
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig-version.cmake
+-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/package.xml

@@ -1,0 +1,77 @@
+[0.117s] Invoking command in '/data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /data/publisher/rcv_atc_orders_and_send_2_gazebo -DCMAKE_INSTALL_PREFIX=/data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo
+[0.257s] -- The C compiler identification is GNU 9.4.0
+[0.305s] -- The CXX compiler identification is GNU 9.4.0
+[0.312s] -- Check for working C compiler: /usr/bin/cc
+[0.384s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.385s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.456s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.533s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.613s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.635s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.781s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.970s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.099s] -- Looking for pthread.h
+[1.162s] -- Looking for pthread.h - found
+[1.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.228s] -- Looking for pthread_create in pthreads
+[1.283s] -- Looking for pthread_create in pthreads - not found
+[1.284s] -- Looking for pthread_create in pthread
+[1.348s] -- Looking for pthread_create in pthread - found
+[1.349s] -- Found Threads: TRUE  
+[1.472s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.497s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.569s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.569s] -- Configured cppcheck include dirs: 
+[1.569s] -- Configured cppcheck exclude dirs and/or files: 
+[1.574s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.574s] -- Configured cpplint exclude dirs and/or files: 
+[1.576s] -- Added test 'lint_cmake' to check CMake code style
+[1.582s] -- Added test 'uncrustify' to check C / C++ code style
+[1.582s] -- Configured uncrustify additional arguments: 
+[1.583s] -- Added test 'xmllint' to check XML markup files
+[1.587s] -- Configuring done
+[1.593s] -- Generating done
+[1.595s] -- Build files have been written to: /data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo
+[1.602s] Invoked command in '/data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /data/publisher/rcv_atc_orders_and_send_2_gazebo -DCMAKE_INSTALL_PREFIX=/data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo
+[1.605s] Invoking command in '/data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+[1.643s] [35m[1mScanning dependencies of target rcv_atc_orders_and_send_2_gazebo[0m
+[1.693s] [ 50%] [32mBuilding CXX object CMakeFiles/rcv_atc_orders_and_send_2_gazebo.dir/src/process_orders_and_send_commands_to_gazebo.cpp.o[0m
+[5.191s] [100%] [32m[1mLinking CXX executable rcv_atc_orders_and_send_2_gazebo[0m
+[5.429s] [100%] Built target rcv_atc_orders_and_send_2_gazebo
+[5.440s] Invoked command in '/data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+[5.475s] Invoking command in '/data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo
+[5.484s] -- Install configuration: ""
+[5.484s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/lib/rcv_atc_orders_and_send_2_gazebo/rcv_atc_orders_and_send_2_gazebo
+[5.487s] -- Set runtime path of "/data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/lib/rcv_atc_orders_and_send_2_gazebo/rcv_atc_orders_and_send_2_gazebo" to ""
+[5.487s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/ament_index/resource_index/package_run_dependencies/rcv_atc_orders_and_send_2_gazebo
+[5.487s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/ament_index/resource_index/parent_prefix_path/rcv_atc_orders_and_send_2_gazebo
+[5.487s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/ament_prefix_path.sh
+[5.488s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/ament_prefix_path.dsv
+[5.488s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/path.sh
+[5.488s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/path.dsv
+[5.488s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.bash
+[5.488s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.sh
+[5.488s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.zsh
+[5.489s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.dsv
+[5.489s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.dsv
+[5.489s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/ament_index/resource_index/packages/rcv_atc_orders_and_send_2_gazebo
+[5.489s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/cmake/rcv_atc_orders_and_send_2_gazeboConfig.cmake
+[5.489s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/cmake/rcv_atc_orders_and_send_2_gazeboConfig-version.cmake
+[5.490s] -- Installing: /data/publisher/rcv_atc_orders_and_send_2_gazebo/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.xml
+[5.492s] Invoked command in '/data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /data/publisher/rcv_atc_orders_and_send_2_gazebo/build/rcv_atc_orders_and_send_2_gazebo

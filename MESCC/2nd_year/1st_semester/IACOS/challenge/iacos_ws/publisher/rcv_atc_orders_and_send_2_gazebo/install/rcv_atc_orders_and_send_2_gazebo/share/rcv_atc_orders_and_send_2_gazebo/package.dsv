@@ -1,0 +1,8 @@
+source;share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.ps1
+source;share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.dsv
+source;share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.sh
+source;share/rcv_atc_orders_and_send_2_gazebo/local_setup.bash
+source;share/rcv_atc_orders_and_send_2_gazebo/local_setup.dsv
+source;share/rcv_atc_orders_and_send_2_gazebo/local_setup.ps1
+source;share/rcv_atc_orders_and_send_2_gazebo/local_setup.sh
+source;share/rcv_atc_orders_and_send_2_gazebo/local_setup.zsh

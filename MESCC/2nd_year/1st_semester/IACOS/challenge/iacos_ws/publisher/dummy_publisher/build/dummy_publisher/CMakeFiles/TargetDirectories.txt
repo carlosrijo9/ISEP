@@ -1,0 +1,10 @@
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/install/strip.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/install/local.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/edit_cache.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/test.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/install.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/list_install_components.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/rebuild_cache.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/dummy_publisher.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/dummy_publisher_uninstall.dir
+/root/iacos_tp/dummy_publisher/build/dummy_publisher/CMakeFiles/uninstall.dir

@@ -1,0 +1,16 @@
+/data/publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher
+/data/publisher/install/dummy_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_publisher
+/data/publisher/install/dummy_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_publisher
+/data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.sh
+/data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.dsv
+/data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.sh
+/data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.dsv
+/data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.bash
+/data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.sh
+/data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.zsh
+/data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.dsv
+/data/publisher/install/dummy_publisher/share/dummy_publisher/package.dsv
+/data/publisher/install/dummy_publisher/share/ament_index/resource_index/packages/dummy_publisher
+/data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig.cmake
+/data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig-version.cmake
+/data/publisher/install/dummy_publisher/share/dummy_publisher/package.xml
