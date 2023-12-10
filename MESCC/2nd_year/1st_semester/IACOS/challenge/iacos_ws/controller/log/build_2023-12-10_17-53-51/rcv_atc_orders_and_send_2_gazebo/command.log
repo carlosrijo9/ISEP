@@ -1,0 +1,1 @@
+Invoking command in '/data/controller/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8

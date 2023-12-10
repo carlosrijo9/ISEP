@@ -1,0 +1,3 @@
+[console_scripts]
+atc_publisher = py_hand_gesture_publisher.py_hand_gesture_publisher:main
+

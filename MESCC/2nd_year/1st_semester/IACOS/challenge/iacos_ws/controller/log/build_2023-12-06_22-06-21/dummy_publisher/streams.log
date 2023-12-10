@@ -1,0 +1,2 @@
+[0.803s] Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+[1.186s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o[0m

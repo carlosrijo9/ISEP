@@ -1,0 +1,26 @@
+[0.139s] Invoking command in '/data/controller/build/atc_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/atc_2_gazebo -- -j12 -l12
+[0.216s] [35m[1mScanning dependencies of target atc_2_gazebo[0m
+[0.263s] [ 50%] [32mBuilding CXX object CMakeFiles/atc_2_gazebo.dir/src/atc_2_gazebo.cpp.o[0m
+[5.938s] [100%] [32m[1mLinking CXX executable atc_2_gazebo[0m
+[6.333s] [100%] Built target atc_2_gazebo
+[6.355s] Invoked command in '/data/controller/build/atc_2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/atc_2_gazebo -- -j12 -l12
+[6.423s] Invoking command in '/data/controller/build/atc_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --install /data/controller/build/atc_2_gazebo
+[6.439s] -- Install configuration: ""
+[6.440s] -- Installing: /data/controller/install/atc_2_gazebo/lib/atc_2_gazebo/atc_2_gazebo
+[6.444s] -- Set runtime path of "/data/controller/install/atc_2_gazebo/lib/atc_2_gazebo/atc_2_gazebo" to ""
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/package_run_dependencies/atc_2_gazebo
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/parent_prefix_path/atc_2_gazebo
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/ament_prefix_path.sh
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/ament_prefix_path.dsv
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/path.sh
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/path.dsv
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.bash
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.sh
+[6.444s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.zsh
+[6.445s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.dsv
+[6.445s] -- Installing: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/package.dsv
+[6.445s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/packages/atc_2_gazebo
+[6.445s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/cmake/atc_2_gazeboConfig.cmake
+[6.445s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/cmake/atc_2_gazeboConfig-version.cmake
+[6.445s] -- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/package.xml
+[6.450s] Invoked command in '/data/controller/build/atc_2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --install /data/controller/build/atc_2_gazebo

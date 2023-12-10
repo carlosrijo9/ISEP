@@ -1,0 +1,10 @@
+/data/controller/build/atc_2_gazebo/CMakeFiles/install/strip.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/install/local.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/edit_cache.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/test.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/atc_2_gazebo.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/install.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/list_install_components.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/rebuild_cache.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/atc_2_gazebo_uninstall.dir
+/data/controller/build/atc_2_gazebo/CMakeFiles/uninstall.dir

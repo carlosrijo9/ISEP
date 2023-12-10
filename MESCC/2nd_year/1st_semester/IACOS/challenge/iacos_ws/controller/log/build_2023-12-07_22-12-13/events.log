@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000672] (dummy_publisher) JobQueued: {'identifier': 'dummy_publisher', 'dependencies': OrderedDict()}
+[0.000864] (rcv_atc_orders_and_send_2_gazebo) JobQueued: {'identifier': 'rcv_atc_orders_and_send_2_gazebo', 'dependencies': OrderedDict()}
+[0.001326] (dummy_publisher) JobStarted: {'identifier': 'dummy_publisher'}
+[0.099645] (-) TimerEvent: {}
+[0.201404] (-) TimerEvent: {}
+[0.262318] (rcv_atc_orders_and_send_2_gazebo) JobStarted: {'identifier': 'rcv_atc_orders_and_send_2_gazebo'}
+[0.301861] (-) TimerEvent: {}
+[0.403108] (-) TimerEvent: {}
+[0.484141] (dummy_publisher) JobProgress: {'identifier': 'dummy_publisher', 'progress': 'cmake'}
+[0.486706] (dummy_publisher) JobProgress: {'identifier': 'dummy_publisher', 'progress': 'build'}
+[0.489156] (dummy_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/data/publisher/build/dummy_publisher', '--', '-j8', '-l8'], 'cwd': '/data/publisher/build/dummy_publisher', 'env': OrderedDict([('HOSTNAME', 'MTS-LPT-64RFR'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/publisher/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/publisher/build/dummy_publisher'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy')]), 'shell': False}
+[0.503288] (-) TimerEvent: {}
+[0.507159] (rcv_atc_orders_and_send_2_gazebo) JobProgress: {'identifier': 'rcv_atc_orders_and_send_2_gazebo', 'progress': 'cmake'}
+[0.509254] (rcv_atc_orders_and_send_2_gazebo) JobProgress: {'identifier': 'rcv_atc_orders_and_send_2_gazebo', 'progress': 'build'}
+[0.511122] (rcv_atc_orders_and_send_2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo', '--', '-j8', '-l8'], 'cwd': '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo', 'env': OrderedDict([('HOSTNAME', 'MTS-LPT-64RFR'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/publisher/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy')]), 'shell': False}
+[0.603561] (-) TimerEvent: {}
+[0.626297] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rcv_atc_orders_and_send_2_gazebo\x1b[0m\n'}
+[0.659488] (dummy_publisher) StdoutLine: {'line': b'[100%] Built target dummy_publisher\n'}
+[0.704025] (-) TimerEvent: {}
+[0.709627] (dummy_publisher) CommandEnded: {'returncode': 0}
+[0.742358] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rcv_atc_orders_and_send_2_gazebo.dir/src/process_orders_and_send_commands_to_gazebo.cpp.o\x1b[0m\n'}
+[0.804297] (-) TimerEvent: {}
+[0.811164] (dummy_publisher) JobProgress: {'identifier': 'dummy_publisher', 'progress': 'install'}
+[0.842405] (dummy_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/data/publisher/build/dummy_publisher'], 'cwd': '/data/publisher/build/dummy_publisher', 'env': OrderedDict([('HOSTNAME', 'MTS-LPT-64RFR'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/publisher/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/publisher/build/dummy_publisher'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy')]), 'shell': False}
+[0.871043] (dummy_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.872233] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher\n'}
+[0.873073] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_publisher\n'}
+[0.873558] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_publisher\n'}
+[0.873795] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.sh\n'}
+[0.874161] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.dsv\n'}
+[0.874627] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.sh\n'}
+[0.875093] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.dsv\n'}
+[0.875820] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.bash\n'}
+[0.876061] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.sh\n'}
+[0.876218] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.zsh\n'}
+[0.876589] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.dsv\n'}
+[0.876868] (dummy_publisher) StdoutLine: {'line': b'-- Installing: /data/publisher/install/dummy_publisher/share/dummy_publisher/package.dsv\n'}
+[0.877284] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/packages/dummy_publisher\n'}
+[0.877645] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig.cmake\n'}
+[0.878061] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig-version.cmake\n'}
+[0.878248] (dummy_publisher) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/package.xml\n'}
+[0.882408] (dummy_publisher) CommandEnded: {'returncode': 0}
+[0.905167] (-) TimerEvent: {}
+[1.007919] (-) TimerEvent: {}
+[1.110417] (-) TimerEvent: {}
+[1.211715] (-) TimerEvent: {}
+[1.312711] (-) TimerEvent: {}
+[1.413513] (-) TimerEvent: {}
+[1.452265] (dummy_publisher) JobEnded: {'identifier': 'dummy_publisher', 'rc': 0}
+[1.513726] (-) TimerEvent: {}
+[1.614260] (-) TimerEvent: {}
+[1.714748] (-) TimerEvent: {}
+[1.815544] (-) TimerEvent: {}
+[1.916314] (-) TimerEvent: {}
+[2.016781] (-) TimerEvent: {}
+[2.118552] (-) TimerEvent: {}
+[2.219990] (-) TimerEvent: {}
+[2.320974] (-) TimerEvent: {}
+[2.421774] (-) TimerEvent: {}
+[2.522731] (-) TimerEvent: {}
+[2.623579] (-) TimerEvent: {}
+[2.724028] (-) TimerEvent: {}
+[2.824732] (-) TimerEvent: {}
+[2.925334] (-) TimerEvent: {}
+[3.025807] (-) TimerEvent: {}
+[3.126628] (-) TimerEvent: {}
+[3.228323] (-) TimerEvent: {}
+[3.328758] (-) TimerEvent: {}
+[3.429463] (-) TimerEvent: {}
+[3.530077] (-) TimerEvent: {}
+[3.630488] (-) TimerEvent: {}
+[3.730972] (-) TimerEvent: {}
+[3.831715] (-) TimerEvent: {}
+[3.933382] (-) TimerEvent: {}
+[4.033872] (-) TimerEvent: {}
+[4.134909] (-) TimerEvent: {}
+[4.235785] (-) TimerEvent: {}
+[4.336198] (-) TimerEvent: {}
+[4.436702] (-) TimerEvent: {}
+[4.537442] (-) TimerEvent: {}
+[4.638329] (-) TimerEvent: {}
+[4.739892] (-) TimerEvent: {}
+[4.840823] (-) TimerEvent: {}
+[4.942576] (-) TimerEvent: {}
+[5.043358] (-) TimerEvent: {}
+[5.144220] (-) TimerEvent: {}
+[5.244956] (-) TimerEvent: {}
+[5.345456] (-) TimerEvent: {}
+[5.446595] (-) TimerEvent: {}
+[5.549129] (-) TimerEvent: {}
+[5.650091] (-) TimerEvent: {}
+[5.751179] (-) TimerEvent: {}
+[5.851962] (-) TimerEvent: {}
+[5.952602] (-) TimerEvent: {}
+[6.053871] (-) TimerEvent: {}
+[6.154860] (-) TimerEvent: {}
+[6.255325] (-) TimerEvent: {}
+[6.356004] (-) TimerEvent: {}
+[6.456706] (-) TimerEvent: {}
+[6.557511] (-) TimerEvent: {}
+[6.658009] (-) TimerEvent: {}
+[6.758676] (-) TimerEvent: {}
+[6.859213] (-) TimerEvent: {}
+[6.959515] (-) TimerEvent: {}
+[7.060067] (-) TimerEvent: {}
+[7.160592] (-) TimerEvent: {}
+[7.261035] (-) TimerEvent: {}
+[7.361765] (-) TimerEvent: {}
+[7.462473] (-) TimerEvent: {}
+[7.563065] (-) TimerEvent: {}
+[7.663667] (-) TimerEvent: {}
+[7.764456] (-) TimerEvent: {}
+[7.865089] (-) TimerEvent: {}
+[7.965738] (-) TimerEvent: {}
+[8.066316] (-) TimerEvent: {}
+[8.167055] (-) TimerEvent: {}
+[8.267849] (-) TimerEvent: {}
+[8.368600] (-) TimerEvent: {}
+[8.469401] (-) TimerEvent: {}
+[8.570090] (-) TimerEvent: {}
+[8.670813] (-) TimerEvent: {}
+[8.772097] (-) TimerEvent: {}
+[8.872984] (-) TimerEvent: {}
+[8.973760] (-) TimerEvent: {}
+[8.978718] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rcv_atc_orders_and_send_2_gazebo\x1b[0m\n'}
+[9.073984] (-) TimerEvent: {}
+[9.174762] (-) TimerEvent: {}
+[9.275816] (-) TimerEvent: {}
+[9.376706] (-) TimerEvent: {}
+[9.477459] (-) TimerEvent: {}
+[9.562202] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'[100%] Built target rcv_atc_orders_and_send_2_gazebo\n'}
+[9.577631] (-) TimerEvent: {}
+[9.582935] (rcv_atc_orders_and_send_2_gazebo) CommandEnded: {'returncode': 0}
+[9.631701] (rcv_atc_orders_and_send_2_gazebo) JobProgress: {'identifier': 'rcv_atc_orders_and_send_2_gazebo', 'progress': 'install'}
+[9.632906] (rcv_atc_orders_and_send_2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo'], 'cwd': '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo', 'env': OrderedDict([('HOSTNAME', 'MTS-LPT-64RFR'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/publisher/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo:/data/publisher/install/dummy_publisher:/opt/ros/foxy')]), 'shell': False}
+[9.656882] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.657694] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Installing: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib/rcv_atc_orders_and_send_2_gazebo/rcv_atc_orders_and_send_2_gazebo\n'}
+[9.662411] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib/rcv_atc_orders_and_send_2_gazebo/rcv_atc_orders_and_send_2_gazebo" to ""\n'}
+[9.662786] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/ament_index/resource_index/package_run_dependencies/rcv_atc_orders_and_send_2_gazebo\n'}
+[9.662918] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/ament_index/resource_index/parent_prefix_path/rcv_atc_orders_and_send_2_gazebo\n'}
+[9.663068] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/ament_prefix_path.sh\n'}
+[9.663172] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/ament_prefix_path.dsv\n'}
+[9.663383] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/path.sh\n'}
+[9.663812] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/environment/path.dsv\n'}
+[9.663994] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.bash\n'}
+[9.664126] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.sh\n'}
+[9.664272] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.zsh\n'}
+[9.664418] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/local_setup.dsv\n'}
+[9.664576] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Installing: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.dsv\n'}
+[9.665221] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/ament_index/resource_index/packages/rcv_atc_orders_and_send_2_gazebo\n'}
+[9.668879] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/cmake/rcv_atc_orders_and_send_2_gazeboConfig.cmake\n'}
+[9.669296] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/cmake/rcv_atc_orders_and_send_2_gazeboConfig-version.cmake\n'}
+[9.670136] (rcv_atc_orders_and_send_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.xml\n'}
+[9.671968] (rcv_atc_orders_and_send_2_gazebo) CommandEnded: {'returncode': 0}
+[9.677785] (-) TimerEvent: {}
+[9.778563] (-) TimerEvent: {}
+[9.879872] (-) TimerEvent: {}
+[9.980670] (-) TimerEvent: {}
+[10.030604] (rcv_atc_orders_and_send_2_gazebo) JobEnded: {'identifier': 'rcv_atc_orders_and_send_2_gazebo', 'rc': 0}
+[10.031707] (-) EventReactorShutdown: {}

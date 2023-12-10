@@ -1,0 +1,2 @@
+Invoking command in '/data/controller/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/rcv_atc_orders_and_send_2_gazebo -- -j12 -l12
+Invoked command in '/data/controller/build/rcv_atc_orders_and_send_2_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/rcv_atc_orders_and_send_2_gazebo -- -j12 -l12

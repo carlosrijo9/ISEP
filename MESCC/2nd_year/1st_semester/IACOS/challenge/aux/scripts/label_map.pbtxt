@@ -1,0 +1,36 @@
+item { 
+	name:'Forward'
+	id:1
+}
+item { 
+	name:'Right'
+	id:2
+}
+item { 
+	name:'Left'
+	id:3
+}
+item { 
+	name:'Stop'
+	id:4
+}
+item { 
+	name:'MoreSpeed'
+	id:5
+}
+item { 
+	name:'LessSpeed'
+	id:6
+}
+item { 
+	name:'Invert'
+	id:7
+}
+item { 
+	name:'StartRoadWork'
+	id:8
+}
+item { 
+	name:'EndRoadWork'
+	id:9
+}

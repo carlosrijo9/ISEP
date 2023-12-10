@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001148] (atc_2_gazebo) JobQueued: {'identifier': 'atc_2_gazebo', 'dependencies': OrderedDict()}
+[0.001472] (py_hand_gesture_publisher) JobQueued: {'identifier': 'py_hand_gesture_publisher', 'dependencies': OrderedDict()}
+[0.001633] (atc_2_gazebo) JobStarted: {'identifier': 'atc_2_gazebo'}
+[0.098628] (-) TimerEvent: {}
+[0.122575] (py_hand_gesture_publisher) JobStarted: {'identifier': 'py_hand_gesture_publisher'}
+[0.198839] (-) TimerEvent: {}
+[0.277030] (atc_2_gazebo) JobProgress: {'identifier': 'atc_2_gazebo', 'progress': 'cmake'}
+[0.278960] (atc_2_gazebo) JobProgress: {'identifier': 'atc_2_gazebo', 'progress': 'build'}
+[0.280586] (atc_2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/data/controller/build/atc_2_gazebo', '--', '-j8', '-l8'], 'cwd': '/data/controller/build/atc_2_gazebo', 'env': OrderedDict([('HOSTNAME', 'MTS-LPT-64RFR'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/controller/build/atc_2_gazebo'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.299402] (-) TimerEvent: {}
+[0.400731] (-) TimerEvent: {}
+[0.426059] (atc_2_gazebo) StdoutLine: {'line': b'[100%] Built target atc_2_gazebo\n'}
+[0.500833] (-) TimerEvent: {}
+[0.601340] (-) TimerEvent: {}
+[0.729339] (-) TimerEvent: {}
+[0.786608] (atc_2_gazebo) CommandEnded: {'returncode': 0}
+[0.829892] (-) TimerEvent: {}
+[0.840280] (atc_2_gazebo) JobProgress: {'identifier': 'atc_2_gazebo', 'progress': 'install'}
+[0.866307] (atc_2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/data/controller/build/atc_2_gazebo'], 'cwd': '/data/controller/build/atc_2_gazebo', 'env': OrderedDict([('HOSTNAME', 'MTS-LPT-64RFR'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/controller/build/atc_2_gazebo'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.893496] (atc_2_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.894228] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/lib/atc_2_gazebo/atc_2_gazebo\n'}
+[0.894626] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/package_run_dependencies/atc_2_gazebo\n'}
+[0.895071] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/parent_prefix_path/atc_2_gazebo\n'}
+[0.895339] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/ament_prefix_path.sh\n'}
+[0.895540] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.895690] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/path.sh\n'}
+[0.895834] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/path.dsv\n'}
+[0.896037] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.bash\n'}
+[0.896224] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.sh\n'}
+[0.896577] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.zsh\n'}
+[0.896963] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.dsv\n'}
+[0.897406] (atc_2_gazebo) StdoutLine: {'line': b'-- Installing: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/package.dsv\n'}
+[0.897582] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/packages/atc_2_gazebo\n'}
+[0.897841] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/cmake/atc_2_gazeboConfig.cmake\n'}
+[0.897963] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/cmake/atc_2_gazeboConfig-version.cmake\n'}
+[0.898152] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/package.xml\n'}
+[0.902539] (atc_2_gazebo) CommandEnded: {'returncode': 0}
+[0.930754] (-) TimerEvent: {}
+[1.031560] (-) TimerEvent: {}
+[1.133320] (-) TimerEvent: {}
+[1.236265] (-) TimerEvent: {}
+[1.337941] (-) TimerEvent: {}
+[1.411918] (atc_2_gazebo) JobEnded: {'identifier': 'atc_2_gazebo', 'rc': 0}
+[1.438089] (-) TimerEvent: {}
+[1.538816] (-) TimerEvent: {}
+[1.590410] (py_hand_gesture_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/py_hand_gesture_publisher', 'build', '--build-base', '/data/controller/build/py_hand_gesture_publisher/build', 'install', '--record', '/data/controller/build/py_hand_gesture_publisher/install.log', '--install-scripts', '$base/lib/py_hand_gesture_publisher', '--single-version-externally-managed'], 'cwd': '/data/controller/py_hand_gesture_publisher', 'env': {'HOSTNAME': 'MTS-LPT-64RFR', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/lib', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/opt/ros/foxy', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': '', 'PWD': '/data/controller/build/py_hand_gesture_publisher', 'PYTHONPATH': '/data/controller/build/py_hand_gesture_publisher/prefix_override:/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.638940] (-) TimerEvent: {}
+[1.739673] (-) TimerEvent: {}
+[1.840451] (-) TimerEvent: {}
+[1.861418] (py_hand_gesture_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[1.862994] (py_hand_gesture_publisher) StdoutLine: {'line': b'writing ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/PKG-INFO\n'}
+[1.864006] (py_hand_gesture_publisher) StdoutLine: {'line': b'writing dependency_links to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/dependency_links.txt\n'}
+[1.864417] (py_hand_gesture_publisher) StdoutLine: {'line': b'writing entry points to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/entry_points.txt\n'}
+[1.864725] (py_hand_gesture_publisher) StdoutLine: {'line': b'writing requirements to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/requires.txt\n'}
+[1.864996] (py_hand_gesture_publisher) StdoutLine: {'line': b'writing top-level names to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/top_level.txt\n'}
+[1.906955] (py_hand_gesture_publisher) StdoutLine: {'line': b"reading manifest file '../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/SOURCES.txt'\n"}
+[1.907798] (py_hand_gesture_publisher) StdoutLine: {'line': b"writing manifest file '../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/SOURCES.txt'\n"}
+[1.908007] (py_hand_gesture_publisher) StdoutLine: {'line': b'running build\n'}
+[1.908091] (py_hand_gesture_publisher) StdoutLine: {'line': b'running build_py\n'}
+[1.908231] (py_hand_gesture_publisher) StdoutLine: {'line': b'running install\n'}
+[1.909018] (py_hand_gesture_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[1.912026] (py_hand_gesture_publisher) StdoutLine: {'line': b'running install_data\n'}
+[1.912942] (py_hand_gesture_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.916242] (py_hand_gesture_publisher) StdoutLine: {'line': b"removing '/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages/py_hand_gesture_publisher-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.916928] (py_hand_gesture_publisher) StdoutLine: {'line': b'Copying ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info to /data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages/py_hand_gesture_publisher-0.0.0-py3.8.egg-info\n'}
+[1.919543] (py_hand_gesture_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[1.940498] (-) TimerEvent: {}
+[1.949013] (py_hand_gesture_publisher) StdoutLine: {'line': b'Installing atc_publisher script to /data/controller/install/py_hand_gesture_publisher/lib/py_hand_gesture_publisher\n'}
+[1.950007] (py_hand_gesture_publisher) StdoutLine: {'line': b"writing list of installed files to '/data/controller/build/py_hand_gesture_publisher/install.log'\n"}
+[2.014201] (py_hand_gesture_publisher) CommandEnded: {'returncode': 0}
+[2.040660] (-) TimerEvent: {}
+[2.141593] (-) TimerEvent: {}
+[2.148509] (py_hand_gesture_publisher) JobEnded: {'identifier': 'py_hand_gesture_publisher', 'rc': 0}
+[2.149265] (-) EventReactorShutdown: {}

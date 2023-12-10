@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'py_hand_gesture_publisher'}
+[0.000341] (atc_2_gazebo) JobQueued: {'identifier': 'atc_2_gazebo', 'dependencies': OrderedDict()}
+[0.000998] (atc_2_gazebo) JobStarted: {'identifier': 'atc_2_gazebo'}
+[0.099798] (-) TimerEvent: {}
+[0.121272] (atc_2_gazebo) JobProgress: {'identifier': 'atc_2_gazebo', 'progress': 'cmake'}
+[0.121971] (atc_2_gazebo) JobProgress: {'identifier': 'atc_2_gazebo', 'progress': 'build'}
+[0.122648] (atc_2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/data/controller/build/atc_2_gazebo', '--', '-j12', '-l12'], 'cwd': '/data/controller/build/atc_2_gazebo', 'env': OrderedDict([('HOSTNAME', 'fer-KLM'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/data/controller/atc_2_gazebo'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/controller/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/controller/install/atc_2_gazebo:/data/controller/install/rcv_atc_orders_and_send_2_gazebo:/data/controller/install/py_hand_gesture_publisher:/data/controller/install/dummy_publisher:/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/controller/build/atc_2_gazebo'), ('PYTHONPATH', '/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/controller/install/atc_2_gazebo:/data/controller/install/rcv_atc_orders_and_send_2_gazebo:/data/controller/install/dummy_publisher:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy')]), 'shell': False}
+[0.197554] (atc_2_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target atc_2_gazebo\x1b[0m\n'}
+[0.199882] (-) TimerEvent: {}
+[0.241652] (atc_2_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/atc_2_gazebo.dir/src/atc_2_gazebo.cpp.o\x1b[0m\n'}
+[0.300093] (-) TimerEvent: {}
+[0.400780] (-) TimerEvent: {}
+[0.501282] (-) TimerEvent: {}
+[0.601781] (-) TimerEvent: {}
+[0.702299] (-) TimerEvent: {}
+[0.802792] (-) TimerEvent: {}
+[0.903822] (-) TimerEvent: {}
+[1.004227] (-) TimerEvent: {}
+[1.104686] (-) TimerEvent: {}
+[1.205188] (-) TimerEvent: {}
+[1.305559] (-) TimerEvent: {}
+[1.406011] (-) TimerEvent: {}
+[1.506429] (-) TimerEvent: {}
+[1.606839] (-) TimerEvent: {}
+[1.707245] (-) TimerEvent: {}
+[1.807623] (-) TimerEvent: {}
+[1.907986] (-) TimerEvent: {}
+[2.008476] (-) TimerEvent: {}
+[2.109006] (-) TimerEvent: {}
+[2.209355] (-) TimerEvent: {}
+[2.309686] (-) TimerEvent: {}
+[2.410153] (-) TimerEvent: {}
+[2.510607] (-) TimerEvent: {}
+[2.610934] (-) TimerEvent: {}
+[2.711316] (-) TimerEvent: {}
+[2.811699] (-) TimerEvent: {}
+[2.912042] (-) TimerEvent: {}
+[3.012405] (-) TimerEvent: {}
+[3.112811] (-) TimerEvent: {}
+[3.213147] (-) TimerEvent: {}
+[3.313526] (-) TimerEvent: {}
+[3.413861] (-) TimerEvent: {}
+[3.514527] (-) TimerEvent: {}
+[3.615038] (-) TimerEvent: {}
+[3.715381] (-) TimerEvent: {}
+[3.815712] (-) TimerEvent: {}
+[3.916156] (-) TimerEvent: {}
+[4.016630] (-) TimerEvent: {}
+[4.117003] (-) TimerEvent: {}
+[4.217424] (-) TimerEvent: {}
+[4.318051] (-) TimerEvent: {}
+[4.418549] (-) TimerEvent: {}
+[4.519093] (-) TimerEvent: {}
+[4.619557] (-) TimerEvent: {}
+[4.719907] (-) TimerEvent: {}
+[4.820222] (-) TimerEvent: {}
+[4.920655] (-) TimerEvent: {}
+[5.020988] (-) TimerEvent: {}
+[5.121359] (-) TimerEvent: {}
+[5.221989] (-) TimerEvent: {}
+[5.322647] (-) TimerEvent: {}
+[5.423068] (-) TimerEvent: {}
+[5.523471] (-) TimerEvent: {}
+[5.525944] (atc_2_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable atc_2_gazebo\x1b[0m\n'}
+[5.623648] (-) TimerEvent: {}
+[5.724140] (-) TimerEvent: {}
+[5.824586] (-) TimerEvent: {}
+[5.910155] (atc_2_gazebo) StdoutLine: {'line': b'[100%] Built target atc_2_gazebo\n'}
+[5.924739] (-) TimerEvent: {}
+[5.931888] (atc_2_gazebo) CommandEnded: {'returncode': 0}
+[5.971446] (atc_2_gazebo) JobProgress: {'identifier': 'atc_2_gazebo', 'progress': 'install'}
+[5.994102] (atc_2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/data/controller/build/atc_2_gazebo'], 'cwd': '/data/controller/build/atc_2_gazebo', 'env': OrderedDict([('HOSTNAME', 'fer-KLM'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/data/controller/atc_2_gazebo'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/controller/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/controller/install/atc_2_gazebo:/data/controller/install/rcv_atc_orders_and_send_2_gazebo:/data/controller/install/py_hand_gesture_publisher:/data/controller/install/dummy_publisher:/opt/ros/foxy'), ('DEBIAN_FRONTEND', ''), ('PWD', '/data/controller/build/atc_2_gazebo'), ('PYTHONPATH', '/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/controller/install/atc_2_gazebo:/data/controller/install/rcv_atc_orders_and_send_2_gazebo:/data/controller/install/dummy_publisher:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy')]), 'shell': False}
+[6.008859] (atc_2_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.009191] (atc_2_gazebo) StdoutLine: {'line': b'-- Installing: /data/controller/install/atc_2_gazebo/lib/atc_2_gazebo/atc_2_gazebo\n'}
+[6.012682] (atc_2_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/data/controller/install/atc_2_gazebo/lib/atc_2_gazebo/atc_2_gazebo" to ""\n'}
+[6.013097] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/package_run_dependencies/atc_2_gazebo\n'}
+[6.013265] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/parent_prefix_path/atc_2_gazebo\n'}
+[6.013384] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/ament_prefix_path.sh\n'}
+[6.013504] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/ament_prefix_path.dsv\n'}
+[6.013595] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/path.sh\n'}
+[6.013716] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/environment/path.dsv\n'}
+[6.013785] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.bash\n'}
+[6.013854] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.sh\n'}
+[6.013922] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.zsh\n'}
+[6.013990] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/local_setup.dsv\n'}
+[6.014061] (atc_2_gazebo) StdoutLine: {'line': b'-- Installing: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/package.dsv\n'}
+[6.014195] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/ament_index/resource_index/packages/atc_2_gazebo\n'}
+[6.014342] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/cmake/atc_2_gazeboConfig.cmake\n'}
+[6.014441] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/cmake/atc_2_gazeboConfig-version.cmake\n'}
+[6.014556] (atc_2_gazebo) StdoutLine: {'line': b'-- Up-to-date: /data/controller/install/atc_2_gazebo/share/atc_2_gazebo/package.xml\n'}
+[6.018538] (atc_2_gazebo) CommandEnded: {'returncode': 0}
+[6.025015] (-) TimerEvent: {}
+[6.126068] (-) TimerEvent: {}
+[6.239600] (-) TimerEvent: {}
+[6.307700] (atc_2_gazebo) JobEnded: {'identifier': 'atc_2_gazebo', 'rc': 0}
+[6.308495] (-) EventReactorShutdown: {}

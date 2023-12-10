@@ -1,0 +1,2 @@
+[0.478s] Invoking command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+[0.872s] [ 50%] [32mBuilding CXX object CMakeFiles/rcv_atc_orders_and_send_2_gazebo.dir/src/process_orders_and_send_commands_to_gazebo.cpp.o[0m

@@ -1,0 +1,188 @@
+[2.481s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.481s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa12f94cdc0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa12f94cdc0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa12f5ba310>)
+[2.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.632s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/data/publisher'
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extension 'ignore'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extension 'ignore_ament_install'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extensions ['colcon_pkg']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extension 'colcon_pkg'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extensions ['colcon_meta']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extension 'colcon_meta'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extensions ['ros']
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(dummy_publisher) by extension 'ros'
+[2.665s] DEBUG:colcon.colcon_core.package_identification:Package 'dummy_publisher' with type 'ros.ament_cmake' and name 'dummy_publisher'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extension 'ignore'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extension 'ignore_ament_install'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extensions ['colcon_pkg']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extension 'colcon_pkg'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extensions ['colcon_meta']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extension 'colcon_meta'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extensions ['ros']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(rcv_atc_orders_and_send_2_gazebo) by extension 'ros'
+[2.668s] DEBUG:colcon.colcon_core.package_identification:Package 'rcv_atc_orders_and_send_2_gazebo' with type 'ros.ament_cmake' and name 'rcv_atc_orders_and_send_2_gazebo'
+[2.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'cmake_args' from command line to 'None'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'cmake_target' from command line to 'None'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'dummy_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.858s] DEBUG:colcon.colcon_core.verb:Building package 'dummy_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/data/publisher/build/dummy_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/data/publisher/install/dummy_publisher', 'merge_install': False, 'path': '/data/publisher/dummy_publisher', 'symlink_install': False, 'test_result_base': None}
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.894s] Level 5:colcon.colcon_core.verb:set package 'rcv_atc_orders_and_send_2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.894s] DEBUG:colcon.colcon_core.verb:Building package 'rcv_atc_orders_and_send_2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo', 'merge_install': False, 'path': '/data/publisher/rcv_atc_orders_and_send_2_gazebo', 'symlink_install': False, 'test_result_base': None}
+[2.933s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.978s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/data/publisher/dummy_publisher' with build type 'ament_cmake'
+[2.979s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/data/publisher/dummy_publisher'
+[3.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/data/publisher/rcv_atc_orders_and_send_2_gazebo' with build type 'ament_cmake'
+[3.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/data/publisher/rcv_atc_orders_and_send_2_gazebo'
+[3.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+[3.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+[3.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+[3.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/rcv_atc_orders_and_send_2_gazebo -- -j8 -l8
+[3.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/dummy_publisher
+[3.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/rcv_atc_orders_and_send_2_gazebo
+[3.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_publisher)
+[3.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/dummy_publisher
+[3.673s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher' for CMake module files
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher' for CMake config files
+[3.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_publisher', 'cmake_prefix_path')
+[3.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/dummy_publisher/share/dummy_publisher/hook/cmake_prefix_path.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/publisher/install/dummy_publisher/share/dummy_publisher/hook/cmake_prefix_path.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/dummy_publisher/share/dummy_publisher/hook/cmake_prefix_path.sh'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/lib'
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/bin'
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/lib/pkgconfig/dummy_publisher.pc'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/lib/python3.8/site-packages'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/bin'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.ps1'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.dsv'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.sh'
+[3.837s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.zsh'
+[3.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/publisher/install/dummy_publisher/share/colcon-core/packages/dummy_publisher)
+[3.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rcv_atc_orders_and_send_2_gazebo)
+[3.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/publisher/build/rcv_atc_orders_and_send_2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/rcv_atc_orders_and_send_2_gazebo
+[3.913s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo' for CMake module files
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo' for CMake config files
+[3.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('rcv_atc_orders_and_send_2_gazebo', 'cmake_prefix_path')
+[3.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.ps1'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.dsv'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.sh'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/bin'
+[3.976s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib/pkgconfig/rcv_atc_orders_and_send_2_gazebo.pc'
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib/python3.8/site-packages'
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/bin'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.ps1'
+[4.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.dsv'
+[4.033s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.sh'
+[4.035s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.bash'
+[4.036s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.zsh'
+[4.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/colcon-core/packages/rcv_atc_orders_and_send_2_gazebo)
+[4.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_publisher)
+[4.170s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher' for CMake module files
+[4.171s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher' for CMake config files
+[4.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_publisher', 'cmake_prefix_path')
+[4.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/dummy_publisher/share/dummy_publisher/hook/cmake_prefix_path.ps1'
+[4.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/publisher/install/dummy_publisher/share/dummy_publisher/hook/cmake_prefix_path.dsv'
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/dummy_publisher/share/dummy_publisher/hook/cmake_prefix_path.sh'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/lib'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/bin'
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/lib/pkgconfig/dummy_publisher.pc'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/lib/python3.8/site-packages'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/dummy_publisher/bin'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.ps1'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.dsv'
+[4.284s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.sh'
+[4.286s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.bash'
+[4.287s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/dummy_publisher/share/dummy_publisher/package.zsh'
+[4.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/publisher/install/dummy_publisher/share/colcon-core/packages/dummy_publisher)
+[4.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rcv_atc_orders_and_send_2_gazebo)
+[4.396s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo' for CMake module files
+[4.397s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo' for CMake config files
+[4.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('rcv_atc_orders_and_send_2_gazebo', 'cmake_prefix_path')
+[4.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.ps1'
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.dsv'
+[4.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/hook/cmake_prefix_path.sh'
+[4.470s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib'
+[4.471s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/bin'
+[4.471s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib/pkgconfig/rcv_atc_orders_and_send_2_gazebo.pc'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/lib/python3.8/site-packages'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/bin'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.ps1'
+[4.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.dsv'
+[4.544s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.sh'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.bash'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/rcv_atc_orders_and_send_2_gazebo/package.zsh'
+[4.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/publisher/install/rcv_atc_orders_and_send_2_gazebo/share/colcon-core/packages/rcv_atc_orders_and_send_2_gazebo)
+[4.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.554s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.631s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.644s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.645s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/publisher/install/local_setup.ps1'
+[4.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/data/publisher/install/_local_setup_util_ps1.py'
+[4.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/publisher/install/setup.ps1'
+[4.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/publisher/install/local_setup.sh'
+[4.782s] INFO:colcon.colcon_core.shell:Creating prefix util module '/data/publisher/install/_local_setup_util_sh.py'
+[4.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/publisher/install/setup.sh'
+[4.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/publisher/install/local_setup.bash'
+[4.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/publisher/install/setup.bash'
+[4.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/publisher/install/local_setup.zsh'
+[4.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/publisher/install/setup.zsh'

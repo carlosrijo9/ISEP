@@ -1,0 +1,9 @@
+[0.230s] Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+[0.309s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o[0m
+[1.700s] [01m[K/data/publisher/dummy_publisher/src/dummy_publisher.cpp:34:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[1.700s]    34 |     [01;31m[Kreturn[m[K 0;
+[1.700s]       |     [01;31m[K^~~~~~[m[K
+[2.544s] make[2]: *** [CMakeFiles/dummy_publisher.dir/build.make:63: CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o] Error 1
+[2.544s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/dummy_publisher.dir/all] Error 2
+[2.544s] make: *** [Makefile:141: all] Error 2
+[2.547s] Invoked command in '/data/publisher/build/dummy_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8

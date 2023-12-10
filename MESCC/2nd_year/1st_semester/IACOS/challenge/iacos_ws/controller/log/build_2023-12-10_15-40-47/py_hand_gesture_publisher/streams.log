@@ -1,0 +1,21 @@
+[0.757s] Invoking command in '/data/controller/py_hand_gesture_publisher': PYTHONPATH=/data/controller/build/py_hand_gesture_publisher/prefix_override:/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_hand_gesture_publisher build --build-base /data/controller/build/py_hand_gesture_publisher/build install --record /data/controller/build/py_hand_gesture_publisher/install.log --install-scripts $base/lib/py_hand_gesture_publisher --single-version-externally-managed
+[0.934s] running egg_info
+[0.934s] writing ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/PKG-INFO
+[0.934s] writing dependency_links to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/dependency_links.txt
+[0.934s] writing entry points to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/entry_points.txt
+[0.935s] writing requirements to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/requires.txt
+[0.935s] writing top-level names to ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/top_level.txt
+[0.963s] reading manifest file '../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/SOURCES.txt'
+[0.964s] writing manifest file '../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.964s] running install
+[0.965s] running install_lib
+[0.966s] running install_data
+[0.967s] running install_egg_info
+[0.968s] removing '/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages/py_hand_gesture_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[0.969s] Copying ../build/py_hand_gesture_publisher/py_hand_gesture_publisher.egg-info to /data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages/py_hand_gesture_publisher-0.0.0-py3.8.egg-info
+[0.969s] running install_scripts
+[0.985s] Installing atc_publisher script to /data/controller/install/py_hand_gesture_publisher/lib/py_hand_gesture_publisher
+[0.985s] writing list of installed files to '/data/controller/build/py_hand_gesture_publisher/install.log'
+[1.016s] Invoked command in '/data/controller/py_hand_gesture_publisher' returned '0': PYTHONPATH=/data/controller/build/py_hand_gesture_publisher/prefix_override:/data/controller/install/py_hand_gesture_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_hand_gesture_publisher build --build-base /data/controller/build/py_hand_gesture_publisher/build install --record /data/controller/build/py_hand_gesture_publisher/install.log --install-scripts $base/lib/py_hand_gesture_publisher --single-version-externally-managed

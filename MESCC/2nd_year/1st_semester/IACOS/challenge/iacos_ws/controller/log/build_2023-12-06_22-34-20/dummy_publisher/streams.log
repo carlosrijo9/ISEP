@@ -1,0 +1,25 @@
+[0.137s] Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_publisher.dir/src/dummy_publisher.cpp.o[0m
+[2.631s] [100%] [32m[1mLinking CXX executable dummy_publisher[0m
+[2.793s] [100%] Built target dummy_publisher
+[2.803s] Invoked command in '/data/publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /data/publisher/build/dummy_publisher -- -j8 -l8
+[2.835s] Invoking command in '/data/publisher/build/dummy_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/dummy_publisher
+[2.845s] -- Install configuration: ""
+[2.845s] -- Installing: /data/publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher
+[2.847s] -- Set runtime path of "/data/publisher/install/dummy_publisher/lib/dummy_publisher/dummy_publisher" to ""
+[2.847s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_publisher
+[2.847s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_publisher
+[2.847s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.sh
+[2.847s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/ament_prefix_path.dsv
+[2.847s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.sh
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/environment/path.dsv
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.bash
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.sh
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.zsh
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/local_setup.dsv
+[2.848s] -- Installing: /data/publisher/install/dummy_publisher/share/dummy_publisher/package.dsv
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/ament_index/resource_index/packages/dummy_publisher
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig.cmake
+[2.848s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/cmake/dummy_publisherConfig-version.cmake
+[2.849s] -- Up-to-date: /data/publisher/install/dummy_publisher/share/dummy_publisher/package.xml
+[2.850s] Invoked command in '/data/publisher/build/dummy_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /data/publisher/build/dummy_publisher

@@ -1,0 +1,6 @@
+[0.244s] Invoking command in '/data/controller/build/rcv_atc_orders_and_send_2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/rcv_atc_orders_and_send_2_gazebo -- -j12 -l12
+[0.261s] CMake Error: The current CMakeCache.txt directory /data/controller/build/rcv_atc_orders_and_send_2_gazebo/CMakeCache.txt is different than the directory /data/publisher/build/rcv_atc_orders_and_send_2_gazebo where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.276s] CMake Error: The source directory "/data/publisher/rcv_atc_orders_and_send_2_gazebo" does not exist.
+[0.276s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.277s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.281s] Invoked command in '/data/controller/build/rcv_atc_orders_and_send_2_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/controller/install/py_hand_gesture_publisher:/opt/ros/foxy /usr/bin/cmake --build /data/controller/build/rcv_atc_orders_and_send_2_gazebo -- -j12 -l12
