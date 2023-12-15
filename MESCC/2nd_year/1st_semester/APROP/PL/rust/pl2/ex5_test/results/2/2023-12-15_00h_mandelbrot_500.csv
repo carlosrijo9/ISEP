@@ -1,0 +1,2000 @@
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,1
+
+Sequential,128,182573
+
+Sequential (FOR),129,182573
+
+ThreadPool Cell,226,182573
+
+ThreadPool Line,131,182573
+
+ThreadPool Block,134,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,1
+
+Sequential,125,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,226,182573
+
+ThreadPool Line,131,182573
+
+ThreadPool Block,138,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,1
+
+Sequential,130,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,226,182573
+
+ThreadPool Line,132,182573
+
+ThreadPool Block,134,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,1
+
+Sequential,124,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,229,182573
+
+ThreadPool Line,135,182573
+
+ThreadPool Block,135,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,1
+
+Sequential,124,182573
+
+Sequential (FOR),126,182573
+
+ThreadPool Cell,235,182573
+
+ThreadPool Line,137,182573
+
+ThreadPool Block,133,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,2
+
+Sequential,123,182573
+
+Sequential (FOR),140,182573
+
+ThreadPool Cell,170,182573
+
+ThreadPool Line,72,182573
+
+ThreadPool Block,72,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,2
+
+Sequential,133,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,167,182573
+
+ThreadPool Line,73,182573
+
+ThreadPool Block,74,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,2
+
+Sequential,128,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,171,182573
+
+ThreadPool Line,73,182573
+
+ThreadPool Block,73,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,2
+
+Sequential,121,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,173,182573
+
+ThreadPool Line,70,182573
+
+ThreadPool Block,74,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,2
+
+Sequential,124,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,173,182573
+
+ThreadPool Line,74,182573
+
+ThreadPool Block,74,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,4
+
+Sequential,127,182573
+
+Sequential (FOR),130,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,41,182573
+
+ThreadPool Block,39,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,4
+
+Sequential,128,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,126,182573
+
+ThreadPool Line,40,182573
+
+ThreadPool Block,39,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,4
+
+Sequential,126,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,40,182573
+
+ThreadPool Block,41,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,4
+
+Sequential,126,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,129,182573
+
+ThreadPool Line,40,182573
+
+ThreadPool Block,39,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,4
+
+Sequential,128,182573
+
+Sequential (FOR),126,182573
+
+ThreadPool Cell,123,182573
+
+ThreadPool Line,48,182573
+
+ThreadPool Block,41,182573
+
+Rayon,23,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,8
+
+Sequential,125,182573
+
+Sequential (FOR),130,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,23,182573
+
+ThreadPool Block,26,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,8
+
+Sequential,124,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,26,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,8
+
+Sequential,129,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,116,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,26,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,8
+
+Sequential,125,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,27,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,8
+
+Sequential,127,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,118,182573
+
+ThreadPool Line,29,182573
+
+ThreadPool Block,25,182573
+
+Rayon,23,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,16
+
+Sequential,123,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,127,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,26,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,16
+
+Sequential,128,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,126,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,27,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,16
+
+Sequential,122,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,29,182573
+
+Rayon,35,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,16
+
+Sequential,139,182573
+
+Sequential (FOR),137,182573
+
+ThreadPool Cell,137,182573
+
+ThreadPool Line,26,182573
+
+ThreadPool Block,26,182573
+
+Rayon,30,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,500,16
+
+Sequential,133,182573
+
+Sequential (FOR),128,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,28,182573
+
+ThreadPool Block,30,182573
+
+Rayon,31,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,1
+
+Sequential,137,182573
+
+Sequential (FOR),140,182573
+
+ThreadPool Cell,250,182573
+
+ThreadPool Line,134,182573
+
+ThreadPool Block,142,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,1
+
+Sequential,137,182573
+
+Sequential (FOR),135,182573
+
+ThreadPool Cell,238,182573
+
+ThreadPool Line,131,182573
+
+ThreadPool Block,152,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,1
+
+Sequential,139,182573
+
+Sequential (FOR),140,182573
+
+ThreadPool Cell,251,182573
+
+ThreadPool Line,130,182573
+
+ThreadPool Block,142,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,1
+
+Sequential,144,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,228,182573
+
+ThreadPool Line,135,182573
+
+ThreadPool Block,129,182573
+
+Rayon,23,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,1
+
+Sequential,132,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,231,182573
+
+ThreadPool Line,138,182573
+
+ThreadPool Block,138,182573
+
+Rayon,24,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,2
+
+Sequential,142,182573
+
+Sequential (FOR),140,182573
+
+ThreadPool Cell,173,182573
+
+ThreadPool Line,75,182573
+
+ThreadPool Block,83,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,2
+
+Sequential,135,182573
+
+Sequential (FOR),159,182573
+
+ThreadPool Cell,198,182573
+
+ThreadPool Line,82,182573
+
+ThreadPool Block,87,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,2
+
+Sequential,123,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,170,182573
+
+ThreadPool Line,79,182573
+
+ThreadPool Block,76,182573
+
+Rayon,24,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,2
+
+Sequential,144,182573
+
+Sequential (FOR),149,182573
+
+ThreadPool Cell,184,182573
+
+ThreadPool Line,82,182573
+
+ThreadPool Block,90,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,2
+
+Sequential,170,182573
+
+Sequential (FOR),160,182573
+
+ThreadPool Cell,175,182573
+
+ThreadPool Line,75,182573
+
+ThreadPool Block,83,182573
+
+Rayon,34,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,4
+
+Sequential,161,182573
+
+Sequential (FOR),163,182573
+
+ThreadPool Cell,146,182573
+
+ThreadPool Line,45,182573
+
+ThreadPool Block,42,182573
+
+Rayon,23,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,4
+
+Sequential,144,182573
+
+Sequential (FOR),140,182573
+
+ThreadPool Cell,127,182573
+
+ThreadPool Line,46,182573
+
+ThreadPool Block,47,182573
+
+Rayon,32,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,4
+
+Sequential,144,182573
+
+Sequential (FOR),141,182573
+
+ThreadPool Cell,132,182573
+
+ThreadPool Line,43,182573
+
+ThreadPool Block,43,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,4
+
+Sequential,130,182573
+
+Sequential (FOR),141,182573
+
+ThreadPool Cell,140,182573
+
+ThreadPool Line,45,182573
+
+ThreadPool Block,41,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,4
+
+Sequential,133,182573
+
+Sequential (FOR),134,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,41,182573
+
+ThreadPool Block,45,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,8
+
+Sequential,131,182573
+
+Sequential (FOR),129,182573
+
+ThreadPool Cell,115,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,24,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,8
+
+Sequential,126,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,115,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,24,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,8
+
+Sequential,128,182573
+
+Sequential (FOR),130,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,23,182573
+
+ThreadPool Block,25,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,8
+
+Sequential,129,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,117,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,24,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,8
+
+Sequential,126,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,115,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,24,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,16
+
+Sequential,131,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,28,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,16
+
+Sequential,126,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,131,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,24,182573
+
+Rayon,31,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,16
+
+Sequential,128,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,123,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,24,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,16
+
+Sequential,125,182573
+
+Sequential (FOR),120,182573
+
+ThreadPool Cell,129,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,24,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,250,16
+
+Sequential,126,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,28,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,1
+
+Sequential,126,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,228,182573
+
+ThreadPool Line,135,182573
+
+ThreadPool Block,134,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,1
+
+Sequential,124,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,229,182573
+
+ThreadPool Line,130,182573
+
+ThreadPool Block,136,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,1
+
+Sequential,129,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,232,182573
+
+ThreadPool Line,128,182573
+
+ThreadPool Block,127,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,1
+
+Sequential,124,182573
+
+Sequential (FOR),120,182573
+
+ThreadPool Cell,228,182573
+
+ThreadPool Line,135,182573
+
+ThreadPool Block,135,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,1
+
+Sequential,125,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,230,182573
+
+ThreadPool Line,128,182573
+
+ThreadPool Block,136,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,2
+
+Sequential,125,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,174,182573
+
+ThreadPool Line,72,182573
+
+ThreadPool Block,75,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,2
+
+Sequential,123,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,173,182573
+
+ThreadPool Line,72,182573
+
+ThreadPool Block,75,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,2
+
+Sequential,123,182573
+
+Sequential (FOR),131,182573
+
+ThreadPool Cell,176,182573
+
+ThreadPool Line,75,182573
+
+ThreadPool Block,75,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,2
+
+Sequential,125,182573
+
+Sequential (FOR),126,182573
+
+ThreadPool Cell,169,182573
+
+ThreadPool Line,71,182573
+
+ThreadPool Block,74,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,2
+
+Sequential,124,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,175,182573
+
+ThreadPool Line,75,182573
+
+ThreadPool Block,77,182573
+
+Rayon,23,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,4
+
+Sequential,123,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,42,182573
+
+ThreadPool Block,42,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,4
+
+Sequential,129,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,127,182573
+
+ThreadPool Line,42,182573
+
+ThreadPool Block,43,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,4
+
+Sequential,128,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,40,182573
+
+ThreadPool Block,43,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,4
+
+Sequential,128,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,122,182573
+
+ThreadPool Line,42,182573
+
+ThreadPool Block,41,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,4
+
+Sequential,125,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,127,182573
+
+ThreadPool Line,40,182573
+
+ThreadPool Block,41,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,8
+
+Sequential,123,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,25,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,8
+
+Sequential,127,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,27,182573
+
+ThreadPool Block,25,182573
+
+Rayon,23,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,8
+
+Sequential,125,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,113,182573
+
+ThreadPool Line,23,182573
+
+ThreadPool Block,25,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,8
+
+Sequential,126,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,117,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,25,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,8
+
+Sequential,125,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,111,182573
+
+ThreadPool Line,23,182573
+
+ThreadPool Block,25,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,16
+
+Sequential,121,182573
+
+Sequential (FOR),126,182573
+
+ThreadPool Cell,125,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,25,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,16
+
+Sequential,125,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,126,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,25,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,16
+
+Sequential,136,182573
+
+Sequential (FOR),132,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,25,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,16
+
+Sequential,128,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,123,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,26,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,100,16
+
+Sequential,128,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,25,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,1
+
+Sequential,128,182573
+
+Sequential (FOR),130,182573
+
+ThreadPool Cell,262,182573
+
+ThreadPool Line,153,182573
+
+ThreadPool Block,170,182573
+
+Rayon,32,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,1
+
+Sequential,147,182573
+
+Sequential (FOR),139,182573
+
+ThreadPool Cell,272,182573
+
+ThreadPool Line,171,182573
+
+ThreadPool Block,153,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,1
+
+Sequential,127,182573
+
+Sequential (FOR),128,182573
+
+ThreadPool Cell,239,182573
+
+ThreadPool Line,142,182573
+
+ThreadPool Block,143,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,1
+
+Sequential,132,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,251,182573
+
+ThreadPool Line,142,182573
+
+ThreadPool Block,142,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,1
+
+Sequential,127,182573
+
+Sequential (FOR),136,182573
+
+ThreadPool Cell,232,182573
+
+ThreadPool Line,136,182573
+
+ThreadPool Block,145,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,2
+
+Sequential,135,182573
+
+Sequential (FOR),131,182573
+
+ThreadPool Cell,174,182573
+
+ThreadPool Line,71,182573
+
+ThreadPool Block,78,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,2
+
+Sequential,129,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,172,182573
+
+ThreadPool Line,71,182573
+
+ThreadPool Block,77,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,2
+
+Sequential,131,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,173,182573
+
+ThreadPool Line,75,182573
+
+ThreadPool Block,79,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,2
+
+Sequential,124,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,170,182573
+
+ThreadPool Line,85,182573
+
+ThreadPool Block,96,182573
+
+Rayon,44,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,2
+
+Sequential,163,182573
+
+Sequential (FOR),130,182573
+
+ThreadPool Cell,174,182573
+
+ThreadPool Line,72,182573
+
+ThreadPool Block,81,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,4
+
+Sequential,129,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,130,182573
+
+ThreadPool Line,44,182573
+
+ThreadPool Block,42,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,4
+
+Sequential,128,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,121,182573
+
+ThreadPool Line,41,182573
+
+ThreadPool Block,44,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,4
+
+Sequential,131,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,127,182573
+
+ThreadPool Line,41,182573
+
+ThreadPool Block,42,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,4
+
+Sequential,129,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,123,182573
+
+ThreadPool Line,42,182573
+
+ThreadPool Block,44,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,4
+
+Sequential,141,182573
+
+Sequential (FOR),156,182573
+
+ThreadPool Cell,164,182573
+
+ThreadPool Line,46,182573
+
+ThreadPool Block,55,182573
+
+Rayon,39,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,8
+
+Sequential,156,182573
+
+Sequential (FOR),154,182573
+
+ThreadPool Cell,116,182573
+
+ThreadPool Line,29,182573
+
+ThreadPool Block,29,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,8
+
+Sequential,142,182573
+
+Sequential (FOR),141,182573
+
+ThreadPool Cell,116,182573
+
+ThreadPool Line,29,182573
+
+ThreadPool Block,38,182573
+
+Rayon,37,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,8
+
+Sequential,140,182573
+
+Sequential (FOR),135,182573
+
+ThreadPool Cell,114,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,27,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,8
+
+Sequential,131,182573
+
+Sequential (FOR),129,182573
+
+ThreadPool Cell,117,182573
+
+ThreadPool Line,28,182573
+
+ThreadPool Block,34,182573
+
+Rayon,33,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,8
+
+Sequential,132,182573
+
+Sequential (FOR),145,182573
+
+ThreadPool Cell,148,182573
+
+ThreadPool Line,30,182573
+
+ThreadPool Block,32,182573
+
+Rayon,34,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,16
+
+Sequential,136,182573
+
+Sequential (FOR),126,182573
+
+ThreadPool Cell,127,182573
+
+ThreadPool Line,26,182573
+
+ThreadPool Block,26,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,16
+
+Sequential,132,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,126,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,26,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,16
+
+Sequential,144,182573
+
+Sequential (FOR),123,182573
+
+ThreadPool Cell,125,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,26,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,16
+
+Sequential,123,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,26,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,50,16
+
+Sequential,124,182573
+
+Sequential (FOR),129,182573
+
+ThreadPool Cell,122,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,26,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,1
+
+Sequential,127,182573
+
+Sequential (FOR),129,182573
+
+ThreadPool Cell,228,182573
+
+ThreadPool Line,131,182573
+
+ThreadPool Block,170,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,1
+
+Sequential,124,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,230,182573
+
+ThreadPool Line,132,182573
+
+ThreadPool Block,151,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,1
+
+Sequential,129,182573
+
+Sequential (FOR),121,182573
+
+ThreadPool Cell,227,182573
+
+ThreadPool Line,134,182573
+
+ThreadPool Block,174,182573
+
+Rayon,37,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,1
+
+Sequential,147,182573
+
+Sequential (FOR),159,182573
+
+ThreadPool Cell,249,182573
+
+ThreadPool Line,153,182573
+
+ThreadPool Block,184,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,1
+
+Sequential,140,182573
+
+Sequential (FOR),141,182573
+
+ThreadPool Cell,232,182573
+
+ThreadPool Line,130,182573
+
+ThreadPool Block,161,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,2
+
+Sequential,125,182573
+
+Sequential (FOR),130,182573
+
+ThreadPool Cell,180,182573
+
+ThreadPool Line,78,182573
+
+ThreadPool Block,98,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,2
+
+Sequential,152,182573
+
+Sequential (FOR),132,182573
+
+ThreadPool Cell,175,182573
+
+ThreadPool Line,76,182573
+
+ThreadPool Block,96,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,2
+
+Sequential,128,182573
+
+Sequential (FOR),126,182573
+
+ThreadPool Cell,185,182573
+
+ThreadPool Line,73,182573
+
+ThreadPool Block,105,182573
+
+Rayon,26,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,2
+
+Sequential,135,182573
+
+Sequential (FOR),132,182573
+
+ThreadPool Cell,170,182573
+
+ThreadPool Line,75,182573
+
+ThreadPool Block,100,182573
+
+Rayon,30,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,2
+
+Sequential,144,182573
+
+Sequential (FOR),151,182573
+
+ThreadPool Cell,177,182573
+
+ThreadPool Line,78,182573
+
+ThreadPool Block,99,182573
+
+Rayon,27,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,4
+
+Sequential,131,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,123,182573
+
+ThreadPool Line,40,182573
+
+ThreadPool Block,62,182573
+
+Rayon,31,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,4
+
+Sequential,133,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,130,182573
+
+ThreadPool Line,48,182573
+
+ThreadPool Block,64,182573
+
+Rayon,35,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,4
+
+Sequential,150,182573
+
+Sequential (FOR),165,182573
+
+ThreadPool Cell,132,182573
+
+ThreadPool Line,50,182573
+
+ThreadPool Block,64,182573
+
+Rayon,29,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,4
+
+Sequential,140,182573
+
+Sequential (FOR),133,182573
+
+ThreadPool Cell,132,182573
+
+ThreadPool Line,45,182573
+
+ThreadPool Block,64,182573
+
+Rayon,34,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,4
+
+Sequential,140,182573
+
+Sequential (FOR),138,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,43,182573
+
+ThreadPool Block,62,182573
+
+Rayon,24,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,8
+
+Sequential,123,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,115,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,45,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,8
+
+Sequential,126,182573
+
+Sequential (FOR),122,182573
+
+ThreadPool Cell,115,182573
+
+ThreadPool Line,28,182573
+
+ThreadPool Block,42,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,8
+
+Sequential,126,182573
+
+Sequential (FOR),120,182573
+
+ThreadPool Cell,116,182573
+
+ThreadPool Line,29,182573
+
+ThreadPool Block,49,182573
+
+Rayon,31,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,8
+
+Sequential,127,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,120,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,44,182573
+
+Rayon,28,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,8
+
+Sequential,129,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,114,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,45,182573
+
+Rayon,30,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,16
+
+Sequential,129,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,51,182573
+
+Rayon,31,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,16
+
+Sequential,124,182573
+
+Sequential (FOR),127,182573
+
+ThreadPool Cell,130,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,51,182573
+
+Rayon,31,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,16
+
+Sequential,134,182573
+
+Sequential (FOR),125,182573
+
+ThreadPool Cell,132,182573
+
+ThreadPool Line,27,182573
+
+ThreadPool Block,48,182573
+
+Rayon,33,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,16
+
+Sequential,141,182573
+
+Sequential (FOR),136,182573
+
+ThreadPool Cell,124,182573
+
+ThreadPool Line,24,182573
+
+ThreadPool Block,44,182573
+
+Rayon,30,182573
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,500,5,16
+
+Sequential,131,182573
+
+Sequential (FOR),124,182573
+
+ThreadPool Cell,128,182573
+
+ThreadPool Line,25,182573
+
+ThreadPool Block,53,182573
+
+Rayon,32,182573
+

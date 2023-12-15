@@ -1,0 +1,112 @@
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,1
+
+Sequential,119144,18299402
+
+Sequential (FOR),118772,18299402
+
+ThreadPool Cell,143496,18299402
+
+ThreadPool Line,119281,18299402
+
+ThreadPool Block,131345,18299402
+
+Rayon,22003,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,1
+
+Sequential,120896,18299402
+
+Sequential (FOR),119608,18299402
+
+ThreadPool Cell,143407,18299402
+
+ThreadPool Line,118256,18299402
+
+ThreadPool Block,131287,18299402
+
+Rayon,22036,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,1
+
+Sequential,119940,18299402
+
+Sequential (FOR),120050,18299402
+
+ThreadPool Cell,142021,18299402
+
+ThreadPool Line,119146,18299402
+
+ThreadPool Block,131469,18299402
+
+Rayon,22066,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,2
+
+Sequential,119372,18299402
+
+Sequential (FOR),119738,18299402
+
+ThreadPool Cell,81763,18299402
+
+ThreadPool Line,64826,18299402
+
+ThreadPool Block,71744,18299402
+
+Rayon,22114,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,2
+
+Sequential,119407,18299402
+
+Sequential (FOR),120172,18299402
+
+ThreadPool Cell,82126,18299402
+
+ThreadPool Line,65411,18299402
+
+ThreadPool Block,71650,18299402
+
+Rayon,22015,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,2
+
+Sequential,119588,18299402
+
+Sequential (FOR),119210,18299402
+
+ThreadPool Cell,81943,18299402
+
+ThreadPool Line,65652,18299402
+
+ThreadPool Block,72002,18299402
+
+Rayon,22004,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,5000,2
+
+Sequential,119721,18299402
+
+Sequential (FOR),119859,18299402
+
+ThreadPool Cell,81926,18299402
+
+ThreadPool Line,65318,18299402
+
+ThreadPool Block,72026,18299402
+
+Rayon,22018,18299402
+

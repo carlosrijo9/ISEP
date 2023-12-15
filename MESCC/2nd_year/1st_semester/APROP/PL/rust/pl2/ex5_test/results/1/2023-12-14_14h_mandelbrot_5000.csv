@@ -1,0 +1,144 @@
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,1
+
+Sequential,118741,18299402
+
+Sequential (FOR),118090,18299402
+
+ThreadPool Cell,140371,18299402
+
+ThreadPool Line,116809,18299402
+
+ThreadPool Block,119180,18299402
+
+Rayon,21908,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,2
+
+Sequential,118717,18299402
+
+Sequential (FOR),118523,18299402
+
+ThreadPool Cell,81547,18299402
+
+ThreadPool Line,64887,18299402
+
+ThreadPool Block,65722,18299402
+
+Rayon,21936,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,3
+
+Sequential,118302,18299402
+
+Sequential (FOR),118169,18299402
+
+ThreadPool Cell,60298,18299402
+
+ThreadPool Line,47800,18299402
+
+ThreadPool Block,48076,18299402
+
+Rayon,21900,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,4
+
+Sequential,118549,18299402
+
+Sequential (FOR),117847,18299402
+
+ThreadPool Cell,49535,18299402
+
+ThreadPool Line,38038,18299402
+
+ThreadPool Block,38180,18299402
+
+Rayon,22018,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,5
+
+Sequential,118853,18299402
+
+Sequential (FOR),118392,18299402
+
+ThreadPool Cell,43004,18299402
+
+ThreadPool Line,31835,18299402
+
+ThreadPool Block,31985,18299402
+
+Rayon,22023,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,6
+
+Sequential,119340,18299402
+
+Sequential (FOR),118679,18299402
+
+ThreadPool Cell,38415,18299402
+
+ThreadPool Line,27329,18299402
+
+ThreadPool Block,27416,18299402
+
+Rayon,22123,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,7
+
+Sequential,118664,18299402
+
+Sequential (FOR),118782,18299402
+
+ThreadPool Cell,34900,18299402
+
+ThreadPool Line,24087,18299402
+
+ThreadPool Block,24292,18299402
+
+Rayon,22015,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,8
+
+Sequential,118676,18299402
+
+Sequential (FOR),118837,18299402
+
+ThreadPool Cell,34358,18299402
+
+ThreadPool Line,21711,18299402
+
+ThreadPool Block,22107,18299402
+
+Rayon,22072,18299402
+
+ ,Time (ms),Num Outside,Matrix Size,Block Size,Nr Threads
+
+MandelBrot Area Calc, , ,5000,2500,9
+
+Sequential,118221,18299402
+
+Sequential (FOR),117989,18299402
+
+ThreadPool Cell,34044,18299402
+
+ThreadPool Line,21704,18299402
+
+ThreadPool Block,21968,18299402
+
+Rayon,22072,18299402
+
