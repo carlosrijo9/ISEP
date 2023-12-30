@@ -288,6 +288,9 @@ result_t seq_mandel(int num_points, int maxiter)
     error = area / (double)num_points;
 
     result_t result = {area, error};
+    printf("Area seq = %f",area);
+    printf("\nError seq = %f",error);
+    printf("\numoutside seq = %d",numoutside);
     return result;
 }
 
@@ -364,41 +367,45 @@ void testpoint2(struct d_complex c, int maxiter)
         }
     }
 }
-
+// The corrected par_task function with appropriate OpenMP pragmas and dependency handling
 result_t par_task(int num_threads, int num_points, int maxiter)
 {
     double area = 0, error = 0, eps = 1.0e-5;
     numoutside = 0;
     omp_set_num_threads(num_threads);
 
+    // Corrected parallel region with task creation and dependencies
 #pragma omp parallel
     {
 #pragma omp single
         {
-#pragma omp taskloop shared(c)
             for (int i = 0; i < num_points; i++)
             {
                 for (int j = 0; j < num_points; j++)
                 {
-                    // #pragma omp task shared(c)
-                    c.r = -2.0 + 2.5 * (double)(i) / (double)(num_points) + eps;
+                    struct d_complex point;
+                    point.r = -2.0 + 2.5 * (double)(i) / (double)(num_points) + eps;
+                    point.i = 1.125 * (double)(j) / (double)(num_points) + eps;
 
-                    // #pragma omp task shared(c)
-                    c.i = 1.125 * (double)(j) / (double)(num_points) + eps;
-
-#pragma omp taskwait
-                    testpoint_par(c, maxiter);
+                    // Task creation with dependencies
+#pragma omp task firstprivate(point)
+                    testpoint_par(point, maxiter);
                 }
             }
         }
     }
-    // Calculate area of set and error estimate and output the results
+
+    // Calculate area of set and error estimate
     area = 2.0 * 2.5 * 1.125 * (double)(num_points * num_points - numoutside) / (double)(num_points * num_points);
     error = area / (double)num_points;
 
     result_t result = {area, error};
+    printf("\n\nArea par_task = %f",area);
+    printf("\nError par_task = %f",error);
+    printf("\numoutside par_task = %d",numoutside);
     return result;
 }
+
 
 result_t par_mandel_block(int num_threads, int num_points, int maxiter, int block_size_ratio)
 {
@@ -406,19 +413,25 @@ result_t par_mandel_block(int num_threads, int num_points, int maxiter, int bloc
     numoutside = 0;
     omp_set_num_threads(num_threads);
 
-    int block_size = num_points / block_size_ratio;
+ int block_size = num_points / block_size_ratio;
 
-#pragma omp parallel for default(shared) firstprivate(eps) private(c)
+#pragma omp parallel for collapse(2) default(shared) firstprivate(eps) private(c)
     for (int bi = 0; bi < block_size_ratio; bi++)
     {
         for (int bj = 0; bj < block_size_ratio; bj++)
         {
             int i_start = bi * block_size;
             int j_start = bj * block_size;
+            int i_end = i_start + block_size;
+            int j_end = j_start + block_size;
 
-            for (int i = i_start; i < i_start + block_size; i++)
+            // Adjust bounds if they exceed num_points
+            if (i_end > num_points) i_end = num_points;
+            if (j_end > num_points) j_end = num_points;
+
+            for (int i = i_start; i < i_end; i++)
             {
-                for (int j = j_start; j < j_start + block_size; j++)
+                for (int j = j_start; j < j_end; j++)
                 {
                     c.r = -2.0 + 2.5 * (double)(i) / (double)(num_points) + eps;
                     c.i = 1.125 * (double)(j) / (double)(num_points) + eps;
@@ -433,5 +446,8 @@ result_t par_mandel_block(int num_threads, int num_points, int maxiter, int bloc
     error = area / (double)num_points;
 
     result_t result = {area, error};
+    printf("\n\nArea par_mandel_block = %f",area);
+    printf("\nError par_mandel_block = %f",error);
+    printf("\numoutside par_mandel_block = %d \n\n -------------------------------------------",numoutside);
     return result;
 }
