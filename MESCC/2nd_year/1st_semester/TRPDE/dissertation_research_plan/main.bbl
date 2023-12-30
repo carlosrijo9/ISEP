@@ -1,0 +1,361 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{VPP2}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=313ad2bde5eed84c834d7c9a4fd53418}{%
+           family={Accelerator},
+           familyi={A\bibinitperiod},
+           given={Academic},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{313ad2bde5eed84c834d7c9a4fd53418}
+      \strng{fullhash}{313ad2bde5eed84c834d7c9a4fd53418}
+      \strng{bibnamehash}{313ad2bde5eed84c834d7c9a4fd53418}
+      \strng{authorbibnamehash}{313ad2bde5eed84c834d7c9a4fd53418}
+      \strng{authornamehash}{313ad2bde5eed84c834d7c9a4fd53418}
+      \strng{authorfullhash}{313ad2bde5eed84c834d7c9a4fd53418}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Academic Accelerator}
+      \field{title}{Variable Pitch Propeller Aeronautics: Most Up-to-Date Encyclopedia, News \& Reviews}
+      \verb{urlraw}
+      \verb https://academic-accelerator.com/encyclopedia/variable-pitch-propeller-aeronautics
+      \endverb
+      \verb{url}
+      \verb https://academic-accelerator.com/encyclopedia/variable-pitch-propeller-aeronautics
+      \endverb
+    \endentry
+    \entry{VPP1}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f6e047e7e1eb1bddae6cb789670e5c63}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ching-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd8c76f3029662144ead22b83f6f8d4}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shengyang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41a5d36ecb60c657a19f6f1c4f307ddb}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Chih-Yung},
+           giveni={C\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f41d5e21d0d4723e0ee7714cf32915c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Boyang},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66df41cd934985964ba65c17f757730d}
+      \strng{fullhash}{968d797dc30731cc04b48bda302c765b}
+      \strng{bibnamehash}{66df41cd934985964ba65c17f757730d}
+      \strng{authorbibnamehash}{66df41cd934985964ba65c17f757730d}
+      \strng{authornamehash}{66df41cd934985964ba65c17f757730d}
+      \strng{authorfullhash}{968d797dc30731cc04b48bda302c765b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors (Basel, Switzerland)}
+      \field{month}{10}
+      \field{title}{An Actuator Allocation Method for a Variable-Pitch Propeller System of Quadrotor-Based UAVs}
+      \field{volume}{20}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3390/s20195651
+      \endverb
+    \endentry
+    \entry{VPP3}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d566e13c7742ea36ea91d49880b974bf}{%
+           family={Chipade},
+           familyi={C\bibinitperiod},
+           given={Vishnu\bibnamedelima S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bc8471bb664e23c0ce91ea1872fcb85}{%
+           family={Abhishek},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=d45ab3580d41e49c3c9a056d1a612b6b}{%
+           family={Kothari},
+           familyi={K\bibinitperiod},
+           given={Mangal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc2f714ca94427842aaf54b5cc824244}{%
+           family={Chaudhari},
+           familyi={C\bibinitperiod},
+           given={Rushikesh\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8bf552722976ac81ce05e01d7d602a9d}
+      \strng{fullhash}{87d9dcf792f9b621b1f3cc6a83adeee0}
+      \strng{bibnamehash}{8bf552722976ac81ce05e01d7d602a9d}
+      \strng{authorbibnamehash}{8bf552722976ac81ce05e01d7d602a9d}
+      \strng{authornamehash}{8bf552722976ac81ce05e01d7d602a9d}
+      \strng{authorfullhash}{87d9dcf792f9b621b1f3cc6a83adeee0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09574158}
+      \field{journaltitle}{Mechatronics}
+      \field{month}{11}
+      \field{title}{Systematic design methodology for development and flight testing of a variable pitch quadrotor biplane VTOL UAV for payload delivery}
+      \field{volume}{55}
+      \field{year}{2018}
+      \field{pages}{94\bibrangedash 114}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.mechatronics.2018.08.008
+      \endverb
+    \endentry
+    \entry{FPP1}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=154d63bbc1fa64195cd9355e1462ae68}{%
+           family={Cutler},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{154d63bbc1fa64195cd9355e1462ae68}
+      \strng{fullhash}{154d63bbc1fa64195cd9355e1462ae68}
+      \strng{bibnamehash}{154d63bbc1fa64195cd9355e1462ae68}
+      \strng{authorbibnamehash}{154d63bbc1fa64195cd9355e1462ae68}
+      \strng{authornamehash}{154d63bbc1fa64195cd9355e1462ae68}
+      \strng{authorfullhash}{154d63bbc1fa64195cd9355e1462ae68}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Design and Control of an Autonomous Variable-Pitch Quadrotor Helicopter}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+    \endentry
+    \entry{WCOM7}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d7d418b49539ae51cbcf22b75c73e5ec}{%
+           family={Ferro},
+           familyi={F\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8272fd704e9e31b2a35b5bb7268df16}{%
+           family={Potorti},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{95229c1362adb4de99d4cc64e9d8f9ce}
+      \strng{fullhash}{95229c1362adb4de99d4cc64e9d8f9ce}
+      \strng{bibnamehash}{95229c1362adb4de99d4cc64e9d8f9ce}
+      \strng{authorbibnamehash}{95229c1362adb4de99d4cc64e9d8f9ce}
+      \strng{authornamehash}{95229c1362adb4de99d4cc64e9d8f9ce}
+      \strng{authorfullhash}{95229c1362adb4de99d4cc64e9d8f9ce}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1558-0687}
+      \field{journaltitle}{IEEE Wireless Communications}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Bluetooth and Wi-Fi wireless protocols: a survey and a comparison}
+      \field{volume}{12}
+      \field{year}{2005}
+      \field{pages}{12\bibrangedash 26}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/MWC.2005.1404569
+      \endverb
+    \endentry
+    \entry{WCOM6}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e2e0388d46f2c2b6b65e0f82ca6435d5}{%
+           family={Montori},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19fe1b9695a560095ea968120945554e}{%
+           family={Bedogni},
+           familyi={B\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c28374b7515563fbbdb01b28b9309ddb}{%
+           family={Di\bibnamedelima Felice},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfe3168e0bdaa63415b77245f13aabfa}{%
+           family={Bononi},
+           familyi={B\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08e956f7a4ccdc4c12422e7aa3cac0c2}
+      \strng{fullhash}{c453a19777f55df3718fe534e3d26f83}
+      \strng{bibnamehash}{08e956f7a4ccdc4c12422e7aa3cac0c2}
+      \strng{authorbibnamehash}{08e956f7a4ccdc4c12422e7aa3cac0c2}
+      \strng{authornamehash}{08e956f7a4ccdc4c12422e7aa3cac0c2}
+      \strng{authorfullhash}{c453a19777f55df3718fe534e3d26f83}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1574-1192}
+      \field{journaltitle}{Pervasive and Mobile Computing}
+      \field{month}{10}
+      \field{title}{Machine-to-machine wireless communication technologies for the Internet of Things: Taxonomy, comparison and open issues}
+      \field{volume}{50}
+      \field{year}{2018}
+      \field{pages}{56\bibrangedash 81}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/j.pmcj.2018.08.002
+      \endverb
+    \endentry
+    \entry{RTOS1}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e528a13f38f309437a438a2ec66d9bf}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={S\bibnamedelima Ramanarayana},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6e528a13f38f309437a438a2ec66d9bf}
+      \strng{fullhash}{6e528a13f38f309437a438a2ec66d9bf}
+      \strng{bibnamehash}{6e528a13f38f309437a438a2ec66d9bf}
+      \strng{authorbibnamehash}{6e528a13f38f309437a438a2ec66d9bf}
+      \strng{authornamehash}{6e528a13f38f309437a438a2ec66d9bf}
+      \strng{authorfullhash}{6e528a13f38f309437a438a2ec66d9bf}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Selection of RTOS for an Efficient Design of Embedded Systems}
+      \field{year}{2006}
+    \endentry
+    \entry{WCOM1}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=eeb1ba32a79977b191ab560499454e9e}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0672466dc7c3a8cec050e5ac091fd0ac}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7116eab05d5d9f2cf819f121bba369c}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Teng\bibnamedelima Joon},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aad123ef991d6d23f3eab99d8fc3ef73}
+      \strng{fullhash}{aad123ef991d6d23f3eab99d8fc3ef73}
+      \strng{bibnamehash}{aad123ef991d6d23f3eab99d8fc3ef73}
+      \strng{authorbibnamehash}{aad123ef991d6d23f3eab99d8fc3ef73}
+      \strng{authornamehash}{aad123ef991d6d23f3eab99d8fc3ef73}
+      \strng{authorfullhash}{aad123ef991d6d23f3eab99d8fc3ef73}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1558-1896}
+      \field{journaltitle}{IEEE Communications Magazine}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Wireless communications with unmanned aerial vehicles: opportunities and challenges}
+      \field{volume}{54}
+      \field{year}{2016}
+      \field{pages}{36\bibrangedash 42}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/MCOM.2016.7470933
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{FPP2}
+  \missing{FPP3}
+  \missing{FPP4}
+  \missing{FPP5}
+  \missing{uav1}
+  \missing{uav10}
+  \missing{uav11}
+  \missing{uav15}
+  \missing{uav2}
+  \missing{uav3}
+  \missing{uav4}
+  \missing{uav5}
+  \missing{uav6}
+  \missing{uav7}
+  \missing{uav8}
+\endrefsection
+\endinput
+

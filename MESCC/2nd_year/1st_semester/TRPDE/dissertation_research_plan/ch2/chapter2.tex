@@ -1,0 +1,104 @@
+\chapter{State of the Art} 
+\label{chap:Chapter2}
+%-------------------------------------------------------------------------------%
+\section{UAV}
+\subsection{VTOL}
+\subsection{Fixed Pitch Proprotors}
+\subsection{Variable Pitch Proprotors}
+Historically, early aviation pioneers experimented with propellers that could only be adjusted on the ground.
+The first automatic variable pitch air screw was patented by L. E. Baines in 1919.
+The Gloster Hele-Shaw Beacham variable pitch propeller, developed in 1928, demonstrated practical controllable pitch capabilities.
+Over time, various designs and mechanisms, including hydraulic and pneumatic systems, were explored and refined.
+The development of constant-speed propellers marked a significant advancement in aviation technology, offering improved efficiency and performance \cite{VPP2}.\\
+
+A significant advantage of variable-pitch propellers is their ability to adapt to varying airspeeds. 
+When an aircraft is stationary or moving slowly, the propeller blades can be set to a low angle of attack to reduce drag. As the aircraft gains speed, the pitch is increased to maintain optimal performance. 
+This adaptability ensures efficient operation across a range of flight conditions.
+
+The primary purpose of variable pitch propellers is to maintain the optimal angle of attack relative to the changing wind vector as the aircraft accelerates.
+Traditional fixed-pitch propellers face efficiency challenges in various flight conditions.
+Adjustable blade angles address this issue, allowing for improved efficiency during takeoff, climb, and cruise.\cite{VPP3}.\\
+
+Variable-pitch systems can adjust blade pitch to maintain a selected \gls{RPM} enhancing overall performance, especially at high altitudes, by allowing the rotor to operate in its most economical speed range\cite{VPP2},\cite{VPP3}.\\
+
+Three methods change the pitch: Hydraulic, Centrifugal, and Electromechanical control \cite{VPP2}.\\
+\subsubsection{Hydraulic Method}
+This system involves the use of engine oil pressure to control the pitch-changing mechanism and consists of a pump, control valves, and cylinders that actuate the movement of the propeller blades.
+In an aircraft without a variable-pitch proprotor system, the pilot uses hydraulics to manually control the pitch of the propeller blades \cite{VPP2}.\\
+
+Hydraulic systems provide a precise means of adjusting the propeller pitch, allowing efficient performance under different flight conditions, and contributing to the overall safety and reliability of the system.\\
+
+But Hydraulic systems add complexity and weight to the overall aircraft system. 
+More components means more elements could potentially fail or require maintenance. 
+There is also the risk of fluid leakage or fluid contamination that may lead to a reduction in hydraulic pressure, potentially affecting the pitch control mechanism.
+Hydraulic systems may have a slow response time due to the time it takes for hydraulic pressure changes to propagate through the system which might be a concern in situations where rapid adjustments are required.\cite{VPP2}
+
+\subsubsection{Centrifugal Method}
+In the centrifugal systems, centrifugal weights can be attached directly to the propellers.
+An eccentric weight is placed near or in the spinner and secured with a spring and, when the propeller reaches a certain \gls{RPM}, centrifugal force swings the weights outward, driving a mechanism that twists the propeller to a steeper pitch. 
+As the propeller slows down, the \gls{RPM} drops and the spring pushes the weight back, readjusting the propeller pitch to a shallower pitch.
+
+As advantages, centrifugal systems are simpler compared to hydraulic systems since they involve fewer components.
+The reliance on mechanical components driven by centrifugal force can enhance reliability because there are fewer points of failure.
+There is no need to use external power sources, such as an engine-driven pump.
+Also, centrifugal systems can operate automatically without direct pilot intervention.
+The system responds to changes in rotational speed without the need for continuous manual control.
+
+However, centrifugal systems may provide less precise pitch control than more advanced hydraulic or electronic systems. This limitation can affect the ability to finely tune the propeller for optimal performance.
+The response time of centrifugal systems may be slower compared to more sophisticated systems. This limitation could be a factor in situations where rapid adjustments to the propeller pitch are necessary.\cite{VPP2}
+
+\subsubsection{Electromechanical Method}
+These systems involve electric motors and mechanical linkages to control the pitch of the propeller blades.\\
+
+Electromechanical methods provide precise control over the pitch of the propeller blades, can offer rapid response times to changes in flight conditions, are often versatile, and can be adapted for various aircraft configurations.
+Compared to certain hydraulic systems, electromechanical systems might require less maintenance.
+They often have fewer components prone to wear and can be more straightforward to service.\\
+
+As disadvantages, electromechanical systems, including motors and associated components, can add weight to the aircraft, require electrical power to operate, and are more complex than purely mechanical systems, increasing the chance of failures.\cite{VPP2}
+%-------------------------------------------------------------------------------%
+
+\section{Control System}
+\subsection{Flight Controller}
+\subsection{On Board Computer}
+An \gls{OBC} is a device capable of managing and/or controlling various functions such as:
+\begin{itemize}
+    \item It can manage overall system operation.
+    \item Implement safety mechanisms and respond to abnormal conditions.
+    \item Execute algorithms and computations required for the system's functionality.
+    \item Interface with external devices, sensors, actuators, or other embedded systems.
+    \item Implement communication protocols for data exchange.
+    \item Manage data storage and retrieval.
+    \item Implement power-saving modes when appropriate.
+    \item Manage and control peripherals such as communication interfaces, timers, and interrupt controllers.
+\end{itemize}
+
+There are, mainly, three types of control units: Microcontrollers, Microprocessors, and \glspl{FPGA}.\\
+Microcontrollers are integrated circuits that contain a processor core, memory, and programmable input/output peripherals.
+They are compact and cost-effective, have low power consumption, are designed for specific tasks, making them suitable for embedded systems, and often include integrated peripherals like timers, communication interfaces, and ADC.\\
+However, microcontrollers have more limited processing power compared to microprocessors and are less flexible for general-purpose computing.\\
+
+Microprocessors or \glspl{CPU} focus on processing tasks and rely on external components for additional functionalities.
+As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.\\
+However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers.\\
+
+\glspl{FPGA} are integrated circuits that can be configured after manufacturing, allowing for custom digital logic circuits. 
+They are customizable for specific applications, have parallel processing capabilities, and can be reprogrammed for different tasks.\\
+But, they have a higher cost (compared to microcontrollers and microprocessors), have higher power consumption (compared to microcontrollers), and have a steeper learning curve for programming and design.\\
+%-------------------------------------------------------------------------------%
+
+\section{Power Management System}
+\subsection{Power Distribution}
+\subsection{Battery Module}
+\subsection{Battery Protection}
+%-------------------------------------------------------------------------------%
+
+\section{External Memory and Storage Units}
+%-------------------------------------------------------------------------------%
+
+\section{Servo Motors}
+\subsection{PWM Generator}
+%-------------------------------------------------------------------------------%
+
+\section{Mechanical Switch}
+%-------------------------------------------------------------------------------%
+

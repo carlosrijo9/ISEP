@@ -1,0 +1,308 @@
+\glsdefs@newdocentry{CPU}%
+{%
+name={CPU},%
+sort={CPU},%
+type={acronym},%
+first={Central Processing Units\glsspace (CPU)},%
+firstplural={Central Processing Units\acrpluralsuffix \glsspace (CPU\acrpluralsuffix )},%
+text={CPU},%
+plural={CPU\acrpluralsuffix },%
+description={Central Processing Units},%
+descriptionplural={Central Processing Units\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Central Processing Units},%
+longplural={Central Processing Unitss},%
+short={CPU},%
+shortplural={CPUs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{COTS}%
+{%
+name={COTS},%
+sort={COTS},%
+type={acronym},%
+first={Commercial Off-The Shelf\glsspace (COTS)},%
+firstplural={Commercial Off-The Shelf\acrpluralsuffix \glsspace (COTS\acrpluralsuffix )},%
+text={COTS},%
+plural={COTS\acrpluralsuffix },%
+description={Commercial Off-The Shelf},%
+descriptionplural={Commercial Off-The Shelf\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Commercial Off-The Shelf},%
+longplural={Commercial Off-The Shelfs},%
+short={COTS},%
+shortplural={COTSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FPGA}%
+{%
+name={FPGA},%
+sort={FPGA},%
+type={acronym},%
+first={Field-Programmable Gate Arrays\glsspace (FPGA)},%
+firstplural={Field-Programmable Gate Arrays\acrpluralsuffix \glsspace (FPGA\acrpluralsuffix )},%
+text={FPGA},%
+plural={FPGA\acrpluralsuffix },%
+description={Field-Programmable Gate Arrays},%
+descriptionplural={Field-Programmable Gate Arrays\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Field-Programmable Gate Arrays},%
+longplural={Field-Programmable Gate Arrayss},%
+short={FPGA},%
+shortplural={FPGAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{GNSS}%
+{%
+name={GNSS},%
+sort={GNSS},%
+type={acronym},%
+first={Global Navigation Satellite System\glsspace (GNSS)},%
+firstplural={Global Navigation Satellite System\acrpluralsuffix \glsspace (GNSS\acrpluralsuffix )},%
+text={GNSS},%
+plural={GNSS\acrpluralsuffix },%
+description={Global Navigation Satellite System},%
+descriptionplural={Global Navigation Satellite System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Global Navigation Satellite System},%
+longplural={Global Navigation Satellite Systems},%
+short={GNSS},%
+shortplural={GNSSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{PWM}%
+{%
+name={PWM},%
+sort={PWM},%
+type={acronym},%
+first={Pulse Width Modulation\glsspace (PWM)},%
+firstplural={Pulse Width Modulation\acrpluralsuffix \glsspace (PWM\acrpluralsuffix )},%
+text={PWM},%
+plural={PWM\acrpluralsuffix },%
+description={Pulse Width Modulation},%
+descriptionplural={Pulse Width Modulation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Pulse Width Modulation},%
+longplural={Pulse Width Modulations},%
+short={PWM},%
+shortplural={PWMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{OBC}%
+{%
+name={OBC},%
+sort={OBC},%
+type={acronym},%
+first={On Board Computer\glsspace (OBC)},%
+firstplural={On Board Computer\acrpluralsuffix \glsspace (OBC\acrpluralsuffix )},%
+text={OBC},%
+plural={OBC\acrpluralsuffix },%
+description={On Board Computer},%
+descriptionplural={On Board Computer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={On Board Computer},%
+longplural={On Board Computers},%
+short={OBC},%
+shortplural={OBCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{uav}%
+{%
+name={UAV},%
+sort={UAV},%
+type={acronym},%
+first={Unmanned Aerial Vehicle\glsspace (UAV)},%
+firstplural={Unmanned Aerial Vehicle\acrpluralsuffix \glsspace (UAV\acrpluralsuffix )},%
+text={UAV},%
+plural={UAV\acrpluralsuffix },%
+description={Unmanned Aerial Vehicle},%
+descriptionplural={Unmanned Aerial Vehicle\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unmanned Aerial Vehicle},%
+longplural={Unmanned Aerial Vehicles},%
+short={UAV},%
+shortplural={UAVs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RPM}%
+{%
+name={RPM},%
+sort={RPM},%
+type={acronym},%
+first={Revolutions Per Minute\glsspace (RPM)},%
+firstplural={Revolutions Per Minute\acrpluralsuffix \glsspace (RPM\acrpluralsuffix )},%
+text={RPM},%
+plural={RPM\acrpluralsuffix },%
+description={Revolutions Per Minute},%
+descriptionplural={Revolutions Per Minute\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Revolutions Per Minute},%
+longplural={Revolutions Per Minutes},%
+short={RPM},%
+shortplural={RPMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RTC}%
+{%
+name={RTC},%
+sort={RTC},%
+type={acronym},%
+first={Real-Time Clock\glsspace (RTC)},%
+firstplural={Real-Time Clock\acrpluralsuffix \glsspace (RTC\acrpluralsuffix )},%
+text={RTC},%
+plural={RTC\acrpluralsuffix },%
+description={Real-Time Clock},%
+descriptionplural={Real-Time Clock\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Real-Time Clock},%
+longplural={Real-Time Clocks},%
+short={RTC},%
+shortplural={RTCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RTOS}%
+{%
+name={RTOS},%
+sort={RTOS},%
+type={acronym},%
+first={Real-Time Operating System\glsspace (RTOS)},%
+firstplural={Real-Time Operating System\acrpluralsuffix \glsspace (RTOS\acrpluralsuffix )},%
+text={RTOS},%
+plural={RTOS\acrpluralsuffix },%
+description={Real-Time Operating System},%
+descriptionplural={Real-Time Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Real-Time Operating System},%
+longplural={Real-Time Operating Systems},%
+short={RTOS},%
+shortplural={RTOSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{VTOL}%
+{%
+name={VTOL},%
+sort={VTOL},%
+type={acronym},%
+first={Vertical Take-Off and Landing\glsspace (VTOL)},%
+firstplural={Vertical Take-Off and Landing\acrpluralsuffix \glsspace (VTOL\acrpluralsuffix )},%
+text={VTOL},%
+plural={VTOL\acrpluralsuffix },%
+description={Vertical Take-Off and Landing},%
+descriptionplural={Vertical Take-Off and Landing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Vertical Take-Off and Landing},%
+longplural={Vertical Take-Off and Landings},%
+short={VTOL},%
+shortplural={VTOLs},%
+counter={page},%
+parent={},%
+%
+}%
+
