@@ -110,6 +110,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{PCB}%
+{%
+name={PCB},%
+sort={PCB},%
+type={acronym},%
+first={Pinted Circuit Board\glsspace (PCB)},%
+firstplural={Pinted Circuit Board\acrpluralsuffix \glsspace (PCB\acrpluralsuffix )},%
+text={PCB},%
+plural={PCB\acrpluralsuffix },%
+description={Pinted Circuit Board},%
+descriptionplural={Pinted Circuit Board\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Pinted Circuit Board},%
+longplural={Pinted Circuit Boards},%
+short={PCB},%
+shortplural={PCBs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{PWM}%
 {%
 name={PWM},%

@@ -42,7 +42,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Secondary Device}{15}{subsection.52}%
 \contentsline {chapter}{\numberline {5}Development Plan}{17}{chapter.53}%
 \contentsline {section}{\numberline {5.1}Research Approach}{17}{section.54}%
-\contentsline {section}{\numberline {5.2}Evaluation}{18}{section.55}%
-\contentsline {section}{\numberline {5.3}Timeline}{19}{section.56}%
-\contentsline {chapter}{Bibliography}{21}{chapter*.58}%
-\contentsline {chapter}{\numberline {A}Guidelines to adapt the template for the Thesis Research Plan}{23}{appendix.59}%
+\contentsline {section}{\numberline {5.2}Evaluation}{17}{section.55}%
+\contentsline {section}{\numberline {5.3}Timeline}{18}{section.56}%
+\contentsline {chapter}{Bibliography}{19}{chapter*.58}%
+\contentsline {chapter}{\numberline {A}Guidelines to adapt the template for the Thesis Research Plan}{21}{appendix.59}%
