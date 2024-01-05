@@ -306,6 +306,62 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{SoC}%
+{%
+name={SoC},%
+sort={SoC},%
+type={acronym},%
+first={State of Charge\glsspace (SoC)},%
+firstplural={State of Charge\acrpluralsuffix \glsspace (SoC\acrpluralsuffix )},%
+text={SoC},%
+plural={SoC\acrpluralsuffix },%
+description={State of Charge},%
+descriptionplural={State of Charge\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={State of Charge},%
+longplural={State of Charges},%
+short={SoC},%
+shortplural={SoCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{UVP}%
+{%
+name={UVP},%
+sort={UVP},%
+type={acronym},%
+first={Under Voltage Protection\glsspace (UVP)},%
+firstplural={Under Voltage Protection\acrpluralsuffix \glsspace (UVP\acrpluralsuffix )},%
+text={UVP},%
+plural={UVP\acrpluralsuffix },%
+description={Under Voltage Protection},%
+descriptionplural={Under Voltage Protection\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Under Voltage Protection},%
+longplural={Under Voltage Protections},%
+short={UVP},%
+shortplural={UVPs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{VTOL}%
 {%
 name={VTOL},%

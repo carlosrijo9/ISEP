@@ -2,8 +2,16 @@
 \label{chap:Chapter2}
 %-------------------------------------------------------------------------------%
 \section{UAV}
+TODO: MORE INFO
+TODO: ADD FIGURES
 \subsection{VTOL}
+TODO: MORE INFO
+TODO: ADD FIGURES
+
 \subsection{Fixed Pitch Proprotors}
+TODO: MORE INFO
+TODO: ADD FIGURES
+
 \subsection{Variable Pitch Proprotors}
 Historically, early aviation pioneers experimented with propellers that could only be adjusted on the ground.
 The first automatic variable pitch air screw was patented by L. E. Baines in 1919.
@@ -22,6 +30,8 @@ Adjustable blade angles address this issue, allowing for improved efficiency dur
 Variable-pitch systems can adjust blade pitch to maintain a selected \gls{RPM} enhancing overall performance, especially at high altitudes, by allowing the rotor to operate in its most economical speed range\cite{VPP2},\cite{VPP3}.\\
 
 Three methods change the pitch: Hydraulic, Centrifugal, and Electromechanical control \cite{VPP2}.\\
+TODO: ADD FIGURES
+
 \subsubsection{Hydraulic Method}
 This system involves the use of engine oil pressure to control the pitch-changing mechanism and consists of a pump, control valves, and cylinders that actuate the movement of the propeller blades.
 In an aircraft without a variable-pitch proprotor system, the pilot uses hydraulics to manually control the pitch of the propeller blades \cite{VPP2}.\\
@@ -32,6 +42,7 @@ But Hydraulic systems add complexity and weight to the overall aircraft system.
 More components means more elements could potentially fail or require maintenance. 
 There is also the risk of fluid leakage or fluid contamination that may lead to a reduction in hydraulic pressure, potentially affecting the pitch control mechanism.
 Hydraulic systems may have a slow response time due to the time it takes for hydraulic pressure changes to propagate through the system which might be a concern in situations where rapid adjustments are required.\cite{VPP2}
+TODO: ADD FIGURES
 
 \subsubsection{Centrifugal Method}
 In the centrifugal systems, centrifugal weights can be attached directly to the propellers.
@@ -47,6 +58,8 @@ The system responds to changes in rotational speed without the need for continuo
 However, centrifugal systems may provide less precise pitch control than more advanced hydraulic or electronic systems. This limitation can affect the ability to finely tune the propeller for optimal performance.
 The response time of centrifugal systems may be slower compared to more sophisticated systems. This limitation could be a factor in situations where rapid adjustments to the propeller pitch are necessary.\cite{VPP2}
 
+TODO: ADD FIGURES
+
 \subsubsection{Electromechanical Method}
 These systems involve electric motors and mechanical linkages to control the pitch of the propeller blades.\\
 
@@ -55,11 +68,11 @@ Compared to certain hydraulic systems, electromechanical systems might require l
 They often have fewer components prone to wear and can be more straightforward to service.\\
 
 As disadvantages, electromechanical systems, including motors and associated components, can add weight to the aircraft, require electrical power to operate, and are more complex than purely mechanical systems, increasing the chance of failures.\cite{VPP2}
+
+TODO: ADD FIGURES
 %-------------------------------------------------------------------------------%
 
 \section{Control System}
-\subsection{Flight Controller}
-\subsection{On Board Computer}
 An \gls{OBC} is a device capable of managing and/or controlling various functions such as:
 \begin{itemize}
     \item It can manage overall system operation.
@@ -72,33 +85,143 @@ An \gls{OBC} is a device capable of managing and/or controlling various function
     \item Manage and control peripherals such as communication interfaces, timers, and interrupt controllers.
 \end{itemize}
 
-There are, mainly, three types of control units: Microcontrollers, Microprocessors, and \glspl{FPGA}.\\
+There are, mainly, three types of control units: Microcontrollers, Microprocessors, and \glspl{FPGA}.
+
 Microcontrollers are integrated circuits that contain a processor core, memory, and programmable input/output peripherals.
 They are compact and cost-effective, have low power consumption, are designed for specific tasks, making them suitable for embedded systems, and often include integrated peripherals like timers, communication interfaces, and ADC.\\
 However, microcontrollers have more limited processing power compared to microprocessors and are less flexible for general-purpose computing.\\
 
 Microprocessors or \glspl{CPU} focus on processing tasks and rely on external components for additional functionalities.
-As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.\\
+As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.
 However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers.\\
 
 \glspl{FPGA} are integrated circuits that can be configured after manufacturing, allowing for custom digital logic circuits. 
 They are customizable for specific applications, have parallel processing capabilities, and can be reprogrammed for different tasks.\\
 But, they have a higher cost (compared to microcontrollers and microprocessors), have higher power consumption (compared to microcontrollers), and have a steeper learning curve for programming and design.\\
+
+TODO: MORE INFO
 %-------------------------------------------------------------------------------%
 
 \section{Power Management System}
+TODO: MORE INFO
+
 \subsection{Power Distribution}
+TODO: MORE INFO
+
 \subsection{Battery Module}
+TODO: MORE INFO
+
 \subsection{Battery Protection}
+TODO: MORE INFO
+
 %-------------------------------------------------------------------------------%
 
 \section{External Memory and Storage Units}
+TODO: MORE INFO
+
 %-------------------------------------------------------------------------------%
 
 \section{Servo Motors}
-\subsection{PWM Generator}
+TODO: MORE INFO
+TODO: ADD FIGURES
 %-------------------------------------------------------------------------------%
 
-\section{Mechanical Switch}
+\section{Firmware}
+In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.\\
+
+As for Programming Languages, there is \textit{C} widely used in embedded systems due to its low-level features and close to the hardware, efficient use of system resources, and strong support from the embedded development community.
+However manual memory management can lead to potential bugs if not handled carefully.\\
+Assembly Language provides direct control over hardware and is highly efficient, and useful for writing low-level code, such as interrupt service routines but has a steeper learning curve and it is less portable across different microcontroller architectures.\\
+C++ Language is an object-oriented feature that can enhance code organization and reusability and can provide abstraction without sacrificing performance.
+However, the code size can be larger and more complex.\\
+
+Real-Time Operating System facilitates multitasking, allowing concurrent execution of multiple tasks, can provide task scheduling, priority management, and inter-process communication and it is suitable for systems with real-time requirements.
+But this can add overhead, especially in terms of memory footprint, and the learning curve is steeper \cite{RTOS1}.\\
+The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures
+\begin{itemize}
+    \item FreeRTOS
+    \item ChibiOS
+    \item Zephyr
+\end{itemize}
+
+TODO: MORE INFO
 %-------------------------------------------------------------------------------%
 
+\section{Communication}
+TODO: MORE INFO
+\subsection{Wired}
+TODO: MORE INFO
+
+\subsection{Wireless}
+While researching wireless communication, multiple protocols can be studied. They can, mainly, be separated into two categories: short-range and long-range.
+In the context of \glspl{uav}, the focus will be on short-range wireless communication protocols \cite{WCOM1}, \cite{WCOM6}, \cite{WCOM7}.
+
+Short-range protocols offer advantages such as lower power consumption, reduced interference, and efficient data transfer within confined spaces.
+Within this category, options like Bluetooth, Wi-Fi, Zigbee, Z-Wave, and LoRa for short distances emerge as noteworthy candidates.
+Each of these protocols addresses specific requirements, making them suitable for various aspects of \gls{uav} operations, from intra-component communication to data transfer between the \gls{uav} and ground control \cite{WCOM6}, \cite{WCOM7}.
+
+\begin{itemize}
+    \item WiFi (802.11x): Can be used for high-speed data transfer over short ranges. It's suitable when you need to transmit large amounts of data between the \gls{uav} and a ground station.
+        \begin{itemize}
+            \item Advantages
+                \begin{itemize}
+                    \item High Data Rates
+                    \item Widespread Standard
+                    \item Bi-Directional Communication
+                \end{itemize}
+            \item Disadvantages 
+                \begin{itemize}     
+                    \item High Power Consumption
+                    \item Interference in 2.4 GHz and 5 GHz bands
+                \end{itemize}
+        \end{itemize}
+        
+\item Bluetooth: Common short-range wireless technology with low power consumption. It's suitable for communication between components on a \gls{uav}.
+    \item Advantages 
+        \begin{itemize}
+            \item Low Power Consumption
+            \item Ubiquity
+        \end{itemize}
+    \item Disadvantages 
+        \begin{itemize}
+            \item Limited Range
+            \item Data Transfer Rates
+        \end{itemize}
+        
+\item Zigbee: Low-power, low-data-rate wireless communication technology that is suitable for short-range communication in embedded systems.
+    \item Advantages 
+        \begin{itemize}
+            \item Low Power Consumption
+            \item Mesh Networking
+            \item Low Latency
+        \end{itemize}
+    \item Disadvantages
+        \begin{itemize}
+            \item Limited Data Rate
+            \item Limited Range
+        \end{itemize}
+        
+\item Z-Wave: Low-power wireless communication protocol often used in home automation. It's suitable for control and monitoring applications in \glspl{uav}.
+    \item Advantages 
+        \begin{itemize}
+            \item Low Power Consumption
+            \item Interference Avoidance
+        \end{itemize}
+    \item Disadvantages 
+        \begin{itemize}
+            \item Limited Data Rate
+            \item Less Common in Non-Home Automation Devices
+        \end{itemize}
+        
+\item LoRa (Long Range): While designed for long-range communication, LoRa can also be used in short-range applications. It provides low-power, long-range communication suitable for certain \gls{uav} scenarios.
+    \item Advantages 
+        \begin{itemize}
+            \item Long Range
+            \item Low Power Consumption
+        \end{itemize}
+    \item Disadvantages
+        \begin{itemize}
+            \item Low Data Rates
+            \item Unidirectional Communication
+        \end{itemize}
+\end{itemize}

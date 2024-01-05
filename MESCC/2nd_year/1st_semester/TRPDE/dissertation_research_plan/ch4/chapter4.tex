@@ -1,130 +1,65 @@
-\chapter{Proposed Approach}
-\label{chap:Chapter4}
+\chapter{Development Plan}
+\label{chap:Chapter5}
+%-------------------------------------------------------------------------------%
+\section{Research Approach}
+To achieve the desired objectives and system requirements, the development approach will be composed of three phases: Dissertation Development, System Development, and Implementation.
+
+During the first part of dissertation development it will be analyzed the problems with fixed-pitch propeller systems, described in the previous chapters, in \glspl{uav} to be able to find the best approach to solve the issue at hand, to define the new system requirements, determine the objectives of the proposed solution and to design the system architecture.
+And, to gain a better understanding of the present status of the subject, a study of the literature on related to the problem, will be conducted.
+In this phase, it will be also written all the steps and considerations took during the development and implementation of the solution and an analysis of the results obtained.
+
+As we go on to the System Development phase, there will be a detailed procurement to find the most adequate components, according to the system architecture and requirements, since it is necessary to design and manufacture \glspl{PCB} for the final prototype.
+In this phase, the system flow charts, shown in appendix , will be modeled and validated using model checker tools like NuSMV.
+This step will increase the confidence in the designed firmware and validate the expected behavior of the system.
+
+In the implementation phase, the Main and Secondary Devices wil be soldered and assembled, to, later on perform, bench and ground tests, and evaluate the developed system in comparison to predetermined goals and requirements.
+By documenting and analyzing the results it will be possible to make any necessary refinements to enhance performance.
+
 %-------------------------------------------------------------------------------%
 
-\section{Concept}
-Fixed-pitch proprotor (FPP) system limitations can be addressed by developing variable-pitch proprotors.
-Adjusting the pitch in both flight phases may be more complex and expensive but it offers more adaptability and a great positive impact on the overall propulsion system efficiency, increasing the endurance and range.
-The Vehicle will consume less in hover and the cruise speed will be much higher.\\
+\section{Evaluation}
+In order to evaluate the system performance, in comparison to the requirements, the analyses will be divided in three categories.
 
-This way, the proposed solution for this problem is to develop a stand-alone variable-pitch proprotor system that can, in real-time, change the propeller pitch according to each flight phase.
+In the Communication category, it will be analyzed the stability and the latency of the chosen communication technology.
+
+Another category is the Pitch Angle Control in which the precision and stability of the control over the pitch angle will be evaluated.
+It will also be analyzed if the system has a quick response to change in flight phase and Maneuver, a quick response in error scenarios and if the fail-safe mechanism is able to set a fixed pitch angle.
+
+The last category to be evaluated is the Firmware.
+In this category the model of the system flow will be validated with mathematical tools like explained before.
+
+This way, the system will be evaluated in each subsystem and as a whole.
 
 %-------------------------------------------------------------------------------%
 
-\section{Requirements}
-It is important to define requirements, for this system, to better understand the fixed-pitch propeller's limitations and to develop the necessary functionalities to achieve a variable-pitch proprotor system.\\
-This way, the requirements should align with mechanical, control, communication, integration, and validation specifications.
-\begin{itemize}
-    \item Mechanical Requirements:
-          \begin{itemize}
-              \item The system shall be designed to retrofit existing \glspl{uav} or integrate seamlessly into new \gls{uav} designs.
-              \item The variable-pitch mechanism shall be lightweight to minimize the impact on overall \gls{uav} weight and balance.
-              \item The system shall be able to withstand the operational stresses and environmental conditions encountered during \gls{uav} flights.
-          \end{itemize}
-    \item Control System Requirements:
-          \begin{itemize}
-              \item The control system shall enable real-time adjustment of the proprotor pitch during different flight phases.
-              \item It shall incorporate failsafe mechanisms to respond to unexpected malfunctions or loss of communication and revert to a fixed-pitch state in case of critical failures.
-              \item The system shall provide precise control over the pitch angle, allowing for fine adjustments to optimize performance.
-          \end{itemize}
-    \item Wireless Communication Requirements:
-          \begin{itemize}
-              \item The wireless communication system shall be reliable, with minimal latency to ensure quick response times.
-              \item It shall operate within designated frequency bands and comply with relevant aviation communication standards.
-              \item Security measures shall be implemented to prevent unauthorized access or interference with the control signals.
-          \end{itemize}
-    \item Integration Requirements:
-          \begin{itemize}
-              \item The system shall be designed for easy integration with common \gls{uav} autopilot systems.
-              \item It shall have compatibility with existing \gls{uav} avionics and navigation systems.
-              \item The variable-pitch system shall not interfere with other onboard sensors or communication systems.
-          \end{itemize}
-    \item Testing and Validation Requirements:
-          \begin{itemize}
-              \item The system shall undergo rigorous testing under various operational scenarios, including weather conditions and flight profiles.
-              \item Validation shall include simulated and real-world flights to assess performance and reliability.
-              \item The system shall comply with relevant aviation regulations and standards.
-          \end{itemize}
-\end{itemize}
-%-------------------------------------------------------------------------------%
+\section{Timeline}
+In the Gantt chart (figure \ref{fig:gantt}) all phases, described previously in the Research Approach section, were added together with multiple tasks and subtasks each with a given duration and dependencies.
 
-\section{System Architecture}
-As it is possible to see in the proposed implementation of the System Architecture diagram (figure \ref{system_diagram}), the system will be composed of two subsystems: the Main Device Unit (MDU) and (multiple) Secondary Device Unit (SDU).
+The first task started is the Research Plan, part of Dissertation Development phase, and will be the starting point of future work.
+All the other tasks, in this phase, will be done in parallel until the end of the dissertation.
+
+Next will be the System Development phase were hardware and firmware tasks will be made.
+These tasks will start mid January 2024 and end in early April 2024.
+
+The last tasks will be from Implementation phase with tests, evaluations and refinement tasks.
+They will be carried out from mid March 2024 to mid July 2024.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth,keepaspectratio]{ch4/assets/system_diagram.pdf}
-    \caption{Proposed Implementation of System Architecture Diagram}
-    \label{system_diagram}
+    \includegraphics[width=\textwidth,keepaspectratio]{ch4/assets/gantt.pdf}
+    \caption{Project timeline Gantt chart}
+    \label{fig:gantt}
 \end{figure}
 
-
-\subsection{Main Device}
-This system will be, mainly, composed of an \gls{OBC}, a \gls{RTC}, a Storage Unit, and a wireless communication module.\\
-The MDU will communicate with the Flight Controller and the SDUs by receiving and transmitting information.
-With the Flight Controller, through wired communication, the MDU will:
+The work load will be the following:
 \begin{itemize}
-    \item Receive
-          \begin{itemize}
-              \item Flight Phase message
-              \item Maneuver control message
-              \item \gls{GNSS} epoch time
-              \item Heartbeat signal
-          \end{itemize}
-    \item Transmit
-          \begin{itemize}
-              \item Heartbeat signal
-              \item System Status message
-          \end{itemize}
+    \item Dissertation Development - 170 days
+    \item Research Plan - 30 days
+    \item System Development - 60 days
+    \item Hardware - 40 days
+    \item Firmware - 50 days
+    \item Implementation - 90 days
+    \item Tests - 30 days
 \end{itemize}
 
-The Flight Phase message and the Maneuver Control message will inform the MDU about the current flight phase and the need to make additional adjustments to the propeller pitch, in case of non-expected maneuvers.
-After interpreting the message, the \gls{OBC} will send a control command. This control command will be explained further in this document\\
-
-The \gls{GNSS} epoch time will update the \gls{OBC} date and time (periodically or on startup). With the help of the \gls{RTC}, the MDU system will be able to maintain the date and time even when the \gls{uav} system is powered off.
-The \gls{GNSS} epoch time will be helpful when storing system logs (in the Storage Unit) and will help to calculate the latency of the communication between devices.\\
-
-Lastly, the received heartbeat signal will work as a \textit{keep alive} mechanism informing, this way, the \gls{OBC} if the system is powered on.
-This will help save power since the \gls{OBC} can shut down when the Flight Controller turns off.\\
-
-The transmitted heartbeat, which also works as a \textit{keep alive} mechanism, will inform the Flight Controller that the MDU is working correctly.
-This function will be crucial because if the MDU is not working (powered off or unresponsive) the \gls{uav} system will need to enter a failsafe mode and land, as soon as possible, since it can no longer control the pitch of the blades.\\
-
-Since the MDU is responsible for all the SDUs, it must, periodically, inform the Flight Controller about the overall status of the system, so that, in case of any failure, the Flight Controller may enter in failsafe.\\
-
-With the SDUs, through wireless communication, the MDU will:
-\begin{itemize}
-    \item Receive
-          \begin{itemize}
-              \item Heartbeat signal
-              \item SDU Status message
-          \end{itemize}
-    \item Transmit
-          \begin{itemize}
-              \item Heartbeat signal
-              \item Control Command
-              \item Epoch Time
-          \end{itemize}
-\end{itemize}
-
-The received and transmitted heartbeat signals will have the same functionality as explained previously. The MDU and SDUs will inform each other if they are working correctly.\\
-
-The SDU Status message will help the MDU keep track of the status of all Secondary devices. In case of malfunction or if one or more SDUs can't change the propeller pitch, the MDU must be noticed so that it can communicate to the Flight Controller about the failure.\\
-
-The MDU will send a Control Command, containing the desired pitch, to all the SDUs according to the phase of flight message received previously.\\
-
-By sending the epoch time to all the SDUs, it is possible to keep the whole system updated and with the same date and time reference.\\
-
-\subsection{Secondary Device}
-This system will be, composed of an \gls{OBC}, a \gls{RTC}, a Storage Unit, a battery (with a power management system), an on/off switch, a buzzer, a stand-alone \gls{PWM} (Pulse Width Modulation) controller, a servo, and a wireless communication module.\\
-
-The on/off switch and the buzzer will work as human-machine interfaces to help the user interact with the system.\\
-Since the SDU will be designed to be stand-alone (with a dedicated power supply) the system needs to be powered on manually and the buzzer can notice the user that the system is powering on.\\
-
-The servo, mechanically connected to the propeller, will be responsible for changing the propeller pitch according to the state of flight.
-It will be equipped with feedback functionality so that the system can control, more precisely, the pitch and know if the propeller has reached its goal.\\
-
-There will also be implemented a stand-alone \gls{PWM} controller, able to generate a fixed \gls{PWM} signal, to control the servo in case of failure from the \gls{OBC}.
-As a failsafe mechanism, if one or more SDUs fail, the \gls{PWM} controller will generate a \gls{PWM} signal fixing the pitch of the propellers to a designated angle.
-This action will transform the \gls{uav} system into a fixed-pitch proprotor but will help avoid having a system with a single point of failure that can cause the \gls{uav} to crash and possibly hurt people.\\
-%-------------------------------------------------------------------------------%
+This timeline will help to ensure that all necessary activities are completed in the correct order and on time.

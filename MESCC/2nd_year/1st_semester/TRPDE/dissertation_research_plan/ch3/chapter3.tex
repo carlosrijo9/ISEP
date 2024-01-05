@@ -1,98 +1,155 @@
-\chapter{Technologies}
-\label{chap:Chapter3}
+\chapter{Proposed Approach}
+\label{chap:Chapter4}
 %-------------------------------------------------------------------------------%
 
-\section{Firmware}
-In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.\\
+\section{Concept}
+Fixed-pitch proprotor (FPP) system limitations can be addressed by developing variable-pitch proprotors.
+Adjusting the pitch in both flight phases may be more complex and expensive but it offers more adaptability and a great positive impact on the overall propulsion system efficiency, increasing the endurance and range.
+The \gls{uav} will consume less in hover and the cruise speed will be much higher.\\
 
-As for Programming Languages, there is \textit{C} widely used in embedded systems due to its low-level features and close to the hardware, efficient use of system resources, and strong support from the embedded development community.
-However manual memory management can lead to potential bugs if not handled carefully.\\
-Assembly Language provides direct control over hardware and is highly efficient, and useful for writing low-level code, such as interrupt service routines but has a steeper learning curve and it is less portable across different microcontroller architectures.\\
-C++ Language is an object-oriented feature that can enhance code organization and reusability and can provide abstraction without sacrificing performance.
-However, the code size can be larger and more complex.\\
+This way, the proposed solution for this problem is to develop a stand-alone variable-pitch proprotor system that can, in real-time, change the propeller pitch according to each flight phase.
 
-Real-Time Operating System facilitates multitasking, allowing concurrent execution of multiple tasks, can provide task scheduling, priority management, and inter-process communication and it is suitable for systems with real-time requirements.
-But this can add overhead, especially in terms of memory footprint, and the learning curve is steeper \cite{RTOS1}.\\
-The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures
+%-------------------------------------------------------------------------------%
+
+\section{Requirements}
+It is important to define requirements, for this system, to better understand the fixed-pitch propeller's limitations and to develop the necessary functionalities to achieve a variable-pitch proprotor system.\\
+This way, the requirements should align with mechanical, control, communication, integration, and validation specifications.
+
 \begin{itemize}
-    \item FreeRTOS
-    \item ChibiOS
-    \item Zephyr
+    \item \textbf{Mechanical Requirements}
+          \begin{enumerate}[start=1,label={\upshape(\bfseries REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
+              \item The system shall be designed to retrofit existing \glspl{uav} or integrate seamlessly into new \gls{uav} designs.
+              \item The variable-pitch mechanism shall be lightweight to minimize the impact on overall \gls{uav} weight and balance.
+              \item The system shall be able to withstand the operational stresses and environmental conditions encountered during \gls{uav} flights.
+          \end{enumerate}
+
+    \item \textbf{Control System Requirements}
+          \begin{enumerate}[start=04,label={(\bfseries REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
+              \item The control system shall enable real-time adjustment of the proprotor pitch during different flight phases.
+              \item It shall incorporate failsafe mechanisms to respond to unexpected malfunctions or loss of communication and revert to a fixed-pitch state in case of critical failures.
+              \item The system shall provide precise control over the pitch angle, allowing for fine adjustments to optimize performance.
+          \end{enumerate}
+
+    \item \textbf{Wireless Communication Requirements}
+          \begin{enumerate}[start=07,label={(\bfseries REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
+              \item The wireless communication system shall be reliable, with minimal latency to ensure quick response times.
+              \item It shall operate within designated frequency bands and comply with relevant aviation communication standards.
+              \item Security measures shall be implemented to prevent unauthorized access or interference with the control signals.
+          \end{enumerate}
+
+    \item \textbf{Integration Requirements}
+          \begin{enumerate}[start=10,label={(\bfseries REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
+              \item The system shall be designed for easy integration with common \gls{uav} autopilot systems.
+              \item It shall have compatibility with existing \gls{uav} avionics and navigation systems.
+              \item The variable-pitch system shall not interfere with other onboard sensors or communication systems.
+          \end{enumerate}
+
+    \item \textbf{Testing and Validation Requirements}
+          \begin{enumerate}[start=13,label={(\bfseries REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
+              \item The system shall undergo rigorous testing under various operational scenarios, including weather conditions and flight profiles.
+              \item Validation shall include simulated and real-world flights to assess performance and reliability.
+              \item The system shall comply with relevant aviation regulations and standards.
+          \end{enumerate}
 \end{itemize}
 %-------------------------------------------------------------------------------%
 
-\section{Communication}
-\subsection{Wired}
-\subsection{Wireless}
-While researching wireless communication, multiple protocols can be studied. They can, mainly, be separated into two categories: short-range and long-range.
-In the context of \glspl{uav}, the focus will be on short-range wireless communication protocols \cite{WCOM1}, \cite{WCOM6}, \cite{WCOM7}.
+\section{System Architecture}
+As it is possible to see, in the proposed implementation of the System Architecture diagram (figure \ref{fig:system_diagram}), the system will be composed of two subsystems: the Main Device Unit (MDU) and (multiple) Secondary Device Unit (SDU).
 
-Short-range protocols offer advantages such as lower power consumption, reduced interference, and efficient data transfer within confined spaces.
-Within this category, options like Bluetooth, Wi-Fi, Zigbee, Z-Wave, and LoRa for short distances emerge as noteworthy candidates.
-Each of these protocols addresses specific requirements, making them suitable for various aspects of \gls{uav} operations, from intra-component communication to data transfer between the \gls{uav} and ground control \cite{WCOM6}, \cite{WCOM7}.
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=\textwidth,keepaspectratio]{ch3/assets/system_diagram.pdf}
+    \includegraphics[scale=1]{ch3/assets/system_diagram.pdf}
+    \caption{Proposed System Architecture High Level Diagram}
+    \label{fig:system_diagram}
+\end{figure}
 
+TODO: MORE INFO
+
+\subsection{Main Device}
+This subsystem will be, mainly, composed by an \gls{OBC}, a \gls{RTC}, a Storage Unit, and a wireless communication module.\\
+The MDU will communicate with the Flight Controller and the SDUs by receiving and transmitting information.
+
+With the Flight Controller, through wired communication, the MDU will:
 \begin{itemize}
-    \item WiFi (802.11x): Can be used for high-speed data transfer over short ranges. It's suitable when you need to transmit large amounts of data between the \gls{uav} and a ground station.
-        \begin{itemize}
-            \item Advantages
-                \begin{itemize}
-                    \item High Data Rates
-                    \item Widespread Standard
-                    \item Bi-Directional Communication
-                \end{itemize}
-            \item Disadvantages 
-                \begin{itemize}     
-                    \item High Power Consumption
-                    \item Interference in 2.4 GHz and 5 GHz bands
-                \end{itemize}
-        \end{itemize}
-        
-\item Bluetooth: Common short-range wireless technology with low power consumption. It's suitable for communication between components on a \gls{uav}.
-    \item Advantages 
-        \begin{itemize}
-            \item Low Power Consumption
-            \item Ubiquity
-        \end{itemize}
-    \item Disadvantages 
-        \begin{itemize}
-            \item Limited Range
-            \item Data Transfer Rates
-        \end{itemize}
-        
-\item Zigbee: Low-power, low-data-rate wireless communication technology that is suitable for short-range communication in embedded systems.
-    \item Advantages 
-        \begin{itemize}
-            \item Low Power Consumption
-            \item Mesh Networking
-            \item Low Latency
-        \end{itemize}
-    \item Disadvantages
-        \begin{itemize}
-            \item Limited Data Rate
-            \item Limited Range
-        \end{itemize}
-        
-\item Z-Wave: Low-power wireless communication protocol often used in home automation. It's suitable for control and monitoring applications in \glspl{uav}.
-    \item Advantages 
-        \begin{itemize}
-            \item Low Power Consumption
-            \item Interference Avoidance
-        \end{itemize}
-    \item Disadvantages 
-        \begin{itemize}
-            \item Limited Data Rate
-            \item Less Common in Non-Home Automation Devices
-        \end{itemize}
-        
-\item LoRa (Long Range): While designed for long-range communication, LoRa can also be used in short-range applications. It provides low-power, long-range communication suitable for certain \gls{uav} scenarios.
-    \item Advantages 
-        \begin{itemize}
-            \item Long Range
-            \item Low Power Consumption
-        \end{itemize}
-    \item Disadvantages
-        \begin{itemize}
-            \item Low Data Rates
-            \item Unidirectional Communication
-        \end{itemize}
+    \item Receive
+          \begin{itemize}
+              \item Flight Phase message
+              \item Maneuver control message
+              \item \gls{GNSS} epoch time
+              \item Heartbeat signal
+          \end{itemize}
+    \item Transmit
+          \begin{itemize}
+              \item Heartbeat signal
+              \item System Status message
+          \end{itemize}
 \end{itemize}
+
+The Flight Phase message and the Maneuver Control message will inform the MDU about the current flight phase and the need to make additional adjustments to the propeller pitch.
+After interpreting the message, the \gls{OBC} will send a control command. This control command will be explained further in this chapter\\
+
+The \gls{GNSS} epoch time will update the \gls{OBC} date and time (periodically or on startup). With the help of the \gls{RTC}, the MDU system will be able to maintain the date and time even when the \gls{uav} system is powered off.
+The \gls{GNSS} epoch time will be helpful when storing system logs (in the Storage Unit) and will help to calculate the latency of the communication between devices.\\
+
+Lastly, the received heartbeat signal will work as a \textit{keep alive} mechanism informing, this way, the \gls{OBC} if the system is powered on.
+This will help save power since the \gls{OBC} can shut down when the Flight Controller turns off.\\
+
+The transmitted heartbeat, which also works as a \textit{keep alive} mechanism, will inform the Flight Controller that the MDU is working correctly.
+This function will be crucial because if the MDU is not working (powered off or unresponsive) the \gls{uav} system will need to enter a failsafe mode and land, as soon as possible, since it can no longer control the pitch of the blades.\\
+
+Since the MDU is responsible for managing all the SDUs, it must, periodically, inform the Flight Controller about the overall status of the system, so that, in case of any failure, the Flight Controller may enter in failsafe.\\
+
+With the SDUs, through wireless communication, the MDU will:
+\begin{itemize}
+    \item Receive
+          \begin{itemize}
+              \item Heartbeat signal
+              \item SDU Status message
+          \end{itemize}
+    \item Transmit
+          \begin{itemize}
+              \item Heartbeat signal
+              \item Control Command
+              \item Epoch Time
+          \end{itemize}
+\end{itemize}
+
+The received and transmitted heartbeat signals will have the same functionality as explained previously. The MDU and SDUs will inform each other if they are working correctly.\\
+
+The SDU Status message will help the MDU keep track of the status of all Secondary devices. In case of malfunction or if one or more SDUs can't change the propeller pitch, the MDU must be noticed so that it can communicate to the Flight Controller about the failure.\\
+
+The MDU will send a Control Command, containing the desired pitch, to all the SDUs according to the phase of flight message received previously.\\
+
+By sending the epoch time to all the SDUs, it is possible to keep the whole system updated and with the same date and time reference.\\
+
+\subsection{Secondary Device}
+This subsystem will be, composed of an \gls{OBC}, a \gls{RTC}, a Storage Unit, a battery (with a power management system), an on/off switch, a buzzer, a stand-alone \gls{PWM} controller, a servo, and a wireless communication module.\\
+
+The on/off switch and the buzzer will work as human-machine interfaces to help the user interact with the system.\\
+Since the SDU will be designed to be stand-alone (with a dedicated power supply) the system needs to be powered on manually and the buzzer can notice the user that the system is powering on.\\
+
+The servo, mechanically connected to the propeller, will be responsible for changing the propeller pitch according to the state of flight.
+It will be equipped with feedback functionality so that the system can control, more precisely, the pitch and know if the propeller has reached its goal.\\
+
+There will also be implemented a stand-alone \gls{PWM} controller, able to generate a fixed \gls{PWM} signal, to control the servo in case of failure from the \gls{OBC}.
+As a failsafe mechanism, if one or more SDUs fail, the \gls{PWM} controller will generate a \gls{PWM} signal fixing the pitch of the propellers to a designated angle.\\
+This action will transform the \gls{uav} system into a fixed-pitch proprotor but will help avoid having a system with a single point of failure that can cause the \gls{uav} to crash and possibly hurt people.\\
+
+The Power Management System will be responsible for monitoring the \gls{SoC} of the battery, for converting the voltage from the battery to the needed voltage levels and for distributing to all components.\\
+An \gls{UVP} will be also implemented to ensure that the SDU subsystem shutdowns when the battery is at a critical level.
+
+
+%-------------------------------------------------------------------------------%
+\section{System Behavior}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{ch3/assets/MDU_MAIN.pdf}
+    \caption{Proposed System Behavior - High Level Flow Chart}
+    \label{fig:MDU_MAIN}
+\end{figure}
+
+
+
+%-------------------------------------------------------------------------------%
