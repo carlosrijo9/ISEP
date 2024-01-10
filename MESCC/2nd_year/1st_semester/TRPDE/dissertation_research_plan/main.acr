@@ -1,0 +1,45 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{COTS}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}}}%
+\glossentry{CPU}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossentry{FPGA}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}}}\glsgroupskip
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossentry{GNSS}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossentry{OBC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{13\delimR 15}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossentry{PCB}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{19}}}%
+\glossentry{PWM}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossentry{RPM}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}}}%
+\glossentry{RTC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{13\delimR 15}}}%
+\glossentry{RTOS}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{6\delimN 7}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossentry{SoC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+\glsgroupheading{U}\relax \glsresetentrylist %
+\glossentry{uav}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{11\delimR 15}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{19}}}%
+\glossentry{UVP}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossentry{VTOL}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}}}%
+\end{theglossary}\glossarypostamble

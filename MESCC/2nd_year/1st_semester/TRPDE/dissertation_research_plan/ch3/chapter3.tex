@@ -17,35 +17,35 @@ This way, the requirements should align with mechanical, control, communication,
 
 \begin{itemize}
     \item \textbf{Mechanical Requirements}
-          \begin{enumerate}[start=1,label={\upshape(\bfseries REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
+          \begin{enumerate}[start=1,label={\upshape\bfseries (REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
               \item The system shall be designed to retrofit existing \glspl{uav} or integrate seamlessly into new \gls{uav} designs.
               \item The variable-pitch mechanism shall be lightweight to minimize the impact on overall \gls{uav} weight and balance.
               \item The system shall be able to withstand the operational stresses and environmental conditions encountered during \gls{uav} flights.
           \end{enumerate}
 
     \item \textbf{Control System Requirements}
-          \begin{enumerate}[start=04,label={(\bfseries REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
+          \begin{enumerate}[start=04,label={\bfseries (REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
               \item The control system shall enable real-time adjustment of the proprotor pitch during different flight phases.
               \item It shall incorporate failsafe mechanisms to respond to unexpected malfunctions or loss of communication and revert to a fixed-pitch state in case of critical failures.
               \item The system shall provide precise control over the pitch angle, allowing for fine adjustments to optimize performance.
           \end{enumerate}
 
     \item \textbf{Wireless Communication Requirements}
-          \begin{enumerate}[start=07,label={(\bfseries REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
+          \begin{enumerate}[start=07,label={\bfseries (REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
               \item The wireless communication system shall be reliable, with minimal latency to ensure quick response times.
               \item It shall operate within designated frequency bands and comply with relevant aviation communication standards.
               \item Security measures shall be implemented to prevent unauthorized access or interference with the control signals.
           \end{enumerate}
 
     \item \textbf{Integration Requirements}
-          \begin{enumerate}[start=10,label={(\bfseries REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
+          \begin{enumerate}[start=10,label={\bfseries (REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
               \item The system shall be designed for easy integration with common \gls{uav} autopilot systems.
               \item It shall have compatibility with existing \gls{uav} avionics and navigation systems.
               \item The variable-pitch system shall not interfere with other onboard sensors or communication systems.
           \end{enumerate}
 
     \item \textbf{Testing and Validation Requirements}
-          \begin{enumerate}[start=13,label={(\bfseries REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
+          \begin{enumerate}[start=13,label={\bfseries (REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
               \item The system shall undergo rigorous testing under various operational scenarios, including weather conditions and flight profiles.
               \item Validation shall include simulated and real-world flights to assess performance and reliability.
               \item The system shall comply with relevant aviation regulations and standards.
@@ -64,7 +64,8 @@ As it is possible to see, in the proposed implementation of the System Architect
     \label{fig:system_diagram}
 \end{figure}
 
-TODO: MORE INFO
+The subsystems can be consider as stand-alone since the main \gls{uav} can work without the subsystems.
+These subsystems, described in the next subchapters, are responsible for monitoring the flight phase and control the propeller pitch angle.
 
 \subsection{Main Device}
 This subsystem will be, mainly, composed by an \gls{OBC}, a \gls{RTC}, a Storage Unit, and a wireless communication module.\\
@@ -143,6 +144,9 @@ An \gls{UVP} will be also implemented to ensure that the SDU subsystem shutdowns
 %-------------------------------------------------------------------------------%
 \section{System Behavior}
 
+In order to properly design the system behavior it was developed a system flow chart.
+The flow chart, represented in figure \ref{fig:MDU_MAIN}, describes the expected high level behavior of both MDU and SDU.
+ 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{ch3/assets/MDU_MAIN.pdf}
@@ -150,15 +154,71 @@ An \gls{UVP} will be also implemented to ensure that the SDU subsystem shutdowns
     \label{fig:MDU_MAIN}
 \end{figure}
 
-%MDU
-\ref{AppendixA}
-\ref{AppendixB}
-\ref{AppendixC}
-\ref{AppendixD}
+In this flow chart, there are four main tasks:
+\begin{itemize}
+    \item Prepare
+    \item Mission
+    \item Error
+    \item Shutdown
+\end{itemize}
 
-%SDU
-\ref{AppendixE}
-\ref{AppendixF}
-\ref{AppendixG}
-\ref{AppendixH}
+\subsection{Main Device Unit Behavior}
+In this chapter it is described all the tasks referring to the Main Device Unit Behavior.
+\subsubsection{Prepare Task}
+The \textbf{Prepare} task is responsible for preparing the subsystem after activation anc checking if the system is ready for mission.
+
+Firstly it will check the connection and the number of  SDUs (this also represents the number of proprotors).
+In case of insufficient number of SDUs, the subsystem will enter in a state of Error and enter the \textbf{ERROR} task.
+
+After this the subsystem checks the connection with Flight Controller (FC).
+If there is no response from the FC (meaning, for example, that the FC is turned off), the MDU subsystem will turn off by entering in the task \textbf{Shutdown}.
+
+The next step is publish an heartbeat to the SDUs (using topic \textit{mdu\slash  heartbeat}) and to acquire Epoch time to update its own date and time (if not possible use stored date and time) and update all the connected SDUs by publishing in \textit{mdu\slash date\_time} topic.
+
+Finally, in this task, the MDU will subscribe to \textit{sdu\slash heartbeat} and \textit{sdu\slash status}.
+If all the SDUs are ready, the subsystem is ready for the mission and, in this case, enter \textbf{Mission} task.
+Otherwise, if any or all the SDUs have any problem or can not be reached, the MDU will enter the \textbf{ERROR} task.
+
+The MDU \textbf{Prepare} task flow is represented in figure \ref{fig:MDU_PREPARE} in Appendix \ref{AppendixA}.
+
+\subsubsection{Mission Task}
+In the \textbf{Mission} task the MDU will monitor the flight phase (given by the FC) and publish, accordingly, to \textit{mdu\slash pitch\_cmd} topic.
+Since each phase requires a different pitch angle, it was defined three flight phases:
+\begin{itemize}
+    \item Take-Off
+    \item Landing
+    \item Forward Flight
+\end{itemize}
+And while Take-Off and Landing phase, the pitch angles are defined, fixed and equal between all proprotors, in Forward Flight phase each maneuver will require a different pitch angle and may require different pitches between each proprotor.
+
+In parallel, the subsystem will also be publishing an heartbeat to the SDUs, check the heartbeat from th FC and monitoring the heartbeat and status of all SDUs.
+By constantly monitoring the heartbeat and status of all the SDUs it is possible to recognize errors in the system and try to find solutions (in \textbf{Error} task) to avoid mission failures.
+
+The MDU \textbf{Mission} task flow is represented in figure \ref{fig:MDU_MISSION} in Appendix \ref{AppendixB}\\
+
+\subsubsection{Error Task}
+\textbf{Error} task will be responsible for analyzing the error type and try to resolve the error before mission failure.
+
+The MDU Error task flow is represented in figure \ref{fig:MDU_ERROR} in Appendix \ref{AppendixC}\\
+
+\subsubsection{Shutdown Task}
+The MDU Shutdown task flow is represented in figure \ref{fig:MDU_SHUTDOWN} in Appendix \ref{AppendixD}\\
+
+\subsection{Secondary Device Unit Behavior}
+In the same way, this chapter will describe all the tasks referring to the Secondary Device Unit Behavior.
+
+\subsubsection{Prepare Task}
+The SDU Prepare task flow is represented in figure \ref{fig:SDU_PREPARE} in Appendix \ref{AppendixE}\\
+
+\subsubsection{Mission Task}
+The SDU Mission task flow is represented in figure \ref{fig:SDU_MISSION} in Appendix \ref{AppendixF}\\
+
+\subsubsection{Error Task}
+The SDU Error task flow is represented in figure \ref{fig:SDU_ERROR} in Appendix \ref{AppendixG}\\
+
+\subsubsection{Shutdown Task}
+The SDU Shutdown task flow is represented in figure \ref{fig:SDU_SHUTDOWN} in Appendix \ref{AppendixH}\\
 %-------------------------------------------------------------------------------%
+
+TODO: CHANGE "TOPICS" TO "NODES" ??
+TODO: MORE INFO
