@@ -1,6 +1,25 @@
 {
     "cSpell.words": [
+        "caraceristics",
         "microcontrollers",
-        "proprotors"
+        "proprotor",
+        "proprotors",
+        "rechargeability"
+    ],
+    "grammarly.selectors": [
+        {
+            "language": "latex",
+            "scheme": "file",
+            "pattern": "ch3/chapter3.tex"
+        },
+        {
+            "language": "latex",
+            "scheme": "file",
+            "pattern": "ch5/chapter5.tex"
+        },
+        {
+            "language": "latex",
+            "scheme": "file"
+        }
     ]
 }

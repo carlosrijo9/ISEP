@@ -1,17 +1,17 @@
 INFO:  latexindent version 3.15, 2022-01-21, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Thu Jan  4 23:03:26 2024
-       Filename: /home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/ch4/__latexindent_temp_chapter4.tex
+       Wed Jan 24 23:14:38 2024
+       Filename: /home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/ch3/__latexindent_temp_chapter3.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
-INFO:  Directory for backup files and /home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan//indent.log: /home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/
+INFO:  Directory for backup files and /home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan//indent.log: /home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/
 INFO:  YAML settings read: defaultSettings.yaml
        Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML settings read: indentconfig.yaml or .indentconfig.yaml
-       Home directory is /home/carlosrijo (didn't find either indentconfig.yaml or .indentconfig.yaml)
-       To specify user settings you would put indentconfig.yaml here: /home/carlosrijo/indentconfig.yaml
-       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/carlosrijo/.indentconfig.yaml
+       Home directory is /home/cr (didn't find either indentconfig.yaml or .indentconfig.yaml)
+       To specify user settings you would put indentconfig.yaml here: /home/cr/indentconfig.yaml
+       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/cr/.indentconfig.yaml
 INFO:  YAML settings read: -y switch
        YAML setting: defaultIndent:'    '
        single-quoted string found in -y switch: '    ', substitute to     

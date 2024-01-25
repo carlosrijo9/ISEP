@@ -2,23 +2,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Proposed System Architecture High Level Diagram\relax }}{13}{figure.caption.62}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Proposed System Behavior - High Level Flow Chart\relax }}{16}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{9}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{9}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{10}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{10}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{10}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{10}{figure.caption.38}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Project timeline Gantt chart\relax }}{20}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed System Architecture High Level Diagram\relax }}{21}{figure.caption.77}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Proposed System Behavior - Prepare Task Flow Chart (MDU)\relax }}{25}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{30}{figure.caption.96}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Proposed System Behavior - Mission Task Flow Chart (MDU)\relax }}{27}{figure.caption.86}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Proposed System Behavior - Error Task Flow Chart (MDU)\relax }}{29}{figure.caption.88}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Proposed System Behavior - Shutdown Task Flow Chart (MDU)\relax }}{31}{figure.caption.90}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Proposed System Behavior - Prepare Task Flow Chart (SDU)\relax }}{33}{figure.caption.92}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Proposed System Behavior - Mission Task Flow Chart (SDU)\relax }}{35}{figure.caption.94}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {G.1}{\ignorespaces Proposed System Behavior - Error Task Flow Chart (SDU)\relax }}{37}{figure.caption.96}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {H.1}{\ignorespaces Proposed System Behavior - Shutdown Task Flow Chart (SDU)\relax }}{39}{figure.caption.98}%
+\addvspace {10\p@ }

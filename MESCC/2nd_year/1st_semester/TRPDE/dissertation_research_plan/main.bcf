@@ -66,7 +66,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nyt</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -171,11 +171,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -300,7 +300,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -381,11 +381,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -625,8 +625,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">dashed</bcf:option>
-    <bcf:option datatype="boolean">mergedate</bcf:option>
+    <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -708,7 +708,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">mergedate</bcf:option>
+    <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -795,7 +796,8 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">mergedate</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2345,106 +2347,126 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">mainbibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">uav1</bcf:citekey>
-    <bcf:citekey order="2">uav2</bcf:citekey>
-    <bcf:citekey order="3">uav3</bcf:citekey>
-    <bcf:citekey order="4">uav4</bcf:citekey>
-    <bcf:citekey order="5">uav5</bcf:citekey>
-    <bcf:citekey order="6">uav6</bcf:citekey>
-    <bcf:citekey order="7">uav7</bcf:citekey>
-    <bcf:citekey order="8">uav8</bcf:citekey>
-    <bcf:citekey order="9">uav10</bcf:citekey>
-    <bcf:citekey order="10">uav11</bcf:citekey>
-    <bcf:citekey order="11">uav15</bcf:citekey>
-    <bcf:citekey order="12">FPP1</bcf:citekey>
-    <bcf:citekey order="13">FPP1</bcf:citekey>
-    <bcf:citekey order="14">FPP1</bcf:citekey>
-    <bcf:citekey order="15">VPP1</bcf:citekey>
-    <bcf:citekey order="16">FPP1</bcf:citekey>
-    <bcf:citekey order="17">FPP2</bcf:citekey>
-    <bcf:citekey order="18">FPP3</bcf:citekey>
-    <bcf:citekey order="19">FPP4</bcf:citekey>
-    <bcf:citekey order="20">FPP5</bcf:citekey>
+    <bcf:citekey order="7">UAV1</bcf:citekey>
+    <bcf:citekey order="8">UAV2</bcf:citekey>
+    <bcf:citekey order="9">UAV3</bcf:citekey>
+    <bcf:citekey order="10">UAV4</bcf:citekey>
+    <bcf:citekey order="11">UAV5</bcf:citekey>
+    <bcf:citekey order="12">UAV6</bcf:citekey>
+    <bcf:citekey order="13">UAV7</bcf:citekey>
+    <bcf:citekey order="14">UAV8</bcf:citekey>
+    <bcf:citekey order="15">UAV10</bcf:citekey>
+    <bcf:citekey order="16">UAV11</bcf:citekey>
+    <bcf:citekey order="17">UAV15</bcf:citekey>
+    <bcf:citekey order="18">FPP1</bcf:citekey>
+    <bcf:citekey order="19">FPP1</bcf:citekey>
+    <bcf:citekey order="20">FPP1</bcf:citekey>
     <bcf:citekey order="21">VPP1</bcf:citekey>
-    <bcf:citekey order="22">VPP1</bcf:citekey>
-    <bcf:citekey order="23">FPP1</bcf:citekey>
-    <bcf:citekey order="24">FPP1</bcf:citekey>
-    <bcf:citekey order="25">FPP1</bcf:citekey>
-    <bcf:citekey order="26">FPP1</bcf:citekey>
-    <bcf:citekey order="27">FPP1</bcf:citekey>
-    <bcf:citekey order="28">VPP2</bcf:citekey>
-    <bcf:citekey order="29">VPP3</bcf:citekey>
-    <bcf:citekey order="30">VPP2</bcf:citekey>
-    <bcf:citekey order="31">VPP3</bcf:citekey>
-    <bcf:citekey order="32">VPP2</bcf:citekey>
-    <bcf:citekey order="33">VPP2</bcf:citekey>
+    <bcf:citekey order="22">FPP1</bcf:citekey>
+    <bcf:citekey order="23">FPP2</bcf:citekey>
+    <bcf:citekey order="24">FPP3</bcf:citekey>
+    <bcf:citekey order="25">FPP4</bcf:citekey>
+    <bcf:citekey order="26">FPP5</bcf:citekey>
+    <bcf:citekey order="27">VPP1</bcf:citekey>
+    <bcf:citekey order="28">VPP1</bcf:citekey>
+    <bcf:citekey order="29">FPP1</bcf:citekey>
+    <bcf:citekey order="30">FPP1</bcf:citekey>
+    <bcf:citekey order="31">FPP1</bcf:citekey>
+    <bcf:citekey order="32">FPP1</bcf:citekey>
+    <bcf:citekey order="33">FPP1</bcf:citekey>
     <bcf:citekey order="34">VPP2</bcf:citekey>
-    <bcf:citekey order="35">VPP2</bcf:citekey>
+    <bcf:citekey order="35">VPP3</bcf:citekey>
     <bcf:citekey order="36">VPP2</bcf:citekey>
-    <bcf:citekey order="37">RTOS1</bcf:citekey>
-    <bcf:citekey order="38">WCOM1</bcf:citekey>
-    <bcf:citekey order="39">WCOM6</bcf:citekey>
-    <bcf:citekey order="40">WCOM7</bcf:citekey>
-    <bcf:citekey order="41">WCOM6</bcf:citekey>
-    <bcf:citekey order="42">WCOM7</bcf:citekey>
-    <bcf:citekey order="43">uav1</bcf:citekey>
-    <bcf:citekey order="44">uav2</bcf:citekey>
-    <bcf:citekey order="45">uav3</bcf:citekey>
-    <bcf:citekey order="46">uav4</bcf:citekey>
-    <bcf:citekey order="47">uav5</bcf:citekey>
-    <bcf:citekey order="48">uav6</bcf:citekey>
-    <bcf:citekey order="49">uav7</bcf:citekey>
-    <bcf:citekey order="50">uav8</bcf:citekey>
-    <bcf:citekey order="51">uav10</bcf:citekey>
-    <bcf:citekey order="52">uav11</bcf:citekey>
-    <bcf:citekey order="53">uav15</bcf:citekey>
-    <bcf:citekey order="54">FPP1</bcf:citekey>
-    <bcf:citekey order="55">VPP1</bcf:citekey>
-    <bcf:citekey order="56">FPP2</bcf:citekey>
-    <bcf:citekey order="57">FPP3</bcf:citekey>
-    <bcf:citekey order="58">FPP4</bcf:citekey>
-    <bcf:citekey order="59">FPP5</bcf:citekey>
-    <bcf:citekey order="60">VPP2</bcf:citekey>
-    <bcf:citekey order="61">VPP3</bcf:citekey>
-    <bcf:citekey order="62">RTOS1</bcf:citekey>
-    <bcf:citekey order="63">WCOM1</bcf:citekey>
-    <bcf:citekey order="64">WCOM6</bcf:citekey>
-    <bcf:citekey order="65">WCOM7</bcf:citekey>
+    <bcf:citekey order="37">VPP3</bcf:citekey>
+    <bcf:citekey order="38">VPP2</bcf:citekey>
+    <bcf:citekey order="39">VPP2</bcf:citekey>
+    <bcf:citekey order="40">VPP2</bcf:citekey>
+    <bcf:citekey order="41">VPP2</bcf:citekey>
+    <bcf:citekey order="42">VPP2</bcf:citekey>
+    <bcf:citekey order="43">BATT3</bcf:citekey>
+    <bcf:citekey order="44">BATT7</bcf:citekey>
+    <bcf:citekey order="45">18650</bcf:citekey>
+    <bcf:citekey order="46">18650</bcf:citekey>
+    <bcf:citekey order="47">lipo</bcf:citekey>
+    <bcf:citekey order="48">lipo</bcf:citekey>
+    <bcf:citekey order="49">nimh</bcf:citekey>
+    <bcf:citekey order="50">nimh</bcf:citekey>
+    <bcf:citekey order="51">nicd</bcf:citekey>
+    <bcf:citekey order="52">nicd</bcf:citekey>
+    <bcf:citekey order="53">BATT3</bcf:citekey>
+    <bcf:citekey order="54">lead</bcf:citekey>
+    <bcf:citekey order="55">lead</bcf:citekey>
+    <bcf:citekey order="56">BATT3</bcf:citekey>
+    <bcf:citekey order="57">alkaline</bcf:citekey>
+    <bcf:citekey order="58">alkaline</bcf:citekey>
+    <bcf:citekey order="59">mem3</bcf:citekey>
+    <bcf:citekey order="60">mem8</bcf:citekey>
+    <bcf:citekey order="61">mem8</bcf:citekey>
+    <bcf:citekey order="62">mem3</bcf:citekey>
+    <bcf:citekey order="63">mem1</bcf:citekey>
+    <bcf:citekey order="64">mem11</bcf:citekey>
+    <bcf:citekey order="65">mem9</bcf:citekey>
+    <bcf:citekey order="66">mem8</bcf:citekey>
+    <bcf:citekey order="67">mem11</bcf:citekey>
+    <bcf:citekey order="68">mem8</bcf:citekey>
+    <bcf:citekey order="69">mem11</bcf:citekey>
+    <bcf:citekey order="70">mem11</bcf:citekey>
+    <bcf:citekey order="71">mem10</bcf:citekey>
+    <bcf:citekey order="72">RTOS1</bcf:citekey>
+    <bcf:citekey order="73">WCOM1</bcf:citekey>
+    <bcf:citekey order="74">WCOM6</bcf:citekey>
+    <bcf:citekey order="75">WCOM7</bcf:citekey>
+    <bcf:citekey order="76">WCOM6</bcf:citekey>
+    <bcf:citekey order="77">WCOM7</bcf:citekey>
+    <bcf:citekey order="78">UAV1</bcf:citekey>
+    <bcf:citekey order="79">UAV2</bcf:citekey>
+    <bcf:citekey order="80">UAV3</bcf:citekey>
+    <bcf:citekey order="81">UAV4</bcf:citekey>
+    <bcf:citekey order="82">UAV5</bcf:citekey>
+    <bcf:citekey order="83">UAV6</bcf:citekey>
+    <bcf:citekey order="84">UAV7</bcf:citekey>
+    <bcf:citekey order="85">UAV8</bcf:citekey>
+    <bcf:citekey order="86">UAV10</bcf:citekey>
+    <bcf:citekey order="87">UAV11</bcf:citekey>
+    <bcf:citekey order="88">UAV15</bcf:citekey>
+    <bcf:citekey order="89">FPP1</bcf:citekey>
+    <bcf:citekey order="90">VPP1</bcf:citekey>
+    <bcf:citekey order="91">FPP2</bcf:citekey>
+    <bcf:citekey order="92">FPP3</bcf:citekey>
+    <bcf:citekey order="93">FPP4</bcf:citekey>
+    <bcf:citekey order="94">FPP5</bcf:citekey>
+    <bcf:citekey order="95">VPP2</bcf:citekey>
+    <bcf:citekey order="96">VPP3</bcf:citekey>
+    <bcf:citekey order="97">BATT3</bcf:citekey>
+    <bcf:citekey order="98">BATT7</bcf:citekey>
+    <bcf:citekey order="99">18650</bcf:citekey>
+    <bcf:citekey order="100">lipo</bcf:citekey>
+    <bcf:citekey order="101">nimh</bcf:citekey>
+    <bcf:citekey order="102">nicd</bcf:citekey>
+    <bcf:citekey order="103">lead</bcf:citekey>
+    <bcf:citekey order="104">alkaline</bcf:citekey>
+    <bcf:citekey order="105">mem3</bcf:citekey>
+    <bcf:citekey order="106">mem8</bcf:citekey>
+    <bcf:citekey order="107">mem1</bcf:citekey>
+    <bcf:citekey order="108">mem11</bcf:citekey>
+    <bcf:citekey order="109">mem9</bcf:citekey>
+    <bcf:citekey order="110">mem10</bcf:citekey>
+    <bcf:citekey order="111">RTOS1</bcf:citekey>
+    <bcf:citekey order="112">WCOM1</bcf:citekey>
+    <bcf:citekey order="113">WCOM6</bcf:citekey>
+    <bcf:citekey order="114">WCOM7</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nyt">
+  <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nyt/global//global/global"
+                name="none/global//global/global"
                 type="entry"
-                sortingtemplatename="nyt"
+                sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

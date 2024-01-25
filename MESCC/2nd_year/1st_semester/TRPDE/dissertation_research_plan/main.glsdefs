@@ -390,3 +390,507 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{EEPROM}%
+{%
+name={EEPROM},%
+sort={EEPROM},%
+type={acronym},%
+first={Electrically Erasable Programmable Read-Only Memory\glsspace (EEPROM)},%
+firstplural={Electrically Erasable Programmable Read-Only Memory\acrpluralsuffix \glsspace (EEPROM\acrpluralsuffix )},%
+text={EEPROM},%
+plural={EEPROM\acrpluralsuffix },%
+description={Electrically Erasable Programmable Read-Only Memory},%
+descriptionplural={Electrically Erasable Programmable Read-Only Memory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Electrically Erasable Programmable Read-Only Memory},%
+longplural={Electrically Erasable Programmable Read-Only Memorys},%
+short={EEPROM},%
+shortplural={EEPROMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SRAM}%
+{%
+name={SRAM},%
+sort={SRAM},%
+type={acronym},%
+first={Static Random Access Memory\glsspace (SRAM)},%
+firstplural={Static Random Access Memory\acrpluralsuffix \glsspace (SRAM\acrpluralsuffix )},%
+text={SRAM},%
+plural={SRAM\acrpluralsuffix },%
+description={Static Random Access Memory},%
+descriptionplural={Static Random Access Memory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Static Random Access Memory},%
+longplural={Static Random Access Memorys},%
+short={SRAM},%
+shortplural={SRAMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{DRAM}%
+{%
+name={DRAM},%
+sort={DRAM},%
+type={acronym},%
+first={Dynamic Random Access Memory\glsspace (DRAM)},%
+firstplural={Dynamic Random Access Memory\acrpluralsuffix \glsspace (DRAM\acrpluralsuffix )},%
+text={DRAM},%
+plural={DRAM\acrpluralsuffix },%
+description={Dynamic Random Access Memory},%
+descriptionplural={Dynamic Random Access Memory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Dynamic Random Access Memory},%
+longplural={Dynamic Random Access Memorys},%
+short={DRAM},%
+shortplural={DRAMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SD}%
+{%
+name={SD},%
+sort={SD},%
+type={acronym},%
+first={Secure Digital\glsspace (SD)},%
+firstplural={Secure Digital\acrpluralsuffix \glsspace (SD\acrpluralsuffix )},%
+text={SD},%
+plural={SD\acrpluralsuffix },%
+description={Secure Digital},%
+descriptionplural={Secure Digital\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Secure Digital},%
+longplural={Secure Digitals},%
+short={SD},%
+shortplural={SDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FRAM}%
+{%
+name={FRAM},%
+sort={FRAM},%
+type={acronym},%
+first={Ferroelectric Random Access Memory\glsspace (FRAM)},%
+firstplural={Ferroelectric Random Access Memory\acrpluralsuffix \glsspace (FRAM\acrpluralsuffix )},%
+text={FRAM},%
+plural={FRAM\acrpluralsuffix },%
+description={Ferroelectric Random Access Memory},%
+descriptionplural={Ferroelectric Random Access Memory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ferroelectric Random Access Memory},%
+longplural={Ferroelectric Random Access Memorys},%
+short={FRAM},%
+shortplural={FRAMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RAM}%
+{%
+name={RAM},%
+sort={RAM},%
+type={acronym},%
+first={Random Access Memory\glsspace (RAM)},%
+firstplural={Random Access Memory\acrpluralsuffix \glsspace (RAM\acrpluralsuffix )},%
+text={RAM},%
+plural={RAM\acrpluralsuffix },%
+description={Random Access Memory},%
+descriptionplural={Random Access Memory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Random Access Memory},%
+longplural={Random Access Memorys},%
+short={RAM},%
+shortplural={RAMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SLC}%
+{%
+name={SLC},%
+sort={SLC},%
+type={acronym},%
+first={Single-Level Cell\glsspace (SLC)},%
+firstplural={Single-Level Cell\acrpluralsuffix \glsspace (SLC\acrpluralsuffix )},%
+text={SLC},%
+plural={SLC\acrpluralsuffix },%
+description={Single-Level Cell},%
+descriptionplural={Single-Level Cell\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Single-Level Cell},%
+longplural={Single-Level Cells},%
+short={SLC},%
+shortplural={SLCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MLC}%
+{%
+name={MLC},%
+sort={MLC},%
+type={acronym},%
+first={Multi-Level Cell\glsspace (MLC)},%
+firstplural={Multi-Level Cell\acrpluralsuffix \glsspace (MLC\acrpluralsuffix )},%
+text={MLC},%
+plural={MLC\acrpluralsuffix },%
+description={Multi-Level Cell},%
+descriptionplural={Multi-Level Cell\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multi-Level Cell},%
+longplural={Multi-Level Cells},%
+short={MLC},%
+shortplural={MLCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{TLC}%
+{%
+name={TLC},%
+sort={TLC},%
+type={acronym},%
+first={Triple-Level Cell\glsspace (TLC)},%
+firstplural={Triple-Level Cell\acrpluralsuffix \glsspace (TLC\acrpluralsuffix )},%
+text={TLC},%
+plural={TLC\acrpluralsuffix },%
+description={Triple-Level Cell},%
+descriptionplural={Triple-Level Cell\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Triple-Level Cell},%
+longplural={Triple-Level Cells},%
+short={TLC},%
+shortplural={TLCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{eMMC}%
+{%
+name={eMMC},%
+sort={eMMC},%
+type={acronym},%
+first={embedded MultiMedia Card\glsspace (eMMC)},%
+firstplural={embedded MultiMedia Card\acrpluralsuffix \glsspace (eMMC\acrpluralsuffix )},%
+text={eMMC},%
+plural={eMMC\acrpluralsuffix },%
+description={embedded MultiMedia Card},%
+descriptionplural={embedded MultiMedia Card\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={embedded MultiMedia Card},%
+longplural={embedded MultiMedia Cards},%
+short={eMMC},%
+shortplural={eMMCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SSD}%
+{%
+name={SSD},%
+sort={SSD},%
+type={acronym},%
+first={Solid State Drives\glsspace (SSD)},%
+firstplural={Solid State Drives\acrpluralsuffix \glsspace (SSD\acrpluralsuffix )},%
+text={SSD},%
+plural={SSD\acrpluralsuffix },%
+description={Solid State Drives},%
+descriptionplural={Solid State Drives\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Solid State Drives},%
+longplural={Solid State Drivess},%
+short={SSD},%
+shortplural={SSDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{HDD}%
+{%
+name={HDD},%
+sort={HDD},%
+type={acronym},%
+first={Hard Disk Drives\glsspace (HDD)},%
+firstplural={Hard Disk Drives\acrpluralsuffix \glsspace (HDD\acrpluralsuffix )},%
+text={HDD},%
+plural={HDD\acrpluralsuffix },%
+description={Hard Disk Drives},%
+descriptionplural={Hard Disk Drives\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hard Disk Drives},%
+longplural={Hard Disk Drivess},%
+short={HDD},%
+shortplural={HDDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Li-ion}%
+{%
+name={Li-ion},%
+sort={Li-ion},%
+type={acronym},%
+first={Lithium-ion\glsspace (Li-ion)},%
+firstplural={Lithium-ion\acrpluralsuffix \glsspace (Li-ion\acrpluralsuffix )},%
+text={Li-ion},%
+plural={Li-ion\acrpluralsuffix },%
+description={Lithium-ion},%
+descriptionplural={Lithium-ion\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Lithium-ion},%
+longplural={Lithium-ions},%
+short={Li-ion},%
+shortplural={Li-ions},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Li-Po}%
+{%
+name={Li-Po},%
+sort={Li-Po},%
+type={acronym},%
+first={Lithium Polymer\glsspace (Li-Po)},%
+firstplural={Lithium Polymer\acrpluralsuffix \glsspace (Li-Po\acrpluralsuffix )},%
+text={Li-Po},%
+plural={Li-Po\acrpluralsuffix },%
+description={Lithium Polymer},%
+descriptionplural={Lithium Polymer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Lithium Polymer},%
+longplural={Lithium Polymers},%
+short={Li-Po},%
+shortplural={Li-Pos},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{NiMH}%
+{%
+name={NiMH},%
+sort={NiMH},%
+type={acronym},%
+first={Nickel–Metal Hydride\glsspace (NiMH)},%
+firstplural={Nickel–Metal Hydride\acrpluralsuffix \glsspace (NiMH\acrpluralsuffix )},%
+text={NiMH},%
+plural={NiMH\acrpluralsuffix },%
+description={Nickel–Metal Hydride},%
+descriptionplural={Nickel–Metal Hydride\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Nickel–Metal Hydride},%
+longplural={Nickel–Metal Hydrides},%
+short={NiMH},%
+shortplural={NiMHs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{NiCd}%
+{%
+name={NiCd},%
+sort={NiCd},%
+type={acronym},%
+first={Nickel-Cadmium\glsspace (NiCd)},%
+firstplural={Nickel-Cadmium\acrpluralsuffix \glsspace (NiCd\acrpluralsuffix )},%
+text={NiCd},%
+plural={NiCd\acrpluralsuffix },%
+description={Nickel-Cadmium},%
+descriptionplural={Nickel-Cadmium\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Nickel-Cadmium},%
+longplural={Nickel-Cadmiums},%
+short={NiCd},%
+shortplural={NiCds},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ROS}%
+{%
+name={ROS},%
+sort={ROS},%
+type={acronym},%
+first={Robot Operating System\glsspace (ROS)},%
+firstplural={Robot Operating System\acrpluralsuffix \glsspace (ROS\acrpluralsuffix )},%
+text={ROS},%
+plural={ROS\acrpluralsuffix },%
+description={Robot Operating System},%
+descriptionplural={Robot Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Robot Operating System},%
+longplural={Robot Operating Systems},%
+short={ROS},%
+shortplural={ROSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{DDS}%
+{%
+name={DDS},%
+sort={DDS},%
+type={acronym},%
+first={Data Distribution Service\glsspace (DDS)},%
+firstplural={Data Distribution Service\acrpluralsuffix \glsspace (DDS\acrpluralsuffix )},%
+text={DDS},%
+plural={DDS\acrpluralsuffix },%
+description={Data Distribution Service},%
+descriptionplural={Data Distribution Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Data Distribution Service},%
+longplural={Data Distribution Services},%
+short={DDS},%
+shortplural={DDSs},%
+counter={page},%
+parent={},%
+%
+}%
+

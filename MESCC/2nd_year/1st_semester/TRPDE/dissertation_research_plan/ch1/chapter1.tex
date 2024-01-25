@@ -1,15 +1,15 @@
 \chapter{Introduction}
 \label{chap:Chapter1}
 %-------------------------------------------------------------------------------%
-\glspl{uav} have witnessed a surge in popularity and research attention. 
-They have become indispensable in various applications, ranging from surveillance to reconnaissance, due to their versatility and efficiency in various applications \cite{uav1}. 
+\glspl{uav} have witnessed a surge in popularity and research attention.
+They have become indispensable in various applications, ranging from surveillance to reconnaissance, due to their versatility and efficiency in various applications \cite{UAV1}.
 
-This growing interest is evident in the numerous review papers exploring different aspects of \gls{uav} development, ranging from open-source hardware and software utilization \cite{uav2}, \cite{uav3},\cite{uav4}, frame design and optimization \cite{uav5}, \cite{uav6}, control systems, including both conventional and modern communication modalities such as 5G networks \cite{uav7}, \cite{uav8}, \cite{uav10}, \cite{uav11}, to efficient power management strategies, and alternative energy sources to extend \gls{uav} battery life \cite{uav15}.\\
+This growing interest is evident in the numerous review papers exploring different aspects of \gls{uav} development, ranging from open-source hardware and software utilization \cite{UAV2}, \cite{UAV3},\cite{UAV4}, frame design and optimization \cite{UAV5}, \cite{UAV6}, control systems, including both conventional and modern communication modalities such as 5G networks \cite{UAV7}, \cite{UAV8}, \cite{UAV10}, \cite{UAV11}, to efficient power management strategies, and alternative energy sources to extend \gls{uav} battery life \cite{UAV15}.\\
 
 Nowadays, most \gls{VTOL} \glspl{uav}, rely on proprotors with fixed pitch systems because of their simplicity and lack of better \gls{COTS} reliable and efficient solutions but they impose limitations on the achievable flight performance \cite{FPP1}.
 Thrust generation is confined to a single direction, hindering the \gls{uav}'s ability to produce upward thrust relative to the vehicle body.
 Additionally, the control bandwidth is restricted by the inertia of the motors and proprotors, constraining the \gls{uav}'s agility and maneuverability \cite{FPP1}.\\
-As described in recent studies \cite{FPP1}, these limitations become more pronounced as \gls{uav} size increases, impacting stability and control. 
+As described in recent studies \cite{FPP1}, these limitations become more pronounced as \gls{uav} size increases, impacting stability and control.
 Larger \glspl{uav} face challenges as the need for larger motors with higher inertia compromises rapid control through \gls{RPM} adjustments alone.\\
 
 The development of Variable Pitch Proprotor (VPP) systems plays a crucial role in overcoming the limitations of traditional \gls{uav} designs, such as those with fixed pitch proprotors \cite{VPP1}, \cite{FPP1}.
@@ -19,30 +19,48 @@ The incorporation of variable-pitch proprotors provides the necessary flexibilit
 
 TODO: MORE INFO
 
-\href{https://www.youtube.com/watch?v=MpsBOQOUB-4}{\textit{VPP Video}}
+
 
 \section{Problem Analyses}
 The utilization of fixed-pitch propellers in \glspl{uav} presents a set of limitations that significantly impact aircraft performance and efficiency.
 These issues are evident in various phases of flight, including hover and forward flight, and have repercussions for the \gls{uav}.
 
-TODO: MORE INFO
+TODO: MORE INFO\\
 
 \subsection{Maneuverability and Response}
-Fixed-pitch propellers inherently constrain \glspl{uav} from adjusting the pitch angle during flight \cite{FPP1}. 
-This limitation results in compromised maneuverability and response, restricting the range of aerobatic maneuvers that a \gls{uav} can execute \cite{FPP1}. 
+Fixed-pitch propellers inherently constrain \glspl{uav} from adjusting the pitch angle during flight \cite{FPP1}.
+This limitation results in compromised maneuverability and response, restricting the range of aerobatic maneuvers that a \gls{uav} can execute \cite{FPP1}.
 Additionally, the inability to change the pitch angle impedes the optimization of lift, landing, and thrust during flight, leading to sub-optimal performance in various operational scenarios \cite{FPP1}.
 
-TODO: MORE INFO
+TODO: MORE INFO\\
 
 \subsection{Power Consumption}
 With fixed-pitch propellers, the power consumption will be higher.
 Without the ability to adjust the propeller angle, \glspl{uav} may be forced to operate at higher \gls{RPM}s to compensate for this lack of adjustment \cite{FPP1}.
 This higher power consumption not only affects the efficiency of the \gls{uav} but also has implications for its endurance, limiting the time the vehicle can remain airborne.\\
 
-TODO: MORE INFO
+TODO: MORE INFO\\
 
 \section{Motivation}
-TODO: MORE INFO
+TODO: MORE INFO\\
 
 \section{Objectives}
-TODO: MORE INFO
+TODO: MORE INFO\\
+
+This thesis will focus on developing a stand-alone variable-pitch proprotor system that can, in real-time, change the propeller pitch according to each flight phase. The student will develop and implement the control system electronics and the underlying real-time wireless sensing and actuation system. Objectives include:
+
+
+
+1. Understand the relevant fundamentals regarding VTOL flight performance and the impact of proprotors. Understand the fundamentals of short-range wireless communication protocols with particular emphasis on their reliability. Understand the fundamentals of electronic control systems with a focus on real-time sensing and actuation.
+
+2. Create and present a consistent argument regarding the motivation for variable-pitch propeller systems and current challenges.
+
+3. Survey current solutions, communication technologies, and electronic control strategies to address the problem. Compare the different approaches.
+
+4. Design a system’s architecture to carry out the real-time control of the variable-pitch system.
+
+5. Implement the envisaged control system over a real mechanical prototype.
+
+6. Evaluate the performance of the system and its limitations under different settings.
+
+7. Write and publish a research paper featuring part of the results.
