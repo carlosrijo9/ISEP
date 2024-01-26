@@ -34,38 +34,38 @@
 \contentsline {subsubsection}{FreeRTOS}{14}{section*.50}%
 \contentsline {subsubsection}{ChibiOS}{14}{section*.51}%
 \contentsline {subsubsection}{NuttX}{14}{section*.52}%
-\contentsline {subsubsection}{Zephyr}{14}{section*.53}%
-\contentsline {subsection}{\numberline {3.3.3}Comparison}{15}{subsection.54}%
-\contentsline {section}{\numberline {3.4}Communication}{15}{section.55}%
-\contentsline {subsection}{\numberline {3.4.1}Wired}{15}{subsection.56}%
-\contentsline {subsection}{\numberline {3.4.2}Wireless}{15}{subsection.57}%
-\contentsline {chapter}{\numberline {4}Proposed Approach}{19}{chapter.58}%
-\contentsline {section}{\numberline {4.1}Concept}{19}{section.59}%
-\contentsline {section}{\numberline {4.2}Requirements}{19}{section.60}%
-\contentsline {section}{\numberline {4.3}System Architecture}{20}{section.76}%
-\contentsline {subsection}{\numberline {4.3.1}Main Device}{21}{subsection.78}%
-\contentsline {subsection}{\numberline {4.3.2}Secondary Device}{23}{subsection.79}%
-\contentsline {section}{\numberline {4.4}System Behavior}{24}{section.80}%
-\contentsline {subsection}{\numberline {4.4.1}Main Device Unit Behavior}{24}{subsection.82}%
-\contentsline {subsubsection}{Prepare Task}{24}{section*.83}%
-\contentsline {subsubsection}{Mission Task}{25}{section*.84}%
-\contentsline {subsubsection}{Error Task}{25}{section*.85}%
-\contentsline {subsubsection}{Shutdown Task}{26}{section*.86}%
-\contentsline {subsection}{\numberline {4.4.2}Secondary Device Unit Behavior}{26}{subsection.87}%
-\contentsline {subsubsection}{Prepare Task}{26}{section*.88}%
-\contentsline {subsubsection}{Mission Task}{26}{section*.89}%
-\contentsline {subsubsection}{Error Task}{26}{section*.90}%
-\contentsline {subsubsection}{Shutdown Task}{27}{section*.91}%
-\contentsline {chapter}{\numberline {5}Development Plan}{29}{chapter.92}%
-\contentsline {section}{\numberline {5.1}Research Approach}{29}{section.93}%
-\contentsline {section}{\numberline {5.2}Evaluation}{29}{section.94}%
-\contentsline {section}{\numberline {5.3}Timeline}{30}{section.95}%
-\contentsline {chapter}{Bibliography}{33}{chapter*.98}%
-\contentsline {chapter}{\numberline {A}Main Device Flow Chart - Prepare Task}{35}{appendix.99}%
-\contentsline {chapter}{\numberline {B}Main Device Flow Chart - Mission Task}{37}{appendix.101}%
-\contentsline {chapter}{\numberline {C}Main Device Flow Chart - Error Task}{39}{appendix.103}%
-\contentsline {chapter}{\numberline {D}Main Device Flow Chart - Shutdown Task}{41}{appendix.105}%
-\contentsline {chapter}{\numberline {E}Secondary Devices Flow Chart - Prepare Task}{43}{appendix.107}%
-\contentsline {chapter}{\numberline {F}Secondary Devices Flow Chart - Mission Task}{45}{appendix.109}%
-\contentsline {chapter}{\numberline {G}Secondary Devices Flow Chart - Error Task}{47}{appendix.111}%
-\contentsline {chapter}{\numberline {H}Secondary Devices Flow Chart - Shutdown Task}{49}{appendix.113}%
+\contentsline {subsubsection}{Zephyr}{15}{section*.53}%
+\contentsline {subsection}{\numberline {3.3.3}Comparison}{15}{subsection.55}%
+\contentsline {section}{\numberline {3.4}Communication}{16}{section.56}%
+\contentsline {subsection}{\numberline {3.4.1}Wired}{16}{subsection.57}%
+\contentsline {subsection}{\numberline {3.4.2}Wireless}{16}{subsection.58}%
+\contentsline {chapter}{\numberline {4}Proposed Approach}{19}{chapter.59}%
+\contentsline {section}{\numberline {4.1}Concept}{19}{section.60}%
+\contentsline {section}{\numberline {4.2}Requirements}{19}{section.61}%
+\contentsline {section}{\numberline {4.3}System Architecture}{20}{section.77}%
+\contentsline {subsection}{\numberline {4.3.1}Main Device}{21}{subsection.79}%
+\contentsline {subsection}{\numberline {4.3.2}Secondary Device}{23}{subsection.80}%
+\contentsline {section}{\numberline {4.4}System Behavior}{24}{section.81}%
+\contentsline {subsection}{\numberline {4.4.1}Main Device Unit Behavior}{24}{subsection.83}%
+\contentsline {subsubsection}{Prepare Task}{24}{section*.84}%
+\contentsline {subsubsection}{Mission Task}{25}{section*.85}%
+\contentsline {subsubsection}{Error Task}{25}{section*.86}%
+\contentsline {subsubsection}{Shutdown Task}{26}{section*.87}%
+\contentsline {subsection}{\numberline {4.4.2}Secondary Device Unit Behavior}{26}{subsection.88}%
+\contentsline {subsubsection}{Prepare Task}{26}{section*.89}%
+\contentsline {subsubsection}{Mission Task}{26}{section*.90}%
+\contentsline {subsubsection}{Error Task}{26}{section*.91}%
+\contentsline {subsubsection}{Shutdown Task}{27}{section*.92}%
+\contentsline {chapter}{\numberline {5}Development Plan}{29}{chapter.93}%
+\contentsline {section}{\numberline {5.1}Research Approach}{29}{section.94}%
+\contentsline {section}{\numberline {5.2}Evaluation}{29}{section.95}%
+\contentsline {section}{\numberline {5.3}Timeline}{30}{section.96}%
+\contentsline {chapter}{Bibliography}{33}{chapter*.99}%
+\contentsline {chapter}{\numberline {A}Main Device Flow Chart - Prepare Task}{37}{appendix.100}%
+\contentsline {chapter}{\numberline {B}Main Device Flow Chart - Mission Task}{39}{appendix.102}%
+\contentsline {chapter}{\numberline {C}Main Device Flow Chart - Error Task}{41}{appendix.104}%
+\contentsline {chapter}{\numberline {D}Main Device Flow Chart - Shutdown Task}{43}{appendix.106}%
+\contentsline {chapter}{\numberline {E}Secondary Devices Flow Chart - Prepare Task}{45}{appendix.108}%
+\contentsline {chapter}{\numberline {F}Secondary Devices Flow Chart - Mission Task}{47}{appendix.110}%
+\contentsline {chapter}{\numberline {G}Secondary Devices Flow Chart - Error Task}{49}{appendix.112}%
+\contentsline {chapter}{\numberline {H}Secondary Devices Flow Chart - Shutdown Task}{51}{appendix.114}%

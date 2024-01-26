@@ -138,66 +138,68 @@ Table \ref{tab:memory_comparison} compares the described technologies in their a
 \end{table}
 
 \section{Firmware}
-In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.\\
+In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.
 
 \subsection{Programming languages}
 Even though there are multiple programming languages, normally categorized as low-level or high-level, not all programming languages are optimized to be used in embedded systems.
-In this section, an overview and comparison was made on some examples of programming languages.
+In this section, an overview and comparison were made on some examples of programming languages \cite{LPROG4}, \cite{LPROG6}.
+
 \subsubsection{C}
-\textit{C} programming language has low-level features and is close to the hardware making it efficient and with high performance.
+\textit{C} programming language has low-level features and is close to the hardware making it efficient and with high performance \cite{LPROG2}, \cite{LPROG6}.
 
-It provides fine-grained control over memory, leading to efficient memory usage but can also lead to potential errors if not handled carefully.
-Due to its low-level control and predictable performance, it is often used in real-time systems.
+It provides fine-grained control over memory, leading to efficient memory usage but can also lead to potential errors if not handled carefully \cite{LPROG5}.
+Due to its low-level control and predictable performance, it is often used in real-time systems \cite{LPROG7}.
 
-This programming language is generally portable and has a large and active community, with extensive support and numerous libraries, development tools and compilers available.
+This programming language is generally portable and has a large and active community, with extensive support and numerous libraries, development tools and compilers available \cite{LPROG7}.
 
-In terms of safety and reliability, it is a powerful language but lacks some safety features, like in memory management for example.
+In terms of safety and reliability, it is a powerful language but lacks some safety features, like in memory management for example \cite{LPROG7}.
 
-\textit{C} can have a steeper learning curve, especially for beginners, due to manual memory management and low-level constructs.
+\textit{C} can have a steeper learning curve, especially for beginners, due to manual memory management and low-level constructs \cite{LPROG2}.
 
 \subsubsection{Assembly}
 \textit{Assembly} programming language provides direct control over hardware and is highly efficient, and useful for writing low-level code.
-It allows developers to directly manage memory, providing fine control over memory footprint.
+It allows developers to directly manage memory, providing fine control over memory footprint \cite{LPROG7}.
 
-\textit{Assembly} can be used in real-time systems due to its precise control over hardware, predictable performance and high efficiency.
+\textit{Assembly} can be used in real-time systems due to its precise control over hardware, predictable performance and high efficiency \cite{LPROG5}.
 
-However, in \textit{Assembly}, there is no safety net or restrictions, this way developers must handle all aspects of safety and reliability manually.
+However, in \textit{Assembly}, there is no safety net or restrictions, this way developers must handle all aspects of safety and reliability manually \cite{LPROG7}.
 \textit{Assembly} is also highly dependent on the architecture and is not inherently portable, has a niche community, and support is often architecture-specific and relies on specific tools provided by the hardware manufacturer.
-The learning curve is steep due to its low-level nature, and development is time-consuming compared to higher-level languages.
+The learning curve is steep due to its low-level nature, and development is time-consuming compared to higher-level languages \cite{LPROG5}.
 
 \subsubsection{C++}
 \textit{C++} programming language is an object-oriented feature that can enhance code organization and reusability and can provide abstraction without sacrificing performance.
-It allows both manual and automatic memory management, providing flexibility.
+It allows both manual and automatic memory management, providing flexibility \cite{LPROG2}, \cite{LPROG6}.
 \textit{C++} supports real-time programming, especially with the use of specific frameworks but is not as deterministic as low-level languages.
 
-This programming language benefits from a robust community, with extensive support, it inherits development tools and compilers from \textit{C} and has specific tools for features like object-oriented programming.
+This programming language benefits from a robust community, with extensive support, it inherits development tools and compilers from \textit{C} and has specific tools for features like object-oriented programming \cite{LPROG7}.
 
 C++ introduces features like classes and objects, enhancing code organization and safety compared to C.
-However, it still allows low-level operations that may impact reliability.
+However, it still allows low-level operations that may impact reliability \cite{LPROG5}.
 
 Since \textit{C++} is similar to \textit{C}, and since it introduces additional concepts, the learning curve can be slightly more complex.
-However, its object-oriented features can lead to more maintainable code.
+However, its object-oriented features can lead to more maintainable code \cite{LPROG7}.
 
 \subsubsection{Rust}
 \textit{Rust} programming language, known for its focus on memory safety, is gaining popularity in embedded systems development.
-It offers performance similar to \textit{C} and \textit{C++} while providing memory safety features.
+It offers performance similar to \textit{C} and \textit{C++} while providing memory safety features \cite{LPROG2},\cite{LPROG7} .
 
 \textit{Rust's} was designed with a strong focus on memory safety with an ownership system that helps prevent common memory-related errors without sacrificing performance.
-This results in a secure and efficient memory footprint.
+This results in a secure and efficient memory footprint \cite{LPROG2}.
 
 As for portability, it aims to be highly portable, with a focus on minimizing platform-specific issues.
 With features like Cargo, it simplifies dependency management and project setup.
 
 \textit{Rust} has a growing community and is gaining popularity, with strong support.
-However, it can be challenging for beginners due to its ownership system.
+However, it can be challenging for beginners due to its ownership system \cite{LPROG7}.
 
 \subsubsection{MicroPython}
-Efficiency and Performance: MicroPython is designed for microcontrollers and IoT devices, emphasizing efficiency. However, it sacrifices some features of the standard Python to fit within resource constraints.
-Memory Footprint: MicroPython aims for a small memory footprint suitable for microcontrollers, enabling its use in resource-constrained environments.
-Real-Time Capabilities: MicroPython can be suitable for real-time tasks on microcontrollers, but its capabilities may be limited compared to dedicated real-time operating systems.
-Portability: MicroPython is tailored for microcontrollers, enhancing portability within the embedded systems domain.
-Community and Support: MicroPython has a growing community focused on supporting embedded systems, with resources specifically tailored to microcontroller development.
+\textit{MicroPython} is a compact extension of Python designed for microcontrollers and IoT devices to emphasize efficiency.
+However, it sacrifices some features of the standard Python to fit within resource constraints \cite{LPROG2}.
 
+It aims for a small memory footprint suitable for microcontrollers which enhances portability as well \cite{LPROG7}.
+
+\textit{MicroPython} can be used for real-time tasks on microcontrollers, but its capabilities may be limited since it is not as deterministic as low-level languages.
+The community focused on supporting embedded systems for \textit{MicroPython} is growing with resources specifically tailored to microcontroller development \cite{LPROG2}, \cite{LPROG5}.
 
 Table \ref{tab:programming_languages_comparison} resumes and compares all programming languages described above.
 \begin{table}[H]
@@ -220,35 +222,83 @@ Table \ref{tab:programming_languages_comparison} resumes and compares all progra
     \label{tab:programming_languages_comparison}
 \end{table}
 
-
-
 \subsection{Real-time Operating Systems}
 \glspl{RTOS} facilitates multitasking, allowing concurrent execution of multiple tasks, can provide task scheduling, priority management, and inter-process communication and is suitable for systems with real-time requirements.
 But this can add overhead, especially in terms of memory footprint, and the learning curve is steeper \cite{RTOS1}.\\
-The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures
-
+The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures \cite{RTOS5}.
+They also support microROS, an extension of the \gls{ROS}, designed for microcontrollers and embedded systems that can be resource-constrained.
 \subsubsection{FreeRTOS}
-\textit{FreeRTOS} is a popular open-source real-time operating system.
-micro-ROS has been integrated with FreeRTOS to bring ROS functionality to resource-constrained devices.
-DDS implementations like eProsima's Micro XRCE-DDS can be used with FreeRTOS and micro-ROS.
+\textit{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
 
+It has a small footprint, making it suitable for resource-constrained embedded systems.
+Has a large and active community, which can be beneficial for support and finding solutions \cite{RTOS6}.
+
+As for scheduling policies, it has priority-based, round-robin and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
+It supports I2C, SPI and UART wired protocols and BLE-Stack, TLS, Ethernet and  Wifi network protocols \cite{compRTOS}.
 \subsubsection{ChibiOS}
-\textit{ChibiOS} is a real-time operating system designed for embedded systems.
-It supports micro-ROS, enabling ROS-based communication on microcontroller platforms.
-The integration with DDS middleware allows for distributed communication.
+
+\textit{ChibiOS} is a real-time operating system designed for embedded systems with GPL3/commercial license.
+It is designed to be modular, allowing the user to include only the necessary components.
+This way it can be used for both small and large systems \cite{chibios}. 
+
+Offers a rich set of features, including support for various architectures and a hardware abstraction layer.
 
 \subsubsection{NuttX}
-\textit{NuttX} is a real-time operating system with a focus on standards compliance.
-It has support for micro-ROS, allowing integration with ROS-based robotic systems.
-Micro XRCE-DDS can be used for DDS communication on NuttX.
+\cite{nuttx}
+\cite{compRTOS}
+
+\textit{NuttX} is a real-time operating system with a focus on standards compliance (POSIX and ANSI).
+It uses the Apache 2.0 license, allowing for both open-source and commercial use \cite{nuttx}.
+
+\textit{NuttX} can be scalable, providing a balance between small footprint for resource-constrained devices and support for larger systems.
+
+In terms of scheduling Priority-based 	FIFO Round-Robin Sporadic Server Semaphore /Mutex management
+I2C SPI USB CAN Modbus
+
+6LoWPAN Ethernet Wifi RFID
 
 \subsubsection{Zephyr}
+\cite{RTOS5}
+\cite{zephyr}
+\cite{compRTOS}
+
 \textit{Zephyr} is a real-time operating system for resource-constrained devices.
 It supports micro-ROS, allowing integration with ROS-based robotic systems.
 Micro XRCE-DDS is one of the DDS implementations that can be used with Zephyr.
 
-All the \glspl{RTOS} examples, mentioned before, support microROS, an extension of the \gls{ROS}, designed for microcontrollers and embedded systems that can be resource-constrained.
-%This makes it possible for the system to participate in \gls{ROS}-based robotic systems with \gls{DDS} as a communication middleware.
+Licensing: Released under the Apache 2.0 license, allowing for open-source and commercial use.
+Footprint: Designed to be scalable and can be configured to match the requirements of the target device.
+Community: Has a growing and active community. Supported by the Linux Foundation.
+
+Critical Systems Perspective:
+
+    All of these RTOSs can be used in critical systems, but the choice might depend on specific requirements such as certification standards, safety features, and community support.
+    Certification: Consider the certification standards required for critical systems, like DO-178C for avionics or ISO 26262 for automotive.
+
+
+
+https://micro.ros.org/docs/concepts/rtos/comparison/
+
+Table \ref{tab:rtos_comparison} \cite{compRTOS}.
+\begin{table}[H]
+    \centering
+    \caption{Comparison of Real-Time Operating Systems}
+    \label{tab:rtos_comparison}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lcccc}
+            \hline
+            \textbf{Feature}      & \textbf{FreeRTOS} & \textbf{ChibiOS}      & \textbf{NuttX} & \textbf{Zephyr} \\ \hline
+            Licensing             & MIT               & Mixed GPL3/Commercial & Apache 2.0     & Apache 2.0      \\
+            Memory Footprint      & Small             & Small to Large        & Scalable       & Scalable        \\
+            Community and Support & Large             & Active                & Growing        & Active          \\
+            Architecture Support  & Wide              & Wide                  & Wide           & Wide            \\
+            Certification         & Depends           & Depends               & Depends        & Considered      \\
+            POSIX/ANSI Compliance & Limited           & Limited               & Yes            & Limited         \\
+            Safety Features       & Basic             & Yes                   & Depends        & Depends         \\ \hline
+        \end{tabular}
+    }
+\end{table}
+
 
 \subsection{Comparison}
 Programming Languages:
