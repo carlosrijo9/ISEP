@@ -137,6 +137,37 @@ Table \ref{tab:memory_comparison} compares the described technologies in their a
     \label{tab:memory_comparison}
 \end{table}
 
+%-------------------------------------------------------------------------------%
+
+\section{Control System}
+An \gls{OBC} is a device capable of managing and/or controlling various functions such as:
+\begin{itemize}
+    \item It can manage overall system operation.
+    \item Implement safety mechanisms and respond to abnormal conditions.
+    \item Execute algorithms and computations required for the system's functionality.
+    \item Interface with external devices, sensors, actuators, or other embedded systems.
+    \item Implement communication protocols for data exchange.
+    \item Manage data storage and retrieval.
+    \item Implement power-saving modes when appropriate.
+    \item Manage and control peripherals such as communication interfaces, timers, and interrupt controllers.
+\end{itemize}
+
+There are, mainly, three types of control units: Microcontrollers, Microprocessors, and \glspl{FPGA}.
+
+Microcontrollers are integrated circuits that contain a processor core, memory, and programmable input/output peripherals.
+They are compact and cost-effective, have low power consumption, are designed for specific tasks, making them suitable for embedded systems, and often include integrated peripherals like timers, communication interfaces, and ADC.\\
+However, microcontrollers have more limited processing power compared to microprocessors and are less flexible for general-purpose computing.\\
+
+Microprocessors or \glspl{CPU} focus on processing tasks and rely on external components for additional functionalities.
+As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.
+However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers.\\
+
+\glspl{FPGA} are integrated circuits that can be configured after manufacturing, allowing for custom digital logic circuits. 
+They are customizable for specific applications, have parallel processing capabilities, and can be reprogrammed for different tasks.\\
+But, they have a higher cost (compared to microcontrollers and microprocessors), have higher power consumption (compared to microcontrollers), and have a steeper learning curve for programming and design.\\
+
+TODO: MORE INFO
+
 \section{Firmware}
 In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.
 
@@ -227,57 +258,45 @@ Table \ref{tab:programming_languages_comparison} resumes and compares all progra
 But this can add overhead, especially in terms of memory footprint, and the learning curve is steeper \cite{RTOS1}.\\
 The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures \cite{RTOS5}.
 They also support microROS, an extension of the \gls{ROS}, designed for microcontrollers and embedded systems that can be resource-constrained.
+
 \subsubsection{FreeRTOS}
 \textit{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
 
 It has a small footprint, making it suitable for resource-constrained embedded systems.
 Has a large and active community, which can be beneficial for support and finding solutions \cite{RTOS6}.
 
-As for scheduling policies, it has priority-based, round-robin and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
-It supports I2C, SPI and UART wired protocols and BLE-Stack, TLS, Ethernet and  Wifi network protocols \cite{compRTOS}.
-\subsubsection{ChibiOS}
+As for scheduling policies, it supports priority-based, round-robin and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
+It supports \gls{I2C}, \gls{SPI} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, Ethernet and \gls{Wifi} network protocols \cite{compRTOS}.
 
-\textit{ChibiOS} is a real-time operating system designed for embedded systems with GPL3/commercial license.
-It is designed to be modular, allowing the user to include only the necessary components.
-This way it can be used for both small and large systems \cite{chibios}. 
-
-Offers a rich set of features, including support for various architectures and a hardware abstraction layer.
+It is worth mentioning that \textit{FreeRTOS} has Software Development Process DO178B Level A and Functional Safety IEC-61508 certifications.
 
 \subsubsection{NuttX}
-\cite{nuttx}
-\cite{compRTOS}
-
 \textit{NuttX} is a real-time operating system with a focus on standards compliance (POSIX and ANSI).
 It uses the Apache 2.0 license, allowing for both open-source and commercial use \cite{nuttx}.
 
-\textit{NuttX} can be scalable, providing a balance between small footprint for resource-constrained devices and support for larger systems.
+\textit{NuttX} can be scalable, providing a balance between small footprint for resource-constrained devices and support for larger systems \cite{nuttx}.
 
-In terms of scheduling Priority-based 	FIFO Round-Robin Sporadic Server Semaphore /Mutex management
-I2C SPI USB CAN Modbus
-
-6LoWPAN Ethernet Wifi RFID
+In terms of scheduling it supports priority-based (\gls{FIFO}), Round-Robin and Sporadic Server schedulers and has semaphore/mutex management
+For wired protocols, it has support over \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and Modbus.
+And for network protocols, \textit{NuttX}, supports 6LoWPAN, Ethernet, \gls{Wifi} and \gls{RFID} \cite{compRTOS}.
 
 \subsubsection{Zephyr}
 \cite{RTOS5}
-\cite{zephyr}
-\cite{compRTOS}
+
 
 \textit{Zephyr} is a real-time operating system for resource-constrained devices.
-It supports micro-ROS, allowing integration with ROS-based robotic systems.
-Micro XRCE-DDS is one of the DDS implementations that can be used with Zephyr.
-
-Licensing: Released under the Apache 2.0 license, allowing for open-source and commercial use.
+It also uses Apache 2.0 license that allow open-source and commercial development \cite{zephyr}.
 Footprint: Designed to be scalable and can be configured to match the requirements of the target device.
-Community: Has a growing and active community. Supported by the Linux Foundation.
 
-Critical Systems Perspective:
+\textit{Zephyr} is supported by the Linux Foundation and has a growing and active community \cite{zephyr}.
 
-    All of these RTOSs can be used in critical systems, but the choice might depend on specific requirements such as certification standards, safety features, and community support.
-    Certification: Consider the certification standards required for critical systems, like DO-178C for avionics or ISO 26262 for automotive.
-
+As for scheduling policies, it supports priority-based and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
+It supports \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, 6LoWPAN, Ethernet, \gls{NFC}, \gls{Wifi} and \gls{RFID} network protocols \cite{compRTOS} \cite{compRTOS}.
 
 
+https://blog.nordicsemi.com/getconnected/what-is-rtos-real-time-operating-systems-for-embedded-developers
 https://micro.ros.org/docs/concepts/rtos/comparison/
+
 
 Table \ref{tab:rtos_comparison} \cite{compRTOS}.
 \begin{table}[H]
@@ -287,14 +306,14 @@ Table \ref{tab:rtos_comparison} \cite{compRTOS}.
     \resizebox{\textwidth}{!}{
         \begin{tabular}{lcccc}
             \hline
-            \textbf{Feature}      & \textbf{FreeRTOS} & \textbf{ChibiOS}      & \textbf{NuttX} & \textbf{Zephyr} \\ \hline
-            Licensing             & MIT               & Mixed GPL3/Commercial & Apache 2.0     & Apache 2.0      \\
-            Memory Footprint      & Small             & Small to Large        & Scalable       & Scalable        \\
-            Community and Support & Large             & Active                & Growing        & Active          \\
-            Architecture Support  & Wide              & Wide                  & Wide           & Wide            \\
-            Certification         & Depends           & Depends               & Depends        & Considered      \\
-            POSIX/ANSI Compliance & Limited           & Limited               & Yes            & Limited         \\
-            Safety Features       & Basic             & Yes                   & Depends        & Depends         \\ \hline
+            \textbf{Feature}      & \textbf{FreeRTOS} & \textbf{NuttX} & \textbf{Zephyr} \\ \hline
+            Licensing             & MIT               & Apache 2.0     & Apache 2.0      \\
+            Memory Footprint      & Small             & Scalable       & Scalable        \\
+            Community and Support & Large             & Growing        & Active          \\
+            Architecture Support  & Wide              & Wide           & Wide            \\
+            Certification         & Depends           & Depends        & Considered      \\
+            POSIX/ANSI Compliance & Limited           & Yes            & Limited         \\
+            Safety Features       & Basic             & Depends        & Depends         \\ \hline
         \end{tabular}
     }
 \end{table}
@@ -413,6 +432,12 @@ Each of these protocols addresses specific requirements, making them suitable fo
 \end{itemize}
 
 %-------------------------------------------------------------------------------%
+
+% \section{Servo Motors}
+% TODO: MORE INFO\\
+% TODO: ADD FIGURES\\
+% %-------------------------------------------------------------------------------%
+
 
 % \section{Power Management System}
 % TODO: MORE INFO\\

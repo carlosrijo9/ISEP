@@ -894,3 +894,311 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{I2C}%
+{%
+name={I2C},%
+sort={I2C},%
+type={acronym},%
+first={Inter-Integrated Circuit\glsspace (I2C)},%
+firstplural={Inter-Integrated Circuit\acrpluralsuffix \glsspace (I2C\acrpluralsuffix )},%
+text={I2C},%
+plural={I2C\acrpluralsuffix },%
+description={Inter-Integrated Circuit},%
+descriptionplural={Inter-Integrated Circuit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Inter-Integrated Circuit},%
+longplural={Inter-Integrated Circuits},%
+short={I2C},%
+shortplural={I2Cs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SPI}%
+{%
+name={SPI},%
+sort={SPI},%
+type={acronym},%
+first={Serial Peripheral Interface\glsspace (SPI)},%
+firstplural={Serial Peripheral Interface\acrpluralsuffix \glsspace (SPI\acrpluralsuffix )},%
+text={SPI},%
+plural={SPI\acrpluralsuffix },%
+description={Serial Peripheral Interface},%
+descriptionplural={Serial Peripheral Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Serial Peripheral Interface},%
+longplural={Serial Peripheral Interfaces},%
+short={SPI},%
+shortplural={SPIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{UART}%
+{%
+name={UART},%
+sort={UART},%
+type={acronym},%
+first={Universal Asynchronous Receiver-Transmitter\glsspace (UART)},%
+firstplural={Universal Asynchronous Receiver-Transmitter\acrpluralsuffix \glsspace (UART\acrpluralsuffix )},%
+text={UART},%
+plural={UART\acrpluralsuffix },%
+description={Universal Asynchronous Receiver-Transmitter},%
+descriptionplural={Universal Asynchronous Receiver-Transmitter\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universal Asynchronous Receiver-Transmitter},%
+longplural={Universal Asynchronous Receiver-Transmitters},%
+short={UART},%
+shortplural={UARTs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{BLE}%
+{%
+name={BLE},%
+sort={BLE},%
+type={acronym},%
+first={Bluetooth Low Energy\glsspace (BLE)},%
+firstplural={Bluetooth Low Energy\acrpluralsuffix \glsspace (BLE\acrpluralsuffix )},%
+text={BLE},%
+plural={BLE\acrpluralsuffix },%
+description={Bluetooth Low Energy},%
+descriptionplural={Bluetooth Low Energy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Bluetooth Low Energy},%
+longplural={Bluetooth Low Energys},%
+short={BLE},%
+shortplural={BLEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{TLS}%
+{%
+name={TLS},%
+sort={TLS},%
+type={acronym},%
+first={Transport Layer Security\glsspace (TLS)},%
+firstplural={Transport Layer Security\acrpluralsuffix \glsspace (TLS\acrpluralsuffix )},%
+text={TLS},%
+plural={TLS\acrpluralsuffix },%
+description={Transport Layer Security},%
+descriptionplural={Transport Layer Security\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transport Layer Security},%
+longplural={Transport Layer Securitys},%
+short={TLS},%
+shortplural={TLSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Wifi}%
+{%
+name={Wifi},%
+sort={Wifi},%
+type={acronym},%
+first={Wireless Fidelity\glsspace (Wifi)},%
+firstplural={Wireless Fidelity\acrpluralsuffix \glsspace (Wifi\acrpluralsuffix )},%
+text={Wifi},%
+plural={Wifi\acrpluralsuffix },%
+description={Wireless Fidelity},%
+descriptionplural={Wireless Fidelity\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Wireless Fidelity},%
+longplural={Wireless Fidelitys},%
+short={Wifi},%
+shortplural={Wifis},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FIFO}%
+{%
+name={FIFO},%
+sort={FIFO},%
+type={acronym},%
+first={First In First Out\glsspace (FIFO)},%
+firstplural={First In First Out\acrpluralsuffix \glsspace (FIFO\acrpluralsuffix )},%
+text={FIFO},%
+plural={FIFO\acrpluralsuffix },%
+description={First In First Out},%
+descriptionplural={First In First Out\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={First In First Out},%
+longplural={First In First Outs},%
+short={FIFO},%
+shortplural={FIFOs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{USB}%
+{%
+name={USB},%
+sort={USB},%
+type={acronym},%
+first={Universal Serial Bus\glsspace (USB)},%
+firstplural={Universal Serial Bus\acrpluralsuffix \glsspace (USB\acrpluralsuffix )},%
+text={USB},%
+plural={USB\acrpluralsuffix },%
+description={Universal Serial Bus},%
+descriptionplural={Universal Serial Bus\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universal Serial Bus},%
+longplural={Universal Serial Buss},%
+short={USB},%
+shortplural={USBs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CAN}%
+{%
+name={CAN},%
+sort={CAN},%
+type={acronym},%
+first={Controller Area Network\glsspace (CAN)},%
+firstplural={Controller Area Network\acrpluralsuffix \glsspace (CAN\acrpluralsuffix )},%
+text={CAN},%
+plural={CAN\acrpluralsuffix },%
+description={Controller Area Network},%
+descriptionplural={Controller Area Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Controller Area Network},%
+longplural={Controller Area Networks},%
+short={CAN},%
+shortplural={CANs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RFID}%
+{%
+name={RFID},%
+sort={RFID},%
+type={acronym},%
+first={Radio Frequency Identification\glsspace (RFID)},%
+firstplural={Radio Frequency Identification\acrpluralsuffix \glsspace (RFID\acrpluralsuffix )},%
+text={RFID},%
+plural={RFID\acrpluralsuffix },%
+description={Radio Frequency Identification},%
+descriptionplural={Radio Frequency Identification\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Frequency Identification},%
+longplural={Radio Frequency Identifications},%
+short={RFID},%
+shortplural={RFIDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{NFC}%
+{%
+name={NFC},%
+sort={NFC},%
+type={acronym},%
+first={Near Field Communication\glsspace (NFC)},%
+firstplural={Near Field Communication\acrpluralsuffix \glsspace (NFC\acrpluralsuffix )},%
+text={NFC},%
+plural={NFC\acrpluralsuffix },%
+description={Near Field Communication},%
+descriptionplural={Near Field Communication\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Near Field Communication},%
+longplural={Near Field Communications},%
+short={NFC},%
+shortplural={NFCs},%
+counter={page},%
+parent={},%
+%
+}%
+
