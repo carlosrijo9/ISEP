@@ -4,7 +4,8 @@
         "microcontrollers",
         "proprotor",
         "proprotors",
-        "rechargeability"
+        "rechargeability",
+        "Zigbee"
     ],
     "grammarly.selectors": [
         {

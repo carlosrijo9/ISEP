@@ -9,27 +9,9 @@ Batteries are a critical component in portable embedded systems, providing the n
 This way, the battery technology selection must be carefully made to optimize the system performance, \cite{BATT3}.
 Different battery chemistries offer varying energy densities, voltages, sizes, weights, cycle lives and costs.
 
-In table \ref{tab:battery_comparison} it is possible to compare the most common battery technologies.
-
-\begin{table}[H]
-    \centering
-    \resizebox{\textwidth}{!}{
-        \begin{tabular}{lccccc}
-            \hline
-            \textbf{Technology} & \begin{tabular}[c]{@{}c@{}}\textbf{Energy}\\ \textbf{Density}\end{tabular} & \textbf{Voltage} & \textbf{Size/Weight} & \textbf{Cycle Life} & \textbf{Cost} \\ \hline
-            \textbf{Li-ion}     & High                                                                       & 3.7V             & Compact/Light        & Good                & Moderate      \\
-            \textbf{Li-Po}      & High                                                                       & 3.7V             & Flexible/Light       & Good                & Moderate      \\
-            \textbf{NiMH}       & Moderate                                                                   & 1.2V             & Bulky/Heavy          & Moderate            & Moderate      \\
-            \textbf{NiCd}       & Moderate                                                                   & 1.2V             & Bulky/Heavy          & Good                & Moderate      \\
-            \textbf{Lead-Acid}  & Low                                                                        & 2V (6V, 12V)     & Bulky/Heavy          & Moderate            & Low           \\
-            \textbf{Alkaline}   & Moderate                                                                   & 1.5V             & Standard Cylindrical & Poor                & Moderate      \\
-        \end{tabular}%
-    }
-    \caption{Comparison of Battery Technologies}
-    \label{tab:battery_comparison}
-\end{table}
-
+\subsection{Lithium}
 \gls{Li-ion} and \gls{Li-Po} batteries, shown in figures \ref{fig:18650} and \ref{fig:lipo}, can offer high energy density, rechargeability and moderate costs that make them suitable for portable devices, \cite{BATT7}.
+
 These batteries stand out as a prevalent choice for embedded systems.
 \begin{figure}[H]
     \centering
@@ -47,7 +29,8 @@ These batteries stand out as a prevalent choice for embedded systems.
     \end{minipage}
 \end{figure}
 
-\gls{NiMH} and \gls{NiCd} batteries (figures \ref{fig:nimh} and \ref{fig:nicd} respectably) can provide moderate energy density, rechargeability and moderate costs, but they can be heavier and \gls{NiCd} batteries have a \textit{memory effect} concern (where the battery, falsely, indicates full charge despite being only partially charged).
+\subsection{Nickel}
+\gls{NiMH} and \gls{NiCd} batteries (figures \ref{fig:NiMH} and \ref{fig:NiCd} respectably) can provide moderate energy density, rechargeability and moderate costs, but they can be heavier and \gls{NiCd} batteries have a \textit{memory effect} concern (where the battery, falsely, indicates full charge despite being only partially charged).
 \begin{figure}[H]
     \centering
     \begin{minipage}{.5\textwidth}
@@ -64,7 +47,9 @@ These batteries stand out as a prevalent choice for embedded systems.
     \end{minipage}
 \end{figure}
 
-Lead-Acid batteries can be rechargeable and cost-effective but heavier and larger and with low energy density.
+\subsection{Lead-acid}
+
+Lead-acid batteries can be rechargeable and cost-effective but heavier and larger and with low energy density.
 These batteries are suitable for less portable applications, \cite{BATT3} as it is possible to see in figure \ref{fig:lead}.
 \begin{figure}[H]
     \centering
@@ -73,8 +58,8 @@ These batteries are suitable for less portable applications, \cite{BATT3} as it 
     \label{fig:lead}
 \end{figure}
 
-
-Alkaline batteries in figure \ref{fig:alkaline} are cost-effective but most of them are non-rechargeable, have a standard cylindrical format and have moderate energy density \cite{BATT3}.
+\subsection{Alkaline}
+Alkaline batteries, in figure \ref{fig:alkaline}, are cost-effective but most of them are non-rechargeable, have a standard cylindrical format and have moderate energy density \cite{BATT3}.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.3]{ch3/assets/alkaline.png}
@@ -82,6 +67,25 @@ Alkaline batteries in figure \ref{fig:alkaline} are cost-effective but most of t
     \label{fig:alkaline}
 \end{figure}
 
+\subsection{Battery Technologies Comparison}
+In table \ref{tab:battery_comparison} it is possible to see the resume and comparison between the battery technologies examples described previously.
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccccc}
+            \hline
+            \textbf{Technology} & \begin{tabular}[c]{@{}c@{}}\textbf{Energy}\\ \textbf{Density}\end{tabular} & \textbf{Voltage} & \textbf{Size/Weight} & \textbf{Cycle Life} & \textbf{Cost} \\ \hline
+            \textbf{Li-ion}     & High                                                                       & 3.7V             & Compact/Light        & Good                & Moderate      \\
+            \textbf{Li-Po}      & High                                                                       & 3.7V             & Flexible/Light       & Good                & Moderate      \\
+            \textbf{NiMH}       & Moderate                                                                   & 1.2V             & Bulky/Heavy          & Moderate            & Moderate      \\
+            \textbf{NiCd}       & Moderate                                                                   & 1.2V             & Bulky/Heavy          & Good                & Moderate      \\
+            \textbf{Lead-Acid}  & Low                                                                        & 2V (6V, 12V)     & Bulky/Heavy          & Moderate            & Low           \\
+            \textbf{Alkaline}   & Moderate                                                                   & 1.5V             & Standard Cylindrical & Poor                & Moderate      \\
+        \end{tabular}%
+    }
+    \caption{Comparison of Battery Technologies}
+    \label{tab:battery_comparison}
+\end{table}
 
 %-------------------------------------------------------------------------------%
 
@@ -101,25 +105,31 @@ External memory units are normally used to expand storage capacity, store data a
 
 Since non-volatile storage can keep the data stored even when they are not powered, these storages are very common in embedded systems \cite{mem1}.
 
+\subsection{\gls{SD} card}
 \gls{SD} card, with its multiple formats and sizes, has moderate access speed and can keep data for a long term but it depends on the type (\gls{SLC}, \gls{MLC} and \gls{TLC}).
 Typically, the capacity ranges from a few megabytes to multiple terabytes, offering multiple choices for different use cases \cite{mem11}, \cite{mem9}.
 However, the moderate power consumption and overall cost can, sometimes, be a setback to the system.
 
+\subsection{\gls{EEPROM}}
 \gls{EEPROM}, commonly used for storing small amounts of data, has fast access speed and a moderate overall cost.
 Has long-term data retention and low power consumption but offers lower capacities (in the range of kilobytes to megabytes) making it only suitable for small data storage \cite{mem8}, \cite{mem11}.
 
+\subsection{\gls{FRAM}}
 \gls{FRAM} combines the benefits of \gls{RAM} and \gls{EEPROM} and can be suitable for applications requiring fast and non-volatile memory.
 Has very fast access speed, long-term data retention, low capacity (in the range of kilobytes to megabytes), and very low power consumption.
 But has a relatively higher overall cost compared to other technologies \cite{mem8}, \cite{mem11}.
 
+\subsection{\gls{eMMC}}
 As for \gls{eMMC}, normally found in smartphones, tablets, and other embedded systems, is characterized by its fast access speed, long-term data retention and high capacity (with ranges from megabytes to terabytes).
 Like \gls{SD} cards it has moderate power consumption and moderate to high overall cost \cite{mem11}.
 
+\subsection{Drives}
 \gls{HDD} and \gls{SSD} memory units can have fast access speed, long-term data retention and high capacity (in the range of gigabytes to terabytes).
 But, in comparison to other memory units, it has a bigger size, higher power consumption and higher overall cost.
 These units are normally used as primary storage in computers and laptops for improved performance, \cite{mem10}.
 
-Table \ref{tab:memory_comparison} compares the described technologies in their access speed, overall cost, data retention, capacity and power consumption.
+\subsection{External Memory Technologies Comparison}
+Table \ref{tab:memory_comparison} resumes and compares the described technologies in their access speed, overall cost, data retention, capacity and power consumption.
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
@@ -142,7 +152,7 @@ Table \ref{tab:memory_comparison} compares the described technologies in their a
 \section{Control System}
 An \gls{OBC} is a device capable of managing and/or controlling various functions such as:
 \begin{itemize}
-    \item It can manage overall system operation.
+    \item Manage overall system operation.
     \item Implement safety mechanisms and respond to abnormal conditions.
     \item Execute algorithms and computations required for the system's functionality.
     \item Interface with external devices, sensors, actuators, or other embedded systems.
@@ -154,19 +164,52 @@ An \gls{OBC} is a device capable of managing and/or controlling various function
 
 There are, mainly, three types of control units: Microcontrollers, Microprocessors, and \glspl{FPGA}.
 
-Microcontrollers are integrated circuits that contain a processor core, memory, and programmable input/output peripherals.
-They are compact and cost-effective, have low power consumption, are designed for specific tasks, making them suitable for embedded systems, and often include integrated peripherals like timers, communication interfaces, and ADC.\\
-However, microcontrollers have more limited processing power compared to microprocessors and are less flexible for general-purpose computing.\\
+\subsection{Microcontroller}
+Microcontrollers are integrated circuits that, mainly, contain a processor core, memory, and programmable input/output peripherals.
+Since they are compact and have low power consumption, they can be designed for specific tasks which makes them suitable for embedded systems.
+They often include integrated peripherals like: timers, communication interfaces (for example \gls{I2C}, \gls{SPI}, \gls{CAN} and \gls{UART}), \gls{ADC} and \gls{RTC} \cite{OBC1}.
 
-Microprocessors or \glspl{CPU} focus on processing tasks and rely on external components for additional functionalities.
+Microcontrollers are programmable using low-level programming languages like \textit{C}, \textit{C++} and \textit{Assembly} \cite{OBC1}.
+
+However, microcontrollers have more limited processing power and are less flexible for general-purpose computing \cite{OBC1} and \cite{OBC2}.
+
+
+\subsection{Microprocessors}
+Microprocessors focus on processing tasks and rely on external components for additional functionalities.
 As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.
-However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers.\\
+They can also be programmed by low-level or high-level programming languages which facilitates the development of firmware \cite{OBC5}.
 
-\glspl{FPGA} are integrated circuits that can be configured after manufacturing, allowing for custom digital logic circuits. 
-They are customizable for specific applications, have parallel processing capabilities, and can be reprogrammed for different tasks.\\
-But, they have a higher cost (compared to microcontrollers and microprocessors), have higher power consumption (compared to microcontrollers), and have a steeper learning curve for programming and design.\\
+However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers \cite{OBC5}.
 
-TODO: MORE INFO
+\subsection{FPGA}
+\glspl{FPGA} are integrated circuits that can be configured after manufacturing, allowing for custom circuits.
+The \gls{FPGA} architecture is composed of configurable logic blocks that a developer can program making them highly customizable for specific applications.
+It has parallel processing capabilities and can be reprogrammed for different tasks \cite{OBC1}, \cite{OBC3} and \cite{OBC5}.
+
+But, they have a higher cost and higher power consumption (compared to microcontrollers).
+Since programming \gls{FPGA} is done by programming the hardware (with \gls{HDL}), the method is different from programming a microcontroller (with specific software) the learning curve can be steeper \cite{OBC1} \cite{OBC3}.
+
+\subsection{Control Units Technologies Comparison}
+The table \ref{tab:obc_comparison} compares the programming languages, flexibility, processing power, development complexity, cost, real-time performance and power consumption of these three main types of control units \cite{OBC5}.
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccc}
+            \hline
+            \textbf{Topic}                  & \textbf{Microcontrollers} & \textbf{Microprocessors} & \textbf{FPGAs} \\ \hline
+            \textbf{Programming Languages}  & Low-level languages       & High-level languages     & HDL            \\
+            \textbf{Flexibility}            & Low                       & Moderate                 & High           \\
+            \textbf{Processing Power}       & Limited                   & High                     & High           \\
+            \textbf{Development Complexity} & Low                       & Moderate                 & High           \\
+            \textbf{Cost Considerations}    & Low                       & Moderate                 & High           \\
+            \textbf{Real-time Performance}  & Moderate                  & Low                      & High           \\
+            \textbf{Power Consumption}      & Low                       & Moderate to high         & Moderate       \\ \hline
+        \end{tabular}
+    }
+    \caption{Comparison of Microcontrollers, Microprocessors, and FPGAs.}
+    \label{tab:obc_comparison}
+\end{table}
+%-------------------------------------------------------------------------------%
 
 \section{Firmware}
 In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.
@@ -212,7 +255,7 @@ However, its object-oriented features can lead to more maintainable code \cite{L
 
 \subsubsection{Rust}
 \textit{Rust} programming language, known for its focus on memory safety, is gaining popularity in embedded systems development.
-It offers performance similar to \textit{C} and \textit{C++} while providing memory safety features \cite{LPROG2},\cite{LPROG7} .
+It offers performance similar to \textit{C} and \textit{C++} while providing memory safety features \cite{LPROG2},\cite{LPROG7}.
 
 \textit{Rust's} was designed with a strong focus on memory safety with an ownership system that helps prevent common memory-related errors without sacrificing performance.
 This results in a secure and efficient memory footprint \cite{LPROG2}.
@@ -224,7 +267,7 @@ With features like Cargo, it simplifies dependency management and project setup.
 However, it can be challenging for beginners due to its ownership system \cite{LPROG7}.
 
 \subsubsection{MicroPython}
-\textit{MicroPython} is a compact extension of Python designed for microcontrollers and IoT devices to emphasize efficiency.
+\textit{MicroPython} is a compact extension of Python designed for microcontrollers and \gls{IoT} devices to emphasize efficiency.
 However, it sacrifices some features of the standard Python to fit within resource constraints \cite{LPROG2}.
 
 It aims for a small memory footprint suitable for microcontrollers which enhances portability as well \cite{LPROG7}.
@@ -232,6 +275,7 @@ It aims for a small memory footprint suitable for microcontrollers which enhance
 \textit{MicroPython} can be used for real-time tasks on microcontrollers, but its capabilities may be limited since it is not as deterministic as low-level languages.
 The community focused on supporting embedded systems for \textit{MicroPython} is growing with resources specifically tailored to microcontroller development \cite{LPROG2}, \cite{LPROG5}.
 
+\subsubsection{Programming languages Comparison}
 Table \ref{tab:programming_languages_comparison} resumes and compares all programming languages described above.
 \begin{table}[H]
     \centering
@@ -249,7 +293,7 @@ Table \ref{tab:programming_languages_comparison} resumes and compares all progra
             Learning and Development   & Moderate   & Moderate     & Moderate      & Difficult         & Easy                 \\ \hline
         \end{tabular}
     }
-    \caption{Comparison of Programming Languages in Embedded Systems}
+    \caption{Comparison of Programming Languages}
     \label{tab:programming_languages_comparison}
 \end{table}
 
@@ -260,10 +304,18 @@ The following \gls{RTOS} examples are open-source, well-documented, compact, and
 They also support microROS, an extension of the \gls{ROS}, designed for microcontrollers and embedded systems that can be resource-constrained.
 
 \subsubsection{FreeRTOS}
-\textit{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
 
+\begin{wrapfigure}{l}{0.35\textwidth}
+    \begin{center}
+        \includegraphics[scale=0.25]{ch3/assets/freertos.png}
+    \end{center}
+    \caption{FreeRTOS Logo}
+\end{wrapfigure}
+
+\textit{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
 It has a small footprint, making it suitable for resource-constrained embedded systems.
 Has a large and active community, which can be beneficial for support and finding solutions \cite{RTOS6}.
+\\
 
 As for scheduling policies, it supports priority-based, round-robin and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
 It supports \gls{I2C}, \gls{SPI} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, Ethernet and \gls{Wifi} network protocols \cite{compRTOS}.
@@ -271,6 +323,13 @@ It supports \gls{I2C}, \gls{SPI} and \gls{UART} wired protocols and \gls{BLE}-St
 It is worth mentioning that \textit{FreeRTOS} has Software Development Process DO178B Level A and Functional Safety IEC-61508 certifications.
 
 \subsubsection{NuttX}
+\begin{wrapfigure}{l}{0.35\textwidth}
+    \begin{center}
+        \includegraphics[scale=0.25]{ch3/assets/nuttx.png}
+    \end{center}
+    \caption{NuttX Logo}
+\end{wrapfigure}
+
 \textit{NuttX} is a real-time operating system with a focus on standards compliance (POSIX and ANSI).
 It uses the Apache 2.0 license, allowing for both open-source and commercial use \cite{nuttx}.
 
@@ -280,25 +339,25 @@ In terms of scheduling it supports priority-based (\gls{FIFO}), Round-Robin and 
 For wired protocols, it has support over \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and Modbus.
 And for network protocols, \textit{NuttX}, supports 6LoWPAN, Ethernet, \gls{Wifi} and \gls{RFID} \cite{compRTOS}.
 
+%\newpage
 \subsubsection{Zephyr}
-\cite{RTOS5}
-
-
+\begin{wrapfigure}{l}{0.35\textwidth}
+    \begin{center}
+        \includegraphics[scale=0.25]{ch3/assets/zephyr.png}
+    \end{center}
+    \caption{Zephyr Logo}
+\end{wrapfigure}
 \textit{Zephyr} is a real-time operating system for resource-constrained devices.
-It also uses Apache 2.0 license that allow open-source and commercial development \cite{zephyr}.
-Footprint: Designed to be scalable and can be configured to match the requirements of the target device.
+It also uses Apache 2.0 license that allows open-source and commercial development \cite{zephyr}.
 
-\textit{Zephyr} is supported by the Linux Foundation and has a growing and active community \cite{zephyr}.
-
+Designed to be modular and can be configured to match the requirements of the target device.
+\textit{Zephyr} is supported by the Linux Foundation and has a growing and active community \cite{zephyr} and \cite{RTOS5}.
+\\\\\\
 As for scheduling policies, it supports priority-based and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
 It supports \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, 6LoWPAN, Ethernet, \gls{NFC}, \gls{Wifi} and \gls{RFID} network protocols \cite{compRTOS} \cite{compRTOS}.
 
-
-https://blog.nordicsemi.com/getconnected/what-is-rtos-real-time-operating-systems-for-embedded-developers
-https://micro.ros.org/docs/concepts/rtos/comparison/
-
-
-Table \ref{tab:rtos_comparison} \cite{compRTOS}.
+\subsubsection{RTOS Comparison}
+In table \ref{tab:rtos_comparison} is possible to see a comparison between some \glspl{RTOS} examples \cite{compRTOS}.
 \begin{table}[H]
     \centering
     \caption{Comparison of Real-Time Operating Systems}
@@ -319,117 +378,149 @@ Table \ref{tab:rtos_comparison} \cite{compRTOS}.
 \end{table}
 
 
-\subsection{Comparison}
-Programming Languages:
-Pros:
+\subsection{Overall Analyses}
+In this subsection, it was made a resume and overall analyses of programming languages and \glspl{RTOS}, describing the pros and cons of each solution.
 
-Portability: Higher-level languages like C or C++ provide better portability across different hardware platforms.
-Productivity: High-level languages can increase developer productivity by abstracting hardware details and providing more expressive syntax.
-Code Reusability: Modular code and libraries are more easily reusable, saving time and effort in development.
-
-Cons:
-
-Performance Overhead: High-level languages may introduce performance overhead compared to low-level languages like assembly or C, which can be critical in resource-constrained embedded systems.
-Memory Usage: Applications written in high-level languages might consume more memory compared to optimized low-level code.
-Limited Control: Developers may have less control over low-level hardware details, which could be essential for certain embedded applications.
-
-Real-Time Operating Systems (RTOS):
-Pros:
-
-Deterministic Timing: RTOS provides deterministic timing, crucial for systems where timing constraints are critical.
-Task Management: Efficient task scheduling and management enable the execution of multiple tasks simultaneously.
-Resource Management: RTOS can effectively manage resources, optimizing CPU and memory usage.
-
-Cons:
-
-Complexity: Integrating an RTOS can introduce complexity, especially for small-scale embedded systems where simplicity is essential.
-Overhead: Some RTOS overhead is incurred in terms of both processing time and memory usage.
-Learning Curve: Developers may need to invest time in learning and understanding the specific RTOS, adding to the development time.
+Programming languages can provide better portability across different hardware platforms.
+They can have modular code and/or libraries making them more reusable.
+Since programming languages are more common, the time dedicated to development is smaller and more efficient.
+In the case of high-level languages productivity is increased since this languages abstracts some hardware details.
+But, programming languages may introduce performance overhead which can be critical in resource-constrained embedded systems.
+And have may have less control over low-level hardware details, which could be essential for certain embedded applications.
 
 
-
-
+\glspl{RTOS} provides deterministic timing and has task scheduling and management that can enable the execution of multiple tasks simultaneously.
+And can manage resources more effectively, optimizing performance and memory usage.
+However, integrating a \glspl{RTOS} can be complex and more time-consuming since the developers may need to invest time to learn and understand the specific \glspl{RTOS}.
 
 %-------------------------------------------------------------------------------%
 
-\section{Communication}
-TODO: MORE INFO\\
-\subsection{Wired}
-TODO: MORE INFO\\
+% \section{Communication Technology }
+% \subsection{Wired}
 
-\subsection{Wireless}
-While researching wireless communication, multiple protocols can be studied. They can, mainly, be separated into two categories: short-range and long-range.
-In the context of \glspl{uav}, the focus will be on short-range wireless communication protocols \cite{WCOM1}, \cite{WCOM6}, \cite{WCOM7}.
+% Intra-communication communication is a critical part of the overall vehicle architecture, responsible for ensuring seamless interaction between various \acs{ECU}s within the vehicle.
+% Several communication protocols and technologies are available for this purpose, each with its own set of advantages and considerations.
+% This article provides a comparison of these options, examines real-world applications, and guides towards the best type of communication for a given project.
+
+% \subsubsection{\acs{CAN}bus}
+
+% The \ac{CAN}bus is a widely used communication protocol in vehicles.
+% It serves as a reliable and deterministic communication medium for connecting various \acs{ECU}s within the vehicle.
+% This protocol supports real-time communication and is suitable for transmitting critical data.
+
+% \begin{table}[H]
+%     \centering
+%     \caption{\acs{CAN}Bus Pros and Cons}
+%     \label{tab:CANBus}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \multicolumn{1}{|c|}{Main Functionalities}     & \multicolumn{1}{c|}{Pros}                 & \multicolumn{1}{c|}{Cons} \\ \hline
+%         - Reliable Communication                       & \makecell[l]{ - Widely adopted in                                     \\the automotive industry}              & \makecell[l]{- Limited bandwidth \\ compared to Ethernet}   \\ \hline
+%         \multirow{3}{*}{- Deterministic Communication} & \makecell[l]{- Well-established                                       \\ protocols and tools}                   & \makecell[l]{- Limited support for \\ large data transfers} \\ \cline{2-3}
+%                                                        & \makecell[l]{- Suitable for real-time and                             \\ safety-critical applications} & \makecell[l]{- Limited scalability for \\ future requirements} \\ \cline{2-3}
+%                                                        & \makecell[l]{- Low implementation cost                                \\ and low power consumption}      & \\ \hline
+%     \end{tabular}%
+% \end{table}
+
+% CAN bus offers a reliable and deterministic communication medium for connecting ECUs within the vehicle.
+% CANbus stands as the preferred communication protocol for autonomous vehicles due to its
+% reliable and deterministic nature. It has gained a strong reputation in the automotive industry
+% for transmitting critical data with unwavering dependability. CANbus’s well-established pro-
+% tocols and tools ensure deterministic behavior, enabling real-time communication crucial for
+% safety-critical applications.
+% In addition to its reliability, CANbus offers cost-effectiveness and low power consumption.
+% Implementing CANbus is economically viable compared to alternatives like Ethernet, thanks to
+% minimal hardware and infrastructure requirements. Moreover, CANbus aligns with the demand
+% for energy-efficient systems in modern vehicles by consuming low power.
+% The real-world application of CANbus in the Tesla Model S exemplifies its effectiveness. CANbus
+% facilitates seamless communication between diverse ECUs responsible for critical functions,
+% such as powertrain control and braking systems. This successful integration in the Model S
+% validates CANbus’s reliability in practical scenarios
+
+% While CANbus has notable advantages, it is essential to consider its limitations. Its bandwidth
+% is comparatively limited, posing challenges for transmitting large data volumes. Additionally,
+% CANbus has limited support for large data transfers and scalability for future requirements.
+% Complex functionalities may necessitate additional protocols to overcome these limitations.
+% In conclusion, CANbus emerges as the optimal choice for intra-communication in autonomous
+% vehicles, given its proven reliability, deterministic behavior, cost-effectiveness, and successful
+% application in vehicles like the Tesla Model S. Widely adopted in the automotive industry,
+% CANbus provides a robust communication medium for critical data transmission and seamless
+% interaction between ECUs. Despite its limitations, CANbus remains a practical and effective
+% solution for facilitating efficient communication in future autonomous vehicles.
+
+% \subsection{Wireless}
+
+\section{Wireless Communication}
+
+While researching wireless communication, multiple protocols can be studied.
+They can, mainly, be separated into two categories: short-range and long-range.
+
+In the context of communication between devices inside an \glspl{uav}, the focus will be on short-range wireless communication protocols \cite{WCOM1}, \cite{WCOM6}, \cite{WCOM7}.
 
 Short-range protocols offer advantages such as lower power consumption, reduced interference, and efficient data transfer within confined spaces.
-Within this category, options like Bluetooth, Wi-Fi, Zigbee, Z-Wave, and LoRa for short distances emerge as noteworthy candidates.
+Within this category, options like Bluetooth, Wi-Fi, Zigbee and \gls{LoRaWAN} for short distances emerge as noteworthy candidates.
 Each of these protocols addresses specific requirements, making them suitable for various aspects of \gls{uav} operations, from intra-component communication to data transfer between the \gls{uav} and ground control \cite{WCOM6}, \cite{WCOM7}.
 
-\begin{itemize}
-    \item WiFi (802.11x): Can be used for high-speed data transfer over short ranges. It's suitable when you need to transmit large amounts of data between the \gls{uav} and a ground station.
-          \begin{itemize}
-              \item Advantages
-                    \begin{itemize}
-                        \item High Data Rates
-                        \item Widespread Standard
-                        \item Bi-Directional Communication
-                    \end{itemize}
-              \item Disadvantages
-                    \begin{itemize}
-                        \item High Power Consumption
-                        \item Interference in 2.4 GHz and 5 GHz bands
-                    \end{itemize}
-          \end{itemize}
+\subsection{WiFi}
+\gls{Wifi}, with 802.11 series \gls{IEEE} standard, is a communication technology that enables devices to connect to the same network without the need for physical cables \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+It can be used for bi-directional high-speed data transfer (ranging from Mbps to Gbps) over short ranges, using 2.4 GHz and 5 GHz frequency bands \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Typically, its topology is star\footnote{devices are connected to a central hub, with all communication flowing through this central point} or mesh\footnote{devices are interconnected, allowing for multiple communication paths between nodes} format \cite{WCOM8}.
 
-    \item Bluetooth: Common short-range wireless technology with low power consumption. It's suitable for communication between components on a \gls{uav}.
-    \item Advantages
-          \begin{itemize}
-              \item Low Power Consumption
-              \item Ubiquity
-          \end{itemize}
-    \item Disadvantages
-          \begin{itemize}
-              \item Limited Range
-              \item Data Transfer Rates
-          \end{itemize}
+However, it has high power consumption and has interference in 2.4 GHz and 5 GHz bands \cite{WCOM8}.
 
-    \item Zigbee: Low-power, low-data-rate wireless communication technology that is suitable for short-range communication in embedded systems.
-    \item Advantages
-          \begin{itemize}
-              \item Low Power Consumption
-              \item Mesh Networking
-              \item Low Latency
-          \end{itemize}
-    \item Disadvantages
-          \begin{itemize}
-              \item Limited Data Rate
-              \item Limited Range
-          \end{itemize}
+This technology is normally used in homes, offices, public spaces, and industrial settings.
 
-    \item Z-Wave: Low-power wireless communication protocol often used in home automation. It's suitable for control and monitoring applications in \glspl{uav}.
-    \item Advantages
-          \begin{itemize}
-              \item Low Power Consumption
-              \item Interference Avoidance
-          \end{itemize}
-    \item Disadvantages
-          \begin{itemize}
-              \item Limited Data Rate
-              \item Less Common in Non-Home Automation Devices
-          \end{itemize}
+\subsection{Bluetooth}
+Bluetooth,  based on \gls{IEEE} 802.5.1 standard, is a common short-range wireless technology with low power consumption \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+It has bi-directional data transfer operating within the 2.4 GHz band \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Bluetooth topology is, normally, point-to-point\footnote{device connects with one or more slave devices (point-to-multipoint)} or mesh \cite{WCOM8}.
 
-    \item LoRa (Long Range): While designed for long-range communication, LoRa can also be used in short-range applications. It provides low-power, long-range communication suitable for certain \gls{uav} scenarios.
-    \item Advantages
-          \begin{itemize}
-              \item Long Range
-              \item Low Power Consumption
-          \end{itemize}
-    \item Disadvantages
-          \begin{itemize}
-              \item Low Data Rates
-              \item Unidirectional Communication
-          \end{itemize}
-\end{itemize}
+But has a limited range and lower data rates (in the Mbps range) \cite{WCOM8}.
+
+It is commonly used in personal devices, audio accessories and \gls{IoT} applications.
+
+In Bluetooth version 4.0, was introduced \gls{BLE} standard providing even less power consumption and profiles and services that define the functions and characteristics of devices \cite{WCOM8}.
+
+\subsection{Zigbee}
+Zigbee, with \gls{IEEE} 802.15.4 standard, is a wireless communication standard designed for short-range communication with low power consumption \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Working in 2.4 GHz frequency band, it has bi-directional data transfer and low latency \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Zigbee uses mesh network topology \cite{WCOM8}.
+
+However, the limited data rate (in the Kbps range) and the limited range can be a compromise to the system, \cite{WCOM11} and \cite{WCOM12}.
+
+Zigbee is normally used in home automation, industrial control and sensor networks.
+
+\subsection{LoRaWAN}
+While designed for long-range communication, \gls{LoRaWAN}\footnote{protocol for the MAC layer and network layer being LoRa the physical layer technology} can also be used in short-range.
+It provides low-power, long-range wireless communication suitable for various scenarios and applications \cite{WCOM8}.
+
+The bi-directional communication, resilient to interference, works in frequency ranges of 400 MHz, 868 MHz and 900 MHz.
+And uses Star-of-Stars\footnote{multiple star networks are interconnected through a central hub} \cite{WCOM10} and mesh topologies \cite{WCOM9}.
+
+But has low data rates in the Kbps range \cite{WCOM8}.
+
+Normally it is used in \gls{IoT} applications, smart agriculture and smart cities.
+
+\subsection{Wireless Communication Technologies Comparison}
+The comparison of the wireless communication technologies explained, in this section, can be seen in Table \ref{tab:wcom_comparison} \cite{WCOM11} and \cite{WCOM12}.
+\begin{table}[H]
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccccc}
+            \hline
+            \textbf{Technology}        & \textbf{Wi-Fi} & \textbf{Bluetooth}  & \textbf{Zigbee} & \textbf{LoRaWAN}    \\ \hline
+            \textbf{Data Rate}         & High           & Moderate            & Moderate        & Low                 \\
+            \textbf{Widespread}        & Yes            & Yes                 & Yes             & Limited             \\
+            \textbf{Direction}         & Bi-Directional & Bi-Directional      & Bi-Directional  & Bi-Directional      \\
+            \textbf{Power Consumption} & High           & Low                 & Low             & Low                 \\
+            \textbf{Frequency}         & 2.4 GHz        & 2.4 GHz             & 2.4 GHz         & Sub-1 GHz           \\
+            \textbf{Range (in meters)} & 30-100         & 5-100               & 10-100          & 2000-10000          \\
+            \textbf{Topology}          & Star, Mesh     & Star, Mesh, Piconet & Mesh            & Star-of-Stars, Mesh \\ \hline
+        \end{tabular}
+    }
+    \caption{Comparison of Communication Technologies}
+    \label{tab:wcom_comparison}
+\end{table}
+
 
 %-------------------------------------------------------------------------------%
 

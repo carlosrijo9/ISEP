@@ -1,13 +1,13 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.5.31)  27 JAN 2024 14:50
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.5.31)  29 JAN 2024 08:02
  system commands enabled.
  file:line:error style messages enabled.
-**/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main
-(/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.tex
+**/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main
+(/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.tex
 LaTeX2e <2021-11-15> patch level 1
 Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended collection.
-luaotfload | conf : Root cache directory is "/home/carlosrijo/.texlive2021/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/cr/.texlive2021/texmf-var/luatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-resolved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2021-05-20.lua".
 Lua-only attribute luaotfload@noligature = 1
 Lua-only attribute luaotfload@syllabe = 2
@@ -17,7 +17,7 @@ Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 3
-luaotfload | conf : Root cache directory is "/home/carlosrijo/.texlive2021/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/cr/.texlive2021/texmf-var/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
 Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filter'.
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
 Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'. L3 programming layer <2022-01-21>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'. (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/tmesc-style.cls
+Inserting `tracingstacklevels' at position 1 in `input_level_string'. (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/tmesc-style.cls
 Document Class: tmesc-style 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -50,7 +50,7 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/carlosrijo/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
+luaotfload | db : Font names database loaded from /home/cr/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
 \c@part=\count185
 \c@chapter=\count186
 \c@section=\count187
@@ -1326,74 +1326,82 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rotFPbot=\skip97
 \rot@float@box=\box86
 \rot@mess@toks=\toks61
+) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen325
+\WF@size=\dimen326
+\c@WF@wrappedlines=\count511
+\WF@box=\box87
+\WF@everypar=\toks62
+Package: wrapfig 2003/01/31  v 3.6
 )
 \glswrite=\write5
 \glo@main@file=\write6
 
 \openout6 = main.glo
-Package glossaries Info: Writing glossary file main.glo on input line 70.
+Package glossaries Info: Writing glossary file main.glo on input line 71.
 \glo@acronym@file=\write7
 
 \openout7 = main.acn
-Package glossaries Info: Writing glossary file main.acn on input line 70.
+Package glossaries Info: Writing glossary file main.acn on input line 71.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.aux)
+ (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 89.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 90.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count511
-\scratchdimen=\dimen325
-\scratchbox=\box87
-\nofMPsegments=\count512
-\nofMParguments=\count513
-\everyMPshowfont=\toks62
-\MPscratchCnt=\count514
-\MPscratchDim=\dimen326
-\MPnumerator=\count515
-\makeMPintoPDFobject=\count516
-\everyMPtoPDFconversion=\toks63
+\scratchcounter=\count512
+\scratchdimen=\dimen327
+\scratchbox=\box88
+\nofMPsegments=\count513
+\nofMParguments=\count514
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count515
+\MPscratchDim=\dimen328
+\MPnumerator=\count516
+\makeMPintoPDFobject=\count517
+\everyMPtoPDFconversion=\toks64
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count517
-Package scrhack Info: undefining \float@addtolists on input line 89.
- (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.glsdefs)
+\c@lstlisting=\count518
+Package scrhack Info: undefining \float@addtolists on input line 90.
+ (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.glsdefs)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1431,16 +1439,16 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 89.
-Package scrbase Info: activating english \dissertationdisclamer on input line 89.
-Package scrbase Info: activating english \supervisorlabel on input line 89.
-Package scrbase Info: activating english \cosupervisorlabel on input line 89.
-Package scrbase Info: activating english \abslabel on input line 89.
-Package scrbase Info: activating english \keywordslabel on input line 89.
-Package scrbase Info: activating english \abslabelotherlang on input line 89.
-Package scrbase Info: activating english \abbrevname on input line 89.
-Package scrbase Info: activating english \constantsname on input line 89.
-Package scrbase Info: activating english \symbolsname on input line 89.
+(scrlayer)             \begin{document} on input line 90.
+Package scrbase Info: activating english \dissertationdisclamer on input line 90.
+Package scrbase Info: activating english \supervisorlabel on input line 90.
+Package scrbase Info: activating english \cosupervisorlabel on input line 90.
+Package scrbase Info: activating english \abslabel on input line 90.
+Package scrbase Info: activating english \keywordslabel on input line 90.
+Package scrbase Info: activating english \abslabelotherlang on input line 90.
+Package scrbase Info: activating english \abbrevname on input line 90.
+Package scrbase Info: activating english \constantsname on input line 90.
+Package scrbase Info: activating english \symbolsname on input line 90.
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package biblatex Info: Trying to load language 'english'...
@@ -1456,7 +1464,7 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.bbl
+ (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.bbl
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
@@ -1493,9 +1501,9 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 89.
-Package biblatex Info: Reference segment=0 on input line 89.
-Package hyperref Info: Link coloring OFF on input line 89.
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
+Package hyperref Info: Link coloring OFF on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1503,12 +1511,12 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count518
+\c@section@level=\count519
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
- (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.out) (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.out)
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
+ (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.out) (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.out)
 \@outlinefile=\write8
 
 \openout8 = main.out
@@ -1518,7 +1526,7 @@ LaTeX Info: Redefining \nameref on input line 89.
 \openout9 = main.glsdefs
 )
 1: section
-<.//frontmatter/assets/isep_wordmark_expanded_vintage.png, id=280, 2529.45pt x 745.28438pt>
+<.//frontmatter/assets/isep_wordmark_expanded_vintage.png, id=360, 2529.45pt x 745.28438pt>
 File: .//frontmatter/assets/isep_wordmark_expanded_vintage.png Graphic file (type png)
 <use .//frontmatter/assets/isep_wordmark_expanded_vintage.png>
 Package luatex.def Info: .//frontmatter/assets/isep_wordmark_expanded_vintage.png  used on input line 13.
@@ -1585,51 +1593,51 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ] [6
 
-] (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.toc
+] (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.toc
 1: section
-[7])
+[7] [8])
 \tf@toc=\write10
 
 \openout10 = main.toc
- [8] (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.lof)
+ [9] [10
+
+] (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.lof)
 \tf@lof=\write11
 
 \openout11 = main.lof
 
 1: section
-[9
-
-
+[11
 Missing character: There is no – (U+2013) in font ebmr10!
-] [10
+] [12
 
-] (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.lot)
+] (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.lot)
 \tf@lot=\write12
 
 \openout12 = main.lot
 
 1: section
-[11] [12
+[13] [14
 
-] (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.loa)
+] (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.loa)
 \tf@loa=\write13
 
 \openout13 = main.loa
 
 1: section
-[13] [14
-
-] (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.acr
-1: section
 [15] [16
+
+] (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.acr
+1: section
+[17] [18
 
 ]
 1: section
-[17
+[19
 
 
 Missing character: There is no – (U+2013) in font ebmr10!
-]) [18]
+]) [20]
 1: section
 ) (./ch1/chapter1.tex
 Chapter 1.
@@ -1742,85 +1750,128 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 
 ]
 Chapter 3.
-
-LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
-(Font)              using `T1/cmbr/m/n' instead on input line 28.
-
-<ch3/assets/18650.jpg, id=587, 451.6875pt x 451.6875pt>
+<ch3/assets/18650.jpg, id=706, 451.6875pt x 451.6875pt>
 File: ch3/assets/18650.jpg Graphic file (type jpg)
 <use ch3/assets/18650.jpg>
-Package luatex.def Info: ch3/assets/18650.jpg  used on input line 38.
+Package luatex.def Info: ch3/assets/18650.jpg  used on input line 20.
 (luatex.def)             Requested size: 105.98647pt x 105.98116pt.
-<ch3/assets/lipo.png, id=590, 651.43375pt x 473.77pt>
+
+LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
+(Font)              using `T1/cmbr/m/n' instead on input line 21.
+
+<ch3/assets/lipo.png, id=709, 651.43375pt x 473.77pt>
 File: ch3/assets/lipo.png Graphic file (type png)
 <use ch3/assets/lipo.png>
-Package luatex.def Info: ch3/assets/lipo.png  used on input line 44.
+Package luatex.def Info: ch3/assets/lipo.png  used on input line 26.
 (luatex.def)             Requested size: 105.98647pt x 77.07707pt.
-
-LaTeX Warning: Reference `fig:nimh' on page 9 undefined on input line 50.
-
-
-LaTeX Warning: Reference `fig:nicd' on page 9 undefined on input line 50.
-
-<ch3/assets/nimh.jpg, id=593, 903.375pt x 903.375pt>
+<ch3/assets/nimh.jpg, id=714, 903.375pt x 903.375pt>
 File: ch3/assets/nimh.jpg Graphic file (type jpg)
 <use ch3/assets/nimh.jpg>
-Package luatex.def Info: ch3/assets/nimh.jpg  used on input line 55.
+Package luatex.def Info: ch3/assets/nimh.jpg  used on input line 38.
 (luatex.def)             Requested size: 105.98647pt x 105.97427pt.
-<ch3/assets/nicd.jpg, id=596, 602.25pt x 401.5pt>
+<ch3/assets/nicd.jpg, id=717, 602.25pt x 401.5pt>
 File: ch3/assets/nicd.jpg Graphic file (type jpg)
 <use ch3/assets/nicd.jpg>
-Package luatex.def Info: ch3/assets/nicd.jpg  used on input line 61.
+Package luatex.def Info: ch3/assets/nicd.jpg  used on input line 44.
 (luatex.def)             Requested size: 105.98647pt x 70.65564pt.
 1: section
-[9<./ch3/assets/18650.jpg><./ch3/assets/lipo.png>]
-<ch3/assets/lead.png, id=609, 451.6875pt x 448.67625pt>
+[9
+Missing character: There is no – (U+2013) in font ebmr10!
+<./ch3/assets/18650.jpg><./ch3/assets/lipo.png>]
+<ch3/assets/lead.png, id=730, 451.6875pt x 448.67625pt>
 File: ch3/assets/lead.png Graphic file (type png)
 <use ch3/assets/lead.png>
-Package luatex.def Info: ch3/assets/lead.png  used on input line 71.
+Package luatex.def Info: ch3/assets/lead.png  used on input line 56.
 (luatex.def)             Requested size: 180.67178pt x 179.46732pt.
-<ch3/assets/alkaline.png, id=614, 451.6875pt x 353.82187pt>
+<ch3/assets/alkaline.png, id=735, 451.6875pt x 353.82187pt>
 File: ch3/assets/alkaline.png Graphic file (type png)
 <use ch3/assets/alkaline.png>
-Package luatex.def Info: ch3/assets/alkaline.png  used on input line 80.
+Package luatex.def Info: ch3/assets/alkaline.png  used on input line 65.
 (luatex.def)             Requested size: 135.5073pt x 106.14737pt.
- [10
-Missing character: There is no – (U+2013) in font ebmr10!
-<./ch3/assets/nimh.jpg><./ch3/assets/nicd.jpg><./ch3/assets/lead.png><./ch3/assets/alkaline.png>] [11]
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 145.
- (/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+ [10<./ch3/assets/nimh.jpg><./ch3/assets/nicd.jpg><./ch3/assets/lead.png><./ch3/assets/alkaline.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 113.
+
+[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 122.
+
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 155.
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+) [12] [13] [14] [15]
+<ch3/assets/freertos.png, id=845, 362.35374pt x 139.52126pt>
+File: ch3/assets/freertos.png Graphic file (type png)
+<use ch3/assets/freertos.png>
+Package luatex.def Info: ch3/assets/freertos.png  used on input line 310.
+(luatex.def)             Requested size: 90.58821pt x 34.88022pt.
+
+Underfull \hbox (badness 1721) in paragraph at lines 315--319
+[]\T1/cmbr/m/sl/10.95 FreeR-TOS \T1/cmbr/m/n/10.95 is a pop-u-lar open-source (with MIT li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
+
+ []
+
+[16<./ch3/assets/freertos.png>]
+<ch3/assets/nuttx.png, id=859, 160.6pt x 160.6pt>
+File: ch3/assets/nuttx.png Graphic file (type png)
+<use ch3/assets/nuttx.png>
+Package luatex.def Info: ch3/assets/nuttx.png  used on input line 328.
+(luatex.def)             Requested size: 40.14989pt x 40.14989pt.
+<ch3/assets/zephyr.png, id=863, 451.9284pt x 311.4837pt>
+File: ch3/assets/zephyr.png Graphic file (type png)
+<use ch3/assets/zephyr.png>
+Package luatex.def Info: ch3/assets/zephyr.png  used on input line 346.
+(luatex.def)             Requested size: 112.98181pt x 77.87073pt.
+
+Underfull \hbox (badness 5302) in paragraph at lines 353--358
+[]\T1/cmbr/m/n/10.95 De-signed to be mod-u-lar and can be con-fig-ured
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 353--358
+\T1/cmbr/m/n/10.95 to match the re-quire-ments of the tar-get de-vice.
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 353--358
+\T1/cmbr/m/sl/10.95 Zephyr \T1/cmbr/m/n/10.95 is sup-ported by the Linux Foun-da-tion and
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 353--358
+\T1/cmbr/m/n/10.95 has a grow-ing and ac-tive com-mu-nity [[]43[]] and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--164
+Underfull \hbox (badness 10000) in paragraph at lines 353--358
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
-
- []
-
-[12] [13] [14] [15]
-Overfull \hbox (42.1176pt too wide) in paragraph at lines 297--299
-[]\T1/cmbr/m/n/10.95 https://blog.nordic-semi.com/getconnected/what-is-rtos-real-time-operating-systems-for-embedded-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
-
- []
-
-[17]) (./ch4/chapter4.tex [18]
+[17<./ch3/assets/nuttx.png><./ch3/assets/zephyr.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 467.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 467.
+ [18] [19]) (./ch4/chapter4.tex [20]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
@@ -1828,15 +1879,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--9
  []
 
 1: section
-[19
+[21
 
 ]
-<ch4/assets/system_diagram.pdf, id=759, 363.27718pt x 437.71529pt>
+<ch4/assets/system_diagram.pdf, id=967, 363.27718pt x 437.71529pt>
 File: ch4/assets/system_diagram.pdf Graphic file (type pdf)
 <use ch4/assets/system_diagram.pdf>
 Package luatex.def Info: ch4/assets/system_diagram.pdf  used on input line 62.
 (luatex.def)             Requested size: 363.27629pt x 437.7142pt.
- [20] [21<./ch4/assets/system_diagram.pdf>]
+ [22] [23<./ch4/assets/system_diagram.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
@@ -1866,7 +1917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-[22]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
@@ -1901,176 +1952,173 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
-[23]
-<ch4/assets/MDU_MAIN.pdf, id=803, 208.8603pt x 336.29639pt>
+[25]
+<ch4/assets/MDU_MAIN.pdf, id=1010, 208.8603pt x 336.29639pt>
 File: ch4/assets/MDU_MAIN.pdf Graphic file (type pdf)
 <use ch4/assets/MDU_MAIN.pdf>
 Package luatex.def Info: ch4/assets/MDU_MAIN.pdf  used on input line 152.
 (luatex.def)             Requested size: 167.08846pt x 269.03748pt.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 153.
- [24<./ch4/assets/MDU_MAIN.pdf>]
+ [26<./ch4/assets/MDU_MAIN.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-[25] [26]) (./ch5/chapter5.tex [27] [28
+[27] [28]) (./ch5/chapter5.tex [29] [30
 
 ]
 Chapter 5.
 1: section
-[29]
+[31]
 warning  (file ch5/assets/gantt.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.7', but at most version '1.5' allowed
-<ch5/assets/gantt.pdf, id=858, 1316.92pt x 895.345pt>
+<ch5/assets/gantt.pdf, id=1065, 1316.92pt x 895.345pt>
 File: ch5/assets/gantt.pdf Graphic file (type pdf)
 <use ch5/assets/gantt.pdf>
 Package luatex.def Info: ch5/assets/gantt.pdf  used on input line 49.
 (luatex.def)             Requested size: 423.9459pt x 288.22398pt.
-[30<./ch5/assets/gantt.pdf>]) [31] [32
+[32<./ch5/assets/gantt.pdf>]) [33] [34
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 117.
+LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 118.
  (/usr/share/texlive/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 )
 1: section
-[33]
-Overfull \hbox (4.92001pt too wide) in paragraph at lines 117--117
+[35]
+Overfull \hbox (4.92001pt too wide) in paragraph at lines 118--118
 []\T1/cmbr/m/sc/10.95 ad-min. \T1/cmbr/m/sl/10.95 NiCd Bat-tery Charger Cir-cuit\T1/cmbr/m/sc/10.95 . en-US. July 2019. url: []$\T1/cmtl/m/n/10.95 https : / / theorycircuit .
  []
 
-[34
+
+Overfull \hbox (13.10655pt too wide) in paragraph at lines 118--118
+[]$\T1/cmtl/m/n/10.95 https : / / www . wevolver . com / article / fpga - vs - microcontroller - understanding -
+ []
+
+
+Overfull \hbox (24.60393pt too wide) in paragraph at lines 118--118
+\T1/cmtl/m/n/10.95 group / b / blog / posts / comparing - an - fpga - to - a - microcontroller - microprocessor -
+ []
+
+[36
 Missing character: There is no ’ (U+2019) in font ebmr10!
 ]
-Overfull \hbox (11.5691pt too wide) in paragraph at lines 117--117
+Overfull \hbox (11.5691pt too wide) in paragraph at lines 118--118
 []\T1/cmbr/m/sc/10.95 en-US. Nov. 2023. url: []$\T1/cmtl/m/n/10.95 https : / / micro . ros . org / docs / concepts / rtos / comparison/$[]\T1/cmbr/m/sc/10.95 . 
  []
 
-
-Overfull \hbox (7.64677pt too wide) in paragraph at lines 117--117
-[]\T1/cmbr/m/sc/10.95 url: []$\T1/cmtl/m/n/10.95 https : / / www . chibios . org / dokuwiki / doku . php ? id = chibios : documentation :
- []
-
-(./appendices/appendixA.tex [35] [36
+(./appendices/appendixA.tex [37] [38
 
 ]
 Appendix A.
-<appendices/assets/MDU_PREPARE.pdf, id=958, 378.45387pt x 754.73969pt>
+<appendices/assets/MDU_PREPARE.pdf, id=1177, 378.45387pt x 754.73969pt>
 File: appendices/assets/MDU_PREPARE.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_PREPARE.pdf>
 Package luatex.def Info: appendices/assets/MDU_PREPARE.pdf  used on input line 9.
 (luatex.def)             Requested size: 227.07407pt x 452.8473pt.
 ) (./appendices/appendixB.tex
 1: section
-[37<./appendices/assets/MDU_PREPARE.pdf>] [38
+[39<./appendices/assets/MDU_PREPARE.pdf>] [40
 
 ]
 Appendix B.
-<appendices/assets/MDU_MISSION.pdf, id=980, 729.68607pt x 529.98pt>
+<appendices/assets/MDU_MISSION.pdf, id=1199, 729.68607pt x 529.98pt>
 File: appendices/assets/MDU_MISSION.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_MISSION.pdf>
 Package luatex.def Info: appendices/assets/MDU_MISSION.pdf  used on input line 9.
 (luatex.def)             Requested size: 437.81502pt x 317.99043pt.
 ) (./appendices/appendixC.tex
 1: section
-[39<./appendices/assets/MDU_MISSION.pdf>] [40
+[41<./appendices/assets/MDU_MISSION.pdf>] [42
 
 ]
 Appendix C.
-<appendices/assets/MDU_ERROR.pdf, id=1003, 320.1561pt x 408.56638pt>
+<appendices/assets/MDU_ERROR.pdf, id=1222, 320.1561pt x 408.56638pt>
 File: appendices/assets/MDU_ERROR.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_ERROR.pdf>
 Package luatex.def Info: appendices/assets/MDU_ERROR.pdf  used on input line 9.
 (luatex.def)             Requested size: 320.1553pt x 408.56537pt.
 ) (./appendices/appendixD.tex
 1: section
-[41<./appendices/assets/MDU_ERROR.pdf>] [42
+[43<./appendices/assets/MDU_ERROR.pdf>] [44
 
 ]
 Appendix D.
-<appendices/assets/MDU_SHUTDOWN.pdf, id=1025, 89.3739pt x 206.6922pt>
+<appendices/assets/MDU_SHUTDOWN.pdf, id=1245, 89.3739pt x 206.6922pt>
 File: appendices/assets/MDU_SHUTDOWN.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_SHUTDOWN.pdf>
 Package luatex.def Info: appendices/assets/MDU_SHUTDOWN.pdf  used on input line 9.
 (luatex.def)             Requested size: 89.37367pt x 206.69168pt.
 ) (./appendices/appendixE.tex
 1: section
-[43<./appendices/assets/MDU_SHUTDOWN.pdf>] [44
+[45<./appendices/assets/MDU_SHUTDOWN.pdf>] [46
 
 ]
 Appendix E.
-<appendices/assets/SDU_PREPARE.pdf, id=1048, 378.45387pt x 697.64638pt>
+<appendices/assets/SDU_PREPARE.pdf, id=1267, 378.45387pt x 697.64638pt>
 File: appendices/assets/SDU_PREPARE.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_PREPARE.pdf>
 Package luatex.def Info: appendices/assets/SDU_PREPARE.pdf  used on input line 9.
 (luatex.def)             Requested size: 245.9921pt x 453.46477pt.
 ) (./appendices/appendixF.tex
 1: section
-[45<./appendices/assets/SDU_PREPARE.pdf>] [46
+[47<./appendices/assets/SDU_PREPARE.pdf>] [48
 
 ]
 Appendix F.
-<appendices/assets/SDU_MISSION.pdf, id=1070, 498.90388pt x 529.98pt>
+<appendices/assets/SDU_MISSION.pdf, id=1289, 498.90388pt x 529.98pt>
 File: appendices/assets/SDU_MISSION.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_MISSION.pdf>
 Package luatex.def Info: appendices/assets/SDU_MISSION.pdf  used on input line 9.
 (luatex.def)             Requested size: 424.0703pt x 450.4851pt.
 ) (./appendices/appendixG.tex
 1: section
-[47<./appendices/assets/SDU_MISSION.pdf>] [48
+[49<./appendices/assets/SDU_MISSION.pdf>] [50
 
 ]
 Appendix G.
-<appendices/assets/SDU_ERROR.pdf, id=1092, 204.765pt x 553.10638pt>
+<appendices/assets/SDU_ERROR.pdf, id=1311, 204.765pt x 553.10638pt>
 File: appendices/assets/SDU_ERROR.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_ERROR.pdf>
 Package luatex.def Info: appendices/assets/SDU_ERROR.pdf  used on input line 9.
 (luatex.def)             Requested size: 163.8122pt x 442.4857pt.
 ) (./appendices/appendixH.tex
 1: section
-[49<./appendices/assets/SDU_ERROR.pdf>] [50
+[51<./appendices/assets/SDU_ERROR.pdf>] [52
 
 ]
 Appendix H.
-<appendices/assets/SDU_SHUTDOWN.pdf, id=1114, 89.3739pt x 206.6922pt>
+<appendices/assets/SDU_SHUTDOWN.pdf, id=1334, 89.3739pt x 206.6922pt>
 File: appendices/assets/SDU_SHUTDOWN.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_SHUTDOWN.pdf>
 Package luatex.def Info: appendices/assets/SDU_SHUTDOWN.pdf  used on input line 9.
 (luatex.def)             Requested size: 89.37367pt x 206.69168pt.
 )
 1: section
-[51<./appendices/assets/SDU_SHUTDOWN.pdf>] (/home/carlosrijo/home_workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.aux)
+[53<./appendices/assets/SDU_SHUTDOWN.pdf>] (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A70F3BC2759712CAB039F3B7C22CF7C3;9698.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: BA5C0794DEB392965DD069FA858C54AE;12541.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 60688 strings out of 477805
+ 61045 strings out of 477805
  125056,2373549 words of node,token memory allocated
- 1130 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 22 glyph, 91 attribute, 78 glue_spec, 47 attribute_list, 2 write, 19 pdf_action nodes
-   avail lists: 1:8,2:1953,3:864,4:144,5:414,6:158,7:8603,8:171,9:1046,10:11,11:629,12:1
- 78929 multiletter control sequences out of 65536+600000
- 40 fonts using 2569783 bytes
- 110i,20n,128p,1207b,3238s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbbx10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmo10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on main.pdf (69 pages, 1590236 bytes).
+ 1258 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 25 glyph, 111 attribute, 78 glue_spec, 57 attribute_list, 2 write, 21 pdf_action nodes
+   avail lists: 1:12,2:1931,3:862,4:207,5:495,6:189,7:8401,8:171,9:1210,10:15,11:629,12:1
+ 79217 multiletter control sequences out of 65536+600000
+ 49 fonts using 3191623 bytes
+ 110i,20n,128p,1194b,3238s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbbx10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmo10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbtl10.pfb>
+Output written on main.pdf (73 pages, 1686037 bytes).
 
-PDF statistics: 1158 PDF objects out of 1200 (max. 8388607)
- 1007 compressed objects within 11 object streams
- 226 named destinations out of 1000 (max. 131072)
- 560 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1385 PDF objects out of 1440 (max. 8388607)
+ 1220 compressed objects within 13 object streams
+ 268 named destinations out of 1000 (max. 131072)
+ 720 words of extra memory for PDF output out of 10000 (max. 100000000)
 

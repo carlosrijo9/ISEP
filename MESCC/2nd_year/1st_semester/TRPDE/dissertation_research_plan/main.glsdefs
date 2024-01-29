@@ -1202,3 +1202,143 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{HDL}%
+{%
+name={HDL},%
+sort={HDL},%
+type={acronym},%
+first={Hardware Description Languages\glsspace (HDL)},%
+firstplural={Hardware Description Languages\acrpluralsuffix \glsspace (HDL\acrpluralsuffix )},%
+text={HDL},%
+plural={HDL\acrpluralsuffix },%
+description={Hardware Description Languages},%
+descriptionplural={Hardware Description Languages\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hardware Description Languages},%
+longplural={Hardware Description Languagess},%
+short={HDL},%
+shortplural={HDLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ADC}%
+{%
+name={ADC},%
+sort={ADC},%
+type={acronym},%
+first={Analog Digital Converter\glsspace (ADC)},%
+firstplural={Analog Digital Converter\acrpluralsuffix \glsspace (ADC\acrpluralsuffix )},%
+text={ADC},%
+plural={ADC\acrpluralsuffix },%
+description={Analog Digital Converter},%
+descriptionplural={Analog Digital Converter\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Analog Digital Converter},%
+longplural={Analog Digital Converters},%
+short={ADC},%
+shortplural={ADCs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{IoT}%
+{%
+name={IoT},%
+sort={IoT},%
+type={acronym},%
+first={Internet of Things\glsspace (IoT)},%
+firstplural={Internet of Things\acrpluralsuffix \glsspace (IoT\acrpluralsuffix )},%
+text={IoT},%
+plural={IoT\acrpluralsuffix },%
+description={Internet of Things},%
+descriptionplural={Internet of Things\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet of Things},%
+longplural={Internet of Thingss},%
+short={IoT},%
+shortplural={IoTs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{IEEE}%
+{%
+name={IEEE},%
+sort={IEEE},%
+type={acronym},%
+first={Institute of Electrical and Electronics Engineers\glsspace (IEEE)},%
+firstplural={Institute of Electrical and Electronics Engineers\acrpluralsuffix \glsspace (IEEE\acrpluralsuffix )},%
+text={IEEE},%
+plural={IEEE\acrpluralsuffix },%
+description={Institute of Electrical and Electronics Engineers},%
+descriptionplural={Institute of Electrical and Electronics Engineers\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institute of Electrical and Electronics Engineers},%
+longplural={Institute of Electrical and Electronics Engineerss},%
+short={IEEE},%
+shortplural={IEEEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LoRaWAN}%
+{%
+name={LoRaWAN},%
+sort={LoRaWAN},%
+type={acronym},%
+first={Long Range Wide Area Network\glsspace (LoRaWAN)},%
+firstplural={Long Range Wide Area Network\acrpluralsuffix \glsspace (LoRaWAN\acrpluralsuffix )},%
+text={LoRaWAN},%
+plural={LoRaWAN\acrpluralsuffix },%
+description={Long Range Wide Area Network},%
+descriptionplural={Long Range Wide Area Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Long Range Wide Area Network},%
+longplural={Long Range Wide Area Networks},%
+short={LoRaWAN},%
+shortplural={LoRaWANs},%
+counter={page},%
+parent={},%
+%
+}%
+

@@ -853,6 +853,99 @@
       \verb https://www.kingston.com/en/blog/pc-performance/hdd-vs-external-ssd
       \endverb
     \endentry
+    \entry{OBC1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5c4521dfdf0aa9333540189368ffd139}{%
+           family={Ayodele},
+           familyi={A\bibinitperiod},
+           given={Abiola},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c4521dfdf0aa9333540189368ffd139}
+      \strng{fullhash}{5c4521dfdf0aa9333540189368ffd139}
+      \strng{bibnamehash}{5c4521dfdf0aa9333540189368ffd139}
+      \strng{authorbibnamehash}{5c4521dfdf0aa9333540189368ffd139}
+      \strng{authornamehash}{5c4521dfdf0aa9333540189368ffd139}
+      \strng{authorfullhash}{5c4521dfdf0aa9333540189368ffd139}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FPGA vs. Microcontroller: Understanding the Key Differences}
+      \verb{urlraw}
+      \verb https://www.wevolver.com/article/fpga-vs-microcontroller-understanding-the-key-differences
+      \endverb
+      \verb{url}
+      \verb https://www.wevolver.com/article/fpga-vs-microcontroller-understanding-the-key-differences
+      \endverb
+    \endentry
+    \entry{OBC2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f40c2591d694de6b95184b91812d2eb9}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={Tyler\bibnamedelima Ross},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f40c2591d694de6b95184b91812d2eb9}
+      \strng{fullhash}{f40c2591d694de6b95184b91812d2eb9}
+      \strng{bibnamehash}{f40c2591d694de6b95184b91812d2eb9}
+      \strng{authorbibnamehash}{f40c2591d694de6b95184b91812d2eb9}
+      \strng{authornamehash}{f40c2591d694de6b95184b91812d2eb9}
+      \strng{authorfullhash}{f40c2591d694de6b95184b91812d2eb9}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to microcontrollers and embedded systems}
+    \endentry
+    \entry{OBC5}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{month}{2}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://community.element14.com/technologies/fpga-group/b/blog/posts/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic
+      \endverb
+      \verb{url}
+      \verb https://community.element14.com/technologies/fpga-group/b/blog/posts/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic
+      \endverb
+    \endentry
+    \entry{OBC3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cdc3c9c16853ba613423a3b1f84bdbc3}{%
+           family={Parnell},
+           familyi={P\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d16eca6db0d559dbb82d3cfc1d1a51cd}{%
+           family={Bryner},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bada81439a975076077c13e138b5e247}
+      \strng{fullhash}{bada81439a975076077c13e138b5e247}
+      \strng{bibnamehash}{bada81439a975076077c13e138b5e247}
+      \strng{authorbibnamehash}{bada81439a975076077c13e138b5e247}
+      \strng{authornamehash}{bada81439a975076077c13e138b5e247}
+      \strng{authorfullhash}{bada81439a975076077c13e138b5e247}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparing and Contrasting FPGA and Microprocessor System Design and Development}
+      \field{year}{2004}
+    \endentry
     \entry{LPROG4}{article}{}
       \name{author}{1}{}{%
         {{hash=0112a3dee55e5eabe7651d69a05c1ff4}{%
@@ -867,8 +960,8 @@
       \strng{authorbibnamehash}{0112a3dee55e5eabe7651d69a05c1ff4}
       \strng{authornamehash}{0112a3dee55e5eabe7651d69a05c1ff4}
       \strng{authorfullhash}{0112a3dee55e5eabe7651d69a05c1ff4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0141-9331}
@@ -898,8 +991,8 @@
       \strng{authorbibnamehash}{f7bd0dd31cca87dba01ca569c9a4ef13}
       \strng{authornamehash}{f7bd0dd31cca87dba01ca569c9a4ef13}
       \strng{authorfullhash}{f7bd0dd31cca87dba01ca569c9a4ef13}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1558-0814}
@@ -933,8 +1026,8 @@
       \strng{authornamehash}{35191ce9243bb501402cccbcb6bdaaec}
       \strng{authorfullhash}{35191ce9243bb501402cccbcb6bdaaec}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Embedded Development Talk}
@@ -965,8 +1058,8 @@
       \strng{authorbibnamehash}{2f51fe3ffc901ae32d59b273f0c77c14}
       \strng{authornamehash}{2f51fe3ffc901ae32d59b273f0c77c14}
       \strng{authorfullhash}{2f51fe3ffc901ae32d59b273f0c77c14}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SaM Solutions}
@@ -984,8 +1077,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{month}{8}
       \field{year}{2023}
       \verb{urlraw}
@@ -1012,8 +1105,8 @@
       \strng{authorbibnamehash}{6e528a13f38f309437a438a2ec66d9bf}
       \strng{authornamehash}{6e528a13f38f309437a438a2ec66d9bf}
       \strng{authorfullhash}{6e528a13f38f309437a438a2ec66d9bf}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Selection of RTOS for an Efficient Design of Embedded Systems}
@@ -1036,8 +1129,8 @@
       \strng{authorbibnamehash}{1343e01fae565f98ecbd0c172d4de2a4}
       \strng{authornamehash}{1343e01fae565f98ecbd0c172d4de2a4}
       \strng{authorfullhash}{1343e01fae565f98ecbd0c172d4de2a4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{NORDIC Semiconductor}
@@ -1097,16 +1190,6 @@
       \endverb
       \verb{url}
       \verb https://micro.ros.org/docs/concepts/rtos/comparison/
-      \endverb
-    \endentry
-    \entry{chibios}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \verb{urlraw}
-      \verb https://www.chibios.org/dokuwiki/doku.php?id=chibios:documentation:books:rt:intro
-      \endverb
-      \verb{url}
-      \verb https://www.chibios.org/dokuwiki/doku.php?id=chibios:documentation:books:rt:intro
       \endverb
     \endentry
     \entry{nuttx}{misc}{}
@@ -1249,6 +1332,152 @@
       \range{pages}{15}
       \verb{doi}
       \verb 10.1109/MWC.2005.1404569
+      \endverb
+    \endentry
+    \entry{WCOM8}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=40ad0d458958fd567a95b70fc5a63dad}{%
+           family={Kuan},
+           familyi={K\bibinitperiod},
+           given={Fiona},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{40ad0d458958fd567a95b70fc5a63dad}
+      \strng{fullhash}{40ad0d458958fd567a95b70fc5a63dad}
+      \strng{bibnamehash}{40ad0d458958fd567a95b70fc5a63dad}
+      \strng{authorbibnamehash}{40ad0d458958fd567a95b70fc5a63dad}
+      \strng{authornamehash}{40ad0d458958fd567a95b70fc5a63dad}
+      \strng{authorfullhash}{40ad0d458958fd567a95b70fc5a63dad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MOKOSmart}
+      \field{month}{9}
+      \field{title}{Short range wireless communication technology vs long range wireless communication technology}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.mokosmart.com/short-range-wireless-communication-technology-vs-long-range-wireless-communication-technology/
+      \endverb
+      \verb{url}
+      \verb https://www.mokosmart.com/short-range-wireless-communication-technology-vs-long-range-wireless-communication-technology/
+      \endverb
+    \endentry
+    \entry{WCOM11}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=018d725cc096c4cd55de0e4af48e82d6}{%
+           family={Gutierrez\bibnamedelima Pascual},
+           familyi={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={M.\bibnamedelimi Deseada},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{018d725cc096c4cd55de0e4af48e82d6}
+      \strng{fullhash}{018d725cc096c4cd55de0e4af48e82d6}
+      \strng{bibnamehash}{018d725cc096c4cd55de0e4af48e82d6}
+      \strng{authorbibnamehash}{018d725cc096c4cd55de0e4af48e82d6}
+      \strng{authornamehash}{018d725cc096c4cd55de0e4af48e82d6}
+      \strng{authorfullhash}{018d725cc096c4cd55de0e4af48e82d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Indoor Location Systems based on ZigBee networks}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.13140/2.1.4300.1126
+      \endverb
+    \endentry
+    \entry{WCOM12}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6771d8ba074fd0cddd599c41347a7cdb}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=362348936c846a0df774e848da8085f4}{%
+           family={Qureshi},
+           familyi={Q\bibinitperiod},
+           given={Ijaz},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8abed601044c1fcc8dfb99249148a7b5}{%
+           family={Khanzada},
+           familyi={K\bibinitperiod},
+           given={Fahim},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ecf5fb3291b653a274f08ea510a289f}
+      \strng{fullhash}{2ecf5fb3291b653a274f08ea510a289f}
+      \strng{bibnamehash}{2ecf5fb3291b653a274f08ea510a289f}
+      \strng{authorbibnamehash}{2ecf5fb3291b653a274f08ea510a289f}
+      \strng{authornamehash}{2ecf5fb3291b653a274f08ea510a289f}
+      \strng{authorfullhash}{2ecf5fb3291b653a274f08ea510a289f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{A Hybrid Communication Scheme for Efficient and Low-Cost Deployment of Future Flying Ad-Hoc Network (FANET)}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{22}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/drones3010016
+      \endverb
+    \endentry
+    \entry{WCOM10}{misc}{}
+      \list{language}{1}{%
+        {en-us}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{journaltitle}{The Things Network}
+      \verb{urlraw}
+      \verb https://www.thethingsnetwork.org/docs/lorawan/architecture/
+      \endverb
+      \verb{url}
+      \verb https://www.thethingsnetwork.org/docs/lorawan/architecture/
+      \endverb
+    \endentry
+    \entry{WCOM9}{article}{}
+      \name{author}{2}{}{%
+        {{hash=661028d25e04dc887ef28e0f8849eb6c}{%
+           family={Cotrim},
+           familyi={C\bibinitperiod},
+           given={Jeferson\bibnamedelima Rodrigues},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=52f67a90b97ec53c9678c17fa0e228e2}{%
+           family={Kleinschmidt},
+           familyi={K\bibinitperiod},
+           given={João\bibnamedelima Henrique},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ce1be0ed146095561f139ae7d0b62de}
+      \strng{fullhash}{1ce1be0ed146095561f139ae7d0b62de}
+      \strng{bibnamehash}{1ce1be0ed146095561f139ae7d0b62de}
+      \strng{authorbibnamehash}{1ce1be0ed146095561f139ae7d0b62de}
+      \strng{authornamehash}{1ce1be0ed146095561f139ae7d0b62de}
+      \strng{authorfullhash}{1ce1be0ed146095561f139ae7d0b62de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors (Basel, Switzerland)}
+      \field{month}{7}
+      \field{number}{15}
+      \field{title}{LoRaWAN Mesh Networks: A Review and Classification of Multihop Communication}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{4273}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s20154273
       \endverb
     \endentry
   \enddatalist

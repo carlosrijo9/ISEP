@@ -1,9 +1,9 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{List of Figures}{ix}{section*.5}%
-\contentsline {chapter}{List of Tables}{xi}{section*.7}%
-\contentsline {chapter}{List of Algorithms}{xiii}{section*.9}%
-\contentsline {chapter}{List of Abbreviations}{xv}{section*.11}%
-\contentsline {chapter}{List of Acronyms}{xvii}{section*.13}%
+\contentsline {chapter}{List of Figures}{xi}{section*.5}%
+\contentsline {chapter}{List of Tables}{xiii}{section*.7}%
+\contentsline {chapter}{List of Algorithms}{xv}{section*.9}%
+\contentsline {chapter}{List of Abbreviations}{xvii}{section*.11}%
+\contentsline {chapter}{List of Acronyms}{xix}{section*.13}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.16}%
 \contentsline {section}{\numberline {1.1}Problem Analyses}{2}{section.17}%
 \contentsline {subsection}{\numberline {1.1.1}Maneuverability and Response}{2}{subsection.18}%
@@ -20,50 +20,70 @@
 \contentsline {subsubsection}{Electromechanical Method}{7}{section*.29}%
 \contentsline {chapter}{\numberline {3}Technologies}{9}{chapter.30}%
 \contentsline {section}{\numberline {3.1}Battery Module}{9}{section.31}%
-\contentsline {section}{\numberline {3.2}External Memory and Storage Units}{11}{section.37}%
-\contentsline {section}{\numberline {3.3}Control System}{12}{section.39}%
-\contentsline {section}{\numberline {3.4}Firmware}{13}{section.40}%
-\contentsline {subsection}{\numberline {3.4.1}Programming languages}{13}{subsection.41}%
-\contentsline {subsubsection}{C}{13}{section*.42}%
-\contentsline {subsubsection}{Assembly}{13}{section*.43}%
-\contentsline {subsubsection}{C++}{14}{section*.44}%
-\contentsline {subsubsection}{Rust}{14}{section*.45}%
-\contentsline {subsubsection}{MicroPython}{14}{section*.46}%
-\contentsline {subsection}{\numberline {3.4.2}Real-time Operating Systems}{15}{subsection.48}%
-\contentsline {subsubsection}{FreeRTOS}{15}{section*.49}%
-\contentsline {subsubsection}{NuttX}{15}{section*.50}%
-\contentsline {subsubsection}{Zephyr}{16}{section*.51}%
-\contentsline {subsection}{\numberline {3.4.3}Comparison}{16}{subsection.53}%
-\contentsline {section}{\numberline {3.5}Communication}{17}{section.54}%
-\contentsline {subsection}{\numberline {3.5.1}Wired}{17}{subsection.55}%
-\contentsline {subsection}{\numberline {3.5.2}Wireless}{17}{subsection.56}%
-\contentsline {chapter}{\numberline {4}Proposed Approach}{19}{chapter.57}%
-\contentsline {section}{\numberline {4.1}Concept}{19}{section.58}%
-\contentsline {section}{\numberline {4.2}Requirements}{19}{section.59}%
-\contentsline {section}{\numberline {4.3}System Architecture}{20}{section.75}%
-\contentsline {subsection}{\numberline {4.3.1}Main Device}{21}{subsection.77}%
-\contentsline {subsection}{\numberline {4.3.2}Secondary Device}{23}{subsection.78}%
-\contentsline {section}{\numberline {4.4}System Behavior}{24}{section.79}%
-\contentsline {subsection}{\numberline {4.4.1}Main Device Unit Behavior}{24}{subsection.81}%
-\contentsline {subsubsection}{Prepare Task}{24}{section*.82}%
-\contentsline {subsubsection}{Mission Task}{25}{section*.83}%
-\contentsline {subsubsection}{Error Task}{25}{section*.84}%
-\contentsline {subsubsection}{Shutdown Task}{26}{section*.85}%
-\contentsline {subsection}{\numberline {4.4.2}Secondary Device Unit Behavior}{26}{subsection.86}%
-\contentsline {subsubsection}{Prepare Task}{26}{section*.87}%
-\contentsline {subsubsection}{Mission Task}{26}{section*.88}%
-\contentsline {subsubsection}{Error Task}{26}{section*.89}%
-\contentsline {subsubsection}{Shutdown Task}{27}{section*.90}%
-\contentsline {chapter}{\numberline {5}Development Plan}{29}{chapter.91}%
-\contentsline {section}{\numberline {5.1}Research Approach}{29}{section.92}%
-\contentsline {section}{\numberline {5.2}Evaluation}{29}{section.93}%
-\contentsline {section}{\numberline {5.3}Timeline}{30}{section.94}%
-\contentsline {chapter}{Bibliography}{33}{chapter*.97}%
-\contentsline {chapter}{\numberline {A}Main Device Flow Chart - Prepare Task}{37}{appendix.98}%
-\contentsline {chapter}{\numberline {B}Main Device Flow Chart - Mission Task}{39}{appendix.100}%
-\contentsline {chapter}{\numberline {C}Main Device Flow Chart - Error Task}{41}{appendix.102}%
-\contentsline {chapter}{\numberline {D}Main Device Flow Chart - Shutdown Task}{43}{appendix.104}%
-\contentsline {chapter}{\numberline {E}Secondary Devices Flow Chart - Prepare Task}{45}{appendix.106}%
-\contentsline {chapter}{\numberline {F}Secondary Devices Flow Chart - Mission Task}{47}{appendix.108}%
-\contentsline {chapter}{\numberline {G}Secondary Devices Flow Chart - Error Task}{49}{appendix.110}%
-\contentsline {chapter}{\numberline {H}Secondary Devices Flow Chart - Shutdown Task}{51}{appendix.112}%
+\contentsline {subsection}{\numberline {3.1.1}Lithium}{9}{subsection.32}%
+\contentsline {subsection}{\numberline {3.1.2}Nickel}{9}{subsection.34}%
+\contentsline {subsection}{\numberline {3.1.3}Lead-acid}{10}{subsection.36}%
+\contentsline {subsection}{\numberline {3.1.4}Alkaline}{10}{subsection.38}%
+\contentsline {subsection}{\numberline {3.1.5}Battery Technologies Comparison}{11}{subsection.40}%
+\contentsline {section}{\numberline {3.2}External Memory and Storage Units}{11}{section.42}%
+\contentsline {subsection}{\numberline {3.2.1}\gls {SD} card}{11}{subsection.43}%
+\contentsline {subsection}{\numberline {3.2.2}\gls {EEPROM}}{11}{subsection.44}%
+\contentsline {subsection}{\numberline {3.2.3}\gls {FRAM}}{12}{subsection.45}%
+\contentsline {subsection}{\numberline {3.2.4}\gls {eMMC}}{12}{subsection.46}%
+\contentsline {subsection}{\numberline {3.2.5}Drives}{12}{subsection.47}%
+\contentsline {subsection}{\numberline {3.2.6}External Memory Technologies Comparison}{12}{subsection.48}%
+\contentsline {section}{\numberline {3.3}Control System}{12}{section.50}%
+\contentsline {subsection}{\numberline {3.3.1}Microcontroller}{13}{subsection.51}%
+\contentsline {subsection}{\numberline {3.3.2}Microprocessors}{13}{subsection.52}%
+\contentsline {subsection}{\numberline {3.3.3}FPGA}{13}{subsection.53}%
+\contentsline {subsection}{\numberline {3.3.4}Control Units Technologies Comparison}{14}{subsection.54}%
+\contentsline {section}{\numberline {3.4}Firmware}{14}{section.56}%
+\contentsline {subsection}{\numberline {3.4.1}Programming languages}{14}{subsection.57}%
+\contentsline {subsubsection}{C}{14}{section*.58}%
+\contentsline {subsubsection}{Assembly}{15}{section*.59}%
+\contentsline {subsubsection}{C++}{15}{section*.60}%
+\contentsline {subsubsection}{Rust}{15}{section*.61}%
+\contentsline {subsubsection}{MicroPython}{16}{section*.62}%
+\contentsline {subsubsection}{Programming languages Comparison}{16}{section*.63}%
+\contentsline {subsection}{\numberline {3.4.2}Real-time Operating Systems}{16}{subsection.65}%
+\contentsline {subsubsection}{FreeRTOS}{16}{section*.66}%
+\contentsline {subsubsection}{NuttX}{17}{section*.68}%
+\contentsline {subsubsection}{Zephyr}{17}{section*.70}%
+\contentsline {subsubsection}{RTOS Comparison}{17}{section*.72}%
+\contentsline {subsection}{\numberline {3.4.3}Overall Analyses}{18}{subsection.74}%
+\contentsline {section}{\numberline {3.5}Wireless Communication}{18}{section.75}%
+\contentsline {subsection}{\numberline {3.5.1}WiFi}{19}{subsection.76}%
+\contentsline {subsection}{\numberline {3.5.2}Bluetooth}{19}{subsection.79}%
+\contentsline {subsection}{\numberline {3.5.3}Zigbee}{19}{subsection.81}%
+\contentsline {subsection}{\numberline {3.5.4}LoRaWAN}{19}{subsection.82}%
+\contentsline {subsection}{\numberline {3.5.5}Wireless Communication Technologies Comparison}{20}{subsection.85}%
+\contentsline {chapter}{\numberline {4}Proposed Approach}{21}{chapter.87}%
+\contentsline {section}{\numberline {4.1}Concept}{21}{section.88}%
+\contentsline {section}{\numberline {4.2}Requirements}{21}{section.89}%
+\contentsline {section}{\numberline {4.3}System Architecture}{22}{section.105}%
+\contentsline {subsection}{\numberline {4.3.1}Main Device}{23}{subsection.107}%
+\contentsline {subsection}{\numberline {4.3.2}Secondary Device}{25}{subsection.108}%
+\contentsline {section}{\numberline {4.4}System Behavior}{26}{section.109}%
+\contentsline {subsection}{\numberline {4.4.1}Main Device Unit Behavior}{26}{subsection.111}%
+\contentsline {subsubsection}{Prepare Task}{26}{section*.112}%
+\contentsline {subsubsection}{Mission Task}{27}{section*.113}%
+\contentsline {subsubsection}{Error Task}{27}{section*.114}%
+\contentsline {subsubsection}{Shutdown Task}{28}{section*.115}%
+\contentsline {subsection}{\numberline {4.4.2}Secondary Device Unit Behavior}{28}{subsection.116}%
+\contentsline {subsubsection}{Prepare Task}{28}{section*.117}%
+\contentsline {subsubsection}{Mission Task}{28}{section*.118}%
+\contentsline {subsubsection}{Error Task}{28}{section*.119}%
+\contentsline {subsubsection}{Shutdown Task}{29}{section*.120}%
+\contentsline {chapter}{\numberline {5}Development Plan}{31}{chapter.121}%
+\contentsline {section}{\numberline {5.1}Research Approach}{31}{section.122}%
+\contentsline {section}{\numberline {5.2}Evaluation}{31}{section.123}%
+\contentsline {section}{\numberline {5.3}Timeline}{32}{section.124}%
+\contentsline {chapter}{Bibliography}{35}{chapter*.127}%
+\contentsline {chapter}{\numberline {A}Main Device Flow Chart - Prepare Task}{39}{appendix.128}%
+\contentsline {chapter}{\numberline {B}Main Device Flow Chart - Mission Task}{41}{appendix.130}%
+\contentsline {chapter}{\numberline {C}Main Device Flow Chart - Error Task}{43}{appendix.132}%
+\contentsline {chapter}{\numberline {D}Main Device Flow Chart - Shutdown Task}{45}{appendix.134}%
+\contentsline {chapter}{\numberline {E}Secondary Devices Flow Chart - Prepare Task}{47}{appendix.136}%
+\contentsline {chapter}{\numberline {F}Secondary Devices Flow Chart - Mission Task}{49}{appendix.138}%
+\contentsline {chapter}{\numberline {G}Secondary Devices Flow Chart - Error Task}{51}{appendix.140}%
+\contentsline {chapter}{\numberline {H}Secondary Devices Flow Chart - Shutdown Task}{53}{appendix.142}%
