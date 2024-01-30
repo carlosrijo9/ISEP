@@ -1,3 +1,42 @@
+  @phdthesis{main_uav,
+  type         = {masterThesis},
+  title        = {Preliminary Design of an eVTOL Aircraft},
+  rights       = {openAccess},
+  url          = {https://ubibliorum.ubi.pt/handle/10400.6/13031},
+  abstractnote = {The growing demand for alternative clean energy sources for civil aviation industry,
+                  from transport to surveillance, prompts new aircraft configurations for a different range
+                  of future applications and replacement of outdated concepts of aircraft still in service.
+                  The electrification of aircraft is the future of aviation. The electrical Vertical Take-off and
+                  Landing (eVTOL) type of aircraft is growing in demand as an alternative for Urban Air
+                  Mobility (UAM), in short to mid-range transportation of goods and passengers.
+                  In this dissertation, an eVTOL aircraft concept and preliminary design are proposed.
+                  The design is a small UAV optimized for mpay
+                  CL
+                  CD
+                  aiming at longer flight ranges and carrying capacity. An Excel spreadsheet developed to proceed with the parametric study.
+                  The parameters considered are: Winspan, mean aerodynamic chord (MAC), and lift coefficient as the main design parameters for the aircraft wing. Multiple parameters combinations were tested and the selection criteria were the objective function and MAC. A
+                  compromise between the two criteria was achieved by selecting a wing with a slightly less
+                  score in objective function but a mean chord value higher than the optimal chord, which
+                  was better for the structure. Prop Selector was used in combination with spreadsheets
+                  for the preliminary propeller design, where a variable pitch configuration with the known
+                  wing main characteristics was adopted, in hover and cruise conditions to screen the best
+                  propeller diameter using the hover lift performance (H) and global efficiency (?global) as
+                  the main performance parameters do optimize the propulsion of the aircraft. The selected
+                  diameter is studied in the climb condition and the ideal pitch of the propeller is predicted
+                  for the relevant flight conditions.
+                  The performance parameters such as the rate of climb, cruise speed, and range were
+                  estimated, showing promissing results. With XFOIL/XFLR5 software the static longitudinal stability was studied, and Open VSP and CATIA V5 CAD models of the aircraft, and
+                  tilt-rotor mechanism were made. Finally, the mission profile is devised, the battery mass
+                  fraction, and energy consumption for each flight condition is calculated, thus highlighting
+                  the capabilities and limitations of the aircraft.},
+  note         = {Accepted: 2023-02-20T09:26:43Z},
+  author       = {Rosa, Marcos Filipe Andrade Nunes},
+  year         = {2022},
+  month        = jul,
+  language     = {eng}
+}
+
+ 
  @article{UAV1,
   title  = {A Comprehensive Review of Recent Research Trends on UAVs},
   author = {Telli, Khaled and Kraa, O. and Himeur, Yassine and Ouamane, Abdelmalik and Boumehraz, Mohamed and Atalla, Shadi and Mansoor, Wathiq},
@@ -111,6 +150,28 @@
   month        = dec
 }
 
+ @inproceedings{UAV10,
+  title        = {A Review on Recent Approaches in mmWave UAV-aided Communication Networks and Open Issues},
+  issn         = {1976-7684},
+  url          = {https://ieeexplore.ieee.org/document/10049043},
+  doi          = {10.1109/ICOIN56518.2023.10049043},
+  abstractnote = {Recently, the use of unmanned aerial vehicles (UAVs) is spreading to many fields, especially for wireless communication-related tasks. However, such communication is facing many challenges, as the sub-6 GHz frequency band is now heavily occupied. As a result, millimeter-wave (mmWave) frequency band communication is now a promising technology to tackle that issue. By equipping multiple antennas to the UAV to perform 3D beamforming, as well as making good use of the flexible mobility of the UAV, we can greatly improve the communication link in mmWave communication systems. On the other hand, the trend of using intelligent-based learning methods, specifically reinforcement learning greatly increases recently, due to their ability to capture the dynamic of complex systems. In this study, we review recent approaches in mmWave UAV-aided communication networks. We first introduce the main characteristics of mmWave UAV networks, then we provide some insight into the recent trend of applying intelligent learning-based methods for solving this type of system. After that, some open issues and potential research directions for the mmWave UAV communication systems are provided.},
+  booktitle    = {2023 International Conference on Information Networking (ICOIN)},
+  author       = {Tuan Do, Quang and Shumeye Lakew, Demeke and Tien Tran, Anh and Thien Hua, Duc and Cho, Sungrae},
+  year         = {2023},
+  month        = jan,
+  pages        = {728–731}
+}
+
+
+
+ @misc{propeller,
+  rights  = {SKYbrary},
+  url     = {https://skybrary.aero/articles/p-factor},
+  journal = {SKYbrary}
+}
+
+
 %-------------------------------------------------------------------------------%
 
  @article{VPP1,
@@ -155,6 +216,67 @@
   year         = {2012},
   month        = aug
 }
+
+ @inproceedings{FPP4,
+  title        = {Nonlinear modeling and position control of an industrial quadrotor with on-board attitude control},
+  issn         = {1948-3457},
+  url          = {https://ieeexplore.ieee.org/document/5410536},
+  doi          = {10.1109/ICCA.2009.5410536},
+  abstractnote = {Here we present the development of a nonlinear dynamic model of an industrial quadrotor with on-board attitude control. Based on this model, we show quite simple controllers for the three space coordinates and the leading of the aerial vehicle. At first, the dynamics of movements within 3D-coordinates are modeled and validated separately. All necessary data are determined by flight experiments and physical interrelationships. Afterwards, the resulting models are combined to one dynamic model with four degrees of freedom implemented in Matlab/Simulink® and quite simple external controllers are designed by well known methods. Finally the nonlinear model and the controllers are validated by flight experiments.},
+  booktitle    = {2009 IEEE International Conference on Control and Automation},
+  author       = {Alpen, M. and Frick, K. and Horn, J.},
+  year         = {2009},
+  month        = dec,
+  pages        = {2329–2334}
+}
+ @inproceedings{FPP2,
+  title        = {Modeling of Quadrotor Helicopter Dynamics},
+  url          = {https://ieeexplore.ieee.org/document/4505621},
+  doi          = {10.1109/ICSMA.2008.4505621},
+  abstractnote = {Quadrotor Helicopter or simply quadrotor is rotorcraft that has four lift-generating propellers. Two of the propellers spin clock wise and the other two counter-clockwise. Control of the machine can be achieved by varying relative speed of the propellers. Quadrotor concept is not new, however the modern quadrotors are mostly unmanned. Advancement in miniaturized IMU technology, availability of high speed brushless motors and high power to weight ratio Li-Polymer battery technology, quadrotors can now be successfully designed and fabricated. This paper proposes a mathematical model of quadrotor dynamics. A simplified approach is adopted using momentum theory, where the gyroscopic effect and air friction on frame of machine has been neglected, resulting in a simplified model, which is useful for designing a controller to stabilize the machine in hover state. Proposed model is non-linear since the rotor dynamics are a function of square of motor inputs.},
+  booktitle    = {2008 International Conference on Smart Manufacturing Application},
+  author       = {Amir, M. Yasir and Abbass, Valiuddin},
+  year         = {2008},
+  month        = apr,
+  pages        = {100–105}
+}
+ @inproceedings{FPP3,
+  title        = {Modeling and PD Control of a Quadrotor VTOL Vehicle},
+  issn         = {1931-0587},
+  url          = {https://ieeexplore.ieee.org/document/4290230},
+  doi          = {10.1109/IVS.2007.4290230},
+  abstractnote = {In this paper, we present a model of a four rotor vertical take-off and landing (VTOL) unmanned air vehicle known as quadrotor aircraft. And we explained its control architecture including vision based control. Quadrotors have generated considerable interest in both the control community due to their complex dynamics and military because of their advantages over regular air vehicles. The proposed dynamical model which comprises gyroscopic effects and its control strategies can be source for future works.},
+  booktitle    = {2007 IEEE Intelligent Vehicles Symposium},
+  author       = {Erginer, Bora and Altug, Erdinc},
+  year         = {2007},
+  month        = jun,
+  pages        = {894–899}
+}
+ @article{FPP5,
+  title        = {Accurate Modeling and Robust Hovering Control for a Quad–rotor VTOL Aircraft},
+  volume       = {57},
+  issn         = {978-90-481-8763-8},
+  doi          = {10.1007/978-90-481-8764-5_2},
+  abstractnote = {Quad-robot type (QRT) unmanned aerial vehicles (UAVs) have been developed for quick detection and observation of the circumstances
+                  under calamity environment such as indoor fire spots. The UAV is equipped with four propellers driven by each electricmotor,
+                  an embedded controller, an Inertial Navigation System (INS) using three rate gyros and accelerometers, a CCD (Charge Coupled
+                  Device) camera with wireless communication transmitter for observation, and an ultrasonic range sensor for height control.
+                  Accurate modeling and robust flight control of QRT UAVs are mainly discussed in this work. Rigorous dynamic model of a QRT
+                  UAV is obtained both in the reference and body frame coordinate systems. A disturbance observer (DOB) based controller using
+                  the derived dynamic models is also proposed for robust hovering control. The control input induced by DOB is helpful to use
+                  simple equations of motion satisfying accurately derived dynamics. The developed hovering robot shows stable flying performances
+                  under the adoption of DOB and the vision based localization method. Although a model is incorrect, DOB method can design a
+                  controller by regarding the inaccurate part of the model and sensor noises as disturbances. The UAV can also avoid obstacles
+                  using eight IR (Infrared) and four ultrasonic range sensors. This kind of micro UAV can be widely used in various calamity
+                  observation fields without danger of human beings under harmful environment. The experimental results show the performance
+                  of the proposed control algorithm.},
+  journal      = {Journal of Intelligent and Robotic Systems},
+  author       = {Kim, Jinhyun and Kang, Min-Sung and Park, Sangdeok},
+  year         = {2010},
+  month        = jan,
+  pages        = {9–26}
+}
+
 
 %-------------------------------------------------------------------------------%
 

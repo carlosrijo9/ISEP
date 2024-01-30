@@ -2,14 +2,46 @@
 \label{chap:Chapter2}
 %-------------------------------------------------------------------------------%
 \section{UAV}
-TODO: MORE INFO
-TODO: ADD FIGURES
-\subsection{VTOL}
-TODO: MORE INFO
+TODO: MORE INFO\\
 TODO: ADD FIGURES
 
+\subsection{Propeller Fundamentals}
+The purpose of a propeller is to convert the rotational power produced by the engine into forward thrust during flight.
+This is achieved by accelerating a mass of air through the blades of the propeller as it spins, generating the necessary force to propel the aircraft forward at a specific airspeed \cite{main_uav}.
+Figure \ref{fig:propeller}, illustrates the connection between the changing the propeller rotation speed and the speed and movement.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ch2/assets/propeller.png}
+    \caption{Propeller blade representation \cite{propeller}}
+    \label{fig:propeller}
+\end{figure}
+
+The propeller performance can be affected by \cite{main_uav}:
+\begin{itemize}
+    \item Blade diameter
+    \item Number of blades
+    \item Blade pitch
+\end{itemize}
+
+The propeller diameter is often desired as high as the motor can support.
+High diameter helps for hover mode for better hover lift efficiency but airplane mode at high speeds can be very inefficient.
+The higher the diameter, the higher the inertia and the higher the tip speed[23].
+When tip speed reaches near sonic levels, the potential to have a windmill effect occurs, to avoid that, the disc diameter must be study for limitations as airspeed increases through the blade.
+
+The number of blades affects the thrust and efficiency.
+Hence, considering thrust per number of blades, generally the fewer blades design result in more efficient propeller disc [23].
+Generally, small UAV applications using a two-blade configuration is a good compromise of thrust and efficiency.
+However, increasing the number of blades is the best solution to efficiently extract the desired thrust from a motor where a propeller with fewer blades cannot reach the required thrust for operation and in cases where vibration and noise are also an issue.
+
+The propeller pitch refers to the distance that the propeller advances through the air during one revolution.
+A fine pitch means it will move forward through the air a short distance every revolution (low advance ratio) whereas a coarse pitch moves forward through the air a large distance every revolution (high advance ratio)[23].
+Thus for hover mode, a fine pitch is recommended.
+But for airplane mode when in cruise operation due to high speeds a coarse pitch is the most efficient configuration.
+In climb operation a pitch higher than the fine pitch for take-off but less coarse pitch than the cruise is required.
+
 \subsection{Fixed Pitch Proprotors}
-TODO: MORE INFO
+TODO: MORE INFO\\
 TODO: ADD FIGURES
 
 \subsection{Variable Pitch Proprotors}

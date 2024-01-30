@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.5.31)  29 JAN 2024 08:02
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.5.31)  29 JAN 2024 22:43
  system commands enabled.
  file:line:error style messages enabled.
 **/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main
@@ -1464,43 +1464,7 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FPP2
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FPP3
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FPP4
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FPP5
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                UAV10
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (/home/cr/workspace/ISEP/MESCC/2nd_year/1st_semester/TRPDE/dissertation_research_plan/main.bbl)
 Package biblatex Info: Reference section=0 on input line 90.
 Package biblatex Info: Reference segment=0 on input line 90.
 Package hyperref Info: Link coloring OFF on input line 90.
@@ -1644,9 +1608,6 @@ Chapter 1.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <20.74> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1.
 
-LaTeX Warning: Citation 'UAV10' on page 1 undefined on input line 7.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1655,18 +1616,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 
  []
-
-
-LaTeX Warning: Citation 'FPP2' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'FPP3' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'FPP4' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'FPP5' on page 1 undefined on input line 16.
 
 1: section
 [1
@@ -1697,93 +1646,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-[2]) (./ch2/chapter2.tex [3
-Missing character: There is no ’ (U+2019) in font ebmr10!
-] [4
+) (./ch2/chapter2.tex [2] [3] [4
 
 ]
 Chapter 2.
+<ch2/assets/propeller.png, id=687, 1014.79124pt x 840.13875pt>
+File: ch2/assets/propeller.png Graphic file (type png)
+<use ch2/assets/propeller.png>
+Package luatex.def Info: ch2/assets/propeller.png  used on input line 15.
+(luatex.def)             Requested size: 253.69719pt x 210.03416pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
+LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
+(Font)              using `T1/cmbr/m/n' instead on input line 16.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 22.
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
+)
 1: section
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+[5<./ch2/assets/propeller.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 73.
-) (./ch3/chapter3.tex [7] [8
-
-]
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 105.
+) (./ch3/chapter3.tex [8]
 Chapter 3.
-<ch3/assets/18650.jpg, id=706, 451.6875pt x 451.6875pt>
+<ch3/assets/18650.jpg, id=730, 451.6875pt x 451.6875pt>
 File: ch3/assets/18650.jpg Graphic file (type jpg)
 <use ch3/assets/18650.jpg>
 Package luatex.def Info: ch3/assets/18650.jpg  used on input line 20.
 (luatex.def)             Requested size: 105.98647pt x 105.98116pt.
-
-LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
-(Font)              using `T1/cmbr/m/n' instead on input line 21.
-
-<ch3/assets/lipo.png, id=709, 651.43375pt x 473.77pt>
+<ch3/assets/lipo.png, id=733, 651.43375pt x 473.77pt>
 File: ch3/assets/lipo.png Graphic file (type png)
 <use ch3/assets/lipo.png>
 Package luatex.def Info: ch3/assets/lipo.png  used on input line 26.
 (luatex.def)             Requested size: 105.98647pt x 77.07707pt.
-<ch3/assets/nimh.jpg, id=714, 903.375pt x 903.375pt>
+<ch3/assets/nimh.jpg, id=738, 903.375pt x 903.375pt>
 File: ch3/assets/nimh.jpg Graphic file (type jpg)
 <use ch3/assets/nimh.jpg>
 Package luatex.def Info: ch3/assets/nimh.jpg  used on input line 38.
 (luatex.def)             Requested size: 105.98647pt x 105.97427pt.
-<ch3/assets/nicd.jpg, id=717, 602.25pt x 401.5pt>
+<ch3/assets/nicd.jpg, id=741, 602.25pt x 401.5pt>
 File: ch3/assets/nicd.jpg Graphic file (type jpg)
 <use ch3/assets/nicd.jpg>
 Package luatex.def Info: ch3/assets/nicd.jpg  used on input line 44.
 (luatex.def)             Requested size: 105.98647pt x 70.65564pt.
 1: section
 [9
+
+
 Missing character: There is no – (U+2013) in font ebmr10!
 <./ch3/assets/18650.jpg><./ch3/assets/lipo.png>]
-<ch3/assets/lead.png, id=730, 451.6875pt x 448.67625pt>
+<ch3/assets/lead.png, id=754, 451.6875pt x 448.67625pt>
 File: ch3/assets/lead.png Graphic file (type png)
 <use ch3/assets/lead.png>
 Package luatex.def Info: ch3/assets/lead.png  used on input line 56.
 (luatex.def)             Requested size: 180.67178pt x 179.46732pt.
-<ch3/assets/alkaline.png, id=735, 451.6875pt x 353.82187pt>
+<ch3/assets/alkaline.png, id=759, 451.6875pt x 353.82187pt>
 File: ch3/assets/alkaline.png Graphic file (type png)
 <use ch3/assets/alkaline.png>
 Package luatex.def Info: ch3/assets/alkaline.png  used on input line 65.
@@ -1806,11 +1757,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 122.
 
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 155.
-(/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
-File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-) [12] [13] [14] [15]
-<ch3/assets/freertos.png, id=845, 362.35374pt x 139.52126pt>
+[12] [13] [14] [15]
+<ch3/assets/freertos.png, id=868, 362.35374pt x 139.52126pt>
 File: ch3/assets/freertos.png Graphic file (type png)
 <use ch3/assets/freertos.png>
 Package luatex.def Info: ch3/assets/freertos.png  used on input line 310.
@@ -1826,12 +1774,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--319
  []
 
 [16<./ch3/assets/freertos.png>]
-<ch3/assets/nuttx.png, id=859, 160.6pt x 160.6pt>
+<ch3/assets/nuttx.png, id=883, 160.6pt x 160.6pt>
 File: ch3/assets/nuttx.png Graphic file (type png)
 <use ch3/assets/nuttx.png>
 Package luatex.def Info: ch3/assets/nuttx.png  used on input line 328.
 (luatex.def)             Requested size: 40.14989pt x 40.14989pt.
-<ch3/assets/zephyr.png, id=863, 451.9284pt x 311.4837pt>
+<ch3/assets/zephyr.png, id=887, 451.9284pt x 311.4837pt>
 File: ch3/assets/zephyr.png Graphic file (type png)
 <use ch3/assets/zephyr.png>
 Package luatex.def Info: ch3/assets/zephyr.png  used on input line 346.
@@ -1853,7 +1801,7 @@ Underfull \hbox (badness 2042) in paragraph at lines 353--358
 
 
 Underfull \hbox (badness 7291) in paragraph at lines 353--358
-\T1/cmbr/m/n/10.95 has a grow-ing and ac-tive com-mu-nity [[]43[]] and
+\T1/cmbr/m/n/10.95 has a grow-ing and ac-tive com-mu-nity [[]50[]] and
  []
 
 
@@ -1882,7 +1830,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--9
 [21
 
 ]
-<ch4/assets/system_diagram.pdf, id=967, 363.27718pt x 437.71529pt>
+<ch4/assets/system_diagram.pdf, id=990, 363.27718pt x 437.71529pt>
 File: ch4/assets/system_diagram.pdf Graphic file (type pdf)
 <use ch4/assets/system_diagram.pdf>
 Package luatex.def Info: ch4/assets/system_diagram.pdf  used on input line 62.
@@ -1953,7 +1901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--139
  []
 
 [25]
-<ch4/assets/MDU_MAIN.pdf, id=1010, 208.8603pt x 336.29639pt>
+<ch4/assets/MDU_MAIN.pdf, id=1033, 208.8603pt x 336.29639pt>
 File: ch4/assets/MDU_MAIN.pdf Graphic file (type pdf)
 <use ch4/assets/MDU_MAIN.pdf>
 Package luatex.def Info: ch4/assets/MDU_MAIN.pdf  used on input line 152.
@@ -1971,7 +1919,7 @@ Chapter 5.
 1: section
 [31]
 warning  (file ch5/assets/gantt.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.7', but at most version '1.5' allowed
-<ch5/assets/gantt.pdf, id=1065, 1316.92pt x 895.345pt>
+<ch5/assets/gantt.pdf, id=1089, 1316.92pt x 895.345pt>
 File: ch5/assets/gantt.pdf Graphic file (type pdf)
 <use ch5/assets/gantt.pdf>
 Package luatex.def Info: ch5/assets/gantt.pdf  used on input line 49.
@@ -1989,7 +1937,10 @@ Overfull \hbox (4.92001pt too wide) in paragraph at lines 118--118
 []\T1/cmbr/m/sc/10.95 ad-min. \T1/cmbr/m/sl/10.95 NiCd Bat-tery Charger Cir-cuit\T1/cmbr/m/sc/10.95 . en-US. July 2019. url: []$\T1/cmtl/m/n/10.95 https : / / theorycircuit .
  []
 
-
+[36
+Missing character: There is no – (U+2013) in font ebmr10!
+Missing character: There is no ’ (U+2019) in font ebmr10!
+]
 Overfull \hbox (13.10655pt too wide) in paragraph at lines 118--118
 []$\T1/cmtl/m/n/10.95 https : / / www . wevolver . com / article / fpga - vs - microcontroller - understanding -
  []
@@ -1999,29 +1950,27 @@ Overfull \hbox (24.60393pt too wide) in paragraph at lines 118--118
 \T1/cmtl/m/n/10.95 group / b / blog / posts / comparing - an - fpga - to - a - microcontroller - microprocessor -
  []
 
-[36
-Missing character: There is no ’ (U+2019) in font ebmr10!
-]
+
 Overfull \hbox (11.5691pt too wide) in paragraph at lines 118--118
 []\T1/cmbr/m/sc/10.95 en-US. Nov. 2023. url: []$\T1/cmtl/m/n/10.95 https : / / micro . ros . org / docs / concepts / rtos / comparison/$[]\T1/cmbr/m/sc/10.95 . 
  []
 
-(./appendices/appendixA.tex [37] [38
-
-]
+[37] (./appendices/appendixA.tex [38]
 Appendix A.
-<appendices/assets/MDU_PREPARE.pdf, id=1177, 378.45387pt x 754.73969pt>
+<appendices/assets/MDU_PREPARE.pdf, id=1215, 378.45387pt x 754.73969pt>
 File: appendices/assets/MDU_PREPARE.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_PREPARE.pdf>
 Package luatex.def Info: appendices/assets/MDU_PREPARE.pdf  used on input line 9.
 (luatex.def)             Requested size: 227.07407pt x 452.8473pt.
 ) (./appendices/appendixB.tex
 1: section
-[39<./appendices/assets/MDU_PREPARE.pdf>] [40
+[39
+
+<./appendices/assets/MDU_PREPARE.pdf>] [40
 
 ]
 Appendix B.
-<appendices/assets/MDU_MISSION.pdf, id=1199, 729.68607pt x 529.98pt>
+<appendices/assets/MDU_MISSION.pdf, id=1238, 729.68607pt x 529.98pt>
 File: appendices/assets/MDU_MISSION.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_MISSION.pdf>
 Package luatex.def Info: appendices/assets/MDU_MISSION.pdf  used on input line 9.
@@ -2032,7 +1981,7 @@ Package luatex.def Info: appendices/assets/MDU_MISSION.pdf  used on input line 9
 
 ]
 Appendix C.
-<appendices/assets/MDU_ERROR.pdf, id=1222, 320.1561pt x 408.56638pt>
+<appendices/assets/MDU_ERROR.pdf, id=1261, 320.1561pt x 408.56638pt>
 File: appendices/assets/MDU_ERROR.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_ERROR.pdf>
 Package luatex.def Info: appendices/assets/MDU_ERROR.pdf  used on input line 9.
@@ -2043,7 +1992,7 @@ Package luatex.def Info: appendices/assets/MDU_ERROR.pdf  used on input line 9.
 
 ]
 Appendix D.
-<appendices/assets/MDU_SHUTDOWN.pdf, id=1245, 89.3739pt x 206.6922pt>
+<appendices/assets/MDU_SHUTDOWN.pdf, id=1283, 89.3739pt x 206.6922pt>
 File: appendices/assets/MDU_SHUTDOWN.pdf Graphic file (type pdf)
 <use appendices/assets/MDU_SHUTDOWN.pdf>
 Package luatex.def Info: appendices/assets/MDU_SHUTDOWN.pdf  used on input line 9.
@@ -2054,7 +2003,7 @@ Package luatex.def Info: appendices/assets/MDU_SHUTDOWN.pdf  used on input line 
 
 ]
 Appendix E.
-<appendices/assets/SDU_PREPARE.pdf, id=1267, 378.45387pt x 697.64638pt>
+<appendices/assets/SDU_PREPARE.pdf, id=1305, 378.45387pt x 697.64638pt>
 File: appendices/assets/SDU_PREPARE.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_PREPARE.pdf>
 Package luatex.def Info: appendices/assets/SDU_PREPARE.pdf  used on input line 9.
@@ -2065,7 +2014,7 @@ Package luatex.def Info: appendices/assets/SDU_PREPARE.pdf  used on input line 9
 
 ]
 Appendix F.
-<appendices/assets/SDU_MISSION.pdf, id=1289, 498.90388pt x 529.98pt>
+<appendices/assets/SDU_MISSION.pdf, id=1327, 498.90388pt x 529.98pt>
 File: appendices/assets/SDU_MISSION.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_MISSION.pdf>
 Package luatex.def Info: appendices/assets/SDU_MISSION.pdf  used on input line 9.
@@ -2076,7 +2025,7 @@ Package luatex.def Info: appendices/assets/SDU_MISSION.pdf  used on input line 9
 
 ]
 Appendix G.
-<appendices/assets/SDU_ERROR.pdf, id=1311, 204.765pt x 553.10638pt>
+<appendices/assets/SDU_ERROR.pdf, id=1349, 204.765pt x 553.10638pt>
 File: appendices/assets/SDU_ERROR.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_ERROR.pdf>
 Package luatex.def Info: appendices/assets/SDU_ERROR.pdf  used on input line 9.
@@ -2087,7 +2036,7 @@ Package luatex.def Info: appendices/assets/SDU_ERROR.pdf  used on input line 9.
 
 ]
 Appendix H.
-<appendices/assets/SDU_SHUTDOWN.pdf, id=1334, 89.3739pt x 206.6922pt>
+<appendices/assets/SDU_SHUTDOWN.pdf, id=1373, 89.3739pt x 206.6922pt>
 File: appendices/assets/SDU_SHUTDOWN.pdf Graphic file (type pdf)
 <use appendices/assets/SDU_SHUTDOWN.pdf>
 Package luatex.def Info: appendices/assets/SDU_SHUTDOWN.pdf  used on input line 9.
@@ -2099,26 +2048,26 @@ Package luatex.def Info: appendices/assets/SDU_SHUTDOWN.pdf  used on input line 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BA5C0794DEB392965DD069FA858C54AE;12541.
+(rerunfilecheck)             Checksum: 035826C3958390955A215942857E8F18;12634.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 61045 strings out of 477805
+ 61086 strings out of 477805
  125056,2373549 words of node,token memory allocated
- 1258 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 25 glyph, 111 attribute, 78 glue_spec, 57 attribute_list, 2 write, 21 pdf_action nodes
-   avail lists: 1:12,2:1931,3:862,4:207,5:495,6:189,7:8401,8:171,9:1210,10:15,11:629,12:1
- 79217 multiletter control sequences out of 65536+600000
+ 1382 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 29 glyph, 131 attribute, 78 glue_spec, 67 attribute_list, 2 write, 27 pdf_action nodes
+   avail lists: 1:14,2:2061,3:833,4:210,5:496,6:191,7:8592,8:189,9:1210,10:15,11:629,12:1
+ 79244 multiletter control sequences out of 65536+600000
  49 fonts using 3191623 bytes
  110i,20n,128p,1194b,3238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbbx10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmo10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on main.pdf (73 pages, 1686037 bytes).
+Output written on main.pdf (73 pages, 1797498 bytes).
 
-PDF statistics: 1385 PDF objects out of 1440 (max. 8388607)
- 1220 compressed objects within 13 object streams
- 268 named destinations out of 1000 (max. 131072)
+PDF statistics: 1423 PDF objects out of 1440 (max. 8388607)
+ 1255 compressed objects within 13 object streams
+ 276 named destinations out of 1000 (max. 131072)
  720 words of extra memory for PDF output out of 10000 (max. 100000000)
 
