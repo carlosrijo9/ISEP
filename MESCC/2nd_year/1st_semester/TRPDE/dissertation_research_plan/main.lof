@@ -1,21 +1,29 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \blx@tocontentsinit {0}\cite {VPP7}\relax }}{2}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \blx@tocontentsinit {0}\cite {VPP9}\relax }}{2}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Propeller blade representation \blx@tocontentsinit {0}\cite {propeller}\relax }}{5}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Examples of UAV types \blx@tocontentsinit {0}\cite {UAV13}\relax }}{5}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Propeller blade representation \blx@tocontentsinit {0}\cite {propeller}\relax }}{6}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of Fixed Pitch \blx@tocontentsinit {0}\cite {FPP8}\relax }}{7}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of Variable Pitch Mechanism \blx@tocontentsinit {0}\cite {VPP4}\relax }}{8}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces VPP Hydraulic Method - Takeoff \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces VPP Hydraulic Method - Cruise \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces VPP Electromechanical Method \blx@tocontentsinit {0}\cite {VPP6}\relax }}{10}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{9}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{9}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{10}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{10}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{10}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{10}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces FreeRTOS Logo\relax }}{16}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces NuttX Logo\relax }}{17}{figure.caption.70}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Zephyr Logo\relax }}{17}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{11}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{11}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{12}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{12}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{12}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{12}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces FreeRTOS Logo\relax }}{18}{figure.caption.74}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces NuttX Logo\relax }}{19}{figure.caption.76}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Zephyr Logo\relax }}{19}{figure.caption.78}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed System Architecture High Level Diagram\relax }}{23}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed System Architecture High Level Diagram\relax }}{25}{figure.caption.113}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{32}{figure.caption.126}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{34}{figure.caption.132}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

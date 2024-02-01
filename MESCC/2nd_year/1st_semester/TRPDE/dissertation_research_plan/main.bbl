@@ -63,8 +63,8 @@
       \strng{authorbibnamehash}{5b3f474322809551a74031a4dda5b46a}
       \strng{authornamehash}{5b3f474322809551a74031a4dda5b46a}
       \strng{authorfullhash}{382bfc6a8f673a38c153e2292086a151}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -85,8 +85,8 @@
       \strng{authorbibnamehash}{102618870a2fbf9fadcca48c73544cdc}
       \strng{authornamehash}{102618870a2fbf9fadcca48c73544cdc}
       \strng{authorfullhash}{102618870a2fbf9fadcca48c73544cdc}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences}
@@ -96,88 +96,6 @@
       \field{year}{2011}
       \verb{doi}
       \verb 10.5194/isprsarchives-XXXVIII-1-C22-155-2011
-      \endverb
-    \endentry
-    \entry{UAV3}{article}{}
-      \name{author}{5}{}{%
-        {{hash=5a91ac4881663b8b34a3fd0cc0d2c834}{%
-           family={Ebeid},
-           familyi={E\bibinitperiod},
-           given={Emad\bibnamedelimb Samuel\bibnamedelima Malki},
-           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=d3a1fb702654fe014b295a15b351f88e}{%
-           family={Skriver},
-           familyi={S\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9d0a44bf0410c07067657060649bd9f5}{%
-           family={Laursen},
-           familyi={L\bibinitperiod},
-           given={Kristian},
-           giveni={K\bibinitperiod}}}%
-        {{hash=5f445c456a6d72da33240d56aa9f06c3}{%
-           family={Jensen},
-           familyi={J\bibinitperiod},
-           given={Kjeld},
-           giveni={K\bibinitperiod}}}%
-        {{hash=ffd980e2cc842b55224ad2ab69596a21}{%
-           family={Schultz},
-           familyi={S\bibinitperiod},
-           given={Ulrik},
-           giveni={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
-      \strng{fullhash}{a14da9d807544aea3aa5c275dc435f70}
-      \strng{bibnamehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
-      \strng{authorbibnamehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
-      \strng{authornamehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
-      \strng{authorfullhash}{a14da9d807544aea3aa5c275dc435f70}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Microprocessors and Microsystems}
-      \field{month}{5}
-      \field{title}{A Survey of Open-Source UAV Flight Controllers and Flight Simulators}
-      \field{volume}{61}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1016/j.micpro.2018.05.002
-      \endverb
-    \endentry
-    \entry{UAV4}{article}{}
-      \name{author}{2}{}{%
-        {{hash=3eb4a9c1eaa03c3548810dd5ac41ef5c}{%
-           family={Rojas-Perez},
-           familyi={R\bibinithyphendelim P\bibinitperiod},
-           given={L.\bibnamedelimi Oyuki},
-           giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=e121d1492191c382e6a6c4e14aa9c6da}{%
-           family={Martinez-Carranza},
-           familyi={M\bibinithyphendelim C\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{e8bb733e9da693182667f00a33a421db}
-      \strng{fullhash}{e8bb733e9da693182667f00a33a421db}
-      \strng{bibnamehash}{e8bb733e9da693182667f00a33a421db}
-      \strng{authorbibnamehash}{e8bb733e9da693182667f00a33a421db}
-      \strng{authornamehash}{e8bb733e9da693182667f00a33a421db}
-      \strng{authorfullhash}{e8bb733e9da693182667f00a33a421db}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0167-9260}
-      \field{journaltitle}{Integration}
-      \field{month}{9}
-      \field{title}{On-board processing for autonomous drone racing: An overview}
-      \field{volume}{80}
-      \field{year}{2021}
-      \field{pages}{46\bibrangedash 59}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1016/j.vlsi.2021.04.007
       \endverb
     \endentry
     \entry{UAV5}{article}{}
@@ -236,45 +154,6 @@
       \field{pages}{53\bibrangedash 69}
       \range{pages}{17}
     \endentry
-    \entry{UAV6}{article}{}
-      \name{author}{3}{}{%
-        {{hash=08037a284b04826f05773fb64fd96391}{%
-           family={Galimov},
-           familyi={G\bibinitperiod},
-           given={Musa},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d6fd92e26d2bdf931ae7a672a0d1c165}{%
-           family={Fedorenko},
-           familyi={F\bibinitperiod},
-           given={Roman},
-           giveni={R\bibinitperiod}}}%
-        {{hash=52e0626d37afa0c5e971b944cc5055db}{%
-           family={Klimchik},
-           familyi={K\bibinitperiod},
-           given={Alexandr},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{c04cd68ebb8867ee596787af9cd3752c}
-      \strng{fullhash}{c04cd68ebb8867ee596787af9cd3752c}
-      \strng{bibnamehash}{c04cd68ebb8867ee596787af9cd3752c}
-      \strng{authorbibnamehash}{c04cd68ebb8867ee596787af9cd3752c}
-      \strng{authornamehash}{c04cd68ebb8867ee596787af9cd3752c}
-      \strng{authorfullhash}{c04cd68ebb8867ee596787af9cd3752c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sensors}
-      \field{month}{6}
-      \field{title}{UAV Positioning Mechanisms in Landing Stations: Classification and Engineering Design Review}
-      \field{volume}{20}
-      \field{year}{2020}
-      \field{pages}{3648}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/s20133648
-      \endverb
-    \endentry
     \entry{UAV7}{article}{}
       \name{author}{3}{}{%
         {{hash=f9aa99d246eea952e99c4775b1b0a8e8}{%
@@ -312,142 +191,7 @@
       \verb 10.1504/IJAAC.2016.076453
       \endverb
     \endentry
-    \entry{UAV8}{article}{}
-      \name{author}{3}{}{%
-        {{hash=d2219a6d0779dddf5a86a046a7a1b78e}{%
-           family={Campion},
-           familyi={C\bibinitperiod},
-           given={Mitchell},
-           giveni={M\bibinitperiod}}}%
-        {{hash=354508f17f699f130a5ea32508ebd38e}{%
-           family={Prakash},
-           familyi={P\bibinitperiod},
-           given={Ranganathan},
-           giveni={R\bibinitperiod}}}%
-        {{hash=5a670c5950639465dba64de1abf7c81e}{%
-           family={Faruque},
-           familyi={F\bibinitperiod},
-           given={Saleh},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{10e4160ee73fc77de1344dd9921a40c2}
-      \strng{fullhash}{10e4160ee73fc77de1344dd9921a40c2}
-      \strng{bibnamehash}{10e4160ee73fc77de1344dd9921a40c2}
-      \strng{authorbibnamehash}{10e4160ee73fc77de1344dd9921a40c2}
-      \strng{authornamehash}{10e4160ee73fc77de1344dd9921a40c2}
-      \strng{authorfullhash}{10e4160ee73fc77de1344dd9921a40c2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Unmanned Vehicle Systems}
-      \field{month}{11}
-      \field{title}{UAV Swarm Communication and Control Architectures: A Review}
-      \field{volume}{7}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1139/juvs-2018-0009
-      \endverb
-    \endentry
-    \entry{UAV10}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=7ff02981902aae753eddf13a485b6012}{%
-           family={Tuan\bibnamedelima Do},
-           familyi={T\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Quang},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=867190f2763fdb8fcd8619d7c5c0ac2f}{%
-           family={Shumeye\bibnamedelima Lakew},
-           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={Demeke},
-           giveni={D\bibinitperiod}}}%
-        {{hash=93add961889aebdd707d533dbde24a4f}{%
-           family={Tien\bibnamedelima Tran},
-           familyi={T\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Anh},
-           giveni={A\bibinitperiod}}}%
-        {{hash=cc58f65c1b3f305aaa139a0b349fe964}{%
-           family={Thien\bibnamedelima Hua},
-           familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-           given={Duc},
-           giveni={D\bibinitperiod}}}%
-        {{hash=5d0badf8f52a5b8e72927dc8f5d3e4fd}{%
-           family={Cho},
-           familyi={C\bibinitperiod},
-           given={Sungrae},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{f0952db055abe1777f00c0dca93cc66b}
-      \strng{fullhash}{810edc8bd5ca958f518ec77482f278c8}
-      \strng{bibnamehash}{f0952db055abe1777f00c0dca93cc66b}
-      \strng{authorbibnamehash}{f0952db055abe1777f00c0dca93cc66b}
-      \strng{authornamehash}{f0952db055abe1777f00c0dca93cc66b}
-      \strng{authorfullhash}{810edc8bd5ca958f518ec77482f278c8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2023 International Conference on Information Networking (ICOIN)}
-      \field{issn}{1976-7684}
-      \field{month}{1}
-      \field{title}{A Review on Recent Approaches in mmWave UAV-aided Communication Networks and Open Issues}
-      \field{year}{2023}
-      \field{pages}{728\bibrangedash 731}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1109/ICOIN56518.2023.10049043
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10049043
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10049043
-      \endverb
-    \endentry
-    \entry{UAV11}{inbook}{}
-      \name{author}{4}{}{%
-        {{hash=e6bb13116aeb83745aa9ffd4b67f085a}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={Radheshyam},
-           giveni={R\bibinitperiod}}}%
-        {{hash=7f7d6f8b041a43c454302902d795810a}{%
-           family={Ballal},
-           familyi={B\bibinitperiod},
-           given={Kalpit},
-           giveni={K\bibinitperiod}}}%
-        {{hash=93cb2484fa6bde9e7341096873217af0}{%
-           family={Berger},
-           familyi={B\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c725f6cc38ba895ce6cdeca8d09eb24b}{%
-           family={Dittmann},
-           familyi={D\bibinitperiod},
-           given={Lars},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{d612a0d37bab8c03daae1b45573d0329}
-      \strng{fullhash}{fac0dbe3fd15803dd66c232ebcb6dbca}
-      \strng{bibnamehash}{d612a0d37bab8c03daae1b45573d0329}
-      \strng{authorbibnamehash}{d612a0d37bab8c03daae1b45573d0329}
-      \strng{authornamehash}{d612a0d37bab8c03daae1b45573d0329}
-      \strng{authorfullhash}{fac0dbe3fd15803dd66c232ebcb6dbca}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-3-031-20935-2}
-      \field{month}{1}
-      \field{title}{Overview of Drone Communication Requirements in 5G}
-      \field{year}{2023}
-      \field{pages}{3\bibrangedash 16}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1007/978-3-031-20936-9 1
-      \endverb
-    \endentry
-    \entry{UAV15}{article}{}
+    \entry{UAV12}{article}{}
       \name{author}{2}{}{%
         {{hash=0cbae5b9ed718f66c868e9b4eec65994}{%
            family={Othman},
@@ -466,8 +210,8 @@
       \strng{authorbibnamehash}{fd3051c8c731bdbd06b3122c09dbdaa4}
       \strng{authornamehash}{fd3051c8c731bdbd06b3122c09dbdaa4}
       \strng{authorfullhash}{fd3051c8c731bdbd06b3122c09dbdaa4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Drones}
@@ -495,8 +239,9 @@
       \strng{authorbibnamehash}{154d63bbc1fa64195cd9355e1462ae68}
       \strng{authornamehash}{154d63bbc1fa64195cd9355e1462ae68}
       \strng{authorfullhash}{154d63bbc1fa64195cd9355e1462ae68}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -710,6 +455,163 @@
       \verb 10.1007/978-90-481-8764-5_2
       \endverb
     \endentry
+    \entry{VPP7}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=966e01a449d2e559041593a6d893b9e9}{%
+           family={Wainfan},
+           familyi={W\bibinitperiod},
+           given={Barnaby},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{966e01a449d2e559041593a6d893b9e9}
+      \strng{fullhash}{966e01a449d2e559041593a6d893b9e9}
+      \strng{bibnamehash}{966e01a449d2e559041593a6d893b9e9}
+      \strng{authorbibnamehash}{966e01a449d2e559041593a6d893b9e9}
+      \strng{authornamehash}{966e01a449d2e559041593a6d893b9e9}
+      \strng{authorfullhash}{966e01a449d2e559041593a6d893b9e9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{KITPLANES}
+      \field{month}{5}
+      \field{title}{Fixed Pitch vs. Constant Speed}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.kitplanes.com/wind-tunnel-56/
+      \endverb
+      \verb{url}
+      \verb https://www.kitplanes.com/wind-tunnel-56/
+      \endverb
+    \endentry
+    \entry{VPP9}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d688c6d125671d003fe5bb4c7ab102bc}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{d688c6d125671d003fe5bb4c7ab102bc}
+      \strng{fullhash}{d688c6d125671d003fe5bb4c7ab102bc}
+      \strng{bibnamehash}{d688c6d125671d003fe5bb4c7ab102bc}
+      \strng{authorbibnamehash}{d688c6d125671d003fe5bb4c7ab102bc}
+      \strng{authornamehash}{d688c6d125671d003fe5bb4c7ab102bc}
+      \strng{authorfullhash}{d688c6d125671d003fe5bb4c7ab102bc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fly13}
+      \field{month}{12}
+      \field{title}{Variable Pitch Propellers}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb http://www.fly13.co.uk/Tug/VP%20Prop/Prop.htm
+      \endverb
+      \verb{url}
+      \verb http://www.fly13.co.uk/Tug/VP%20Prop/Prop.htm
+      \endverb
+    \endentry
+    \entry{UAV14}{article}{}
+      \name{author}{6}{}{%
+        {{hash=bba219d71a4000f50d4893460dfb728c}{%
+           family={Mohsan},
+           familyi={M\bibinitperiod},
+           given={Syed\bibnamedelimb Agha\bibnamedelima Hassnain},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=96083dc20a34bbf067b392832911a488}{%
+           family={Zahra},
+           familyi={Z\bibinitperiod},
+           given={Qurat\bibnamedelimb Ul\bibnamedelima Ain},
+           giveni={Q\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6771d8ba074fd0cddd599c41347a7cdb}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=367324966aae1a30295d3cf1f8f16616}{%
+           family={Alsharif},
+           familyi={A\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c4e582f378f92a1b8b185354f6eef741}{%
+           family={Elhaty},
+           familyi={E\bibinitperiod},
+           given={Ismail},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5a86a54c0c888992da89381e31edca89}{%
+           family={Jahid},
+           familyi={J\bibinitperiod},
+           given={Abu},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{96a08b2c88a2c7d870d9e5617d7e5c6a}
+      \strng{fullhash}{3c93d1d9c49e645b1b0cf2c78377935a}
+      \strng{bibnamehash}{96a08b2c88a2c7d870d9e5617d7e5c6a}
+      \strng{authorbibnamehash}{96a08b2c88a2c7d870d9e5617d7e5c6a}
+      \strng{authornamehash}{96a08b2c88a2c7d870d9e5617d7e5c6a}
+      \strng{authorfullhash}{3c93d1d9c49e645b1b0cf2c78377935a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Micromachines}
+      \field{month}{9}
+      \field{title}{Role of Drone Technology Helping in Alleviating the COVID-19 Pandemic}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{1593}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/mi13101593
+      \endverb
+    \endentry
+    \entry{UAV13}{article}{}
+      \name{author}{3}{}{%
+        {{hash=55ba2803ca2055389505ba3df68faeba}{%
+           family={Alghamdi},
+           familyi={A\bibinitperiod},
+           given={Yousef},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0f4dec44122d380e59234b7fd48d7bf2}{%
+           family={Munir},
+           familyi={M\bibinitperiod},
+           given={Arslan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3ffa972e8bebc3bff033dd19f903b60f}{%
+           family={La},
+           familyi={L\bibinitperiod},
+           given={Hung},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{174b6d1f3475547c59e67e0b9d196a40}
+      \strng{fullhash}{174b6d1f3475547c59e67e0b9d196a40}
+      \strng{bibnamehash}{174b6d1f3475547c59e67e0b9d196a40}
+      \strng{authorbibnamehash}{174b6d1f3475547c59e67e0b9d196a40}
+      \strng{authornamehash}{174b6d1f3475547c59e67e0b9d196a40}
+      \strng{authorfullhash}{174b6d1f3475547c59e67e0b9d196a40}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Consumer Electronics Magazine}
+      \field{month}{3}
+      \field{title}{Architecture, Classification, and Applications of Contemporary Unmanned Aerial Vehicles}
+      \field{volume}{PP}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/MCE.2021.3063945
+      \endverb
+    \endentry
     \entry{main_uav}{thesis}{}
       \name{author}{1}{}{%
         {{hash=39f6cf8007e6082de85446b9ee142517}{%
@@ -727,8 +629,8 @@
       \strng{authorbibnamehash}{39f6cf8007e6082de85446b9ee142517}
       \strng{authornamehash}{39f6cf8007e6082de85446b9ee142517}
       \strng{authorfullhash}{39f6cf8007e6082de85446b9ee142517}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -744,14 +646,68 @@
       \endverb
     \endentry
     \entry{propeller}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{journaltitle}{SKYbrary}
       \verb{urlraw}
       \verb https://skybrary.aero/articles/p-factor
       \endverb
       \verb{url}
       \verb https://skybrary.aero/articles/p-factor
+      \endverb
+    \endentry
+    \entry{FPP8}{misc}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{journaltitle}{Thatitechnics}
+      \verb{urlraw}
+      \verb https://www.thaitechnics.com/propeller/prop_intro.html
+      \endverb
+      \verb{url}
+      \verb https://www.thaitechnics.com/propeller/prop_intro.html
+      \endverb
+    \endentry
+    \entry{FPP6}{misc}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{journaltitle}{Skybrabry}
+      \verb{urlraw}
+      \verb https://skybrary.aero/articles/fixed-pitch-propeller
+      \endverb
+      \verb{url}
+      \verb https://skybrary.aero/articles/fixed-pitch-propeller
+      \endverb
+    \endentry
+    \entry{FPP7}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5e3e6194466005c3787ca43cd0c0d3d6}{%
+           family={Bingelis},
+           familyi={B\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5e3e6194466005c3787ca43cd0c0d3d6}
+      \strng{fullhash}{5e3e6194466005c3787ca43cd0c0d3d6}
+      \strng{bibnamehash}{5e3e6194466005c3787ca43cd0c0d3d6}
+      \strng{authorbibnamehash}{5e3e6194466005c3787ca43cd0c0d3d6}
+      \strng{authornamehash}{5e3e6194466005c3787ca43cd0c0d3d6}
+      \strng{authorfullhash}{5e3e6194466005c3787ca43cd0c0d3d6}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EAA}
+      \field{month}{8}
+      \field{title}{The Fixed Pitch Propeller Dilemma}
+      \field{year}{1986}
+      \verb{urlraw}
+      \verb https://www.eaa.org/eaa/aircraft-building/builderresources/while-youre-building/building-articles/propellers-and-spinners/the-fixed-pitch-propeller-dilemma
+      \endverb
+      \verb{url}
+      \verb https://www.eaa.org/eaa/aircraft-building/builderresources/while-youre-building/building-articles/propellers-and-spinners/the-fixed-pitch-propeller-dilemma
       \endverb
     \endentry
     \entry{VPP2}{misc}{}
@@ -771,8 +727,8 @@
       \strng{authorbibnamehash}{313ad2bde5eed84c834d7c9a4fd53418}
       \strng{authornamehash}{313ad2bde5eed84c834d7c9a4fd53418}
       \strng{authorfullhash}{313ad2bde5eed84c834d7c9a4fd53418}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Academic Accelerator}
@@ -814,8 +770,8 @@
       \strng{authorbibnamehash}{8bf552722976ac81ce05e01d7d602a9d}
       \strng{authornamehash}{8bf552722976ac81ce05e01d7d602a9d}
       \strng{authorfullhash}{87d9dcf792f9b621b1f3cc6a83adeee0}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09574158}
@@ -828,6 +784,146 @@
       \range{pages}{21}
       \verb{doi}
       \verb 10.1016/j.mechatronics.2018.08.008
+      \endverb
+    \endentry
+    \entry{VPP4}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=8977216a101523025d7cc1e7179aac3d}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Brandyn},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6169976955b67e2c370bb8ccfd9484e7}{%
+           family={Hrishikeshavan},
+           familyi={H\bibinitperiod},
+           given={Vikram},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5616d06cf32b865e6e2183af94da9b70}{%
+           family={Chopra},
+           familyi={C\bibinitperiod},
+           given={Inderjit},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e786a0ed9977c6e8450f6bdcabf8f49}
+      \strng{fullhash}{4e786a0ed9977c6e8450f6bdcabf8f49}
+      \strng{bibnamehash}{4e786a0ed9977c6e8450f6bdcabf8f49}
+      \strng{authorbibnamehash}{4e786a0ed9977c6e8450f6bdcabf8f49}
+      \strng{authornamehash}{4e786a0ed9977c6e8450f6bdcabf8f49}
+      \strng{authorfullhash}{4e786a0ed9977c6e8450f6bdcabf8f49}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Enhancing the Performance of a Quadrotor Biplane Tail-sitter (QBiT)}
+      \field{year}{2018}
+    \endentry
+    \entry{VPP8}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=30c9d20a85dc60a36ec7a39af6a940c8}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{30c9d20a85dc60a36ec7a39af6a940c8}
+      \strng{fullhash}{30c9d20a85dc60a36ec7a39af6a940c8}
+      \strng{bibnamehash}{30c9d20a85dc60a36ec7a39af6a940c8}
+      \strng{authorbibnamehash}{30c9d20a85dc60a36ec7a39af6a940c8}
+      \strng{authornamehash}{30c9d20a85dc60a36ec7a39af6a940c8}
+      \strng{authorfullhash}{30c9d20a85dc60a36ec7a39af6a940c8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Types of Aircraft Propellers: Exploring Fixed Pitch, Variable Pitch, and Constant Speed}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://pilotpassion.com/types-of-aircraft-propellers/
+      \endverb
+      \verb{url}
+      \verb https://pilotpassion.com/types-of-aircraft-propellers/
+      \endverb
+    \endentry
+    \entry{VPP5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=300dea89d1c4a436c7617f310076ad18}{%
+           family={Cutler},
+           familyi={C\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{300dea89d1c4a436c7617f310076ad18}
+      \strng{fullhash}{300dea89d1c4a436c7617f310076ad18}
+      \strng{bibnamehash}{300dea89d1c4a436c7617f310076ad18}
+      \strng{authorbibnamehash}{300dea89d1c4a436c7617f310076ad18}
+      \strng{authornamehash}{300dea89d1c4a436c7617f310076ad18}
+      \strng{authorfullhash}{300dea89d1c4a436c7617f310076ad18}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Boldmethod}
+      \field{month}{12}
+      \field{title}{How A Constant Speed Propeller Works}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.boldmethod.com/learn-to-fly/aircraft-systems/how-a-constant-speed-prop-works/
+      \endverb
+      \verb{url}
+      \verb https://www.boldmethod.com/learn-to-fly/aircraft-systems/how-a-constant-speed-prop-works/
+      \endverb
+    \endentry
+    \entry{VPP6}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=06e23598d03fcbf72cddf76a573d2845}{%
+           family={Guerrero},
+           familyi={G\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ae7645343beab2532c2f77f7d05a247d}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={K.C.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=936c8f90a66e3fcc99c32e17bb03c9b3}{%
+           family={Lara\bibnamedelima Alabazares},
+           familyi={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0fceb8101a2726c8f843634ff1877b1d}{%
+           family={Lozano},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=46cc880cf740f8b4aa911f9f973e5ef7}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bb60eb55edfffb55bcb5a6217a5f3fd}
+      \strng{fullhash}{9edfc325955296b4f14223400e24055a}
+      \strng{bibnamehash}{3bb60eb55edfffb55bcb5a6217a5f3fd}
+      \strng{authorbibnamehash}{3bb60eb55edfffb55bcb5a6217a5f3fd}
+      \strng{authornamehash}{3bb60eb55edfffb55bcb5a6217a5f3fd}
+      \strng{authorfullhash}{9edfc325955296b4f14223400e24055a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Robust Control Design based on Sliding Mode Control for Hover Flight of a Mini Tail-Sitter Unmmanned Aerial Vehicle}
+      \field{year}{2009}
+      \field{pages}{2342\bibrangedash 2347}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IECON.2009.5415267
       \endverb
     \endentry
     \entry{BATT3}{misc}{}
@@ -845,8 +941,8 @@
       \strng{authorbibnamehash}{63b40723ccb6d8c7ef8b54f0c0ac95b3}
       \strng{authornamehash}{63b40723ccb6d8c7ef8b54f0c0ac95b3}
       \strng{authorfullhash}{63b40723ccb6d8c7ef8b54f0c0ac95b3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EDN}
@@ -864,8 +960,8 @@
       \list{language}{1}{%
         {en-US}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{journaltitle}{Toradex}
       \verb{urlraw}
       \verb https://www.toradex.com/blog/using-lithium-ion-batteries-in-embedded-systems
@@ -875,8 +971,8 @@
       \endverb
     \endentry
     \entry{18650}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \verb{urlraw}
       \verb https://www.nkon.nl/pt/samsung-inr-18650-30q-3000mah.html
       \endverb
@@ -888,8 +984,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{journaltitle}{The Pi Hut}
       \verb{urlraw}
       \verb https://thepihut.com/products/1200mah-3-7v-lipo-battery
@@ -899,8 +995,8 @@
       \endverb
     \endentry
     \entry{nimh}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \verb{urlraw}
       \verb https://www.nkon.nl/pt/rechargeable/nimh/gp-ni-mh-d-11000mah.html
       \endverb
@@ -923,8 +1019,8 @@
       \strng{authorbibnamehash}{21232f297a57a5a743894a0e4a801fc3}
       \strng{authornamehash}{21232f297a57a5a743894a0e4a801fc3}
       \strng{authorfullhash}{21232f297a57a5a743894a0e4a801fc3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{theoryCIRCUIT - Do It Yourself Electronics Projects}
@@ -939,8 +1035,8 @@
       \endverb
     \endentry
     \entry{lead}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \verb{urlraw}
       \verb https://www.nkon.nl/pt/rechargeable/lead-acid-batteries/6v-vrla/yuasa-6v-1-2ah-loodaccu.html
       \endverb
@@ -949,8 +1045,8 @@
       \endverb
     \endentry
     \entry{alkaline}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \verb{urlraw}
       \verb https://www.nkon.nl/pt/c-duracell-industrial-1-5v.html
       \endverb
@@ -988,8 +1084,8 @@
       \strng{authorbibnamehash}{8e2c06e61943312c0785331b15f91dac}
       \strng{authornamehash}{8e2c06e61943312c0785331b15f91dac}
       \strng{authorfullhash}{8e2c06e61943312c0785331b15f91dac}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{26th European Conference on Pattern Languages of Programs}
@@ -1022,8 +1118,8 @@
       \strng{authorbibnamehash}{8f7f93630c366dc55aec88eb8e9640d0}
       \strng{authornamehash}{8f7f93630c366dc55aec88eb8e9640d0}
       \strng{authorfullhash}{8f7f93630c366dc55aec88eb8e9640d0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronic Design}
@@ -1055,8 +1151,8 @@
       \strng{authornamehash}{35191ce9243bb501402cccbcb6bdaaec}
       \strng{authorfullhash}{35191ce9243bb501402cccbcb6bdaaec}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Embedded Development Talk}
@@ -1074,8 +1170,8 @@
       \list{language}{1}{%
         {en-pt}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{journaltitle}{DigiKey}
       \verb{urlraw}
       \verb https://www.digikey.pt/en/articles/the-fundamentals-of-embedded-memory
@@ -1088,8 +1184,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{journaltitle}{Kingston Technology Company}
       \field{month}{1}
       \field{year}{2021}
@@ -1104,8 +1200,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{journaltitle}{Kingston Technology Company}
       \field{month}{12}
       \field{year}{2023}
@@ -1130,8 +1226,8 @@
       \strng{authorbibnamehash}{5c4521dfdf0aa9333540189368ffd139}
       \strng{authornamehash}{5c4521dfdf0aa9333540189368ffd139}
       \strng{authorfullhash}{5c4521dfdf0aa9333540189368ffd139}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{FPGA vs. Microcontroller: Understanding the Key Differences}
@@ -1159,8 +1255,8 @@
       \strng{authorbibnamehash}{f40c2591d694de6b95184b91812d2eb9}
       \strng{authornamehash}{f40c2591d694de6b95184b91812d2eb9}
       \strng{authorfullhash}{f40c2591d694de6b95184b91812d2eb9}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{An introduction to microcontrollers and embedded systems}
@@ -1169,8 +1265,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{month}{2}
       \field{year}{2018}
       \verb{urlraw}
@@ -1202,8 +1298,8 @@
       \strng{authorbibnamehash}{bada81439a975076077c13e138b5e247}
       \strng{authornamehash}{bada81439a975076077c13e138b5e247}
       \strng{authorfullhash}{bada81439a975076077c13e138b5e247}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Comparing and Contrasting FPGA and Microprocessor System Design and Development}
@@ -1223,8 +1319,8 @@
       \strng{authorbibnamehash}{0112a3dee55e5eabe7651d69a05c1ff4}
       \strng{authornamehash}{0112a3dee55e5eabe7651d69a05c1ff4}
       \strng{authorfullhash}{0112a3dee55e5eabe7651d69a05c1ff4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0141-9331}
@@ -1254,8 +1350,8 @@
       \strng{authorbibnamehash}{f7bd0dd31cca87dba01ca569c9a4ef13}
       \strng{authornamehash}{f7bd0dd31cca87dba01ca569c9a4ef13}
       \strng{authorfullhash}{f7bd0dd31cca87dba01ca569c9a4ef13}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1558-0814}
@@ -1289,8 +1385,8 @@
       \strng{authornamehash}{35191ce9243bb501402cccbcb6bdaaec}
       \strng{authorfullhash}{35191ce9243bb501402cccbcb6bdaaec}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Embedded Development Talk}
@@ -1321,8 +1417,8 @@
       \strng{authorbibnamehash}{2f51fe3ffc901ae32d59b273f0c77c14}
       \strng{authornamehash}{2f51fe3ffc901ae32d59b273f0c77c14}
       \strng{authorfullhash}{2f51fe3ffc901ae32d59b273f0c77c14}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SaM Solutions}
@@ -1340,8 +1436,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{month}{8}
       \field{year}{2023}
       \verb{urlraw}
@@ -1697,8 +1793,8 @@
       \list{language}{1}{%
         {en-us}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{journaltitle}{The Things Network}
       \verb{urlraw}
       \verb https://www.thethingsnetwork.org/docs/lorawan/architecture/
@@ -1726,8 +1822,8 @@
       \strng{authorbibnamehash}{1ce1be0ed146095561f139ae7d0b62de}
       \strng{authornamehash}{1ce1be0ed146095561f139ae7d0b62de}
       \strng{authorfullhash}{1ce1be0ed146095561f139ae7d0b62de}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1424-8220}
