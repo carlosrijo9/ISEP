@@ -1,5 +1,9 @@
 \chapter{Technologies}
+%\chapter{System Development}
 \label{chap:Chapter3}
+
+This chapter addresses the most relevant technologies to be consider in this Thesis, according to its objectives.
+It highlights different battery technologies, types of external memories and storage units, computing systems, firmware strategies and wireless communication technologies.
 %-------------------------------------------------------------------------------%
 
 \section{Battery Module}
@@ -9,7 +13,7 @@ Batteries are a critical component in portable embedded systems, providing the n
 This way, the battery technology selection must be carefully made to optimize the system performance, \cite{BATT3}.
 Different battery chemistries offer varying energy densities, voltages, sizes, weights, cycle lives and costs.
 
-\subsection{Lithium}
+%\subsection{Lithium}
 \gls{Li-ion} and \gls{Li-Po} batteries, shown in figures \ref{fig:18650} and \ref{fig:lipo}, can offer high energy density, rechargeability and moderate costs that make them suitable for portable devices, \cite{BATT7}.
 
 These batteries stand out as a prevalent choice for embedded systems.
@@ -29,7 +33,7 @@ These batteries stand out as a prevalent choice for embedded systems.
     \end{minipage}
 \end{figure}
 
-\subsection{Nickel}
+%\subsection{Nickel}
 \gls{NiMH} and \gls{NiCd} batteries (figures \ref{fig:NiMH} and \ref{fig:NiCd} respectably) can provide moderate energy density, rechargeability and moderate costs, but they can be heavier and \gls{NiCd} batteries have a \textit{memory effect} concern (where the battery, falsely, indicates full charge despite being only partially charged).
 \begin{figure}[H]
     \centering
@@ -47,7 +51,7 @@ These batteries stand out as a prevalent choice for embedded systems.
     \end{minipage}
 \end{figure}
 
-\subsection{Lead-acid}
+%\subsection{Lead-acid}
 
 Lead-acid batteries can be rechargeable and cost-effective but heavier and larger and with low energy density.
 These batteries are suitable for less portable applications, \cite{BATT3} as it is possible to see in figure \ref{fig:lead}.
@@ -58,7 +62,7 @@ These batteries are suitable for less portable applications, \cite{BATT3} as it 
     \label{fig:lead}
 \end{figure}
 
-\subsection{Alkaline}
+%\subsection{Alkaline}
 Alkaline batteries, in figure \ref{fig:alkaline}, are cost-effective but most of them are non-rechargeable, have a standard cylindrical format and have moderate energy density \cite{BATT3}.
 \begin{figure}[H]
     \centering
@@ -87,6 +91,8 @@ In table \ref{tab:battery_comparison} it is possible to see the resume and compa
     \label{tab:battery_comparison}
 \end{table}
 
+In this Thesis, the energy density of the battery will a key characteristic when choosing a batter module.
+To avoid adding to much weight to the \gls{uav} and to be possible to integrate this solution easily the battery should be small but with high capacity.
 %-------------------------------------------------------------------------------%
 
 \section{External Memory and Storage Units}
@@ -105,25 +111,25 @@ External memory units are normally used to expand storage capacity, store data a
 
 Since non-volatile storage can keep the data stored even when they are not powered, these storages are very common in embedded systems \cite{mem1}.
 
-\subsection{\gls{SD} card}
+%\subsection{\gls{SD} card}
 \gls{SD} card, with its multiple formats and sizes, has moderate access speed and can keep data for a long term but it depends on the type (\gls{SLC}, \gls{MLC} and \gls{TLC}).
 Typically, the capacity ranges from a few megabytes to multiple terabytes, offering multiple choices for different use cases \cite{mem11}, \cite{mem9}.
 However, the moderate power consumption and overall cost can, sometimes, be a setback to the system.
 
-\subsection{\gls{EEPROM}}
+%\subsection{\gls{EEPROM}}
 \gls{EEPROM}, commonly used for storing small amounts of data, has fast access speed and a moderate overall cost.
 Has long-term data retention and low power consumption but offers lower capacities (in the range of kilobytes to megabytes) making it only suitable for small data storage \cite{mem8}, \cite{mem11}.
 
-\subsection{\gls{FRAM}}
+%\subsection{\gls{FRAM}}
 \gls{FRAM} combines the benefits of \gls{RAM} and \gls{EEPROM} and can be suitable for applications requiring fast and non-volatile memory.
 Has very fast access speed, long-term data retention, low capacity (in the range of kilobytes to megabytes), and very low power consumption.
 But has a relatively higher overall cost compared to other technologies \cite{mem8}, \cite{mem11}.
 
-\subsection{\gls{eMMC}}
+%\subsection{\gls{eMMC}}
 As for \gls{eMMC}, normally found in smartphones, tablets, and other embedded systems, is characterized by its fast access speed, long-term data retention and high capacity (with ranges from megabytes to terabytes).
 Like \gls{SD} cards it has moderate power consumption and moderate to high overall cost \cite{mem11}.
 
-\subsection{Drives}
+%\subsection{Drives}
 \gls{HDD} and \gls{SSD} memory units can have fast access speed, long-term data retention and high capacity (in the range of gigabytes to terabytes).
 But, in comparison to other memory units, it has a bigger size, higher power consumption and higher overall cost.
 These units are normally used as primary storage in computers and laptops for improved performance, \cite{mem10}.
@@ -133,23 +139,30 @@ Table \ref{tab:memory_comparison} resumes and compares the described technologie
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
-        \begin{tabular}{lcccccc}
+        \begin{tabular}{lccccccc}
             \hline
-                              & \textbf{Access Speed} & \textbf{Overall Cost} & \textbf{Data Retention} & \textbf{Capacity} & \textbf{Power Consumption} \\ \hline
-            \textbf{SD Cards} & Moderate              & Moderate              & Long-term               & High              & Moderate                   \\
-            \textbf{EEPROM}   & Fast                  & Moderate              & Long-term               & Low               & Low                        \\
-            \textbf{FRAM}     & Very Fast             & Relatively Higher     & Long-term               & Low               & Very Low                   \\
-            \textbf{eMMC}     & Fast                  & Moderate              & Long-term               & High              & Moderate                   \\
-            \textbf{SSD}      & Very Fast             & High                  & Long-term               & Very High         & High                       \\
-            \textbf{HDD}      & Moderate              & High                  & Long-term               & very High         & High                       \\\hline
+                              & \textbf{Access Speed} & \textbf{Overall Cost} & \textbf{Data Retention} & \textbf{Capacity} & \textbf{Power Consumption} & \textbf{Ease of Access} \\ \hline
+            \textbf{SD Cards} & Moderate              & Moderate              & Long-term               & High              & Moderate                   & Easy                    \\
+            \textbf{EEPROM}   & Fast                  & Moderate              & Long-term               & Low               & Low                        & Difficult               \\
+            \textbf{FRAM}     & Very Fast             & Relatively Higher     & Long-term               & Low               & Very Low                   & Difficult               \\
+            \textbf{eMMC}     & Fast                  & Moderate              & Long-term               & High              & Moderate                   & Easy                    \\
+            \textbf{SSD}      & Very Fast             & High                  & Long-term               & Very High         & High                       & Easy                    \\
+            \textbf{HDD}      & Moderate              & High                  & Long-term               & Very High         & High                       & Easy                    \\\hline
         \end{tabular}
     }\caption{Comparison of External Memory Technologies}
     \label{tab:memory_comparison}
 \end{table}
 
+The external memory, or storage unit, will play a important role in this system.
+The ability to store system logs and other type of data will not only help to debug during tests but it will also help to evaluate the system performance.
+
+Thus for this Thesis, the external memory should be able to retain data for long periods of time, have a high capacity, have a moderate to low power consumption and have easy access to the stored data.
+
 %-------------------------------------------------------------------------------%
 
-\section{Control System}
+\section{Computing Systems and Firmware}
+
+\subsection{Computing Systems}
 An \gls{OBC} is a device capable of managing and/or controlling various functions such as:
 \begin{itemize}
     \item Manage overall system operation.
@@ -162,34 +175,30 @@ An \gls{OBC} is a device capable of managing and/or controlling various function
     \item Manage and control peripherals such as communication interfaces, timers, and interrupt controllers.
 \end{itemize}
 
-There are, mainly, three types of control units: Microcontrollers, Microprocessors, and \glspl{FPGA}.
+There are, mainly, three types of control units: \textbf{Microcontrollers}, \textbf{Microprocessors}, and \textbf{\glspl{FPGA}}.
 
-\subsection{Microcontroller}
-Microcontrollers are integrated circuits that, mainly, contain a processor core, memory, and programmable input/output peripherals.
+\textbf{Microcontrollers} are integrated circuits that, mainly, contain a processor core, memory, and programmable input/output peripherals.
 Since they are compact and have low power consumption, they can be designed for specific tasks which makes them suitable for embedded systems.
 They often include integrated peripherals like: timers, communication interfaces (for example \gls{I2C}, \gls{SPI}, \gls{CAN} and \gls{UART}), \gls{ADC} and \gls{RTC} \cite{OBC1}.
 
-Microcontrollers are programmable using low-level programming languages like \textit{C}, \textit{C++} and \textit{Assembly} \cite{OBC1}.
+Microcontrollers are programmable using low-level programming languages like C, C++ and Assembly \cite{OBC1}.
 
 However, microcontrollers have more limited processing power and are less flexible for general-purpose computing \cite{OBC1} and \cite{OBC2}.
 
-
-\subsection{Microprocessors}
-Microprocessors focus on processing tasks and rely on external components for additional functionalities.
+\textbf{Microprocessors} focus on processing tasks and rely on external components for additional functionalities.
 As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.
 They can also be programmed by low-level or high-level programming languages which facilitates the development of firmware \cite{OBC5}.
 
 However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers \cite{OBC5}.
 
-\subsection{FPGA}
-\glspl{FPGA} are integrated circuits that can be configured after manufacturing, allowing for custom circuits.
+\textbf{\glspl{FPGA}} are integrated circuits that can be configured after manufacturing, allowing for custom circuits.
 The \gls{FPGA} architecture is composed of configurable logic blocks that a developer can program making them highly customizable for specific applications.
 It has parallel processing capabilities and can be reprogrammed for different tasks \cite{OBC1}, \cite{OBC3} and \cite{OBC5}.
 
 But, they have a higher cost and higher power consumption (compared to microcontrollers).
 Since programming \gls{FPGA} is done by programming the hardware (with \gls{HDL}), the method is different from programming a microcontroller (with specific software) the learning curve can be steeper \cite{OBC1} \cite{OBC3}.
 
-\subsection{Control Units Technologies Comparison}
+\subsubsection{Computing System Technologies Comparison}
 The table \ref{tab:obc_comparison} compares the programming languages, flexibility, processing power, development complexity, cost, real-time performance and power consumption of these three main types of control units \cite{OBC5}.
 \begin{table}[H]
     \centering
@@ -209,17 +218,23 @@ The table \ref{tab:obc_comparison} compares the programming languages, flexibili
     \caption{Comparison of Microcontrollers, Microprocessors, and FPGAs.}
     \label{tab:obc_comparison}
 \end{table}
+
+When choosing the \gls{OBC} for this Thesis, the first characteristic to be analyzed should be the availability to be program easily (being by a low-level language, an high-level language or a \gls{RTOS}).
+This selection will dictate the firmware strategy.
+
+Other characteristics must also be present like power consumption, available interfaces (both wired and wireless) and real-time performance.
+
 %-------------------------------------------------------------------------------%
 
-\section{Firmware}
+\subsection{Firmware}
 In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.
 
-\subsection{Programming languages}
+\subsubsection{Programming languages}
 Even though there are multiple programming languages, normally categorized as low-level or high-level, not all programming languages are optimized to be used in embedded systems.
 In this section, an overview and comparison were made on some examples of programming languages \cite{LPROG4}, \cite{LPROG6}.
 
-\subsubsection{C}
-\textit{C} programming language has low-level features and is close to the hardware making it efficient and with high performance \cite{LPROG2}, \cite{LPROG6}.
+
+\textbf{C} programming language has low-level features and is close to the hardware making it efficient and with high performance \cite{LPROG2}, \cite{LPROG6}.
 
 It provides fine-grained control over memory, leading to efficient memory usage but can also lead to potential errors if not handled carefully \cite{LPROG5}.
 Due to its low-level control and predictable performance, it is often used in real-time systems \cite{LPROG7}.
@@ -228,54 +243,53 @@ This programming language is generally portable and has a large and active commu
 
 In terms of safety and reliability, it is a powerful language but lacks some safety features, like in memory management for example \cite{LPROG7}.
 
-\textit{C} can have a steeper learning curve, especially for beginners, due to manual memory management and low-level constructs \cite{LPROG2}.
+C can have a steeper learning curve, especially for beginners, due to manual memory management and low-level constructs \cite{LPROG2}.
 
-\subsubsection{Assembly}
-\textit{Assembly} programming language provides direct control over hardware and is highly efficient, and useful for writing low-level code.
+
+\textbf{Assembly} programming language provides direct control over hardware and is highly efficient, and useful for writing low-level code.
 It allows developers to directly manage memory, providing fine control over memory footprint \cite{LPROG7}.
 
-\textit{Assembly} can be used in real-time systems due to its precise control over hardware, predictable performance and high efficiency \cite{LPROG5}.
+Assembly can be used in real-time systems due to its precise control over hardware, predictable performance and high efficiency \cite{LPROG5}.
 
-However, in \textit{Assembly}, there is no safety net or restrictions, this way developers must handle all aspects of safety and reliability manually \cite{LPROG7}.
-\textit{Assembly} is also highly dependent on the architecture and is not inherently portable, has a niche community, and support is often architecture-specific and relies on specific tools provided by the hardware manufacturer.
+However, in Assembly, there is no safety net or restrictions, this way developers must handle all aspects of safety and reliability manually \cite{LPROG7}.
+Assembly is also highly dependent on the architecture and is not inherently portable, has a niche community, and support is often architecture-specific and relies on specific tools provided by the hardware manufacturer.
 The learning curve is steep due to its low-level nature, and development is time-consuming compared to higher-level languages \cite{LPROG5}.
 
-\subsubsection{C++}
-\textit{C++} programming language is an object-oriented feature that can enhance code organization and reusability and can provide abstraction without sacrificing performance.
-It allows both manual and automatic memory management, providing flexibility \cite{LPROG2}, \cite{LPROG6}.
-\textit{C++} supports real-time programming, especially with the use of specific frameworks but is not as deterministic as low-level languages.
 
-This programming language benefits from a robust community, with extensive support, it inherits development tools and compilers from \textit{C} and has specific tools for features like object-oriented programming \cite{LPROG7}.
+\textbf{C++} programming language is an object-oriented feature that can enhance code organization and reusability and can provide abstraction without sacrificing performance.
+It allows both manual and automatic memory management, providing flexibility \cite{LPROG2}, \cite{LPROG6}.
+C++ supports real-time programming, especially with the use of specific frameworks but is not as deterministic as low-level languages.
+
+This programming language benefits from a robust community, with extensive support, it inherits development tools and compilers from C and has specific tools for features like object-oriented programming \cite{LPROG7}.
 
 C++ introduces features like classes and objects, enhancing code organization and safety compared to C.
 However, it still allows low-level operations that may impact reliability \cite{LPROG5}.
 
-Since \textit{C++} is similar to \textit{C}, and since it introduces additional concepts, the learning curve can be slightly more complex.
+Since C++ is similar to C, and since it introduces additional concepts, the learning curve can be slightly more complex.
 However, its object-oriented features can lead to more maintainable code \cite{LPROG7}.
 
-\subsubsection{Rust}
-\textit{Rust} programming language, known for its focus on memory safety, is gaining popularity in embedded systems development.
-It offers performance similar to \textit{C} and \textit{C++} while providing memory safety features \cite{LPROG2},\cite{LPROG7}.
 
-\textit{Rust's} was designed with a strong focus on memory safety with an ownership system that helps prevent common memory-related errors without sacrificing performance.
+\textbf{Rust} programming language, known for its focus on memory safety, is gaining popularity in embedded systems development.
+It offers performance similar to C and C++ while providing memory safety features \cite{LPROG2},\cite{LPROG7}.
+
+Rust's was designed with a strong focus on memory safety with an ownership system that helps prevent common memory-related errors without sacrificing performance.
 This results in a secure and efficient memory footprint \cite{LPROG2}.
 
 As for portability, it aims to be highly portable, with a focus on minimizing platform-specific issues.
 With features like Cargo, it simplifies dependency management and project setup.
 
-\textit{Rust} has a growing community and is gaining popularity, with strong support.
+Rust has a growing community and is gaining popularity, with strong support.
 However, it can be challenging for beginners due to its ownership system \cite{LPROG7}.
 
-\subsubsection{MicroPython}
-\textit{MicroPython} is a compact extension of Python designed for microcontrollers and \gls{IoT} devices to emphasize efficiency.
+
+\textbf{MicroPython} is a compact extension of Python designed for microcontrollers and \gls{IoT} devices to emphasize efficiency.
 However, it sacrifices some features of the standard Python to fit within resource constraints \cite{LPROG2}.
 
 It aims for a small memory footprint suitable for microcontrollers which enhances portability as well \cite{LPROG7}.
 
-\textit{MicroPython} can be used for real-time tasks on microcontrollers, but its capabilities may be limited since it is not as deterministic as low-level languages.
-The community focused on supporting embedded systems for \textit{MicroPython} is growing with resources specifically tailored to microcontroller development \cite{LPROG2}, \cite{LPROG5}.
+MicroPython can be used for real-time tasks on microcontrollers, but its capabilities may be limited since it is not as deterministic as low-level languages.
+The community focused on supporting embedded systems for MicroPython is growing with resources specifically tailored to microcontroller development \cite{LPROG2}, \cite{LPROG5}.
 
-\subsubsection{Programming languages Comparison}
 Table \ref{tab:programming_languages_comparison} resumes and compares all programming languages described above.
 \begin{table}[H]
     \centering
@@ -297,66 +311,42 @@ Table \ref{tab:programming_languages_comparison} resumes and compares all progra
     \label{tab:programming_languages_comparison}
 \end{table}
 
-\subsection{Real-time Operating Systems}
+\subsubsection{Real-time Operating Systems}
 \glspl{RTOS} facilitates multitasking, allowing concurrent execution of multiple tasks, can provide task scheduling, priority management, and inter-process communication and is suitable for systems with real-time requirements.
 But this can add overhead, especially in terms of memory footprint, and the learning curve is steeper \cite{RTOS1}.\\
 The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures \cite{RTOS5}.
 They also support microROS, an extension of the \gls{ROS}, designed for microcontrollers and embedded systems that can be resource-constrained.
 
-\subsubsection{FreeRTOS}
 
-\begin{wrapfigure}{l}{0.35\textwidth}
-    \begin{center}
-        \includegraphics[scale=0.25]{ch3/assets/freertos.png}
-    \end{center}
-    \caption{FreeRTOS Logo}
-\end{wrapfigure}
-
-\textit{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
+\textbf{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
 It has a small footprint, making it suitable for resource-constrained embedded systems.
 Has a large and active community, which can be beneficial for support and finding solutions \cite{RTOS6}.
-\\
 
 As for scheduling policies, it supports priority-based, round-robin and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
 It supports \gls{I2C}, \gls{SPI} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, Ethernet and \gls{Wifi} network protocols \cite{compRTOS}.
 
-It is worth mentioning that \textit{FreeRTOS} has Software Development Process DO178B Level A and Functional Safety IEC-61508 certifications.
+It is worth mentioning that FreeRTOS has Software Development Process DO178B Level A and Functional Safety IEC-61508 certifications.
 
-\subsubsection{NuttX}
-\begin{wrapfigure}{l}{0.35\textwidth}
-    \begin{center}
-        \includegraphics[scale=0.25]{ch3/assets/nuttx.png}
-    \end{center}
-    \caption{NuttX Logo}
-\end{wrapfigure}
 
-\textit{NuttX} is a real-time operating system with a focus on standards compliance (POSIX and ANSI).
+\textbf{NuttX} is a real-time operating system with a focus on standards compliance (POSIX and ANSI).
 It uses the Apache 2.0 license, allowing for both open-source and commercial use \cite{nuttx}.
 
-\textit{NuttX} can be scalable, providing a balance between small footprint for resource-constrained devices and support for larger systems \cite{nuttx}.
+NuttX can be scalable, providing a balance between small footprint for resource-constrained devices and support for larger systems \cite{nuttx}.
 
 In terms of scheduling it supports priority-based (\gls{FIFO}), Round-Robin and Sporadic Server schedulers and has semaphore/mutex management
 For wired protocols, it has support over \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and Modbus.
-And for network protocols, \textit{NuttX}, supports 6LoWPAN, Ethernet, \gls{Wifi} and \gls{RFID} \cite{compRTOS}.
+And for network protocols, NuttX, supports 6LoWPAN, Ethernet, \gls{Wifi} and \gls{RFID} \cite{compRTOS}.
 
-%\newpage
-\subsubsection{Zephyr}
-\begin{wrapfigure}{l}{0.35\textwidth}
-    \begin{center}
-        \includegraphics[scale=0.25]{ch3/assets/zephyr.png}
-    \end{center}
-    \caption{Zephyr Logo}
-\end{wrapfigure}
-\textit{Zephyr} is a real-time operating system for resource-constrained devices.
+
+\textbf{Zephyr} is a real-time operating system for resource-constrained devices.
 It also uses Apache 2.0 license that allows open-source and commercial development \cite{zephyr}.
 
 Designed to be modular and can be configured to match the requirements of the target device.
-\textit{Zephyr} is supported by the Linux Foundation and has a growing and active community \cite{zephyr} and \cite{RTOS5}.
-\\\\\\
+Zephyr is supported by the Linux Foundation and has a growing and active community \cite{zephyr} and \cite{RTOS5}.
+
 As for scheduling policies, it supports priority-based and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
 It supports \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, 6LoWPAN, Ethernet, \gls{NFC}, \gls{Wifi} and \gls{RFID} network protocols \cite{compRTOS} \cite{compRTOS}.
 
-\subsubsection{RTOS Comparison}
 In table \ref{tab:rtos_comparison} is possible to see a comparison between some \glspl{RTOS} examples \cite{compRTOS}.
 \begin{table}[H]
     \centering
@@ -378,7 +368,7 @@ In table \ref{tab:rtos_comparison} is possible to see a comparison between some 
 \end{table}
 
 
-\subsection{Overall Analyses}
+\subsubsection{Overall Analyses}
 In this subsection, it was made a resume and overall analyses of programming languages and \glspl{RTOS}, describing the pros and cons of each solution.
 
 Programming languages can provide better portability across different hardware platforms.
@@ -521,6 +511,10 @@ The comparison of the wireless communication technologies explained, in this sec
     \label{tab:wcom_comparison}
 \end{table}
 
+The wireless technology to be ued in this system should be in a different band than the network already installed on the \gls{uav}.
+This is important since this system can not interfere in the normal function during a mission.
+
+It should also support multiple devices, have a range bigger than the size of the \gls{uav} and have low power consumption.
 
 %-------------------------------------------------------------------------------%
 

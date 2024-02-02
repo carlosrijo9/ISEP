@@ -11,19 +11,16 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces VPP Hydraulic Method - Cruise \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.33}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces VPP Electromechanical Method \blx@tocontentsinit {0}\cite {VPP6}\relax }}{10}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{11}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{11}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{12}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{12}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{12}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{12}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces FreeRTOS Logo\relax }}{18}{figure.caption.74}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces NuttX Logo\relax }}{19}{figure.caption.76}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Zephyr Logo\relax }}{19}{figure.caption.78}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{11}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{11}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{12}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{12}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{12}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{12}{figure.caption.42}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed System Architecture High Level Diagram\relax }}{25}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed System Architecture High Level Diagram\relax }}{25}{figure.caption.88}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{34}{figure.caption.132}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{34}{figure.caption.107}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
