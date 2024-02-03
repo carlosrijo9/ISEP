@@ -1,269 +1,538 @@
-\chapter{Proposed Approach}
+\chapter{System Development}
 \label{chap:Chapter4}
+
+This chapter addresses the most relevant technologies to be considered in this Thesis, according to its objectives.
+It highlights different battery technologies, types of external memories and storage units, computing systems, firmware strategies and wireless communication technologies.
 %-------------------------------------------------------------------------------%
 
-%\section{Concept}
-Fixed-pitch proprotor (FPP) system limitations can be addressed by developing variable-pitch proprotors.
-Adjusting the pitch in both flight phases may be more complex and expensive but it offers more adaptability and a great positive impact on the overall propulsion system efficiency, increasing the endurance and range.
-The \gls{uav} will consume less in hover and the cruise speed will be much higher.
+\section{Battery Module}
 
-This way, the proposed solution for this problem is to develop a stand-alone variable-pitch proprotor system that can, in real-time, change the propeller pitch according to each flight phase.
+Batteries are a critical component in portable embedded systems, providing the necessary energy for the system to work properly.
 
-%-------------------------------------------------------------------------------%
+This way, the battery technology selection must be carefully made to optimize the system performance, \cite{BATT3}.
+Different battery chemistries offer varying energy densities, voltages, sizes, weights, cycle lives and costs.
 
-\section{Requirements}
-It is important to define requirements, for this system, to better understand the fixed-pitch propeller's limitations and to develop the necessary functionalities to achieve a variable-pitch proprotor system.
+%\subsection{Lithium}
+\gls{Li-ion} and \gls{Li-Po} batteries, shown in figures \ref{fig:18650} and \ref{fig:lipo}, can offer high energy density, rechargeability and moderate costs that make them suitable for portable devices, \cite{BATT7}.
 
-Thus, the requirements should align with mechanical, control, communication, integration, and validation specifications.
-
-\begin{itemize}
-    \item \textbf{Mechanical Requirements}
-          \begin{enumerate}[start=1,label={\upshape\bfseries (REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
-              \item The system shall be designed to retrofit existing \glspl{uav} or integrate seamlessly into new \gls{uav} designs.
-              \item The variable-pitch mechanism shall be lightweight to minimize the impact on overall \gls{uav} weight and balance.
-              \item The system shall be able to withstand the operational stresses and environmental conditions encountered during \gls{uav} flights.
-          \end{enumerate}
-
-    \item \textbf{Control System Requirements}
-          \begin{enumerate}[start=04,label={\bfseries (REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
-              \item The control system shall enable real-time adjustment of the proprotor pitch during different flight phases.
-              \item It shall incorporate failsafe mechanisms to respond to unexpected malfunctions or loss of communication and revert to a fixed-pitch state in case of critical failures.
-              \item The system shall provide precise control over the pitch angle, allowing for fine adjustments to optimize performance.
-          \end{enumerate}
-
-    \item \textbf{Wireless Communication Requirements}
-          \begin{enumerate}[start=07,label={\bfseries (REQ\_0\arabic*):},wide = 0pt, leftmargin = 3em]
-              \item The wireless communication system shall be reliable, with minimal latency to ensure quick response times.
-              \item It shall operate within designated frequency bands and comply with relevant aviation communication standards.
-              \item Security measures shall be implemented to prevent unauthorized access or interference with the control signals.
-          \end{enumerate}
-
-    \item \textbf{Integration Requirements}
-          \begin{enumerate}[start=10,label={\bfseries (REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
-              \item The system shall be designed for easy integration with common \gls{uav} autopilot systems.
-              \item It shall have compatibility with existing \gls{uav} avionics and navigation systems.
-              \item The variable-pitch system shall not interfere with other onboard sensors or communication systems.
-          \end{enumerate}
-
-    \item \textbf{Testing and Validation Requirements}
-          \begin{enumerate}[start=13,label={\bfseries (REQ\_\arabic*):},wide = 0pt, leftmargin = 3em]
-              \item The system shall undergo rigorous testing under various operational scenarios, including weather conditions and flight profiles.
-              \item Validation shall include simulated and real-world flights to assess performance and reliability.
-              \item The system shall comply with relevant aviation regulations and standards.
-          \end{enumerate}
-\end{itemize}
-%-------------------------------------------------------------------------------%
-
-\section{System Architecture}
-As it is possible to see, in the proposed implementation of the System Architecture diagram (figure \ref{fig:system_diagram}), the system will be composed of two subsystems: the Main Device Unit (MDU) and (multiple) Secondary Device Unit (SDU).
-
+These batteries stand out as a prevalent choice for embedded systems.
 \begin{figure}[H]
     \centering
-    %\includegraphics[width=\textwidth,keepaspectratio]{ch3/assets/system_diagram.pdf}
-    \includegraphics[scale=1]{ch4/assets/system_diagram.pdf}
-    \caption{Proposed System Architecture High Level Diagram}
-    \label{fig:system_diagram}
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.5\linewidth]{ch4/assets/18650.jpg}
+        \captionof{figure}{\gls{Li-ion} battery example \cite{18650}}
+        \label{fig:18650}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.5\linewidth]{ch4/assets/lipo.png}
+        \captionof{figure}{\gls{Li-Po} battery example \cite{lipo}}
+        \label{fig:lipo}
+    \end{minipage}
 \end{figure}
 
-The subsystems can be considered as stand-alone since the main \gls{uav} can work without the subsystems.
-These subsystems, described in the next subchapters, are responsible for monitoring the flight phase and controlling the propeller pitch angle.
+%\subsection{Nickel}
+\gls{NiMH} and \gls{NiCd} batteries (figures \ref{fig:NiMH} and \ref{fig:NiCd} respectably) can provide moderate energy density, rechargeability and moderate costs, but they can be heavier and \gls{NiCd} batteries have a \textit{memory effect} concern (where the battery, falsely, indicates full charge despite being only partially charged).
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.5\linewidth]{ch4/assets/nimh.jpg}
+        \captionof{figure}{\gls{NiMH} battery example \cite{nimh}}
+        \label{fig:NiMH}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.5\linewidth]{ch4/assets/nicd.jpg}
+        \captionof{figure}{\gls{NiCd} battery example \cite{nicd}}
+        \label{fig:NiCd}
+    \end{minipage}
+\end{figure}
 
-\subsection{Main Device}
-This subsystem will be, mainly, composed by an \gls{OBC}, a \gls{RTC}, a Storage Unit, and a wireless communication module.
+%\subsection{Lead-acid}
 
-The MDU will communicate with the Flight Controller and the SDUs by receiving and transmitting information.
+Lead-acid batteries can be rechargeable and cost-effective but heavier and larger and with low energy density.
+These batteries are suitable for less portable applications, \cite{BATT3} as it is possible to see in figure \ref{fig:lead}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{ch4/assets/lead.png}
+    \caption{Lead-Acid battery example \cite{lead}}
+    \label{fig:lead}
+\end{figure}
 
-With the Flight Controller, through wired communication, the MDU will:
-\begin{itemize}
-    \item Receive
-          \begin{itemize}
-              \item Flight Phase message
-              \item Maneuver control message
-              \item \gls{GNSS} epoch time
-              \item Heartbeat signal
-          \end{itemize}
-    \item Transmit
-          \begin{itemize}
-              \item Heartbeat signal
-              \item System Status message
-          \end{itemize}
-\end{itemize}
+%\subsection{Alkaline}
+Alkaline batteries, in figure \ref{fig:alkaline}, are cost-effective but most of them are non-rechargeable, have a standard cylindrical format and have moderate energy density \cite{BATT3}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{ch4/assets/alkaline.png}
+    \caption{Alkaline battery example \cite{alkaline}}
+    \label{fig:alkaline}
+\end{figure}
 
-The Flight Phase message and the Maneuver Control message will inform the MDU about the current flight phase and the need to make additional adjustments to the propeller pitch.
-After interpreting the message, the \gls{OBC} will send a control command.
-This control command will be explained further in this chapter.
+\subsection{Battery Technologies Comparison}
+In table \ref{tab:battery_comparison} it is possible to see the resume and comparison between the battery technologies examples described previously.
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccccc}
+            \hline
+            \textbf{Technology} & \begin{tabular}[c]{@{}c@{}}\textbf{Energy}\\ \textbf{Density}\end{tabular} & \textbf{Voltage} & \textbf{Size/Weight} & \textbf{Cycle Life} & \textbf{Cost} \\ \hline
+            \textbf{Li-ion}     & High                                                                       & 3.7V             & Compact/Light        & Good                & Moderate      \\
+            \textbf{Li-Po}      & High                                                                       & 3.7V             & Flexible/Light       & Good                & Moderate      \\
+            \textbf{NiMH}       & Moderate                                                                   & 1.2V             & Bulky/Heavy          & Moderate            & Moderate      \\
+            \textbf{NiCd}       & Moderate                                                                   & 1.2V             & Bulky/Heavy          & Good                & Moderate      \\
+            \textbf{Lead-Acid}  & Low                                                                        & 2V (6V, 12V)     & Bulky/Heavy          & Moderate            & Low           \\
+            \textbf{Alkaline}   & Moderate                                                                   & 1.5V             & Standard Cylindrical & Poor                & Moderate      \\
+        \end{tabular}%
+    }
+    \caption{Comparison of Battery Technologies}
+    \label{tab:battery_comparison}
+\end{table}
 
-The \gls{GNSS} epoch time will update the \gls{OBC} date and time (periodically or on startup).
-With the help of the \gls{RTC}, the MDU system will be able to maintain the date and time even when the \gls{uav} system is powered off.
-The \gls{GNSS} epoch time will be helpful when storing system logs (in the Storage Unit) and will help to calculate the latency of the communication between devices.
+In this Thesis, the energy density of the battery will be a key characteristic when choosing a battery module.
+To avoid adding too much weight to the \gls{uav} and to be able to integrate this solution easily the battery should be small but with high capacity.
+%-------------------------------------------------------------------------------%
 
-Lastly, the received heartbeat signal will work as a \textit{keep alive} mechanism informing, this way, the \gls{OBC} if the system is powered on.
-This will help save power since the \gls{OBC} can shut down when the Flight Controller turns off.
+\section{External Memory and Storage Units}
 
-The transmitted heartbeat, which also works as a \textit{keep alive} mechanism, will inform the Flight Controller that the MDU is working correctly.
-This function will be crucial because if the MDU is not working (powered off or unresponsive) the \gls{uav} system will need to enter a failsafe mode and land, as soon as possible, since it can no longer control the pitch of the blades.
+Memory units can be classified as volatile memory and as non-volatile memory \cite{mem3}.
 
-Since the MDU is responsible for managing all the SDUs, it must, periodically, inform the Flight Controller about the overall status of the system, so that, in case of any failure, the Flight Controller may enter in failsafe.
+Volatile storage, like for example \gls{RAM} provides fast read and write speeds and is used for storing variables and managing application stacks.
+However, they require constant power to retain data, making them unsuitable for applications with strict power constraints and have lower memory capacity \cite{mem8}.
 
-With the SDUs, through wireless communication, the MDU will:
-\begin{itemize}
-    \item Receive
-          \begin{itemize}
-              \item Heartbeat signal
-              \item SDU Status message
-          \end{itemize}
-    \item Transmit
-          \begin{itemize}
-              \item Heartbeat signal
-              \item Control Command
-              \item Epoch Time
-          \end{itemize}
-\end{itemize}
+Non-volatile storages are suitable for applications requiring frequent data read and write operations and have the capability of being electrically erased and reprogrammed.
+They have long-term data retention and low power consumption but have slow access speed compared to volatile storage \cite{mem8}.
+These characteristics make non-volatile storages useful for storing configuration parameters and critical data that need to be retained during power cycles.
 
-The received and transmitted heartbeat signals will have the same functionality as explained previously.
-The MDU and SDUs will inform each other if they are working correctly.
+Often, in embedded systems, the system must be able to store data not only internally (main memory) but also externally (external memory).
+External memory units are normally used to expand storage capacity, store data and logs, facilitate data transfer, and backup critical information \cite{mem3}.
 
-The SDU Status message will help the MDU keep track of the status of all Secondary devices.
-In case of malfunction or if one or more SDUs can't change the propeller pitch, the MDU must be noticed so that it can communicate to the Flight Controller about the failure.
+Since non-volatile storage can keep the data stored even when they are not powered, these storages are very common in embedded systems \cite{mem1}.
 
-The MDU will send a Control Command, containing the desired pitch, to all the SDUs according to the phase of flight message received previously.
+%\subsection{\gls{SD} card}
+\gls{SD} card, with its multiple formats and sizes, has moderate access speed and can keep data for a long term but it depends on the type (\gls{SLC}, \gls{MLC} and \gls{TLC}).
+Typically, the capacity ranges from a few megabytes to multiple terabytes, offering multiple choices for different use cases \cite{mem11}, \cite{mem9}.
+However, the moderate power consumption and overall cost can, sometimes, be a setback to the system.
 
-By sending the epoch time to all the SDUs, it is possible to keep the whole system updated and with the same date and time reference.
+%\subsection{\gls{EEPROM}}
+\gls{EEPROM}, commonly used for storing small amounts of data, has fast access speed and a moderate overall cost.
+Has long-term data retention and low power consumption but offers lower capacities (in the range of kilobytes to megabytes) making it only suitable for small data storage \cite{mem8}, \cite{mem11}.
 
-\subsection{Secondary Device}
-This subsystem will be, composed of an \gls{OBC}, a \gls{RTC}, a Storage Unit, a battery (with a power management system), an on/off switch, a buzzer, a stand-alone \gls{PWM} controller, a servo, and a wireless communication module.
+%\subsection{\gls{FRAM}}
+\gls{FRAM} combines the benefits of \gls{RAM} and \gls{EEPROM} and can be suitable for applications requiring fast and non-volatile memory.
+Has very fast access speed, long-term data retention, low capacity (in the range of kilobytes to megabytes), and very low power consumption.
+But has a relatively higher overall cost compared to other technologies \cite{mem8}, \cite{mem11}.
 
-The on/off switch and the buzzer will work as human-machine interfaces to help the user interact with the system.
+%\subsection{\gls{eMMC}}
+As for \gls{eMMC}, normally found in smartphones, tablets, and other embedded systems, is characterized by its fast access speed, long-term data retention and high capacity (with ranges from megabytes to terabytes).
+Like \gls{SD} cards it has moderate power consumption and moderate to high overall cost \cite{mem11}.
 
-Since the SDU will be designed to be stand-alone (with a dedicated power supply) the system needs to be powered on manually and the buzzer can notice the user that the system is powered on.
+%\subsection{Drives}
+\gls{HDD} and \gls{SSD} memory units can have fast access speed, long-term data retention and high capacity (in the range of gigabytes to terabytes).
+But, in comparison to other memory units, it has a bigger size, higher power consumption and higher overall cost.
+These units are normally used as primary storage in computers and laptops for improved performance, \cite{mem10}.
 
-The servo, mechanically connected to the propeller, will be responsible for changing the propeller pitch according to the state of flight.
-It will be equipped with feedback functionality so that the system can control, more precisely, the pitch and know if the propeller has reached its goal.
+\subsection{External Memory Technologies Comparison}
+Table \ref{tab:memory_comparison} resumes and compares the described technologies in their access speed, overall cost, data retention, capacity and power consumption.
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccccccc}
+            \hline
+                              & \textbf{Access Speed} & \textbf{Overall Cost} & \textbf{Data Retention} & \textbf{Capacity} & \textbf{Power Consumption} & \textbf{Ease of Access} \\ \hline
+            \textbf{SD Cards} & Moderate              & Moderate              & Long-term               & High              & Moderate                   & Easy                    \\
+            \textbf{EEPROM}   & Fast                  & Moderate              & Long-term               & Low               & Low                        & Difficult               \\
+            \textbf{FRAM}     & Very Fast             & Relatively Higher     & Long-term               & Low               & Very Low                   & Difficult               \\
+            \textbf{eMMC}     & Fast                  & Moderate              & Long-term               & High              & Moderate                   & Easy                    \\
+            \textbf{SSD}      & Very Fast             & High                  & Long-term               & Very High         & High                       & Easy                    \\
+            \textbf{HDD}      & Moderate              & High                  & Long-term               & Very High         & High                       & Easy                    \\\hline
+        \end{tabular}
+    }\caption{Comparison of External Memory Technologies}
+    \label{tab:memory_comparison}
+\end{table}
 
-There will also be implemented a stand-alone \gls{PWM} controller, able to generate a fixed \gls{PWM} signal, to control the servo in case of failure from the \gls{OBC}.
-As a failsafe mechanism, if one or more SDUs fail, the \gls{PWM} controller will generate a \gls{PWM} signal fixing the pitch of the propellers to a designated angle.
+The external memory, or storage unit, will play an important role in this system.
+The ability to store system logs and other types of data will not only help to debug during tests but it will also help to evaluate the system performance.
 
-This action will transform the \gls{uav} system into a fixed-pitch proprotor but will help avoid having a system with a single point of failure that can cause the \gls{uav} to crash and possibly hurt people.
-
-The Power Management System will be responsible for monitoring the \gls{SoC} of the battery, for converting the voltage from the battery to the needed voltage levels and for distributing to all components.
-An \gls{UVP} will be also implemented to ensure that the SDU subsystem shuts down when the battery is at a critical level.
+Thus for this Thesis, the external memory should be able to retain data for long periods, have a high capacity, have a moderate to low power consumption and have easy access to the stored data.
 
 %-------------------------------------------------------------------------------%
-\section{System Behavior}
 
-In order to properly design the system behavior it was developed a system flow chart.
-The flow chart, represented in algorithm \ref{alg:MDU_MAIN}, describes the expected high-level behavior of both MDU and SDU.
- 
-\begin{algorithm}[H]
+\section{Computing Systems and Firmware}
+
+\subsection{Computing Systems}
+An \gls{OBC} is a device capable of managing and/or controlling various functions such as:
+\begin{itemize}
+    \item Manage overall system operation.
+    \item Implement safety mechanisms and respond to abnormal conditions.
+    \item Execute algorithms and computations required for the system's functionality.
+    \item Interface with external devices, sensors, actuators, or other embedded systems.
+    \item Implement communication protocols for data exchange.
+    \item Manage data storage and retrieval.
+    \item Implement power-saving modes when appropriate.
+    \item Manage and control peripherals such as communication interfaces, timers, and interrupt controllers.
+\end{itemize}
+
+There are, mainly, three types of control units: \textbf{Microcontrollers}, \textbf{Microprocessors}, and \textbf{\glspl{FPGA}}.
+
+\textbf{Microcontrollers} are integrated circuits that, mainly, contain a processor core, memory, and programmable input/output peripherals.
+Since they are compact and have low power consumption, they can be designed for specific tasks which makes them suitable for embedded systems.
+They often include integrated peripherals like timers, communication interfaces (for example \gls{I2C}, \gls{SPI}, \gls{CAN} and \gls{UART}), \gls{ADC} and \gls{RTC} \cite{OBC1}.
+
+Microcontrollers are programmable using low-level programming languages like C, C++ and Assembly \cite{OBC1}.
+
+However, microcontrollers have more limited processing power and are less flexible for general-purpose computing \cite{OBC1} and \cite{OBC2}.
+
+\textbf{Microprocessors} focus on processing tasks and rely on external components for additional functionalities.
+As an advantage, they have high processing power (suitable for general-purpose computing), can run complex operating systems, and have greater flexibility in application design.
+They can also be programmed by low-level or high-level programming languages which facilitates the development of firmware \cite{OBC5}.
+
+However, microprocessors have higher power consumption, may require additional components for specific applications, and have a larger form factor compared to microcontrollers \cite{OBC5}.
+
+\textbf{\glspl{FPGA}} are integrated circuits that can be configured after manufacturing, allowing for custom circuits.
+The \gls{FPGA} architecture is composed of configurable logic blocks that a developer can program making them highly customizable for specific applications.
+It has parallel processing capabilities and can be reprogrammed for different tasks \cite{OBC1}, \cite{OBC3} and \cite{OBC5}.
+
+But, they have a higher cost and higher power consumption (compared to microcontrollers).
+Since programming \gls{FPGA} is done by programming the hardware (with \gls{HDL}), the method is different from programming a microcontroller (with specific software) the learning curve can be steeper \cite{OBC1} \cite{OBC3}.
+
+\subsubsection{Computing System Technologies Comparison}
+The table \ref{tab:obc_comparison} compares the programming languages, flexibility, processing power, development complexity, cost, real-time performance and power consumption of these three main types of control units \cite{OBC5}.
+\begin{table}[H]
     \centering
-    \includegraphics[scale=0.8]{ch4/assets/MDU_MAIN.pdf}
-    \caption{Proposed System Behavior - High-Level Flow Chart}
-    \label{alg:MDU_MAIN}
-\end{algorithm}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccc}
+            \hline
+            \textbf{Topic}                  & \textbf{Microcontrollers} & \textbf{Microprocessors} & \textbf{FPGAs} \\ \hline
+            \textbf{Programming Languages}  & Low-level languages       & High-level languages     & HDL            \\
+            \textbf{Flexibility}            & Low                       & Moderate                 & High           \\
+            \textbf{Processing Power}       & Limited                   & High                     & High           \\
+            \textbf{Development Complexity} & Low                       & Moderate                 & High           \\
+            \textbf{Cost Considerations}    & Low                       & Moderate                 & High           \\
+            \textbf{Real-time Performance}  & Moderate                  & Low                      & High           \\
+            \textbf{Power Consumption}      & Low                       & Moderate to high         & Moderate       \\ \hline
+        \end{tabular}
+    }
+    \caption{Comparison of Microcontrollers, Microprocessors, and FPGAs.}
+    \label{tab:obc_comparison}
+\end{table}
 
-In this flow chart, there are four main tasks:
-\begin{itemize}
-    \item Prepare
-    \item Mission
-    \item Error
-    \item Shutdown
-\end{itemize}
+When choosing the \gls{OBC} for this Thesis, the first characteristic to be analyzed should be the availability to be programmed easily (being by a low-level language, an high-level language or a \gls{RTOS}).
+This selection will dictate the firmware strategy.
 
-\subsection{Main Device Unit Behavior}
-In this chapter, it is described all the tasks referring to the Main Device Unit Behavior.
-\subsubsection{Prepare Task}
-The \textbf{Prepare} task is responsible for preparing the subsystem after activation and checking if the system is ready for the mission.
+Other characteristics must also be present like power consumption, available interfaces (both wired and wireless) and real-time performance.
 
-Firstly it will check the connection and the number of  SDUs (this also represents the number of proprotors).
-In case of an insufficient number of SDUs, the subsystem will enter a state of Error and enter the \textbf{ERROR} task.
+%-------------------------------------------------------------------------------%
 
-After this, the subsystem checks the connection with the Flight Controller (FC).
-If there is no response from the FC (meaning, for example, that the FC is turned off), the MDU subsystem will turn off by entering in the task \textbf{Shutdown}.
+\subsection{Firmware}
+In embedded systems, the choice of programming languages and the use of a \gls{RTOS} in firmware development are critical decisions that can impact the performance, efficiency, and complexity of the embedded system.
 
-The next step is to publish an heartbeat to the SDUs (using topic \textit{mdu\slash  heartbeat}) and to acquire Epoch time to update its own date and time (if not possible use stored date and time) and update all the connected SDUs by publishing in \textit{mdu\slash date\_time} topic.
+\subsubsection{Programming languages}
+Even though there are multiple programming languages, normally categorized as low-level or high-level, not all programming languages are optimized to be used in embedded systems.
+In this section, an overview and comparison were made on some examples of programming languages \cite{LPROG4}, \cite{LPROG6}.
 
-Finally, in this task, the MDU will subscribe to \textit{sdu\slash heartbeat} and \textit{sdu\slash status}.
-If all the SDUs are ready, the subsystem is ready for the mission and, in this case, enter \textbf{Mission} task.
-Otherwise, if any or all the SDUs have any problem or can not be reached, the MDU will enter the \textbf{ERROR} task.
 
-The MDU \textbf{Prepare} task flow is represented in figure \ref{alg:MDU_PREPARE} in Appendix \ref{AppendixA}.
+\textbf{C} programming language has low-level features and is close to the hardware making it efficient and with high performance \cite{LPROG2}, \cite{LPROG6}.
 
-\subsubsection{Mission Task}
-In the \textbf{Mission} task the MDU will monitor the flight phase (given by the FC) and publish, accordingly, to \textit{mdu\slash pitch\_cmd} topic.
-Since each phase requires a different pitch angle, it was defined three flight phases:
-\begin{itemize}
-    \item Take-Off
-    \item Landing
-    \item Forward Flight
-\end{itemize}
-And while Take-Off and Landing phase, the pitch angles are defined, fixed and equal between all proprotors, in the Forward Flight phase each maneuver will require a different pitch angle and may require different pitches between each proprotor.
+It provides fine-grained control over memory, leading to efficient memory usage but can also lead to potential errors if not handled carefully \cite{LPROG5}.
+Due to its low-level control and predictable performance, it is often used in real-time systems \cite{LPROG7}.
 
-In parallel, the subsystem will also be publishing an heartbeat to the SDUs, checking the heartbeat from the FC and monitoring the heartbeat and status of all SDUs.
-By constantly monitoring the heartbeat and status of all the SDUs it is possible to recognize errors in the system and try to find solutions (in \textbf{Error} task) to avoid mission failures.
+This programming language is generally portable and has a large and active community, with extensive support and numerous libraries, development tools and compilers available \cite{LPROG7}.
 
-The MDU \textbf{Mission} task flow is represented in algorithm \ref{alg:MDU_MISSION} in Appendix \ref{AppendixB}.
+In terms of safety and reliability, it is a powerful language but lacks some safety features, like in memory management for example \cite{LPROG7}.
 
-\subsubsection{Error Task}
-\textbf{Error} task will be responsible for analyzing the error type and trying to resolve the error before mission failure.
-If the error is resolved, the system will re-enter the \textbf{Prepare} task otherwise it will enter \textbf{Shutdown} task.
+C can have a steeper learning curve, especially for beginners, due to manual memory management and low-level constructs \cite{LPROG2}.
 
-In case one or more SDUs are unreachable, the MDU will send a reboot command to the unreachable SDUs to try to resolve the communication problem.
-And, in case one or more SDUs can not change the pitch angle to the desired one, the MDU will force the value again before shutting down.
 
-The MDU Error task flow is represented in algorithm \ref{alg:MDU_ERROR} in Appendix \ref{AppendixC}\\
+\textbf{Assembly} programming language provides direct control over hardware and is highly efficient, and useful for writing low-level code.
+It allows developers to directly manage memory, providing fine control over memory footprint \cite{LPROG7}.
 
-\subsubsection{Shutdown Task}
-When the subsystem enters \textbf{Shutdown} task, it will start by publishing the shutdown command to \textit{mdu\slash shutdown}, so that all SDUs can turn off.
-Next, it will close the communication with the storage unit to avoid corrupted data or files.
-And finally, enter a low-power sleep mode until the user disconnects the \gls{uav} battery.
+Assembly can be used in real-time systems due to its precise control over hardware, predictable performance and high efficiency \cite{LPROG5}.
 
-The MDU Shutdown task flow is represented in algorithm \ref{alg:MDU_SHUTDOWN} in Appendix \ref{AppendixD}.
+However, in Assembly, there is no safety net or restrictions, this way developers must handle all aspects of safety and reliability manually \cite{LPROG7}.
+Assembly is also highly dependent on the architecture and is not inherently portable, has a niche community, and support is often architecture-specific and relies on specific tools provided by the hardware manufacturer.
+The learning curve is steep due to its low-level nature, and development is time-consuming compared to higher-level languages \cite{LPROG5}.
 
-\subsection{Secondary Device Unit Behavior}
-In the same way, this chapter will describe all the tasks referring to the Secondary Device Unit Behavior.
 
-\subsubsection{Prepare Task}
-In the SDU \textbf{Prepare} task, the subsystem will be prepared after activation to ensure it is ready for the mission.
+\textbf{C++} programming language is an object-oriented feature that can enhance code organization and reusability and can provide abstraction without sacrificing performance.
+It allows both manual and automatic memory management, providing flexibility \cite{LPROG2}, \cite{LPROG6}.
+C++ supports real-time programming, especially with the use of specific frameworks but is not as deterministic as low-level languages.
 
-The first step will be subscribing to \textit{mdu\slash heartbeat} and, if there is no response from the MDU, the SDU subsystem will turn off by entering in the task \textbf{Shutdown}.
+This programming language benefits from a robust community, with extensive support, it inherits development tools and compilers from C and has specific tools for features like object-oriented programming \cite{LPROG7}.
 
-The next step is to subscribe to \textit{mdu\slash date\_time} to acquire Epoch time and update its date and time.
+C++ introduces features like classes and objects, enhancing code organization and safety compared to C.
+However, it still allows low-level operations that may impact reliability \cite{LPROG5}.
 
-After publishing to \textit{sdu\slash heartbeat}, the SDU subsystem will perform a self-check test.
-In this test, the subsystem will vary the value of the pitch angle and check the feedback signal from the servo.
-If every movement is performed successfully, the SDU will publish an OK status to \textit{sdu\slash status}.
-But in case the feedback is different, the SDU will enter in \textbf{Error} task.
+Since C++ is similar to C, and since it introduces additional concepts, the learning curve can be slightly more complex.
+However, its object-oriented features can lead to more maintainable code \cite{LPROG7}.
 
-Finally, in this task, the MDU will subscribe to \textit{mdu\slash heartbeat}.
-If MDU is ready, the subsystem is ready for the mission and, in this case, enter \textbf{Mission} task, otherwise, the SDU will enter the \textbf{ERROR} task.
 
-The SDU Prepare task flow is represented in algorithm \ref{alg:SDU_PREPARE} in Appendix \ref{AppendixE}.
+\textbf{Rust} programming language, known for its focus on memory safety, is gaining popularity in embedded systems development.
+It offers performance similar to C and C++ while providing memory safety features \cite{LPROG2},\cite{LPROG7}.
 
-\subsubsection{Mission Task}
+Rust's was designed with a strong focus on memory safety with an ownership system that helps prevent common memory-related errors without sacrificing performance.
+This results in a secure and efficient memory footprint \cite{LPROG2}.
 
-The \textbf{Mission} task will monitor regularly the \textit{mdu\slash pitch\_cmd} topic.
-When it receives a new pitch command from the MDU, the SDU will change the pitch according to the command.
-Then it will check the servo feedback to ensure the propeller has the correct pitch and publish its status in \textit{sdu\slash status}.
+As for portability, it aims to be highly portable, with a focus on minimizing platform-specific issues.
+With features like Cargo, it simplifies dependency management and project setup.
 
-In parallel, the subsystem will also be publishing an heartbeat to the MDU, checking the heartbeat from the MDU and monitoring the shutdown command from the MDU.
+Rust has a growing community and is gaining popularity, with strong support.
+However, it can be challenging for beginners due to its ownership system \cite{LPROG7}.
 
-The SDU Mission task flow is represented in algorithm \ref{alg:SDU_MISSION} in Appendix \ref{AppendixF}.
 
-\subsubsection{Error Task}
-\textbf{Error} task will be responsible for analyzing the error type and trying to resolve the error before mission failure.
-If the error is resolved, the system will re-enter the \textbf{Prepare} task otherwise it will enter \textbf{Shutdown} task.
+\textbf{MicroPython} is a compact extension of Python designed for microcontrollers and \gls{IoT} devices to emphasize efficiency.
+However, it sacrifices some features of the standard Python to fit within resource constraints \cite{LPROG2}.
 
-If the SDU can not change the propeller pitch angle correctly, it will force another try at changing the pitch angle.
-And, if there is no heartbeat from the MDU, the SDU will try to obtain the heartbeat again.
+It aims for a small memory footprint suitable for microcontrollers which enhances portability as well \cite{LPROG7}.
 
-In case of unsuccess, in both cases, the SDU will activate the stand-alone \gls{PWM} generator to fix the propeller pitch angle.
+MicroPython can be used for real-time tasks on microcontrollers, but its capabilities may be limited since it is not as deterministic as low-level languages.
+The community focused on supporting embedded systems for MicroPython is growing with resources specifically tailored to microcontroller development \cite{LPROG2}, \cite{LPROG5}.
 
-The SDU Error task flow is represented in algorithm \ref{alg:SDU_ERROR} in Appendix \ref{AppendixG}.
+Table \ref{tab:programming_languages_comparison} resumes and compares all programming languages described above.
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lcccccc}
+            \hline
+            \textbf{Topic}             & \textbf{C} & \textbf{C++} & \textbf{Rust} & \textbf{Assembly} & \textbf{MicroPython} \\ \hline
+            Efficiency and Performance & High       & High         & High          & Very High         & Moderate             \\
+            Memory Footprint           & Low        & Moderate     & Moderate      & Very Low          & Low                  \\
+            Real-Time Capabilities     & Limited    & Limited      & Developing    & Yes               & Limited              \\
+            Portability                & High       & Moderate     & Moderate      & Low               & High                 \\
+            Community and Support      & Large      & Large        & Growing       & Limited           & Growing              \\
+            Development Tools          & Abundant   & Abundant     & Growing       & Limited           & Limited              \\
+            Safety and Reliability     & Moderate   & Moderate     & High          & Low               & Moderate             \\
+            Learning and Development   & Moderate   & Moderate     & Moderate      & Difficult         & Easy                 \\ \hline
+        \end{tabular}
+    }
+    \caption{Comparison of Programming Languages}
+    \label{tab:programming_languages_comparison}
+\end{table}
 
-\subsubsection{Shutdown Task}
-When the SDU subsystem enters \textbf{Shutdown} task, it will start by setting the propeller pitch angle to a default value.
-Next, it will close the communication with the storage unit to avoid corrupted data or files.
-And finally, enter a low-power sleep mode until the user disconnects the \gls{uav} battery.
+\subsubsection{Real-time Operating Systems}
+\glspl{RTOS} facilitates multitasking, allowing concurrent execution of multiple tasks, can provide task scheduling, priority management, and inter-process communication and is suitable for systems with real-time requirements.
+But this can add overhead, especially in terms of memory footprint, and the learning curve is steeper \cite{RTOS1}.\\
+The following \gls{RTOS} examples are open-source, well-documented, compact, and designed for resource-constrained systems, and they support various microcontroller architectures \cite{RTOS5}.
+They also support microROS, an extension of the \gls{ROS}, designed for microcontrollers and embedded systems that can be resource-constrained.
 
-The SDU Shutdown task flow is represented in algorithm \ref{alg:SDU_SHUTDOWN} in Appendix \ref{AppendixH}.
+
+\textbf{FreeRTOS} is a popular open-source (with MIT license) real-time operating system.
+It has a small footprint, making it suitable for resource-constrained embedded systems.
+Has a large and active community, which can be beneficial for support and finding solutions \cite{RTOS6}.
+
+As for scheduling policies, it supports priority-based, round-robin and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
+It supports \gls{I2C}, \gls{SPI} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, Ethernet and \gls{Wifi} network protocols \cite{compRTOS}.
+
+It is worth mentioning that FreeRTOS has Software Development Process DO178B Level A and Functional Safety IEC-61508 certifications.
+
+
+\textbf{NuttX} is a real-time operating system with a focus on standards compliance (POSIX and ANSI).
+It uses the Apache 2.0 license, allowing for both open-source and commercial use \cite{nuttx}.
+
+NuttX can be scalable, providing a balance between a small footprint for resource-constrained devices and support for larger systems \cite{nuttx}.
+
+In terms of scheduling it supports priority-based (\gls{FIFO}), Round-Robin and Sporadic Server schedulers and has semaphore/mutex management
+For wired protocols, it has support over \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and Modbus.
+And for network protocols, NuttX, supports 6LoWPAN, Ethernet, \gls{Wifi} and \gls{RFID} \cite{compRTOS}.
+
+
+\textbf{Zephyr} is a real-time operating system for resource-constrained devices.
+It also uses Apache 2.0 license that allows open-source and commercial development \cite{zephyr}.
+
+Designed to be modular and can be configured to match the requirements of the target device.
+Zephyr is supported by the Linux Foundation and has a growing and active community \cite{zephyr} and \cite{RTOS5}.
+
+As for scheduling policies, it supports priority-based and rate monotonic schedulers and has semaphore/mutex management \cite{compRTOS}.
+It supports \gls{I2C}, \gls{SPI}, \gls{USB}, \gls{CAN} and \gls{UART} wired protocols and \gls{BLE}-Stack, \gls{TLS}, 6LoWPAN, Ethernet, \gls{NFC}, \gls{Wifi} and \gls{RFID} network protocols \cite{compRTOS} \cite{compRTOS}.
+
+In table \ref{tab:rtos_comparison} is possible to see a comparison between some \glspl{RTOS} examples \cite{compRTOS}.
+\begin{table}[H]
+    \centering
+    \caption{Comparison of Real-Time Operating Systems}
+    \label{tab:rtos_comparison}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lcccc}
+            \hline
+            \textbf{Feature}      & \textbf{FreeRTOS} & \textbf{NuttX} & \textbf{Zephyr} \\ \hline
+            Licensing             & MIT               & Apache 2.0     & Apache 2.0      \\
+            Memory Footprint      & Small             & Scalable       & Scalable        \\
+            Community and Support & Large             & Growing        & Active          \\
+            Architecture Support  & Wide              & Wide           & Wide            \\
+            Certification         & Depends           & Depends        & Considered      \\
+            POSIX/ANSI Compliance & Limited           & Yes            & Limited         \\
+            Safety Features       & Basic             & Depends        & Depends         \\ \hline
+        \end{tabular}
+    }
+\end{table}
+
+
+\subsubsection{Overall Analyses}
+In this subsection, it was made a resume and overall analyses of programming languages and \glspl{RTOS}, describing the pros and cons of each solution.
+
+Programming languages can provide better portability across different hardware platforms.
+They can have modular code and/or libraries making them more reusable.
+Since programming languages are more common, the time dedicated to development is smaller and more efficient.
+In the case of high-level languages productivity is increased since this languages abstracts some hardware details.
+But, programming languages may introduce performance overhead which can be critical in resource-constrained embedded systems.
+And may have less control over low-level hardware details, which could be essential for certain embedded applications.
+
+
+\glspl{RTOS} provides deterministic timing and has task scheduling and management that can enable the execution of multiple tasks simultaneously.
+And can manage resources more effectively, optimizing performance and memory usage.
+However, integrating a \glspl{RTOS} can be complex and more time-consuming since the developers may need to invest time to learn and understand the specific \glspl{RTOS}.
+
+%-------------------------------------------------------------------------------%
+
+% \section{Communication Technology }
+% \subsection{Wired}
+
+% Intra-communication communication is a critical part of the overall vehicle architecture, responsible for ensuring seamless interaction between various \acs{ECU}s within the vehicle.
+% Several communication protocols and technologies are available for this purpose, each with its own set of advantages and considerations.
+% This article provides a comparison of these options, examines real-world applications, and guides towards the best type of communication for a given project.
+
+% \subsubsection{\acs{CAN}bus}
+
+% The \ac{CAN}bus is a widely used communication protocol in vehicles.
+% It serves as a reliable and deterministic communication medium for connecting various \acs{ECU}s within the vehicle.
+% This protocol supports real-time communication and is suitable for transmitting critical data.
+
+% \begin{table}[H]
+%     \centering
+%     \caption{\acs{CAN}Bus Pros and Cons}
+%     \label{tab:CANBus}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \multicolumn{1}{|c|}{Main Functionalities}     & \multicolumn{1}{c|}{Pros}                 & \multicolumn{1}{c|}{Cons} \\ \hline
+%         - Reliable Communication                       & \makecell[l]{ - Widely adopted in                                     \\the automotive industry}              & \makecell[l]{- Limited bandwidth \\ compared to Ethernet}   \\ \hline
+%         \multirow{3}{*}{- Deterministic Communication} & \makecell[l]{- Well-established                                       \\ protocols and tools}                   & \makecell[l]{- Limited support for \\ large data transfers} \\ \cline{2-3}
+%                                                        & \makecell[l]{- Suitable for real-time and                             \\ safety-critical applications} & \makecell[l]{- Limited scalability for \\ future requirements} \\ \cline{2-3}
+%                                                        & \makecell[l]{- Low implementation cost                                \\ and low power consumption}      & \\ \hline
+%     \end{tabular}%
+% \end{table}
+
+% CAN bus offers a reliable and deterministic communication medium for connecting ECUs within the vehicle.
+% CANbus stands as the preferred communication protocol for autonomous vehicles due to its
+% reliable and deterministic nature. It has gained a strong reputation in the automotive industry
+% for transmitting critical data with unwavering dependability. CANbus’s well-established pro-
+% tocols and tools ensure deterministic behavior, enabling real-time communication crucial for
+% safety-critical applications.
+% In addition to its reliability, CANbus offers cost-effectiveness and low power consumption.
+% Implementing CANbus is economically viable compared to alternatives like Ethernet, thanks to
+% minimal hardware and infrastructure requirements. Moreover, CANbus aligns with the demand
+% for energy-efficient systems in modern vehicles by consuming low power.
+% The real-world application of CANbus in the Tesla Model S exemplifies its effectiveness. CANbus
+% facilitates seamless communication between diverse ECUs responsible for critical functions,
+% such as powertrain control and braking systems. This successful integration in the Model S
+% validates CANbus’s reliability in practical scenarios
+
+% While CANbus has notable advantages, it is essential to consider its limitations. Its bandwidth
+% is comparatively limited, posing challenges for transmitting large data volumes. Additionally,
+% CANbus has limited support for large data transfers and scalability for future requirements.
+% Complex functionalities may necessitate additional protocols to overcome these limitations.
+% In conclusion, CANbus emerges as the optimal choice for intra-communication in autonomous
+% vehicles, given its proven reliability, deterministic behavior, cost-effectiveness, and successful
+% application in vehicles like the Tesla Model S. Widely adopted in the automotive industry,
+% CANbus provides a robust communication medium for critical data transmission and seamless
+% interaction between ECUs. Despite its limitations, CANbus remains a practical and effective
+% solution for facilitating efficient communication in future autonomous vehicles.
+
+% \subsection{Wireless}
+
+\section{Wireless Communication}
+
+While researching wireless communication, multiple protocols can be studied.
+They can, mainly, be separated into two categories: short-range and long-range.
+
+In the context of communication between devices inside an \glspl{uav}, the focus will be on short-range wireless communication protocols \cite{WCOM1}, \cite{WCOM6}, \cite{WCOM7}.
+
+Short-range protocols offer advantages such as lower power consumption, reduced interference, and efficient data transfer within confined spaces.
+Within this category, options like Bluetooth, Wi-Fi, Zigbee and \gls{LoRaWAN} for short distances emerge as noteworthy candidates.
+Each of these protocols addresses specific requirements, making them suitable for various aspects of \gls{uav} operations, from intra-component communication to data transfer between the \gls{uav} and ground control \cite{WCOM6}, \cite{WCOM7}.
+
+%\subsection{WiFi}
+\textbf{\gls{Wifi}}, with 802.11 series \gls{IEEE} standard, is a communication technology that enables devices to connect to the same network without the need for physical cables \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+It can be used for bi-directional high-speed data transfer (ranging from Mbps to Gbps) over short ranges, using 2.4 GHz and 5 GHz frequency bands \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Typically, its topology is star\footnote{devices are connected to a central hub, with all communication flowing through this central point} or mesh\footnote{devices are interconnected, allowing for multiple communication paths between nodes} format \cite{WCOM8}.
+
+However, it has high power consumption and has interference in 2.4 GHz and 5 GHz bands \cite{WCOM8}.
+
+This technology is normally used in homes, offices, public spaces, and industrial settings.
+
+%\subsection{Bluetooth}
+\textbf{Bluetooth},  based on \gls{IEEE} 802.5.1 standard, is a common short-range wireless technology with low power consumption \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+It has bi-directional data transfer operating within the 2.4 GHz band \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Bluetooth topology is, normally, point-to-point\footnote{device connects with one or more slave devices (point-to-multipoint)} or mesh \cite{WCOM8}.
+
+But has a limited range and lower data rates (in the Mbps range) \cite{WCOM8}.
+
+It is commonly used in personal devices, audio accessories and \gls{IoT} applications.
+
+In Bluetooth version 4.0, was introduced \gls{BLE} standard providing even less power consumption and profiles and services that define the functions and characteristics of devices \cite{WCOM8}.
+
+%\subsection{Zigbee}
+\textbf{Zigbee}, with \gls{IEEE} 802.15.4 standard, is a wireless communication standard designed for short-range communication with low power consumption \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Working in 2.4 GHz frequency band, it has bi-directional data transfer and low latency \cite{WCOM8}, \cite{WCOM11} and \cite{WCOM12}.
+Zigbee uses mesh network topology \cite{WCOM8}.
+
+However, the limited data rate (in the Kbps range) and the limited range can be a compromise to the system, \cite{WCOM11} and \cite{WCOM12}.
+
+Zigbee is normally used in home automation, industrial control and sensor networks.
+
+%\subsection{LoRaWAN}
+\textbf{\gls{LoRaWAN}}\footnote{protocol for the MAC layer and network layer being LoRa the physical layer technology} is designed for long-range communication but can also be used in short-range.
+It provides low-power, long-range wireless communication suitable for various scenarios and applications \cite{WCOM8}.
+
+The bi-directional communication, resilient to interference, works in frequency ranges of 400 MHz, 868 MHz and 900 MHz.
+And uses Star-of-Stars\footnote{multiple star networks are interconnected through a central hub} \cite{WCOM10} and mesh topologies \cite{WCOM9}.
+
+But has low data rates in the Kbps range \cite{WCOM8}.
+
+Normally it is used in \gls{IoT} applications, smart agriculture and smart cities.
+
+\subsection{Wireless Communication Technologies Comparison}
+The comparison of the wireless communication technologies explained, in this section, can be seen in Table \ref{tab:wcom_comparison} \cite{WCOM11} and \cite{WCOM12}.
+\begin{table}[H]
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccccc}
+            \hline
+            \textbf{Technology}        & \textbf{Wi-Fi} & \textbf{Bluetooth}  & \textbf{Zigbee} & \textbf{LoRaWAN}    \\ \hline
+            \textbf{Data Rate}         & High           & Moderate            & Moderate        & Low                 \\
+            \textbf{Widespread}        & Yes            & Yes                 & Yes             & Limited             \\
+            \textbf{Direction}         & Bi-Directional & Bi-Directional      & Bi-Directional  & Bi-Directional      \\
+            \textbf{Power Consumption} & High           & Low                 & Low             & Low                 \\
+            \textbf{Frequency}         & 2.4 GHz        & 2.4 GHz             & 2.4 GHz         & Sub-1 GHz           \\
+            \textbf{Range (in meters)} & 30-100         & 5-100               & 10-100          & 2000-10000          \\
+            \textbf{Topology}          & Star, Mesh     & Star, Mesh, Piconet & Mesh            & Star-of-Stars, Mesh \\ \hline
+        \end{tabular}
+    }
+    \caption{Comparison of Communication Technologies}
+    \label{tab:wcom_comparison}
+\end{table}
+
+The wireless technology to be used in this system should be in a different band than the network already installed on the \gls{uav}.
+This is important since this system can not interfere with the normal function during a mission.
+
+It should also support multiple devices, have a range bigger than the size of the \gls{uav} and have low power consumption.
+
+%-------------------------------------------------------------------------------%
+
+% \section{Servo Motors}
+% TODO: MORE INFO\\
+% TODO: ADD FIGURES\\
+% %-------------------------------------------------------------------------------%
+
+
+% \section{Power Management System}
+% TODO: MORE INFO\\
+
+% \subsection{Power Distribution}
+% TODO: MORE INFO\\
+
+% \subsection{Battery Protection}
+% \gls{UVP}\\
+% Fuse (but a single point of failure)\\
+% Reverse polarity Protection\\
+% TODO: MORE INFO\\
+
 %-------------------------------------------------------------------------------%
