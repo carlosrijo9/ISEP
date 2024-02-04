@@ -1370,3 +1370,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{CAGR}%
+{%
+name={CAGR},%
+sort={CAGR},%
+type={acronym},%
+first={Compound Annual Growth Rate\glsspace (CAGR)},%
+firstplural={Compound Annual Growth Rate\acrpluralsuffix \glsspace (CAGR\acrpluralsuffix )},%
+text={CAGR},%
+plural={CAGR\acrpluralsuffix },%
+description={Compound Annual Growth Rate},%
+descriptionplural={Compound Annual Growth Rate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Compound Annual Growth Rate},%
+longplural={Compound Annual Growth Rates},%
+short={CAGR},%
+shortplural={CAGRs},%
+counter={page},%
+parent={},%
+%
+}%
+

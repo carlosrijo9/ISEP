@@ -1,26 +1,28 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \blx@tocontentsinit {0}\cite {VPP7}\relax }}{2}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \blx@tocontentsinit {0}\cite {VPP9}\relax }}{2}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces UAV Market Share, by End-Use, 2021\blx@tocontentsinit {0}\cite {UAV_market}\relax }}{1}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces UAV Market Size and Forecast, by Region, 2021-2030 \blx@tocontentsinit {0}\cite {UAV_market}\relax }}{2}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Thrust horsepower comparison between FPP and VPP \blx@tocontentsinit {0}\cite {VPP7}\relax }}{3}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Efficiency comparison between FPP and VPP \blx@tocontentsinit {0}\cite {VPP9}\relax }}{3}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Examples of UAV types \blx@tocontentsinit {0}\cite {UAV13}\relax }}{5}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Propeller blade representation \blx@tocontentsinit {0}\cite {propeller}\relax }}{6}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of Fixed Pitch \blx@tocontentsinit {0}\cite {FPP8}\relax }}{7}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of Variable Pitch Mechanism \blx@tocontentsinit {0}\cite {VPP4}\relax }}{8}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces VPP Hydraulic Method - Takeoff \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces VPP Hydraulic Method - Cruise \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces VPP Electromechanical Method \blx@tocontentsinit {0}\cite {VPP6}\relax }}{10}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Examples of UAV types \blx@tocontentsinit {0}\cite {UAV13}\relax }}{5}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Propeller blade representation \blx@tocontentsinit {0}\cite {propeller}\relax }}{6}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of Fixed Pitch \blx@tocontentsinit {0}\cite {FPP8}\relax }}{7}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of Variable Pitch Mechanism \blx@tocontentsinit {0}\cite {VPP4}\relax }}{8}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces VPP Hydraulic Method - Takeoff \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces VPP Hydraulic Method - Cruise \blx@tocontentsinit {0}\cite {VPP5}\relax }}{9}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces VPP Electromechanical Method \blx@tocontentsinit {0}\cite {VPP6}\relax }}{10}{figure.caption.37}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Proposed System Architecture High-Level Diagram\relax }}{13}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Proposed System Architecture High-Level Diagram\relax }}{13}{figure.caption.56}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{21}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{21}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{22}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{22}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{22}{figure.caption.73}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{22}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \gls {Li-ion} battery example \blx@tocontentsinit {0}\cite {18650}\relax }}{21}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \gls {Li-Po} battery example \blx@tocontentsinit {0}\cite {lipo}\relax }}{21}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \gls {NiMH} battery example \blx@tocontentsinit {0}\cite {nimh}\relax }}{22}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \gls {NiCd} battery example \blx@tocontentsinit {0}\cite {nicd}\relax }}{22}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Lead-Acid battery example \blx@tocontentsinit {0}\cite {lead}\relax }}{22}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Alkaline battery example \blx@tocontentsinit {0}\cite {alkaline}\relax }}{22}{figure.caption.76}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{34}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Project timeline Gantt chart\relax }}{34}{figure.caption.104}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

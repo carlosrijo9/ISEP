@@ -71,6 +71,20 @@
       \field{title}{A Comprehensive Review of Recent Research Trends on UAVs}
       \field{year}{2023}
     \endentry
+    \entry{UAV_market}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{journaltitle}{Research Dive}
+      \verb{urlraw}
+      \verb https://www.researchdive.com/8348/unmanned-aerial-vehicle-uav-drones-market
+      \endverb
+      \verb{url}
+      \verb https://www.researchdive.com/8348/unmanned-aerial-vehicle-uav-drones-market
+      \endverb
+    \endentry
     \entry{UAV2}{article}{}
       \name{author}{1}{}{%
         {{hash=102618870a2fbf9fadcca48c73544cdc}{%
@@ -85,8 +99,8 @@
       \strng{authorbibnamehash}{102618870a2fbf9fadcca48c73544cdc}
       \strng{authornamehash}{102618870a2fbf9fadcca48c73544cdc}
       \strng{authorfullhash}{102618870a2fbf9fadcca48c73544cdc}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences}
@@ -142,8 +156,8 @@
       \strng{authorbibnamehash}{ea4909cf5e30abb56adf62afe30c919c}
       \strng{authornamehash}{ea4909cf5e30abb56adf62afe30c919c}
       \strng{authorfullhash}{dbd7cf3a347bf1dd87d23ca4c1ef16e4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Mechanical Engineering Research and Developments}
@@ -178,8 +192,8 @@
       \strng{authorbibnamehash}{8908b79f450a9438b0de9f23e9d8afdd}
       \strng{authornamehash}{8908b79f450a9438b0de9f23e9d8afdd}
       \strng{authorfullhash}{8908b79f450a9438b0de9f23e9d8afdd}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Automation and Control}
@@ -225,6 +239,36 @@
       \verb 10.3390/drones7030148
       \endverb
     \endentry
+    \entry{UAV_market2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=58e8042c2cae3650d0a1c8da3494beb9}{%
+           family={Paliwal},
+           familyi={P\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Eng}%
+      }
+      \strng{namehash}{58e8042c2cae3650d0a1c8da3494beb9}
+      \strng{fullhash}{58e8042c2cae3650d0a1c8da3494beb9}
+      \strng{bibnamehash}{58e8042c2cae3650d0a1c8da3494beb9}
+      \strng{authorbibnamehash}{58e8042c2cae3650d0a1c8da3494beb9}
+      \strng{authornamehash}{58e8042c2cae3650d0a1c8da3494beb9}
+      \strng{authorfullhash}{58e8042c2cae3650d0a1c8da3494beb9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research Dive}
+      \field{title}{The Global UAV Drones Market Growth is highly anticipated due to its Wide Scale Industrial Applications Likewise in Oil and Gas, Sea Ports, etc}
+      \verb{urlraw}
+      \verb https://www.researchdive.com/press-release/the-global-uav-drone-market.html
+      \endverb
+      \verb{url}
+      \verb https://www.researchdive.com/press-release/the-global-uav-drone-market.html
+      \endverb
+    \endentry
     \entry{FPP1}{thesis}{}
       \name{author}{1}{}{%
         {{hash=154d63bbc1fa64195cd9355e1462ae68}{%
@@ -240,8 +284,8 @@
       \strng{authornamehash}{154d63bbc1fa64195cd9355e1462ae68}
       \strng{authorfullhash}{154d63bbc1fa64195cd9355e1462ae68}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -278,8 +322,8 @@
       \strng{authorbibnamehash}{66df41cd934985964ba65c17f757730d}
       \strng{authornamehash}{66df41cd934985964ba65c17f757730d}
       \strng{authorfullhash}{968d797dc30731cc04b48bda302c765b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors (Basel, Switzerland)}
@@ -310,8 +354,8 @@
       \strng{authorbibnamehash}{ffde3d75aafbbb40cdea41d0576b691e}
       \strng{authornamehash}{ffde3d75aafbbb40cdea41d0576b691e}
       \strng{authorfullhash}{ffde3d75aafbbb40cdea41d0576b691e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2008 International Conference on Smart Manufacturing Application}
@@ -349,8 +393,8 @@
       \strng{authorbibnamehash}{b91592250f1125a5680af9eb71e8dd8e}
       \strng{authornamehash}{b91592250f1125a5680af9eb71e8dd8e}
       \strng{authorfullhash}{b91592250f1125a5680af9eb71e8dd8e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2007 IEEE Intelligent Vehicles Symposium}
@@ -394,8 +438,8 @@
       \strng{authorbibnamehash}{3180f0ab9e76aa1276f603929644f0e5}
       \strng{authornamehash}{3180f0ab9e76aa1276f603929644f0e5}
       \strng{authorfullhash}{3180f0ab9e76aa1276f603929644f0e5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2009 IEEE International Conference on Control and Automation}
@@ -439,8 +483,8 @@
       \strng{authorbibnamehash}{e38f7d0852124eda99bd10fb2bd97540}
       \strng{authornamehash}{e38f7d0852124eda99bd10fb2bd97540}
       \strng{authorfullhash}{e38f7d0852124eda99bd10fb2bd97540}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{978-90-481-8763-8}
@@ -472,8 +516,8 @@
       \strng{authorbibnamehash}{966e01a449d2e559041593a6d893b9e9}
       \strng{authornamehash}{966e01a449d2e559041593a6d893b9e9}
       \strng{authorfullhash}{966e01a449d2e559041593a6d893b9e9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{KITPLANES}
@@ -504,8 +548,8 @@
       \strng{authorbibnamehash}{d688c6d125671d003fe5bb4c7ab102bc}
       \strng{authornamehash}{d688c6d125671d003fe5bb4c7ab102bc}
       \strng{authorfullhash}{d688c6d125671d003fe5bb4c7ab102bc}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Fly13}
@@ -558,8 +602,8 @@
       \strng{authorbibnamehash}{96a08b2c88a2c7d870d9e5617d7e5c6a}
       \strng{authornamehash}{96a08b2c88a2c7d870d9e5617d7e5c6a}
       \strng{authorfullhash}{3c93d1d9c49e645b1b0cf2c78377935a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Micromachines}
@@ -597,8 +641,8 @@
       \strng{authorbibnamehash}{174b6d1f3475547c59e67e0b9d196a40}
       \strng{authornamehash}{174b6d1f3475547c59e67e0b9d196a40}
       \strng{authorfullhash}{174b6d1f3475547c59e67e0b9d196a40}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Consumer Electronics Magazine}
@@ -629,8 +673,8 @@
       \strng{authorbibnamehash}{39f6cf8007e6082de85446b9ee142517}
       \strng{authornamehash}{39f6cf8007e6082de85446b9ee142517}
       \strng{authorfullhash}{39f6cf8007e6082de85446b9ee142517}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -646,8 +690,8 @@
       \endverb
     \endentry
     \entry{propeller}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{journaltitle}{SKYbrary}
       \verb{urlraw}
       \verb https://skybrary.aero/articles/p-factor
@@ -657,8 +701,8 @@
       \endverb
     \endentry
     \entry{FPP8}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{journaltitle}{Thatitechnics}
       \verb{urlraw}
       \verb https://www.thaitechnics.com/propeller/prop_intro.html
@@ -668,8 +712,8 @@
       \endverb
     \endentry
     \entry{FPP6}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{journaltitle}{Skybrabry}
       \verb{urlraw}
       \verb https://skybrary.aero/articles/fixed-pitch-propeller
@@ -695,8 +739,8 @@
       \strng{authorbibnamehash}{5e3e6194466005c3787ca43cd0c0d3d6}
       \strng{authornamehash}{5e3e6194466005c3787ca43cd0c0d3d6}
       \strng{authorfullhash}{5e3e6194466005c3787ca43cd0c0d3d6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EAA}
@@ -727,8 +771,8 @@
       \strng{authorbibnamehash}{313ad2bde5eed84c834d7c9a4fd53418}
       \strng{authornamehash}{313ad2bde5eed84c834d7c9a4fd53418}
       \strng{authorfullhash}{313ad2bde5eed84c834d7c9a4fd53418}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Academic Accelerator}
@@ -770,8 +814,8 @@
       \strng{authorbibnamehash}{8bf552722976ac81ce05e01d7d602a9d}
       \strng{authornamehash}{8bf552722976ac81ce05e01d7d602a9d}
       \strng{authorfullhash}{87d9dcf792f9b621b1f3cc6a83adeee0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09574158}
@@ -810,8 +854,8 @@
       \strng{authorbibnamehash}{4e786a0ed9977c6e8450f6bdcabf8f49}
       \strng{authornamehash}{4e786a0ed9977c6e8450f6bdcabf8f49}
       \strng{authorfullhash}{4e786a0ed9977c6e8450f6bdcabf8f49}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{5}
@@ -835,8 +879,8 @@
       \strng{authorbibnamehash}{30c9d20a85dc60a36ec7a39af6a940c8}
       \strng{authornamehash}{30c9d20a85dc60a36ec7a39af6a940c8}
       \strng{authorfullhash}{30c9d20a85dc60a36ec7a39af6a940c8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -864,8 +908,8 @@
       \strng{authornamehash}{300dea89d1c4a436c7617f310076ad18}
       \strng{authorfullhash}{300dea89d1c4a436c7617f310076ad18}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Boldmethod}
@@ -913,8 +957,8 @@
       \strng{authorbibnamehash}{3bb60eb55edfffb55bcb5a6217a5f3fd}
       \strng{authornamehash}{3bb60eb55edfffb55bcb5a6217a5f3fd}
       \strng{authorfullhash}{9edfc325955296b4f14223400e24055a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -941,8 +985,8 @@
       \strng{authorbibnamehash}{63b40723ccb6d8c7ef8b54f0c0ac95b3}
       \strng{authornamehash}{63b40723ccb6d8c7ef8b54f0c0ac95b3}
       \strng{authorfullhash}{63b40723ccb6d8c7ef8b54f0c0ac95b3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EDN}
@@ -960,8 +1004,8 @@
       \list{language}{1}{%
         {en-US}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{journaltitle}{Toradex}
       \verb{urlraw}
       \verb https://www.toradex.com/blog/using-lithium-ion-batteries-in-embedded-systems
@@ -971,8 +1015,8 @@
       \endverb
     \endentry
     \entry{18650}{misc}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \verb{urlraw}
       \verb https://www.nkon.nl/pt/samsung-inr-18650-30q-3000mah.html
       \endverb
@@ -984,8 +1028,8 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{journaltitle}{The Pi Hut}
       \verb{urlraw}
       \verb https://thepihut.com/products/1200mah-3-7v-lipo-battery
@@ -995,8 +1039,8 @@
       \endverb
     \endentry
     \entry{nimh}{misc}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \verb{urlraw}
       \verb https://www.nkon.nl/pt/rechargeable/nimh/gp-ni-mh-d-11000mah.html
       \endverb
