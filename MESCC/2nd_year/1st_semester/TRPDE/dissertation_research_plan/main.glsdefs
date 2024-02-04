@@ -1342,3 +1342,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{VANT}%
+{%
+name={VANT},%
+sort={VANT},%
+type={acronym},%
+first={Veículo Aéreo Não Tripulado\glsspace (VANT)},%
+firstplural={Veículo Aéreo Não Tripulado\acrpluralsuffix \glsspace (VANT\acrpluralsuffix )},%
+text={VANT},%
+plural={VANT\acrpluralsuffix },%
+description={Veículo Aéreo Não Tripulado},%
+descriptionplural={Veículo Aéreo Não Tripulado\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Veículo Aéreo Não Tripulado},%
+longplural={Veículo Aéreo Não Tripulados},%
+short={VANT},%
+shortplural={VANTs},%
+counter={page},%
+parent={},%
+%
+}%
+

@@ -6,57 +6,56 @@
 \contentsline {chapter}{List of Acronyms}{xvii}{section*.13}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.16}%
 \contentsline {section}{\numberline {1.1}Problem Analysis}{3}{section.19}%
-\contentsline {section}{\numberline {1.2}Motivation}{3}{section.20}%
-\contentsline {section}{\numberline {1.3}Objectives}{3}{section.21}%
-\contentsline {chapter}{\numberline {2}State of the Art}{5}{chapter.22}%
-\contentsline {section}{\numberline {2.1}Unmanned Aerial Vehicle}{5}{section.23}%
-\contentsline {subsection}{\numberline {2.1.1}Propeller Fundamentals}{5}{subsection.25}%
-\contentsline {subsection}{\numberline {2.1.2}Fixed Pitch Proprotors}{6}{subsection.27}%
-\contentsline {subsection}{\numberline {2.1.3}Variable Pitch Proprotors}{7}{subsection.29}%
-\contentsline {subsubsection}{Hydraulic Method}{8}{section*.31}%
-\contentsline {subsubsection}{Centrifugal Method}{9}{section*.34}%
-\contentsline {subsubsection}{Electromechanical Method}{10}{section*.35}%
-\contentsline {chapter}{\numberline {3}Proposed Approach}{11}{chapter.37}%
-\contentsline {section}{\numberline {3.1}Requirements}{11}{section.38}%
-\contentsline {section}{\numberline {3.2}System Architecture}{12}{section.54}%
-\contentsline {subsection}{\numberline {3.2.1}Main Device}{13}{subsection.56}%
-\contentsline {subsection}{\numberline {3.2.2}Secondary Device}{15}{subsection.57}%
-\contentsline {section}{\numberline {3.3}System Behavior}{15}{section.58}%
-\contentsline {subsection}{\numberline {3.3.1}Main Device Unit Behavior}{16}{subsection.60}%
-\contentsline {subsubsection}{Prepare Task}{16}{section*.61}%
-\contentsline {subsubsection}{Mission Task}{17}{section*.62}%
-\contentsline {subsubsection}{Error Task}{17}{section*.63}%
-\contentsline {subsubsection}{Shutdown Task}{17}{section*.64}%
-\contentsline {subsection}{\numberline {3.3.2}Secondary Device Unit Behavior}{18}{subsection.65}%
-\contentsline {subsubsection}{Prepare Task}{18}{section*.66}%
-\contentsline {subsubsection}{Mission Task}{18}{section*.67}%
-\contentsline {subsubsection}{Error Task}{18}{section*.68}%
-\contentsline {subsubsection}{Shutdown Task}{19}{section*.69}%
-\contentsline {chapter}{\numberline {4}System Development}{21}{chapter.70}%
-\contentsline {section}{\numberline {4.1}Battery Module}{21}{section.71}%
-\contentsline {subsection}{\numberline {4.1.1}Battery Technologies Comparison}{22}{subsection.76}%
-\contentsline {section}{\numberline {4.2}External Memory and Storage Units}{23}{section.78}%
-\contentsline {subsection}{\numberline {4.2.1}External Memory Technologies Comparison}{24}{subsection.79}%
-\contentsline {section}{\numberline {4.3}Computing Systems and Firmware}{24}{section.81}%
-\contentsline {subsection}{\numberline {4.3.1}Computing Systems}{24}{subsection.82}%
-\contentsline {subsubsection}{Computing System Technologies Comparison}{25}{section*.83}%
-\contentsline {subsection}{\numberline {4.3.2}Firmware}{26}{subsection.85}%
-\contentsline {subsubsection}{Programming languages}{26}{section*.86}%
-\contentsline {subsubsection}{Real-time Operating Systems}{28}{section*.88}%
-\contentsline {subsubsection}{Overall Analyses}{29}{section*.90}%
-\contentsline {section}{\numberline {4.4}Wireless Communication}{29}{section.91}%
-\contentsline {subsection}{\numberline {4.4.1}Wireless Communication Technologies Comparison}{31}{subsection.97}%
-\contentsline {chapter}{\numberline {5}Development Plan}{33}{chapter.99}%
-\contentsline {section}{\numberline {5.1}Research Approach}{33}{section.100}%
-\contentsline {section}{\numberline {5.2}Evaluation}{33}{section.101}%
-\contentsline {section}{\numberline {5.3}Timeline}{34}{section.102}%
-\contentsline {section}{\numberline {5.4}Final Remarks}{35}{section.105}%
-\contentsline {chapter}{Bibliography}{37}{chapter*.106}%
-\contentsline {chapter}{\numberline {A}Main Device Flow Chart - Prepare Task}{41}{appendix.107}%
-\contentsline {chapter}{\numberline {B}Main Device Flow Chart - Mission Task}{43}{appendix.109}%
-\contentsline {chapter}{\numberline {C}Main Device Flow Chart - Error Task}{45}{appendix.111}%
-\contentsline {chapter}{\numberline {D}Main Device Flow Chart - Shutdown Task}{47}{appendix.113}%
-\contentsline {chapter}{\numberline {E}Secondary Devices Flow Chart - Prepare Task}{49}{appendix.115}%
-\contentsline {chapter}{\numberline {F}Secondary Devices Flow Chart - Mission Task}{51}{appendix.117}%
-\contentsline {chapter}{\numberline {G}Secondary Devices Flow Chart - Error Task}{53}{appendix.119}%
-\contentsline {chapter}{\numberline {H}Secondary Devices Flow Chart - Shutdown Task}{55}{appendix.121}%
+\contentsline {section}{\numberline {1.2}Objectives}{3}{section.20}%
+\contentsline {chapter}{\numberline {2}State of the Art}{5}{chapter.21}%
+\contentsline {section}{\numberline {2.1}Unmanned Aerial Vehicle}{5}{section.22}%
+\contentsline {subsection}{\numberline {2.1.1}Propeller Fundamentals}{5}{subsection.24}%
+\contentsline {subsection}{\numberline {2.1.2}Fixed Pitch Proprotors}{6}{subsection.26}%
+\contentsline {subsection}{\numberline {2.1.3}Variable Pitch Proprotors}{7}{subsection.28}%
+\contentsline {subsubsection}{Hydraulic Method}{8}{section*.30}%
+\contentsline {subsubsection}{Centrifugal Method}{9}{section*.33}%
+\contentsline {subsubsection}{Electromechanical Method}{10}{section*.34}%
+\contentsline {chapter}{\numberline {3}Proposed Approach}{11}{chapter.36}%
+\contentsline {section}{\numberline {3.1}Requirements}{11}{section.37}%
+\contentsline {section}{\numberline {3.2}System Architecture}{12}{section.53}%
+\contentsline {subsection}{\numberline {3.2.1}Main Device}{13}{subsection.55}%
+\contentsline {subsection}{\numberline {3.2.2}Secondary Device}{15}{subsection.56}%
+\contentsline {section}{\numberline {3.3}System Behavior}{15}{section.57}%
+\contentsline {subsection}{\numberline {3.3.1}Main Device Unit Behavior}{16}{subsection.59}%
+\contentsline {subsubsection}{Prepare Task}{16}{section*.60}%
+\contentsline {subsubsection}{Mission Task}{17}{section*.61}%
+\contentsline {subsubsection}{Error Task}{17}{section*.62}%
+\contentsline {subsubsection}{Shutdown Task}{17}{section*.63}%
+\contentsline {subsection}{\numberline {3.3.2}Secondary Device Unit Behavior}{18}{subsection.64}%
+\contentsline {subsubsection}{Prepare Task}{18}{section*.65}%
+\contentsline {subsubsection}{Mission Task}{18}{section*.66}%
+\contentsline {subsubsection}{Error Task}{18}{section*.67}%
+\contentsline {subsubsection}{Shutdown Task}{19}{section*.68}%
+\contentsline {chapter}{\numberline {4}System Development}{21}{chapter.69}%
+\contentsline {section}{\numberline {4.1}Battery Module}{21}{section.70}%
+\contentsline {subsection}{\numberline {4.1.1}Battery Technologies Comparison}{22}{subsection.75}%
+\contentsline {section}{\numberline {4.2}External Memory and Storage Units}{23}{section.77}%
+\contentsline {subsection}{\numberline {4.2.1}External Memory Technologies Comparison}{24}{subsection.78}%
+\contentsline {section}{\numberline {4.3}Computing Systems and Firmware}{24}{section.80}%
+\contentsline {subsection}{\numberline {4.3.1}Computing Systems}{24}{subsection.81}%
+\contentsline {subsubsection}{Computing System Technologies Comparison}{25}{section*.82}%
+\contentsline {subsection}{\numberline {4.3.2}Firmware}{26}{subsection.84}%
+\contentsline {subsubsection}{Programming languages}{26}{section*.85}%
+\contentsline {subsubsection}{Real-time Operating Systems}{28}{section*.87}%
+\contentsline {subsubsection}{Overall Analyses}{29}{section*.89}%
+\contentsline {section}{\numberline {4.4}Wireless Communication}{29}{section.90}%
+\contentsline {subsection}{\numberline {4.4.1}Wireless Communication Technologies Comparison}{31}{subsection.96}%
+\contentsline {chapter}{\numberline {5}Development Plan}{33}{chapter.98}%
+\contentsline {section}{\numberline {5.1}Research Approach}{33}{section.99}%
+\contentsline {section}{\numberline {5.2}Evaluation}{33}{section.100}%
+\contentsline {section}{\numberline {5.3}Timeline}{34}{section.101}%
+\contentsline {section}{\numberline {5.4}Final Remarks}{35}{section.104}%
+\contentsline {chapter}{Bibliography}{37}{chapter*.105}%
+\contentsline {chapter}{\numberline {A}Main Device Flow Chart - Prepare Task}{41}{appendix.106}%
+\contentsline {chapter}{\numberline {B}Main Device Flow Chart - Mission Task}{43}{appendix.108}%
+\contentsline {chapter}{\numberline {C}Main Device Flow Chart - Error Task}{45}{appendix.110}%
+\contentsline {chapter}{\numberline {D}Main Device Flow Chart - Shutdown Task}{47}{appendix.112}%
+\contentsline {chapter}{\numberline {E}Secondary Devices Flow Chart - Prepare Task}{49}{appendix.114}%
+\contentsline {chapter}{\numberline {F}Secondary Devices Flow Chart - Mission Task}{51}{appendix.116}%
+\contentsline {chapter}{\numberline {G}Secondary Devices Flow Chart - Error Task}{53}{appendix.118}%
+\contentsline {chapter}{\numberline {H}Secondary Devices Flow Chart - Shutdown Task}{55}{appendix.120}%

@@ -114,6 +114,8 @@
 		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{28\delimN 29}}}%
 \glossentry{uav}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{v}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
@@ -128,7 +130,11 @@
 \glossentry{UVP}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{V}\relax \glsresetentrylist %
+\glossentry{VANT}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{v}}}%
 \glossentry{VTOL}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{v}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
 \glsgroupheading{W}\relax \glsresetentrylist %
