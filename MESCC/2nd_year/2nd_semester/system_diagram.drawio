@@ -470,7 +470,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R-jZ82TnxP-6yxJeZCSx" name="MDU_MISSION">
-    <mxGraphModel dx="230" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,7 +794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SDU_PREPARE" id="Gpd5SsXqNaj35UWnBubC">
-    <mxGraphModel dx="1999" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OvrtxrRdCUnlh-ezHVtp-0" />
         <mxCell id="OvrtxrRdCUnlh-ezHVtp-1" parent="OvrtxrRdCUnlh-ezHVtp-0" />
